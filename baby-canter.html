@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>بيبي سنتر | دليلك لعالم الأطفال والأمومة</title>
+<meta name="description" content="بيبي سنتر - أفضل موقع عربي لرعاية الأطفال والأمومة. نصائح تربية الأطفال، منتجات الرضع، ملابس الأطفال، العناية بالمولود الجديد وأكثر.">
+<meta name="keywords" content="منتجات اطفال, رعاية الاطفال, تربية الاطفال, ملابس اطفال, العناية بالرضيع, نصائح الامومة, مولود جديد, اسماء اطفال, العاب اطفال, غذاء الاطفال">
+<meta property="og:title" content="بيبي سنتر | دليلك لعالم الأطفال والأمومة">
+<meta property="og:description" content="كل ما تحتاجه لرحلة الأمومة والأبوة - نصائح، منتجات، ومقالات متخصصة">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://babycanter.com/">
+
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --purple: #7B3FA0;
+    --purple-dark: #5A2D75;
+    --purple-light: #C49FD8;
+    --purple-ultra-light: #F5EEF9;
+    --navy: #2C2060;
+    --navy-light: #3D2D8A;
+    --white: #FFFFFF;
+    --gray-light: #F8F6FB;
+    --gray-text: #6B6B80;
+    --text-dark: #1A1530;
+    --accent-pink: #E8A0C0;
+    --accent-mint: #A8D8C8;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Tajawal', sans-serif;
+    background: var(--white);
+    color: var(--text-dark);
+    direction: rtl;
+  }
+
+  /* ===== NAV ===== */
+  nav {
+    background: var(--white);
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    box-shadow: 0 2px 20px rgba(123,63,160,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+  }
+
+  .logo-icon {
+    width: 44px;
+    height: 44px;
+    background: linear-gradient(135deg, var(--purple), var(--navy));
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+  }
+
+  .logo-text {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--purple-dark);
+  }
+
+  .logo-text span {
+    color: var(--navy);
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+  }
+
+  nav ul a {
+    text-decoration: none;
+    color: var(--text-dark);
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  nav ul a:hover { color: var(--purple); }
+
+  .nav-cta {
+    background: linear-gradient(135deg, var(--purple), var(--navy));
+    color: var(--white) !important;
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-weight: 600 !important;
+    transition: opacity 0.2s !important;
+  }
+  .nav-cta:hover { opacity: 0.9; color: white !important; }
+
+  /* ===== HERO ===== */
+  .hero {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--purple-dark) 50%, var(--purple) 100%);
+    padding: 90px 60px 80px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -60px; left: -60px;
+    width: 300px; height: 300px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.04);
+  }
+
+  .hero::after {
+    content: '';
+    position: absolute;
+    bottom: -80px; right: -40px;
+    width: 400px; height: 400px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.03);
+  }
+
+  .hero-badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.15);
+    color: var(--white);
+    padding: 6px 18px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-bottom: 24px;
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+
+  .hero h1 {
+    font-family: 'Cairo', sans-serif;
+    font-size: 52px;
+    font-weight: 800;
+    color: var(--white);
+    line-height: 1.3;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero h1 span {
+    color: var(--accent-pink);
+  }
+
+  .hero p {
+    font-size: 18px;
+    color: rgba(255,255,255,0.85);
+    max-width: 600px;
+    margin: 0 auto 36px;
+    line-height: 1.8;
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero-buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+  }
+
+  .btn-primary {
+    background: var(--white);
+    color: var(--purple-dark);
+    padding: 14px 32px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  }
+
+  .btn-secondary {
+    border: 2px solid rgba(255,255,255,0.5);
+    color: var(--white);
+    padding: 14px 32px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: background 0.2s;
+  }
+
+  .btn-secondary:hover { background: rgba(255,255,255,0.1); }
+
+  .hero-stats {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    margin-top: 56px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .stat {
+    color: var(--white);
+    text-align: center;
+  }
+
+  .stat-num {
+    font-size: 32px;
+    font-weight: 800;
+    font-family: 'Cairo', sans-serif;
+    color: var(--accent-pink);
+  }
+
+  .stat-label {
+    font-size: 13px;
+    opacity: 0.8;
+    margin-top: 4px;
+  }
+
+  /* ===== CATEGORIES ===== */
+  .section {
+    padding: 70px 60px;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .section-eyebrow {
+    color: var(--purple);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  .section-title {
+    font-family: 'Cairo', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 14px;
+  }
+
+  .section-sub {
+    color: var(--gray-text);
+    font-size: 16px;
+    max-width: 550px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .cat-card {
+    background: var(--gray-light);
+    border-radius: 20px;
+    padding: 28px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 2px solid transparent;
+    cursor: pointer;
+  }
+
+  .cat-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(123,63,160,0.12);
+    border-color: var(--purple-light);
+  }
+
+  .cat-icon {
+    font-size: 40px;
+    margin-bottom: 14px;
+    display: block;
+  }
+
+  .cat-name {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--navy);
+    margin-bottom: 6px;
+  }
+
+  .cat-desc {
+    font-size: 13px;
+    color: var(--gray-text);
+    line-height: 1.5;
+  }
+
+  /* ===== KEYWORDS BANNER ===== */
+  .keywords-banner {
+    background: var(--purple-ultra-light);
+    padding: 30px 60px;
+    overflow: hidden;
+  }
+
+  .keywords-title {
+    text-align: center;
+    font-size: 13px;
+    color: var(--purple);
+    font-weight: 700;
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+  }
+
+  .keywords-scroll {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .kw-tag {
+    background: var(--white);
+    border: 1.5px solid var(--purple-light);
+    color: var(--purple-dark);
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  /* ===== BLOG ===== */
+  .blog-section {
+    background: var(--gray-light);
+    padding: 70px 60px;
+  }
+
+  .blog-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 24px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .blog-card {
+    background: var(--white);
+    border-radius: 18px;
+    overflow: hidden;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 36px rgba(123,63,160,0.1);
+  }
+
+  .blog-img {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 56px;
+  }
+
+  .blog-card-featured .blog-img { height: 260px; font-size: 80px; }
+
+  .blog-body { padding: 22px; flex: 1; }
+
+  .blog-cat {
+    display: inline-block;
+    background: var(--purple-ultra-light);
+    color: var(--purple);
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+  }
+
+  .blog-title {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    color: var(--navy);
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+
+  .blog-card-featured .blog-title { font-size: 22px; }
+
+  .blog-excerpt {
+    font-size: 14px;
+    color: var(--gray-text);
+    line-height: 1.7;
+    margin-bottom: 16px;
+  }
+
+  .blog-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    color: var(--gray-text);
+    margin-top: auto;
+    padding-top: 14px;
+    border-top: 1px solid #F0EBF5;
+  }
+
+  .blog-read-more {
+    color: var(--purple);
+    font-weight: 600;
+    font-size: 13px;
+  }
+
+  /* ===== SEO CONTENT ===== */
+  .seo-section {
+    padding: 70px 60px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .seo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .seo-content h2 {
+    font-family: 'Cairo', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 16px;
+    line-height: 1.4;
+  }
+
+  .seo-content p {
+    color: var(--gray-text);
+    line-height: 1.9;
+    margin-bottom: 16px;
+    font-size: 15px;
+  }
+
+  .seo-features {
+    list-style: none;
+    margin-top: 24px;
+  }
+
+  .seo-features li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 14px;
+    font-size: 15px;
+    color: var(--text-dark);
+  }
+
+  .seo-features li::before {
+    content: '✓';
+    width: 22px;
+    height: 22px;
+    background: var(--purple-ultra-light);
+    color: var(--purple);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .seo-visual {
+    background: linear-gradient(135deg, var(--purple-ultra-light), #EDE5F5);
+    border-radius: 24px;
+    padding: 50px 40px;
+    text-align: center;
+  }
+
+  .seo-visual-icon { font-size: 80px; margin-bottom: 20px; }
+
+  .seo-visual-title {
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 10px;
+  }
+
+  .seo-visual-desc {
+    color: var(--gray-text);
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  /* ===== KEYWORDS RICH CONTENT ===== */
+  .rich-keywords {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--purple-dark) 100%);
+    padding: 60px;
+    text-align: center;
+  }
+
+  .rich-keywords h2 {
+    font-family: 'Cairo', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 10px;
+  }
+
+  .rich-keywords p {
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 36px;
+    font-size: 15px;
+  }
+
+  .kw-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .kw-item {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 14px;
+    padding: 20px 16px;
+    text-align: center;
+  }
+
+  .kw-item-icon { font-size: 28px; margin-bottom: 8px; }
+
+  .kw-item-text {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .kw-item-vol {
+    color: var(--accent-pink);
+    font-size: 12px;
+    margin-top: 4px;
+  }
+
+  /* ===== NEWSLETTER ===== */
+  .newsletter {
+    background: var(--purple-ultra-light);
+    padding: 60px;
+    text-align: center;
+  }
+
+  .newsletter h2 {
+    font-family: 'Cairo', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 10px;
+  }
+
+  .newsletter p {
+    color: var(--gray-text);
+    margin-bottom: 28px;
+    font-size: 15px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .newsletter-form input {
+    flex: 1;
+    padding: 14px 20px;
+    border: 2px solid var(--purple-light);
+    border-radius: 30px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 15px;
+    outline: none;
+    color: var(--text-dark);
+    background: var(--white);
+    direction: rtl;
+  }
+
+  .newsletter-form input:focus { border-color: var(--purple); }
+
+  .newsletter-form button {
+    background: linear-gradient(135deg, var(--purple), var(--navy));
+    color: var(--white);
+    border: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: opacity 0.2s;
+  }
+
+  .newsletter-form button:hover { opacity: 0.9; }
+
+  /* ===== FOOTER ===== */
+  footer {
+    background: var(--navy);
+    padding: 56px 60px 32px;
+    color: rgba(255,255,255,0.7);
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 48px;
+    margin-bottom: 48px;
+  }
+
+  .footer-brand .logo-text { color: var(--white); }
+
+  .footer-desc {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-top: 14px;
+    color: rgba(255,255,255,0.6);
+  }
+
+  .footer-col h4 {
+    color: var(--white);
+    font-weight: 700;
+    margin-bottom: 18px;
+    font-size: 15px;
+  }
+
+  .footer-col ul { list-style: none; }
+
+  .footer-col ul li { margin-bottom: 10px; }
+
+  .footer-col ul li a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.6);
+    font-size: 14px;
+    transition: color 0.2s;
+  }
+
+  .footer-col ul li a:hover { color: var(--purple-light); }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+  }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 900px) {
+    nav ul { display: none; }
+    .hero { padding: 60px 24px; }
+    .hero h1 { font-size: 34px; }
+    .hero-stats { gap: 24px; }
+    .section { padding: 50px 24px; }
+    .categories-grid { grid-template-columns: repeat(2, 1fr); }
+    .blog-grid { grid-template-columns: 1fr; }
+    .seo-grid { grid-template-columns: 1fr; }
+    .kw-grid { grid-template-columns: repeat(2, 1fr); }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+    .blog-section { padding: 50px 24px; }
+    .rich-keywords { padding: 50px 24px; }
+    .newsletter { padding: 50px 24px; }
+    footer { padding: 48px 24px 24px; }
+    .newsletter-form { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="logo">
+    <div class="logo-icon">🍼</div>
+    <div class="logo-text">بيبي <span>سنتر</span></div>
+  </a>
+  <ul>
+    <li><a href="#categories">الأقسام</a></li>
+    <li><a href="#blog">المدونة</a></li>
+    <li><a href="#about">من نحن</a></li>
+    <li><a href="#contact">تواصل معنا</a></li>
+    <li><a href="#newsletter" class="nav-cta">اشترك مجاناً</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-badge">🌟 الموقع الأول لعالم الأمومة والطفولة</div>
+  <h1>كل ما يحتاجه<br><span>طفلك الصغير</span> في مكان واحد</h1>
+  <p>من نصائح الحمل حتى تربية الطفل — بيبي سنتر رفيقتك في كل خطوة من رحلة الأمومة والأبوة</p>
+  <div class="hero-buttons">
+    <a href="#blog" class="btn-primary">📖 اقرأ المدونة</a>
+    <a href="#categories" class="btn-secondary">🛍️ تصفح المنتجات</a>
+  </div>
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-num">+500</div>
+      <div class="stat-label">مقال متخصص</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">+50K</div>
+      <div class="stat-label">أم وأب يثقون بنا</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">100%</div>
+      <div class="stat-label">محتوى موثوق</div>
+    </div>
+  </div>
+</section>
+
+<!-- KEYWORDS BANNER -->
+<div class="keywords-banner">
+  <div class="keywords-title">🔍 الأكثر بحثاً على موقعنا</div>
+  <div class="keywords-scroll">
+    <span class="kw-tag">منتجات اطفال</span>
+    <span class="kw-tag">رعاية الرضيع</span>
+    <span class="kw-tag">تربية الاطفال</span>
+    <span class="kw-tag">ملابس مواليد</span>
+    <span class="kw-tag">اسماء اطفال</span>
+    <span class="kw-tag">العاب اطفال</span>
+    <span class="kw-tag">غذاء الطفل</span>
+    <span class="kw-tag">نصائح الحمل</span>
+    <span class="kw-tag">مولود جديد</span>
+    <span class="kw-tag">تطور الطفل</span>
+    <span class="kw-tag">عربات الاطفال</span>
+    <span class="kw-tag">كريم حفاضات</span>
+  </div>
+</div>
+
+<!-- CATEGORIES -->
+<section class="section" id="categories">
+  <div class="section-header">
+    <div class="section-eyebrow">أقسامنا</div>
+    <h2 class="section-title">كل ما يخص طفلك في مكان واحد</h2>
+    <p class="section-sub">من المولود الجديد حتى الطفل المدرسي — دليل شامل لكل مرحلة</p>
+  </div>
+  <div class="categories-grid">
+    <a href="#" class="cat-card">
+      <span class="cat-icon">🤱</span>
+      <div class="cat-name">رعاية الرضيع</div>
+      <div class="cat-desc">العناية بالمولود الجديد، الرضاعة، النوم والنمو</div>
+    </a>
+    <a href="#" class="cat-card">
+      <span class="cat-icon">👗</span>
+      <div class="cat-name">ملابس الأطفال</div>
+      <div class="cat-desc">أحدث صيحات ملابس الأطفال والمواليد لكل الفصول</div>
+    </a>
+    <a href="#" class="cat-card">
+      <span class="cat-icon">🧸</span>
+      <div class="cat-name">ألعاب تعليمية</div>
+      <div class="cat-desc">العاب تطوير المهارات والذكاء لكل الأعمار</div>
+    </a>
+    <a href="#" class="cat-card">
+      <span class="cat-icon">🥣</span>
+      <div class="cat-name">تغذية الأطفال</div>
+      <div class="cat-desc">وصفات صحية وجداول تغذية مناسبة لعمر طفلك</div>
+    </a>
+    <a href="#" class="cat-card">
+      <span class="cat-icon">🏥</span>
+      <div class="cat-name">صحة الطفل</div>
+      <div class="cat-desc">نصائح طبية، التطعيمات، والأمراض الشائعة</div>
+    </a>
+    <a href="#" class="cat-card">
+      <span class="cat-icon">📚</span>
+      <div class="cat-name">تربية وتعليم</div>
+      <div class="cat-desc">أساليب تربية حديثة وتطوير مهارات الطفل</div>
+    </a>
+    <a href="#" class="cat-card">
+      <span class="cat-icon">🛒</span>
+      <div class="cat-name">منتجات الأطفال</div>
+      <div class="cat-desc">عربات، كراسي، أدوات الرضاعة وكل الاحتياجات</div>
+    </a>
+    <a href="#" class="cat-card">
+      <span class="cat-icon">🤰</span>
+      <div class="cat-name">الحمل والولادة</div>
+      <div class="cat-desc">نصائح الحمل، الأشهر التسعة، والاستعداد للولادة</div>
+    </a>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section class="blog-section" id="blog">
+  <div class="section-header">
+    <div class="section-eyebrow">المدونة</div>
+    <h2 class="section-title">أحدث المقالات المتخصصة</h2>
+    <p class="section-sub">محتوى موثوق من متخصصين في رعاية الأطفال والأمومة</p>
+  </div>
+  <div class="blog-grid" style="max-width:1100px; margin: 0 auto;">
+    <!-- Featured -->
+    <a href="#" class="blog-card blog-card-featured">
+      <div class="blog-img" style="background: linear-gradient(135deg, #F5EEF9, #EDE5F5);">🍼</div>
+      <div class="blog-body">
+        <span class="blog-cat">رعاية الرضيع</span>
+        <div class="blog-title">دليلك الكامل لرعاية المولود الجديد في الأشهر الثلاثة الأولى</div>
+        <div class="blog-excerpt">كل ما تحتاج معرفته عن النوم، الرضاعة، الاستحمام، والمتابعة الصحية لرضيعك في أهم مراحل حياته الأولى...</div>
+        <div class="blog-meta">
+          <span>📅 يونيو 2026 · 8 دقائق قراءة</span>
+          <span class="blog-read-more">اقرأ المزيد ←</span>
+        </div>
+      </div>
+    </a>
+    <!-- Side cards -->
+    <div style="display:flex; flex-direction:column; gap:24px;">
+      <a href="#" class="blog-card">
+        <div class="blog-img" style="background: linear-gradient(135deg, #EEF5E8, #D8EDD0); height:140px; font-size:40px;">🥣</div>
+        <div class="blog-body">
+          <span class="blog-cat">تغذية</span>
+          <div class="blog-title">متى يبدأ الطفل بأكل الطعام الصلب؟</div>
+          <div class="blog-meta">
+            <span>📅 مايو 2026</span>
+            <span class="blog-read-more">اقرأ ←</span>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="blog-card">
+        <div class="blog-img" style="background: linear-gradient(135deg, #EEF0FA, #DDE0F5); height:140px; font-size:40px;">😴</div>
+        <div class="blog-body">
+          <span class="blog-cat">نوم الطفل</span>
+          <div class="blog-title">10 طرق لتنظيم نوم الرضيع بدون بكاء</div>
+          <div class="blog-meta">
+            <span>📅 مايو 2026</span>
+            <span class="blog-read-more">اقرأ ←</span>
+          </div>
+        </div>
+      </a>
+    </div>
+    <!-- Third column -->
+    <div style="display:flex; flex-direction:column; gap:24px;">
+      <a href="#" class="blog-card">
+        <div class="blog-img" style="background: linear-gradient(135deg, #FFF0F5, #FFE0EC); height:140px; font-size:40px;">🦷</div>
+        <div class="blog-body">
+          <span class="blog-cat">صحة الطفل</span>
+          <div class="blog-title">علامات بدء التسنين وكيفية تخفيف الألم</div>
+          <div class="blog-meta">
+            <span>📅 أبريل 2026</span>
+            <span class="blog-read-more">اقرأ ←</span>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="blog-card">
+        <div class="blog-img" style="background: linear-gradient(135deg, #FFF8E8, #FFF0C8); height:140px; font-size:40px;">🧸</div>
+        <div class="blog-body">
+          <span class="blog-cat">ألعاب</span>
+          <div class="blog-title">أفضل الألعاب التعليمية للأطفال أقل من سنة</div>
+          <div class="blog-meta">
+            <span>📅 أبريل 2026</span>
+            <span class="blog-read-more">اقرأ ←</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- SEO SECTION -->
+<section style="padding: 70px 60px;">
+  <div class="seo-grid" style="max-width:1100px; margin:0 auto;">
+    <div class="seo-content">
+      <div class="section-eyebrow">لماذا بيبي سنتر؟</div>
+      <h2>المرجع الأول للأسرة العربية في رعاية الأطفال</h2>
+      <p>بيبي سنتر هو موقعك الشامل لكل ما يتعلق بعالم الأطفال والأمومة — من اللحظة الأولى للحمل حتى سنوات الطفولة الأولى.</p>
+      <p>نقدم محتوى موثوقاً مراجعاً من متخصصين في طب الأطفال والتغذية والتربية، مع دليل عملي لاختيار أفضل منتجات الأطفال في السوق العربي.</p>
+      <ul class="seo-features">
+        <li>محتوى طبي موثوق مراجع من أطباء متخصصين</li>
+        <li>مقارنات شاملة لأفضل منتجات الأطفال والرضع</li>
+        <li>نصائح تغذية مناسبة لكل مرحلة عمرية</li>
+        <li>دليل أسماء أطفال عربي وإسلامي شامل</li>
+        <li>تطبيق متابعة نمو الطفل الأسبوعي</li>
+      </ul>
+    </div>
+    <div class="seo-visual">
+      <div class="seo-visual-icon">👶</div>
+      <div class="seo-visual-title">متابعة نمو طفلك</div>
+      <div class="seo-visual-desc">تابع مراحل تطور طفلك أسبوعاً بأسبوع — من أول ابتسامة حتى أول خطوة</div>
+      <br>
+      <a href="#newsletter" class="btn-primary" style="display:inline-block; background: linear-gradient(135deg, var(--purple), var(--navy)); color: white; margin-top:16px; font-size:14px; padding: 12px 24px;">ابدأ الآن مجاناً</a>
+    </div>
+  </div>
+</section>
+
+<!-- RICH KEYWORDS -->
+<div class="rich-keywords">
+  <h2>أشهر الكلمات المفتاحية في موقعنا</h2>
+  <p>مواضيع يبحث عنها آلاف الآباء والأمهات كل شهر</p>
+  <div class="kw-grid">
+    <div class="kw-item">
+      <div class="kw-item-icon">🍼</div>
+      <div class="kw-item-text">منتجات الرضع</div>
+      <div class="kw-item-vol">بحث شهري عالي</div>
+    </div>
+    <div class="kw-item">
+      <div class="kw-item-icon">📛</div>
+      <div class="kw-item-text">أسماء أطفال</div>
+      <div class="kw-item-vol">بحث شهري عالي جداً</div>
+    </div>
+    <div class="kw-item">
+      <div class="kw-item-icon">🏥</div>
+      <div class="kw-item-text">تطعيمات الأطفال</div>
+      <div class="kw-item-vol">بحث شهري متوسط</div>
+    </div>
+    <div class="kw-item">
+      <div class="kw-item-icon">🤰</div>
+      <div class="kw-item-text">نصائح الحمل</div>
+      <div class="kw-item-vol">بحث شهري عالي</div>
+    </div>
+    <div class="kw-item">
+      <div class="kw-item-icon">🛏️</div>
+      <div class="kw-item-text">سرائر الأطفال</div>
+      <div class="kw-item-vol">بحث شهري متوسط</div>
+    </div>
+    <div class="kw-item">
+      <div class="kw-item-icon">🥛</div>
+      <div class="kw-item-text">حليب الأطفال</div>
+      <div class="kw-item-vol">بحث شهري عالي جداً</div>
+    </div>
+    <div class="kw-item">
+      <div class="kw-item-icon">🚼</div>
+      <div class="kw-item-text">عربات الأطفال</div>
+      <div class="kw-item-vol">بحث شهري عالي</div>
+    </div>
+    <div class="kw-item">
+      <div class="kw-item-icon">💊</div>
+      <div class="kw-item-text">مكملات الأطفال</div>
+      <div class="kw-item-vol">بحث شهري متوسط</div>
+    </div>
+  </div>
+</div>
+
+<!-- NEWSLETTER -->
+<section class="newsletter" id="newsletter">
+  <div style="font-size:40px; margin-bottom:16px;">💌</div>
+  <h2>اشترك في نشرتنا الأسبوعية</h2>
+  <p>احصل على أحدث نصائح رعاية الأطفال مباشرة في بريدك كل أسبوع — مجاناً تماماً</p>
+  <div class="newsletter-form">
+    <input type="email" placeholder="بريدك الإلكتروني">
+    <button>اشترك الآن</button>
+  </div>
+  <p style="margin-top:14px; font-size:13px; color: var(--gray-text);">+5,000 أسرة مشتركة • بدون إزعاج • إلغاء الاشتراك في أي وقت</p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="logo">
+        <div class="logo-icon">🍼</div>
+        <div class="logo-text" style="color:white;">بيبي <span style="color:var(--purple-light)">سنتر</span></div>
+      </div>
+      <div class="footer-desc">
+        بيبي سنتر — الموقع العربي الشامل لرعاية الأطفال والأمومة. نصائح موثوقة، منتجات مختارة بعناية، ومحتوى متخصص لكل مرحلة من مراحل نمو طفلك.
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>الأقسام</h4>
+      <ul>
+        <li><a href="#">رعاية الرضيع</a></li>
+        <li><a href="#">تغذية الأطفال</a></li>
+        <li><a href="#">ملابس الأطفال</a></li>
+        <li><a href="#">ألعاب تعليمية</a></li>
+        <li><a href="#">صحة الطفل</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>المدونة</h4>
+      <ul>
+        <li><a href="#">مرحلة المولود</a></li>
+        <li><a href="#">من 6 إلى 12 شهر</a></li>
+        <li><a href="#">الطفل الصغير</a></li>
+        <li><a href="#">نصائح التربية</a></li>
+        <li><a href="#">الحمل والولادة</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>روابط مفيدة</h4>
+      <ul>
+        <li><a href="#">أسماء الأطفال</a></li>
+        <li><a href="#">جدول التطعيمات</a></li>
+        <li><a href="#">حاسبة الحمل</a></li>
+        <li><a href="#">من نحن</a></li>
+        <li><a href="#">تواصل معنا</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div>© 2026 بيبي سنتر — جميع الحقوق محفوظة</div>
+    <div>
+      <a href="#" style="color:rgba(255,255,255,0.5); text-decoration:none; margin-right:20px;">سياسة الخصوصية</a>
+      <a href="#" style="color:rgba(255,255,255,0.5); text-decoration:none;">شروط الاستخدام</a>
+    </div>
+  </div>
+</footer>
+
+<!-- HIDDEN SEO CONTENT -->
+<div style="display:none;" aria-hidden="true">
+  <h2>منتجات اطفال</h2>
+  <h2>رعاية الاطفال</h2>
+  <h2>تربية الاطفال</h2>
+  <h2>ملابس اطفال</h2>
+  <h2>العناية بالرضيع</h2>
+  <h2>نصائح الامومة</h2>
+  <h2>مولود جديد</h2>
+  <h2>اسماء اطفال</h2>
+  <h2>العاب اطفال تعليمية</h2>
+  <h2>غذاء الاطفال الرضع</h2>
+  <h2>تطور الطفل</h2>
+  <h2>بيبي سنتر عربي</h2>
+</div>
+
+</body>
+</html>
