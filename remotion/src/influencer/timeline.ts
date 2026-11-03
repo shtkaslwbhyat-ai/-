@@ -1,7 +1,7 @@
 // Scene timing (seconds), synced to public/influencer/voiceover.mp3.
 // `cues` are absolute times of the beats inside a scene, in the order the scene uses them.
 export type SceneTiming = { id: SceneId; start: number; end: number; cues: number[] };
-export type SceneId = "hook" | "title" | "builder" | "face" | "soul" | "limits" | "cta";
+export type SceneId = "hook" | "hook2" | "title" | "builder" | "face" | "soul" | "limits" | "cta";
 
 export const SCENES: SceneTiming[] = [
   // cues: profile in, posts in, counter start, glitch reveal
@@ -22,27 +22,36 @@ export const SCENES: SceneTiming[] = [
 
 export const DURATION_SECONDS = SCENES[SCENES.length - 1].end;
 
-export type SfxType = "whoosh" | "pop" | "ding" | "glitch" | "tick" | "success" | "drop";
+export type SfxType = "whoosh" | "pop" | "ding" | "glitch" | "tick" | "success" | "drop" | "impact";
 export type SfxEvent = { type: SfxType; t: number; volume: number };
 
-const cue = (id: SceneId, i: number) => SCENES.find((s) => s.id === id)!.cues[i];
+// Sound effects for every scene after the hook; each hook variant adds its own.
+export const buildSfx = (scenes: SceneTiming[]): SfxEvent[] => {
+  const cue = (id: SceneId, i: number) => scenes.find((s) => s.id === id)!.cues[i];
+  const cues = (id: SceneId) => scenes.find((s) => s.id === id)!.cues;
+  return [
+    ...scenes.slice(1).map((s) => ({ type: "whoosh" as const, t: Math.max(0, s.start - 0.25), volume: 0.45 })),
+    { type: "pop", t: cue("title", 1), volume: 0.3 },
+    ...cues("builder").slice(1, 9).map((t) => ({ type: "pop" as const, t, volume: 0.3 })),
+    { type: "drop", t: cue("builder", 9), volume: 0.5 },
+    { type: "drop", t: cue("face", 1) + 0.25, volume: 0.5 },
+    { type: "ding", t: cue("face", 2), volume: 0.35 },
+    { type: "pop", t: cue("face", 3), volume: 0.3 },
+    ...Array.from({ length: 10 }, (_, i) => ({ type: "tick" as const, t: cue("soul", 1) + i * 0.24, volume: 0.15 })),
+    { type: "success", t: cue("soul", 2), volume: 0.45 },
+    { type: "pop", t: cue("soul", 3), volume: 0.3 },
+    ...cues("limits").map((t) => ({ type: "pop" as const, t, volume: 0.3 })),
+    { type: "ding", t: cue("cta", 1), volume: 0.4 },
+  ];
+};
+
+const hookCue = (i: number) => SCENES[0].cues[i];
 
 export const SFX: SfxEvent[] = [
-  ...SCENES.slice(1).map((s) => ({ type: "whoosh" as const, t: Math.max(0, s.start - 0.25), volume: 0.45 })),
-  { type: "pop", t: cue("hook", 0), volume: 0.3 },
-  { type: "pop", t: cue("hook", 1), volume: 0.3 },
+  { type: "pop", t: hookCue(0), volume: 0.3 },
+  { type: "pop", t: hookCue(1), volume: 0.3 },
   // follower counter ticks
-  ...Array.from({ length: 12 }, (_, i) => ({ type: "tick" as const, t: cue("hook", 2) + i * 0.22, volume: 0.18 })),
-  { type: "glitch", t: cue("hook", 3), volume: 0.5 },
-  { type: "pop", t: cue("title", 1), volume: 0.3 },
-  ...SCENES.find((s) => s.id === "builder")!.cues.slice(1, 9).map((t) => ({ type: "pop" as const, t, volume: 0.3 })),
-  { type: "drop", t: cue("builder", 9), volume: 0.5 },
-  { type: "drop", t: cue("face", 1) + 0.25, volume: 0.5 },
-  { type: "ding", t: cue("face", 2), volume: 0.35 },
-  { type: "pop", t: cue("face", 3), volume: 0.3 },
-  ...Array.from({ length: 10 }, (_, i) => ({ type: "tick" as const, t: cue("soul", 1) + i * 0.24, volume: 0.15 })),
-  { type: "success", t: cue("soul", 2), volume: 0.45 },
-  { type: "pop", t: cue("soul", 3), volume: 0.3 },
-  ...SCENES.find((s) => s.id === "limits")!.cues.map((t) => ({ type: "pop" as const, t, volume: 0.3 })),
-  { type: "ding", t: cue("cta", 1), volume: 0.4 },
+  ...Array.from({ length: 12 }, (_, i) => ({ type: "tick" as const, t: hookCue(2) + i * 0.22, volume: 0.18 })),
+  { type: "glitch", t: hookCue(3), volume: 0.5 },
+  ...buildSfx(SCENES),
 ];

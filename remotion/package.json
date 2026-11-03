@@ -4,7 +4,8 @@
   "scripts": {
     "studio": "remotion studio",
     "render": "remotion render HiggsfieldTikTok out/higgsfield-tiktok-avatar.mp4",
-    "render:influencer": "remotion render InfluencerTikTok out/higgsfield-ai-influencer.mp4"
+    "render:influencer": "remotion render InfluencerTikTok out/higgsfield-ai-influencer.mp4",
+    "render:influencer-v2": "remotion render InfluencerTikTokV2 out/higgsfield-ai-influencer-v2.mp4"
   },
   "dependencies": {
     "@remotion/cli": "4.0.540",

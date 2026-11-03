@@ -35,3 +35,11 @@ npm run render:influencer   # writes out/higgsfield-ai-influencer.mp4
 
 - `src/influencer/timeline.ts`: scene times and beats, synced to `public/influencer/voiceover.mp3`. The sound effects are listed here too.
 - `src/influencer/InfluencerTikTok.tsx`: the seven scenes (fake profile with glitch reveal, title, Builder panel, face upload, Soul ID training, limits, call to action).
+
+### InfluencerTikTokV2
+
+The same video with a stronger opening: an extreme close-up with "وقّف", a follower counter, a glitch "مو إنسان" reveal and the promise "تقدر تسوّي واحد مثله". The hook has its own voice line (`public/influencer/hook-v2.mp3`), then the original narration continues from the title scene. The hook scene is `StrongHook` in `src/influencer/InfluencerTikTok.tsx`.
+
+```bash
+npm run render:influencer-v2   # writes out/higgsfield-ai-influencer-v2.mp4
+```

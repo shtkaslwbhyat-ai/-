@@ -13,7 +13,7 @@ import {
 } from "remotion";
 import { FontFaces } from "../fonts";
 import { Background, C, ProgressBar } from "../HiggsfieldTikTok";
-import { SCENES, SFX, SceneTiming } from "./timeline";
+import { SCENES, SFX, SceneTiming, SfxEvent, buildSfx } from "./timeline";
 
 export { DURATION_SECONDS } from "./timeline";
 
@@ -783,8 +783,204 @@ const Cta: React.FC<SceneProps> = ({ s }) => {
   );
 };
 
+
+// Punchier opener: extreme close-up + "stop", follower count, glitch reveal, then the promise.
+const StrongHook: React.FC<SceneProps> = ({ s }) => {
+  const { t, frame, fps } = useT();
+  const beat = useBeat();
+  const [cStop, cCount, cReveal, cYou, cNoShoot] = s.cues;
+
+  // camera: extreme close-up on the eyes, then pull back to the full photo
+  const pullback = interpolate(t, [cCount, cCount + 0.55], [0, 1], { ...clamp, easing: (x) => 1 - Math.pow(1 - x, 3) });
+  const zoom = interpolate(pullback, [0, 1], [4.2, 1.15]);
+  const fy = interpolate(pullback, [0, 1], [0.29, 0.42]);
+  const shake = Math.max(0, 1 - (t - cStop) / 0.45) * 26 + (t >= cReveal && t < cReveal + 0.5 ? 18 : 0);
+  const sx = (random(`sx${frame}`) - 0.5) * shake;
+  const sy = (random(`sy${frame}`) - 0.5) * shake;
+
+  const counting = t >= cCount + 0.4 && t < cReveal;
+  const followers = Math.round(
+    interpolate(t, [cCount + 0.4, cCount + 1.8], [0, 248000], { ...clamp, easing: (x) => 1 - Math.pow(1 - x, 3) })
+  );
+  const revealed = t >= cReveal;
+  const glitching = t >= cReveal && t < cReveal + 0.45;
+  const toCard = interpolate(t, [cYou - 0.1, cYou + 0.4], [0, 1], { ...clamp, easing: (x) => 1 - Math.pow(1 - x, 3) });
+
+  const dim = t < cCount + 0.5 ? 0 : 0.55 * (1 - toCard);
+  const full = (key?: string, style?: React.CSSProperties) => (
+    <Photo key={key} w={1080} h={1920} zoom={zoom} fy={fy} radius={0} style={style} />
+  );
+
+  return (
+    <AbsoluteFill style={{ transform: `translate(${sx}px, ${sy}px)` }}>
+      {/* full-bleed photo, later shrinking into a card */}
+      <AbsoluteFill
+        style={{
+          transform: `scale(${interpolate(toCard, [0, 1], [1, 0.52])}) translateY(${interpolate(toCard, [0, 1], [0, 60])}px)`,
+          borderRadius: interpolate(toCard, [0, 1], [0, 90]),
+          overflow: "hidden",
+          border: toCard > 0 ? `${(10 * toCard) / 0.52}px solid ${C.lime}` : undefined,
+        }}
+      >
+        {glitching
+          ? Array.from({ length: 9 }, (_, i) => {
+              const top = (i / 9) * 100;
+              return full(`g${i}`, {
+                position: "absolute",
+                clipPath: `inset(${top}% 0 ${100 - top - 100 / 9}% 0)`,
+                transform: `translateX(${(random(`h${i}-${frame}`) - 0.5) * 140}px)`,
+                filter: i % 3 === 0 ? "hue-rotate(90deg) saturate(3)" : undefined,
+              });
+            })
+          : full()}
+        {/* face-scan wireframe once revealed */}
+        {revealed && toCard < 1 && (
+          <AbsoluteFill
+            style={{
+              opacity: 0.55 * (1 - toCard),
+              backgroundImage: `linear-gradient(${C.lime}55 2px, transparent 2px), linear-gradient(90deg, ${C.lime}55 2px, transparent 2px)`,
+              backgroundSize: "60px 60px",
+              WebkitMaskImage: "radial-gradient(ellipse 34% 26% at 50% 40%, #000 60%, transparent 100%)",
+            }}
+          />
+        )}
+        {revealed && toCard < 1 && (
+          <div
+            style={{
+              position: "absolute",
+              left: 0,
+              right: 0,
+              top: `${18 + ((t - cReveal) * 70) % 50}%`,
+              height: 8,
+              background: C.lime,
+              boxShadow: `0 0 40px ${C.lime}`,
+            }}
+          />
+        )}
+        <AbsoluteFill style={{ background: `rgba(7,7,12,${dim})` }} />
+        {toCard > 0.6 && (
+          <div
+            style={{
+              position: "absolute",
+              top: 40,
+              left: 40,
+              fontSize: 110,
+              fontWeight: 900,
+              color: C.bg,
+              background: C.lime,
+              padding: "0 40px",
+              borderRadius: 40,
+              direction: "ltr",
+            }}
+          >
+            AI
+          </div>
+        )}
+      </AbsoluteFill>
+
+      {/* white flash on the first frames */}
+      <AbsoluteFill style={{ background: "#fff", opacity: interpolate(frame, [0, 4], [0.9, 0], clamp) }} />
+
+      {/* STOP */}
+      {t < cCount + 0.3 && (
+        <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", opacity: interpolate(t, [cCount, cCount + 0.3], [1, 0], clamp) }}>
+          <div
+            style={{
+              fontSize: 230,
+              fontWeight: 900,
+              color: C.bg,
+              background: C.lime,
+              padding: "0 70px",
+              borderRadius: 50,
+              transform: `rotate(-6deg) scale(${interpolate(beat(cStop, 8), [0, 1], [2.6, 1])})`,
+              boxShadow: "0 40px 120px rgba(0,0,0,.7)",
+            }}
+          >
+            وقّف ✋
+          </div>
+        </AbsoluteFill>
+      )}
+
+      {/* follower counter */}
+      {counting && (
+        <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", paddingBottom: 200, ...enter(beat(cCount + 0.4)) }}>
+          <div style={{ fontSize: 210, fontWeight: 900, direction: "ltr", color: "#fff", textShadow: "0 10px 60px rgba(0,0,0,.8)" }}>
+            {followers.toLocaleString("en-US")}
+          </div>
+          <div style={{ display: "flex", alignItems: "center", gap: 18, fontSize: 70, fontWeight: 900, color: C.lime }}>
+            متابع
+            <span
+              style={{
+                fontSize: 44,
+                background: "#3b82f6",
+                color: "#fff",
+                borderRadius: "50%",
+                width: 70,
+                height: 70,
+                display: "inline-flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              ✓
+            </span>
+          </div>
+        </AbsoluteFill>
+      )}
+
+      {/* NOT HUMAN */}
+      {revealed && t < cYou && (
+        <AbsoluteFill style={{ alignItems: "center", justifyContent: "flex-end", paddingBottom: 560 }}>
+          <div
+            style={{
+              fontSize: 150,
+              fontWeight: 900,
+              color: "#fff",
+              background: "#ff3b5c",
+              padding: "10px 60px",
+              borderRadius: 40,
+              transform: `rotate(-5deg) scale(${interpolate(beat(cReveal + 0.15, 8), [0, 1], [2.4, 1])})`,
+              opacity: Math.min(1, beat(cReveal + 0.15) * 1.5),
+              boxShadow: "0 40px 120px rgba(0,0,0,.7)",
+            }}
+          >
+            مو إنسان 🤖
+          </div>
+        </AbsoluteFill>
+      )}
+
+      {/* the promise */}
+      {t >= cYou && (
+        <AbsoluteFill style={{ alignItems: "center" }}>
+          <div style={{ position: "absolute", top: 230, width: "100%", ...enter(beat(cYou)) }}>
+            <H1 style={{ fontSize: 96 }}>
+              تقدر تسوّي <Accent>واحد مثله</Accent>
+            </H1>
+          </div>
+          <div
+            style={{
+              position: "absolute",
+              top: 1520,
+              fontSize: 64,
+              fontWeight: 900,
+              padding: "16px 44px",
+              borderRadius: 30,
+              border: `4px solid ${C.lime}`,
+              background: "rgba(7,7,12,.85)",
+              ...enter(beat(cNoShoot)),
+            }}
+          >
+            بدون ولا لقطة 🎥🚫
+          </div>
+        </AbsoluteFill>
+      )}
+    </AbsoluteFill>
+  );
+};
+
 const SCENE_COMPONENTS: Record<SceneTiming["id"], React.FC<SceneProps>> = {
   hook: Hook,
+  hook2: StrongHook,
   title: Title,
   builder: Builder,
   face: Face,
@@ -808,19 +1004,25 @@ const SceneSlot: React.FC<{ s: SceneTiming }> = ({ s }) => {
   );
 };
 
-export const InfluencerTikTok: React.FC = () => {
+type AudioClip = { src: string; at: number; startFrom?: number };
+
+export const InfluencerVideo: React.FC<{ scenes: SceneTiming[]; sfx: SfxEvent[]; audio: AudioClip[] }> = ({ scenes, sfx, audio }) => {
   const { fps } = useVideoConfig();
   return (
     <AbsoluteFill style={{ fontFamily: "Cairo, sans-serif", color: "#fff", direction: "rtl" }}>
       <FontFaces />
       <Background />
-      {SCENES.map((s) => (
+      {scenes.map((s) => (
         <SceneSlot key={s.id} s={s} />
       ))}
       <ProgressBar />
 
-      <Audio src={staticFile("influencer/voiceover.mp3")} />
-      {SFX.map((e, i) => (
+      {audio.map((a) => (
+        <Sequence key={a.src} from={Math.round(a.at * fps)} layout="none">
+          <Audio src={staticFile(a.src)} startFrom={Math.round((a.startFrom ?? 0) * fps)} />
+        </Sequence>
+      ))}
+      {sfx.map((e, i) => (
         <Sequence key={i} from={Math.round(e.t * fps)} durationInFrames={Math.round(1.4 * fps)} layout="none">
           <Audio src={staticFile(`sfx/${e.type}.wav`)} volume={e.volume} />
         </Sequence>
@@ -828,3 +1030,33 @@ export const InfluencerTikTok: React.FC = () => {
     </AbsoluteFill>
   );
 };
+
+export const InfluencerTikTok: React.FC = () => (
+  <InfluencerVideo scenes={SCENES} sfx={SFX} audio={[{ src: "influencer/voiceover.mp3", at: 0 }]} />
+);
+
+// Version 2: same video with a stronger opening hook and its own voice line.
+const HOOK_V2: SceneTiming = { id: "hook2", start: 0, end: SCENES[1].start, cues: [0, 0.61, 2.79, 4.42, 6.15] };
+const SCENES_V2 = [HOOK_V2, ...SCENES.slice(1)];
+const SFX_V2: SfxEvent[] = [
+  { type: "impact", t: 0, volume: 0.7 },
+  { type: "whoosh", t: HOOK_V2.cues[1] - 0.1, volume: 0.5 },
+  ...Array.from({ length: 7 }, (_, i) => ({ type: "tick" as const, t: HOOK_V2.cues[1] + 0.4 + i * 0.2, volume: 0.2 })),
+  { type: "glitch", t: HOOK_V2.cues[2], volume: 0.55 },
+  { type: "impact", t: HOOK_V2.cues[2] + 0.15, volume: 0.45 },
+  { type: "whoosh", t: HOOK_V2.cues[3] - 0.15, volume: 0.4 },
+  { type: "pop", t: HOOK_V2.cues[4], volume: 0.35 },
+  ...buildSfx(SCENES_V2),
+];
+
+export const InfluencerTikTokV2: React.FC = () => (
+  <InfluencerVideo
+    scenes={SCENES_V2}
+    sfx={SFX_V2}
+    audio={[
+      { src: "influencer/hook-v2.mp3", at: 0 },
+      // the original narration from the title scene onward
+      { src: "influencer/voiceover.mp3", at: SCENES[1].start, startFrom: SCENES[1].start },
+    ]}
+  />
+);

@@ -1,6 +1,6 @@
 import { Composition } from "remotion";
 import { HiggsfieldTikTok, DURATION_SECONDS, FPS } from "./HiggsfieldTikTok";
-import { InfluencerTikTok, DURATION_SECONDS as INFLUENCER_SECONDS } from "./influencer/InfluencerTikTok";
+import { InfluencerTikTok, InfluencerTikTokV2, DURATION_SECONDS as INFLUENCER_SECONDS } from "./influencer/InfluencerTikTok";
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -15,6 +15,14 @@ export const RemotionRoot: React.FC = () => (
   <Composition
     id="InfluencerTikTok"
     component={InfluencerTikTok}
+    durationInFrames={Math.round(INFLUENCER_SECONDS * FPS)}
+    fps={FPS}
+    width={1080}
+    height={1920}
+  />
+  <Composition
+    id="InfluencerTikTokV2"
+    component={InfluencerTikTokV2}
     durationInFrames={Math.round(INFLUENCER_SECONDS * FPS)}
     fps={FPS}
     width={1080}
