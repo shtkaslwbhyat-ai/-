@@ -38,7 +38,7 @@ npm run render:influencer   # writes out/higgsfield-ai-influencer.mp4
 
 ### InfluencerTikTokV2
 
-The same video with a stronger opening: an extreme close-up with "وقّف", a follower counter, a glitch "مو إنسان" reveal and the promise "تقدر تسوّي واحد مثله". The hook has its own voice line (`public/influencer/hook-v2.mp3`), then the original narration continues from the title scene. The hook scene is `StrongHook` in `src/influencer/InfluencerTikTok.tsx`.
+The same video with a stronger opening: an extreme close-up with "وقّف", a follower counter, a glitch "مو إنسان" reveal and the promise "تقدر تسوّي واحد مثله". The hook has its own voice line (`public/influencer/hook-v2.mp3`), then a real example (Aitana López, with the agency-reported numbers; no likeness shown) with its own voice line (`public/influencer/proof.mp3`), then the original narration continues from the title scene. The hook scene is `StrongHook` in `src/influencer/InfluencerTikTok.tsx`.
 
 ```bash
 npm run render:influencer-v2   # writes out/higgsfield-ai-influencer-v2.mp4

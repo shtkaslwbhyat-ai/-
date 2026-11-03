@@ -1,7 +1,7 @@
 // Scene timing (seconds), synced to public/influencer/voiceover.mp3.
 // `cues` are absolute times of the beats inside a scene, in the order the scene uses them.
 export type SceneTiming = { id: SceneId; start: number; end: number; cues: number[] };
-export type SceneId = "hook" | "hook2" | "title" | "builder" | "face" | "soul" | "limits" | "cta";
+export type SceneId = "hook" | "hook2" | "proof" | "title" | "builder" | "face" | "soul" | "limits" | "cta";
 
 export const SCENES: SceneTiming[] = [
   // cues: profile in, posts in, counter start, glitch reveal

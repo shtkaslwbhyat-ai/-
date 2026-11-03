@@ -978,9 +978,84 @@ const StrongHook: React.FC<SceneProps> = ({ s }) => {
   );
 };
 
+// A real, documented AI influencer. No likeness is shown: just a monogram and the reported numbers.
+const Proof: React.FC<SceneProps> = ({ s }) => {
+  const { t } = useT();
+  const beat = useBeat();
+  const [cBadge, cName, cFollowers, cMoney] = s.cues;
+  const followers = interpolate(t, [cFollowers, cFollowers + 1.4], [0, 400], { ...clamp, easing: (x) => 1 - Math.pow(1 - x, 3) });
+  const euros = interpolate(t, [cMoney, cMoney + 1.4], [0, 10000], { ...clamp, easing: (x) => 1 - Math.pow(1 - x, 3) });
+  const stat: React.CSSProperties = { ...Glass, flex: 1, padding: "26px 18px", textAlign: "center" };
+  return (
+    <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", paddingBottom: 220 }}>
+      <div
+        style={{
+          fontSize: 48,
+          fontWeight: 900,
+          color: C.bg,
+          background: C.lime,
+          padding: "8px 40px",
+          borderRadius: 999,
+          transform: `scale(${interpolate(beat(cBadge, 9), [0, 1], [1.8, 1])})`,
+          opacity: Math.min(1, beat(cBadge) * 1.5),
+        }}
+      >
+        ✅ مثال حقيقي
+      </div>
+
+      <div style={{ ...Glass, width: 860, marginTop: 50, padding: 40, textAlign: "center", ...enter(beat(cName)) }}>
+        <div
+          style={{
+            width: 220,
+            height: 220,
+            margin: "0 auto",
+            borderRadius: "50%",
+            background: "linear-gradient(135deg, #ff7eb3, #a78bfa 55%, #60a5fa)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            fontSize: 120,
+            fontWeight: 900,
+            direction: "ltr",
+            position: "relative",
+            boxShadow: "0 20px 60px rgba(167,139,250,.35)",
+          }}
+        >
+          A
+          <span style={{ position: "absolute", bottom: -6, right: -6, fontSize: 70 }}>🤖</span>
+        </div>
+        <div style={{ fontSize: 76, fontWeight: 900, marginTop: 24, direction: "ltr" }}>Aitana López</div>
+        <div style={{ fontSize: 40, fontWeight: 700, color: C.soft }}>أيتانا لوبيز 🇪🇸</div>
+        <div style={{ fontSize: 32, color: C.muted, marginTop: 10 }}>مؤثرة افتراضية من وكالة في برشلونة</div>
+      </div>
+
+      <div style={{ display: "flex", gap: 22, width: 860, marginTop: 26 }}>
+        <div style={{ ...stat, ...enter(beat(cFollowers)) }}>
+          <div style={{ fontSize: 80, fontWeight: 900, color: C.lime, direction: "ltr" }}>≈{Math.round(followers)}K</div>
+          <div style={{ fontSize: 32, color: C.soft, fontWeight: 700 }}>متابع</div>
+        </div>
+        <div style={{ ...stat, ...enter(beat(cMoney)) }}>
+          <div style={{ fontSize: 80, fontWeight: 900, color: C.lime, direction: "ltr" }}>€{Math.round(euros).toLocaleString("en-US")}</div>
+          <div style={{ fontSize: 32, color: C.soft, fontWeight: 700 }}>في أحسن شهر</div>
+        </div>
+      </div>
+
+      <div style={{ fontSize: 32, color: C.muted, marginTop: 24, textAlign: "center", lineHeight: 1.5, ...enter(beat(cMoney + 0.8)) }}>
+        <div>
+          متوسط الشهر ≈ <bdi style={{ direction: "ltr" }}>€3,000</bdi>
+        </div>
+        <div>
+          المصدر: تصريح الوكالة لـ <bdi>Euronews</bdi>
+        </div>
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 const SCENE_COMPONENTS: Record<SceneTiming["id"], React.FC<SceneProps>> = {
   hook: Hook,
   hook2: StrongHook,
+  proof: Proof,
   title: Title,
   builder: Builder,
   face: Face,
@@ -1035,9 +1110,23 @@ export const InfluencerTikTok: React.FC = () => (
   <InfluencerVideo scenes={SCENES} sfx={SFX} audio={[{ src: "influencer/voiceover.mp3", at: 0 }]} />
 );
 
-// Version 2: same video with a stronger opening hook and its own voice line.
+// Version 2: a stronger opening hook with its own voice line, then a real example, then the original video.
 const HOOK_V2: SceneTiming = { id: "hook2", start: 0, end: SCENES[1].start, cues: [0, 0.61, 2.79, 4.42, 6.15] };
-const SCENES_V2 = [HOOK_V2, ...SCENES.slice(1)];
+const PROOF_LENGTH = 13.8;
+const PROOF_V2: SceneTiming = {
+  id: "proof",
+  start: HOOK_V2.end,
+  end: HOOK_V2.end + PROOF_LENGTH,
+  cues: [0.05, 1.6, 6.76, 10.4].map((c) => HOOK_V2.end + c),
+};
+const shift = (s: SceneTiming, by: number): SceneTiming => ({
+  ...s,
+  start: s.start + by,
+  end: s.end + by,
+  cues: s.cues.map((c) => c + by),
+});
+const SCENES_V2 = [HOOK_V2, PROOF_V2, ...SCENES.slice(1).map((s) => shift(s, PROOF_LENGTH))];
+export const DURATION_SECONDS_V2 = SCENES_V2[SCENES_V2.length - 1].end;
 const SFX_V2: SfxEvent[] = [
   { type: "impact", t: 0, volume: 0.7 },
   { type: "whoosh", t: HOOK_V2.cues[1] - 0.1, volume: 0.5 },
@@ -1046,7 +1135,14 @@ const SFX_V2: SfxEvent[] = [
   { type: "impact", t: HOOK_V2.cues[2] + 0.15, volume: 0.45 },
   { type: "whoosh", t: HOOK_V2.cues[3] - 0.15, volume: 0.4 },
   { type: "pop", t: HOOK_V2.cues[4], volume: 0.35 },
-  ...buildSfx(SCENES_V2),
+  { type: "whoosh", t: PROOF_V2.start - 0.25, volume: 0.45 },
+  { type: "ding", t: PROOF_V2.cues[0], volume: 0.35 },
+  { type: "pop", t: PROOF_V2.cues[1], volume: 0.3 },
+  ...Array.from({ length: 6 }, (_, i) => ({ type: "tick" as const, t: PROOF_V2.cues[2] + i * 0.22, volume: 0.18 })),
+  ...Array.from({ length: 6 }, (_, i) => ({ type: "tick" as const, t: PROOF_V2.cues[3] + i * 0.22, volume: 0.18 })),
+  { type: "success", t: PROOF_V2.cues[3] + 1.4, volume: 0.4 },
+  // the whoosh into the proof scene is already above, so skip the builder's first one
+  ...buildSfx([HOOK_V2, ...SCENES_V2.slice(2)]),
 ];
 
 export const InfluencerTikTokV2: React.FC = () => (
@@ -1055,8 +1151,9 @@ export const InfluencerTikTokV2: React.FC = () => (
     sfx={SFX_V2}
     audio={[
       { src: "influencer/hook-v2.mp3", at: 0 },
+      { src: "influencer/proof.mp3", at: PROOF_V2.start + 0.1 },
       // the original narration from the title scene onward
-      { src: "influencer/voiceover.mp3", at: SCENES[1].start, startFrom: SCENES[1].start },
+      { src: "influencer/voiceover.mp3", at: SCENES[1].start + PROOF_LENGTH, startFrom: SCENES[1].start },
     ]}
   />
 );
