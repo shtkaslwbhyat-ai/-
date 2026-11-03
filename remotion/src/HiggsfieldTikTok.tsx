@@ -17,7 +17,7 @@ import { SCENES, SFX, SceneTiming } from "./timeline";
 export const FPS = 30;
 export const DURATION_SECONDS = 59.5;
 
-const C = {
+export const C = {
   bg: "#07070c",
   lime: "#d6ff3f",
   mint: "#7cf7c9",
@@ -28,7 +28,7 @@ const C = {
 // Returns the entrance style of element `i` of the current scene.
 type RevealFn = (i: number) => React.CSSProperties;
 
-const Background: React.FC = () => {
+export const Background: React.FC = () => {
   const t = useCurrentFrame() / FPS;
   const blob = (x: number, y: number, color: string, i: number) => {
     const cx = 100 * (x + 0.12 * Math.sin(t * 0.35 + i * 2));
@@ -315,7 +315,7 @@ const Scene: React.FC<{ timing: SceneTiming }> = ({ timing }) => {
   );
 };
 
-const ProgressBar: React.FC = () => {
+export const ProgressBar: React.FC = () => {
   const frame = useCurrentFrame();
   const { durationInFrames } = useVideoConfig();
   const w = interpolate(frame, [0, durationInFrames], [0, 100], { easing: Easing.linear });

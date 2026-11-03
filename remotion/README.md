@@ -1,4 +1,8 @@
-# Higgsfield explainer (Remotion)
+# Higgsfield explainers (Remotion)
+
+Two compositions: `HiggsfieldTikTok` (the platform overview) and `InfluencerTikTok` (the AI Influencer feature).
+
+## HiggsfieldTikTok
 
 Vertical 1080×1920 TikTok explainer: the explanation sits in the top half and an animated, talking avatar fills the bottom half. Saudi-dialect voiceover plus sound effects, no music.
 
@@ -20,3 +24,14 @@ In a cloud container without a downloaded Chrome, add `--browser-executable=/opt
 - `public/`: the avatar image, the voiceover, the sound effects and the Cairo font.
 
 If you change the voiceover, regenerate `public/mouth-envelope.json` (per-frame voice loudness, 0 to 1, at 30fps) and update the times in `src/timeline.ts`.
+
+## InfluencerTikTok
+
+A 68-second vertical explainer for Higgsfield's AI Influencer feature, made entirely in Remotion with no generated footage. The "influencer" is `public/avatar.jpg`.
+
+```bash
+npm run render:influencer   # writes out/higgsfield-ai-influencer.mp4
+```
+
+- `src/influencer/timeline.ts`: scene times and beats, synced to `public/influencer/voiceover.mp3`. The sound effects are listed here too.
+- `src/influencer/InfluencerTikTok.tsx`: the seven scenes (fake profile with glitch reveal, title, Builder panel, face upload, Soul ID training, limits, call to action).
