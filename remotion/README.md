@@ -43,3 +43,14 @@ The same video with a stronger opening: an extreme close-up with "وقّف", a f
 ```bash
 npm run render:influencer-v2   # writes out/higgsfield-ai-influencer-v2.mp4
 ```
+
+## VideoGenTikTok
+
+Explainer for Higgsfield's video generation and Cinema Studio, voiced in Saudi Arabic by the ElevenLabs voice "Nasser AlJubaily". One clip per scene lives in `public/videogen/s1.mp3` … `s6.mp3` (hook, models, Cinema Studio, how-to, credits tip, close + call to action). The composition reads each clip's length, so scenes follow the voice exactly; a missing clip falls back to a silent placeholder length.
+
+Prepare downloaded ElevenLabs clips (speeds them up and removes pauses), then render:
+
+```bash
+scripts/prepare-videogen-voice.sh s1.mp3 s2.mp3 s3.mp3 s4.mp3 s5.mp3 s6.mp3
+npm run render:videogen   # writes out/higgsfield-video-gen.mp4
+```
