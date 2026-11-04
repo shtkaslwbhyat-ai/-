@@ -4,6 +4,7 @@ import { FPS } from "./config";
 import { ClaudeCodeVideo, calculateMetadata } from "./Video";
 import { JourneyVideo, calculateJourneyMetadata } from "./journey/Journey";
 import { LessonsVideo, calculateLessonsMetadata } from "./lessons/Lessons";
+import { ViduPromo } from "./vidu/ViduPromo";
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -37,5 +38,6 @@ export const RemotionRoot: React.FC = () => (
       defaultProps={{ scenes: [] }}
       calculateMetadata={calculateLessonsMetadata}
     />
+    <Composition id="ViduPromo" component={ViduPromo} durationInFrames={300} fps={FPS} width={1080} height={1920} />
   </>
 );
