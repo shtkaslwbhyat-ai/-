@@ -38,7 +38,8 @@ export const RemotionRoot: React.FC = () => (
       defaultProps={{ scenes: [] }}
       calculateMetadata={calculateLessonsMetadata}
     />
-    <Composition id="ViduPromo" component={ViduPromo} durationInFrames={300} fps={FPS} width={1080} height={1920} defaultProps={{ v2: false }} />
-    <Composition id="ViduPromoV2" component={ViduPromo} durationInFrames={506} fps={FPS} width={1080} height={1920} defaultProps={{ v2: true }} />
+    <Composition id="ViduPromo" component={ViduPromo} durationInFrames={300} fps={FPS} width={1080} height={1920} defaultProps={{ variant: "v1" as const }} />
+    <Composition id="ViduPromoV2" component={ViduPromo} durationInFrames={506} fps={FPS} width={1080} height={1920} defaultProps={{ variant: "v2" as const }} />
+    <Composition id="ViduPromoV3" component={ViduPromo} durationInFrames={554} fps={FPS} width={1080} height={1920} defaultProps={{ variant: "v3" as const }} />
   </>
 );
