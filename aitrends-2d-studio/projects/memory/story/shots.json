@@ -1,0 +1,6494 @@
+{
+ "title": "ماذا لو تذكرت كل ثانية من حياتك؟",
+ "duration": 863.175,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 1.69,
+   "line": "تسألك أختك سلمى.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "SALMA",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "smirk",
+      "f": -1,
+      "chair": true
+     }
+    ],
+    "props": [
+     {
+      "k": "table",
+      "x": 0.5,
+      "plate": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "s": 1.45
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s002",
+   "start": 1.69,
+   "end": 5.33,
+   "line": "ماذا أكلنا يوم الثلاثاء قبل أربع سنوات؟",
+   "scene": "face home",
+   "set": "home",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "SALMA",
+    "set": "home",
+    "expr": "smirk",
+    "side": 0.4,
+    "rimSide": 1,
+    "talk": [
+     0.15,
+     3.79
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s003",
+   "start": 5.33,
+   "end": 6.79,
+   "line": "تجيب فورا.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "home",
+    "expr": "smile",
+    "side": -0.3,
+    "memories": true
+   },
+   "notes": ""
+  },
+  {
+   "id": "s004",
+   "start": 6.79,
+   "end": 8.25,
+   "line": "أرزا وملوخية.",
+   "scene": "insert plate",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "plate"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s005",
+   "start": 8.25,
+   "end": 10.37,
+   "line": "في الثانية وسبع دقائق.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "expr": "smile",
+    "cards": [
+     "الثلاثاء",
+     "2:07"
+    ],
+    "cardsX": [
+     0.25,
+     0.75
+    ],
+    "cardsY": [
+     0.28,
+     0.28
+    ],
+    "gap": 0.4
+   },
+   "notes": ""
+  },
+  {
+   "id": "s006",
+   "start": 10.37,
+   "end": 13.27,
+   "line": "وكانت الملوخية مالحة قليلا.",
+   "scene": "insert plate",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "plate",
+    "labels": [
+     {
+      "s": "مالحة قليلا",
+      "x": 0.5,
+      "y": 0.16,
+      "cream": true,
+      "at": 0.6,
+      "box": true
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s007",
+   "start": 13.27,
+   "end": 15.85,
+   "line": "تفتح سلمى فمها. ثم تغلقه.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "SALMA",
+    "set": "home",
+    "expr": [
+     [
+      0,
+      "surprised"
+     ],
+     [
+      1.1,
+      "neutral"
+     ]
+    ],
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s008",
+   "start": 15.85,
+   "end": 19.39,
+   "line": "يسألك المعلم عن درس شرحه قبل عامين.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "TEACHER",
+      "x": 0.28,
+      "pose": "point",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "c": "YOU",
+      "x": 0.7,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.85,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1,
+      "s": 1.2,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "s": 1.4
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s009",
+   "start": 19.39,
+   "end": 25.49,
+   "line": "تعيده كلمة كلمة. بالنبرة نفسها. وبالسعال نفسه في المنتصف.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.55,
+      "pose": "explain",
+      "expr": "determined",
+      "f": -1,
+      "s": 1.8
+     }
+    ],
+    "cam": {
+     "z0": 1.1,
+     "z1": 1.18,
+     "x0": 0,
+     "x1": -30
+    },
+    "labels": [
+     {
+      "s": "كح كح",
+      "x": 0.3,
+      "y": 0.3,
+      "cream": true,
+      "at": 3.63
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s010",
+   "start": 25.49,
+   "end": 27.37,
+   "line": "يضحك الفصل كله.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "cheer",
+     "gain": -20
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.15,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.3,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.62,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.1
+     },
+     {
+      "c": "YOU",
+      "x": 0.47,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.2
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.8,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.1
+     }
+    ],
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s011",
+   "start": 27.37,
+   "end": 29.23,
+   "line": "المعلم لا يضحك.",
+   "scene": "face classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "TEACHER",
+    "set": "classroom",
+    "expr": "neutral",
+    "side": -0.2,
+    "tilt": -0.05
+   },
+   "notes": ""
+  },
+  {
+   "id": "s012",
+   "start": 29.23,
+   "end": 31.41,
+   "line": "تبحث أمك عن مفاتيحها.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "MOM",
+      "x": 0.38,
+      "pose": [
+       [
+        0,
+        "think"
+       ],
+       [
+        1.2,
+        "handsOnHead"
+       ]
+      ],
+      "expr": "worried",
+      "f": 1
+     },
+     {
+      "c": "YOU",
+      "x": 0.72,
+      "pose": "relaxed",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s013",
+   "start": 31.41,
+   "end": 34.93,
+   "line": "تقول لها... في جيب المعطف الرمادي يا أمي.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.62,
+      "pose": [
+       [
+        0,
+        "relaxed"
+       ],
+       [
+        0.8,
+        "point"
+       ]
+      ],
+      "expr": "smile",
+      "f": -1,
+      "s": 1.7,
+      "talk": [
+       1.07,
+       3.67
+      ]
+     },
+     {
+      "c": "MOM",
+      "x": 0.32,
+      "pose": "stand",
+      "expr": [
+       [
+        0,
+        "worried"
+       ],
+       [
+        1.5,
+        "surprised"
+       ]
+      ],
+      "f": 1,
+      "s": 1.7
+     }
+    ],
+    "cam": {
+     "z0": 1.05,
+     "z1": 1.12,
+     "x0": 20,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s014",
+   "start": 34.93,
+   "end": 39.27,
+   "line": "وضعتها هناك مساء الخميس. في الثامنة وعشر دقائق.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "expr": "smile",
+    "cards": [
+     "الخميس",
+     "8:10 مساء"
+    ],
+    "cardsX": [
+     0.25,
+     0.75
+    ],
+    "cardsY": [
+     0.28,
+     0.28
+    ],
+    "gap": 1.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s015",
+   "start": 39.27,
+   "end": 39.93,
+   "line": "تجدها.",
+   "scene": "insert keys",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "keys"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s016",
+   "start": 39.93,
+   "end": 42.41,
+   "line": "ثم تنظر إليك نظرة غريبة.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "MOM",
+    "set": "home",
+    "expr": "confused",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s017",
+   "start": 42.41,
+   "end": 45.07,
+   "line": "في المخبز يعطيك البائع الباقي.",
+   "scene": "stage bakery",
+   "set": "bakery",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "bakery",
+    "chars": [
+     {
+      "c": "BAKER",
+      "x": 0.62,
+      "pose": "holdFront",
+      "expr": "smile",
+      "f": -1
+     },
+     {
+      "c": "YOU",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s018",
+   "start": 45.07,
+   "end": 51.39,
+   "line": "فتذكره بلطف أنه أنقص من باقيك جنيها واحدا قبل ثلاث سنوات.",
+   "scene": "insert coin",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "coin",
+    "labels": [
+     {
+      "s": "قبل 3 سنوات",
+      "x": 0.5,
+      "y": 0.15,
+      "at": 1.5,
+      "box": true
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s019",
+   "start": 51.39,
+   "end": 53.71,
+   "line": "يضحك. ثم يعطيك الجنيه.",
+   "scene": "stage bakery",
+   "set": "bakery",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bakery",
+    "chars": [
+     {
+      "c": "BAKER",
+      "x": 0.6,
+      "pose": "shrug",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.7
+     },
+     {
+      "c": "YOU",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": "smirk",
+      "f": 1,
+      "s": 1.7
+     }
+    ],
+    "cam": {
+     "z0": 1.08,
+     "z1": 1.14,
+     "x0": 0,
+     "x1": -30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s020",
+   "start": 53.71,
+   "end": 61.15,
+   "line": "وجوربك الأزرق؟ آخر مرة رأيته فيها كانت قبل ثلاثة وأربعين يوما. تحت السرير.",
+   "scene": "insert sock",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "sock",
+    "labels": [
+     {
+      "s": "قبل 43 يوما",
+      "x": 0.5,
+      "y": 0.15,
+      "box": true,
+      "at": 4.61
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s021",
+   "start": 61.15,
+   "end": 62.57,
+   "line": "وهو ليس هناك.",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "blip",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "bedroom",
+    "expr": "confused",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s022",
+   "start": 62.57,
+   "end": 68.31,
+   "line": "معظم الناس لا يتذكرون ماذا فعلوا في يوم عادي قبل خمس سنوات.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.2,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.1,
+       0.35
+      ],
+      "s": 1.1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "confused",
+      "f": -1,
+      "s": 1.2
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.85,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.9,
+       0.65
+      ],
+      "s": 1.1
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    },
+    "labels": [
+     {
+      "s": "قبل 5 سنوات؟",
+      "x": 0.5,
+      "y": 0.2,
+      "box": true,
+      "at": 4.25
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s023",
+   "start": 68.31,
+   "end": 77.37,
+   "line": "في عام 1885 وصف عالم ألماني اسمه هيرمان إبنغهاوس ما يسمى منحنى النسيان.",
+   "scene": "curve ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "curve",
+    "label": "منحنى النسيان"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s024",
+   "start": 77.37,
+   "end": 83.03,
+   "line": "نحن نفقد جزءا كبيرا مما نتعلمه. خلال الساعات والأيام الأولى.",
+   "scene": "curve ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "curve",
+    "label": "ننسى بسرعة"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s025",
+   "start": 83.03,
+   "end": 86.25,
+   "line": "وأنت؟ لا تفقد شيئا. لا شيء.",
+   "scene": "curve ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "curve",
+    "you": 0.3
+   },
+   "notes": ""
+  },
+  {
+   "id": "s026",
+   "start": 86.25,
+   "end": 91.41,
+   "line": "ثمانون عاما من العمر تساوي نحو مليارين ونصف مليار ثانية.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "counter",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "data",
+    "icon": "life",
+    "to": 2500000000,
+    "label": "ثانية",
+    "count": 2.6,
+    "size": 120
+   },
+   "notes": ""
+  },
+  {
+   "id": "s027",
+   "start": 91.41,
+   "end": 97.33,
+   "line": "وأنت تحفظ كل ثانية منها. بتاريخها. بساعتها. بإحساسها.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "expr": "awe",
+    "cards": [
+     "التاريخ",
+     "الساعة",
+     "الإحساس"
+    ],
+    "cardsX": [
+     0.2,
+     0.5,
+     0.8
+    ],
+    "cardsY": [
+     0.25,
+     0.18,
+     0.25
+    ],
+    "gap": 0.9
+   },
+   "notes": ""
+  },
+  {
+   "id": "s028",
+   "start": 97.33,
+   "end": 100.63,
+   "line": "لكن لهذه القدرة قاعدة واحدة.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "قاعدة واحدة",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s029",
+   "start": 100.63,
+   "end": 105.27,
+   "line": "أنت لا تستطيع أن تنسى. ولا تستطيع أن تختار ما تتذكر.",
+   "scene": "bigline home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "لا تستطيع أن تنسى",
+    "set": "home",
+    "str2": "ولا أن تختار ما تتذكر",
+    "at2": 2.2,
+    "coral": true
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s030",
+   "start": 105.27,
+   "end": 111.29,
+   "line": "وكل ذكرى تفتحها... تعود بمشاعرها كاملة. كأنها تحدث الآن.",
+   "scene": "freeze home",
+   "set": "home",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "freeze",
+     "gain": -6
+    }
+   ],
+   "params": {
+    "tpl": "freeze",
+    "set": "home",
+    "expr": [
+     [
+      0,
+      "neutral"
+     ],
+     [
+      1.4,
+      "awe"
+     ]
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s031",
+   "start": 111.29,
+   "end": 119.41,
+   "line": "وستتعلم يوما شيئا مهما. عقلك يحفظ كل شيء... لكن قلبك هو الذي يختار ما يبقى.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "pose": "think",
+    "expr": "thinking",
+    "labels": [
+     {
+      "s": "عقلك يحفظ كل شيء",
+      "x": 0.5,
+      "y": 0.2,
+      "at": 2.75
+     },
+     {
+      "s": "لكن قلبك يختار ما يبقى",
+      "x": 0.5,
+      "y": 0.32,
+      "cream": true,
+      "at": 4.630000000000001
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s032",
+   "start": 119.41,
+   "end": 122.73,
+   "line": "اسمك يوسف. عمرك سبعة عشر عاما.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.8
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "يوسف",
+      "x": 0.5,
+      "y": 0.2,
+      "size": 90,
+      "at": 0.59
+     },
+     {
+      "s": "17 عاما",
+      "x": 0.5,
+      "y": 0.32,
+      "cream": true,
+      "at": 1.17
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s033",
+   "start": 122.73,
+   "end": 126.03,
+   "line": "فماذا لو تذكرت كل ثانية من حياتك؟",
+   "scene": "title ",
+   "set": "",
+   "bars": "scope",
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "title"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s034",
+   "start": 126.03,
+   "end": 130.49,
+   "line": "تبدأ بالمدرسة. تقرأ الكتاب مرة واحدة في سبتمبر.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.45,
+      "pose": "holdFront",
+      "expr": "neutral",
+      "f": 1,
+      "prop": "paper",
+      "s": 1.6
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.75,
+      "pose": "sit",
+      "expr": "sleepy",
+      "f": -1,
+      "chair": true,
+      "s": 1.3
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "سبتمبر",
+      "x": 0.5,
+      "y": 0.2,
+      "box": true,
+      "at": 3.87
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s035",
+   "start": 130.49,
+   "end": 136.63,
+   "line": "وفي الامتحان ترى الصفحة أمام عينيك. برقمها. وببقعة الشاي في زاويتها.",
+   "scene": "insert book",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "book"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s036",
+   "start": 136.63,
+   "end": 138.93,
+   "line": "الدرجة؟ مئة من مئة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "data",
+    "value": "100 / 100",
+    "label": "الدرجة",
+    "at": 0.6
+   },
+   "notes": ""
+  },
+  {
+   "id": "s037",
+   "start": 138.93,
+   "end": 143.99,
+   "line": "زملاؤك يسهرون أسبوعا كاملا. أنت تنام مبكرا. أو تحاول.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": [
+       [
+        0,
+        "relaxed"
+       ],
+       [
+        2.4,
+        "facepalm"
+       ]
+      ],
+      "expr": [
+       [
+        0,
+        "sleepy"
+       ],
+       [
+        2.4,
+        "worried"
+       ]
+      ],
+      "f": 1,
+      "s": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "أسبوع كامل",
+      "x": 0.5,
+      "y": 0.2,
+      "cream": true,
+      "out": 1.8,
+      "at": 1.41
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s038",
+   "start": 143.99,
+   "end": 150.43,
+   "line": "ثم يختبرك أصدقاؤك. يقول أحدهم. الخامس عشر من مارس 2019.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "ADAM",
+      "x": 0.62,
+      "pose": [
+       [
+        0,
+        "stand"
+       ],
+       [
+        1.6,
+        "point"
+       ]
+      ],
+      "expr": "smirk",
+      "f": -1,
+      "talk": [
+       3.33,
+       5.11
+      ]
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.78,
+      "pose": "crossArms",
+      "expr": "smirk",
+      "f": -1,
+      "s": 1.3
+     },
+     {
+      "c": "YOU",
+      "x": 0.36,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "15 مارس 2019",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 3.23
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s039",
+   "start": 150.43,
+   "end": 155.99,
+   "line": "تجيب. كان يوم جمعة. كانت السماء غائمة. وكنت ترتدي قميصا أخضر.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "expr": "smile",
+    "cards": [
+     "الجمعة",
+     "غائمة",
+     "قميص أخضر"
+    ],
+    "cardsX": [
+     0.2,
+     0.5,
+     0.8
+    ],
+    "cardsY": [
+     0.25,
+     0.18,
+     0.25
+    ],
+    "gap": 0.9
+   },
+   "notes": ""
+  },
+  {
+   "id": "s040",
+   "start": 155.99,
+   "end": 159.91,
+   "line": "يفتح هاتفه ليتأكد من الصور. القميص أخضر.",
+   "scene": "insert phone",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "phone"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s041",
+   "start": 159.91,
+   "end": 161.81,
+   "line": "يغلق هاتفه ببطء.",
+   "scene": "face city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "ADAM",
+    "set": "city",
+    "expr": "shocked",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s042",
+   "start": 161.81,
+   "end": 166.95,
+   "line": "أبوك يراهنك على مباراة كرة قدم قديمة. قبل ست سنوات.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "DAD",
+      "x": 0.32,
+      "pose": "sitBack",
+      "expr": "smirk",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "YOU",
+      "x": 0.55,
+      "pose": "crossArms",
+      "expr": "smirk",
+      "f": -1
+     }
+    ],
+    "props": [
+     {
+      "k": "tv",
+      "x": 0.82
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "قبل 6 سنوات",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 3.79
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s043",
+   "start": 166.95,
+   "end": 171.97,
+   "line": "تصف له الأهداف الثلاثة. والتمريرات التي سبقتها. واسم الحكم.",
+   "scene": "insert tvscore",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "whistle",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "tvscore"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s044",
+   "start": 171.97,
+   "end": 176.93,
+   "line": "وماذا صرخ هو في وجه التلفاز في الدقيقة الخامسة والثمانين.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "cheer",
+     "gain": -18
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "DAD",
+      "x": 0.55,
+      "pose": [
+       [
+        0,
+        "stand"
+       ],
+       [
+        0.6,
+        "cheer"
+       ]
+      ],
+      "expr": "angry",
+      "f": 1,
+      "s": 1.7
+     }
+    ],
+    "props": [
+     {
+      "k": "tv",
+      "x": 0.82
+     }
+    ],
+    "cam": {
+     "z0": 1.05,
+     "z1": 1.12,
+     "x0": 0,
+     "x1": -60,
+     "shake": 4
+    },
+    "badge": "85'"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s045",
+   "start": 176.93,
+   "end": 182.51,
+   "line": "يدفع أبوك ثمن العشاء. ولا يراهنك مرة أخرى.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "DAD",
+      "x": 0.35,
+      "pose": "shrug",
+      "expr": "sad",
+      "f": 1
+     },
+     {
+      "c": "YOU",
+      "x": 0.6,
+      "pose": "relaxed",
+      "expr": "smirk",
+      "f": -1
+     }
+    ],
+    "props": [
+     {
+      "k": "table",
+      "x": 0.48,
+      "plate": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s046",
+   "start": 182.51,
+   "end": 189.55,
+   "line": "في كل خلاف عائلي يلتفت الجميع إليك. من قال ماذا؟ ومتى؟",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.2,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "c": "MOM",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "angry",
+      "f": -1
+     },
+     {
+      "c": "DAD",
+      "x": 0.68,
+      "pose": "crossArms",
+      "expr": "angry",
+      "f": -1
+     },
+     {
+      "c": "SALMA",
+      "x": 0.84,
+      "pose": "handsOnHead",
+      "expr": "worried",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    },
+    "labels": [
+     {
+      "s": "من قال ماذا؟",
+      "x": 0.5,
+      "y": 0.2,
+      "cream": true,
+      "at": 4.3500000000000005
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s047",
+   "start": 189.55,
+   "end": 194.45,
+   "line": "تعيد الكلام حرفا حرفا. ينتهي الخلاف في دقيقتين.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.3,
+      "pose": "explain",
+      "expr": "determined",
+      "f": 1,
+      "s": 1.6
+     },
+     {
+      "c": "MOM",
+      "x": 0.6,
+      "pose": "crossArms",
+      "expr": "surprised",
+      "f": -1,
+      "s": 1.6
+     },
+     {
+      "c": "DAD",
+      "x": 0.78,
+      "pose": "shrug",
+      "expr": "confused",
+      "f": -1,
+      "s": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "دقيقتان",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 3.79
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s048",
+   "start": 194.45,
+   "end": 199.75,
+   "line": "وبعد شهر... لم يعد أحد يدعوك إلى أي خلاف.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.14,
+      "pose": "stand",
+      "expr": "confused",
+      "f": 1,
+      "s": 1.3
+     },
+     {
+      "c": "MOM",
+      "x": 0.6,
+      "pose": "talk",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.3
+     },
+     {
+      "c": "DAD",
+      "x": 0.76,
+      "pose": "talk",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.3
+     },
+     {
+      "c": "SALMA",
+      "x": 0.68,
+      "pose": "cheer",
+      "expr": "happy",
+      "f": -1,
+      "s": 1.3
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s049",
+   "start": 199.75,
+   "end": 205.13,
+   "line": "تشاهد فيلما يابانيا مدته تسعون دقيقة. مرة واحدة.",
+   "scene": "insert film",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "film",
+    "labels": [
+     {
+      "s": "90 دقيقة",
+      "x": 0.5,
+      "y": 0.1,
+      "box": true,
+      "at": 2.09
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s050",
+   "start": 205.13,
+   "end": 209.53,
+   "line": "ثم تعيد حواره كله باليابانية على مائدة الغداء.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.32,
+      "pose": "sit",
+      "expr": "determined",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "MOM",
+      "x": 0.6,
+      "pose": "sit",
+      "expr": "confused",
+      "f": -1,
+      "chair": true
+     },
+     {
+      "c": "SALMA",
+      "x": 0.74,
+      "pose": "sit",
+      "expr": "shocked",
+      "f": -1,
+      "chair": true
+     }
+    ],
+    "props": [
+     {
+      "k": "table",
+      "x": 0.47,
+      "w": 420,
+      "plate": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "؟؟؟",
+      "x": 0.6,
+      "y": 0.25,
+      "at": 0.8,
+      "cream": true
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s051",
+   "start": 209.53,
+   "end": 215.47,
+   "line": "هل فهمت كلمة واحدة منه؟ لا. لكن النطق ممتاز.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "home",
+    "expr": [
+     [
+      0,
+      "thinking"
+     ],
+     [
+      1.7,
+      "smirk"
+     ]
+    ],
+    "side": -0.2
+   },
+   "notes": ""
+  },
+  {
+   "id": "s052",
+   "start": 215.47,
+   "end": 221.11,
+   "line": "ثم تأخذك أمك إلى عيادة الدكتورة مايا. طبيبة أعصاب.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "MOM",
+      "x": 0.22,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1
+     },
+     {
+      "c": "YOU",
+      "x": 0.36,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "c": "MAYA",
+      "x": 0.72,
+      "pose": "explain",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "د. مايا",
+      "x": 0.72,
+      "y": 0.18,
+      "box": true,
+      "at": 2.13
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s053",
+   "start": 221.11,
+   "end": 225.73,
+   "line": "تخبرك أن في الدماغ نحو ستة وثمانين مليار خلية عصبية.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "counter",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "to": 86,
+    "suffix": " مليار",
+    "label": "خلية عصبية",
+    "count": 1.8,
+    "size": 120
+   },
+   "notes": ""
+  },
+  {
+   "id": "s054",
+   "start": 225.73,
+   "end": 232.71,
+   "line": "وأن حالات تشبه حالتك موجودة فعلا. أول حالة وثقت علميا نشرت عام 2006.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "MAYA",
+      "x": 0.22,
+      "pose": "point",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "c": "YOU",
+      "x": 0.8,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    },
+    "labels": [
+     {
+      "s": "2006",
+      "x": 0.5,
+      "y": 0.12,
+      "size": 80,
+      "at": 6.41
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s055",
+   "start": 232.71,
+   "end": 236.93,
+   "line": "لامرأة أمريكية اسمها جيل برايس.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "جيل برايس",
+    "label": "أول حالة موثقة",
+    "size": 120,
+    "at": 0.2
+   },
+   "notes": ""
+  },
+  {
+   "id": "s056",
+   "start": 236.93,
+   "end": 242.03,
+   "line": "وعدد الحالات المؤكدة في العالم كله... بضع عشرات فقط.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "بضع عشرات",
+    "label": "حالة مؤكدة في العالم",
+    "size": 120
+   },
+   "notes": ""
+  },
+  {
+   "id": "s057",
+   "start": 242.03,
+   "end": 245.05,
+   "line": "ثم تنظر إلى نتائجك وتقول...",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "MAYA",
+      "x": 0.36,
+      "pose": [
+       [
+        0,
+        "think"
+       ],
+       [
+        1.5,
+        "explain"
+       ]
+      ],
+      "expr": [
+       [
+        0,
+        "thinking"
+       ],
+       [
+        1.5,
+        "awe"
+       ]
+      ],
+      "f": 1,
+      "s": 1.7
+     },
+     {
+      "c": "YOU",
+      "x": 0.66,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "s": 1.7
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s058",
+   "start": 245.05,
+   "end": 247.59,
+   "line": "أنت أبعد من كل هؤلاء.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "MAYA",
+    "set": "clinic",
+    "expr": "awe",
+    "side": 0.3,
+    "rimSide": 1,
+    "talk": [
+     0.15,
+     1.95
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s059",
+   "start": 247.59,
+   "end": 252.51,
+   "line": "ثم يأتي يوم مختلف. دراجة جاركم تسرق.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.42,
+      "pose": "handsOnHead",
+      "expr": "shocked",
+      "f": 1,
+      "s": 1.5
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "سُرقت!",
+      "x": 0.42,
+      "y": 0.22,
+      "coral": true,
+      "at": 3.65
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s060",
+   "start": 252.51,
+   "end": 260.81,
+   "line": "الشرطة لا تملك أي خيط. لكنك رأيت سيارة غريبة في الشارع قبل ثلاثة أشهر. لثانيتين فقط.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "POLICE",
+      "x": 0.3,
+      "pose": "shrug",
+      "expr": "confused",
+      "f": 1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.45,
+      "pose": "sad",
+      "expr": "sad",
+      "f": -1
+     },
+     {
+      "c": "YOU",
+      "x": 0.72,
+      "pose": "think",
+      "expr": "thinking",
+      "f": -1
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    },
+    "labels": [
+     {
+      "s": "قبل 3 أشهر",
+      "x": 0.5,
+      "y": 0.16,
+      "box": true,
+      "at": 4.99
+     },
+     {
+      "s": "ثانيتان فقط",
+      "x": 0.5,
+      "y": 0.28,
+      "cream": true,
+      "at": 6.29
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s061",
+   "start": 260.81,
+   "end": 264.51,
+   "line": "وتتذكر رقم لوحتها كاملا.",
+   "scene": "insert plate_number",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "plate_number"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s062",
+   "start": 264.51,
+   "end": 266.89,
+   "line": "بعد يومين تعود الدراجة.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.45,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1
+     },
+     {
+      "c": "YOU",
+      "x": 0.66,
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "بعد يومين",
+      "x": 0.5,
+      "y": 0.18,
+      "at": 0.2,
+      "box": true
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s063",
+   "start": 266.89,
+   "end": 274.35,
+   "line": "ثم تدعوك بطولة دولية للذاكرة. يطلب منك حفظ ألف رقم عشوائي في عشر دقائق.",
+   "scene": "stage studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "whip",
+    "dur": 0.35
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "studio",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "determined",
+      "f": 1,
+      "s": 1.5
+     }
+    ],
+    "crowd": 0.2,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "1000 رقم",
+      "x": 0.3,
+      "y": 0.15,
+      "box": true,
+      "at": 4.53
+     },
+     {
+      "s": "10 دقائق",
+      "x": 0.7,
+      "y": 0.15,
+      "box": true,
+      "at": 5.87
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s064",
+   "start": 274.35,
+   "end": 279.79,
+   "line": "تحفظها كلها. لأنك عشت تلك الدقائق العشر ثانية ثانية.",
+   "scene": "insert digits",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "counter",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "digits"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s065",
+   "start": 279.79,
+   "end": 282.05,
+   "line": "الحكام مذهولون.",
+   "scene": "stage studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "studio",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.32,
+      "pose": "sitBack",
+      "expr": "shocked",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.5,
+      "pose": "sitBack",
+      "expr": "shocked",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.68,
+      "pose": "sitBack",
+      "expr": "awe",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s066",
+   "start": 282.05,
+   "end": 289.11,
+   "line": "وأنت تتساءل في سرك. هل هذه موهبة؟ أم أنك لا تستطيع أن تنسى فقط؟",
+   "scene": "face studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "studio",
+    "expr": "thinking",
+    "side": -0.2,
+    "look": [
+     0.4,
+     -0.3
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s067",
+   "start": 289.11,
+   "end": 297.23,
+   "line": "وبعدها. العالم كله. برنامج تلفزيوني يدعوك. المشاهدون يرسلون تواريخ.",
+   "scene": "stage studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "applause",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "studio",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.42,
+      "pose": "wave",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "c": "WAITER",
+      "x": 0.62,
+      "pose": "explain",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "crowd": 1,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s068",
+   "start": 297.23,
+   "end": 303.23,
+   "line": "ثلاثمئة تاريخ في ساعة واحدة. تجيب عنها كلها.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "counter",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "data",
+    "to": 300,
+    "label": "تاريخ في ساعة واحدة",
+    "count": 2.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s069",
+   "start": 303.23,
+   "end": 307.27,
+   "line": "المقطع يصل إلى عشرين مليون مشاهدة في أسبوع.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "counter",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "data",
+    "to": 20000000,
+    "label": "مشاهدة في أسبوع",
+    "count": 2.0,
+    "size": 130
+   },
+   "notes": ""
+  },
+  {
+   "id": "s070",
+   "start": 307.27,
+   "end": 310.51,
+   "line": "الصحف تسميك الفتى الذي لا ينسى.",
+   "scene": "bigline city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "الفتى الذي لا ينسى",
+    "set": "city"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s071",
+   "start": 310.51,
+   "end": 315.33,
+   "line": "وأنت تبتسم للكاميرا. لكنك متعب جدا.",
+   "scene": "face studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "studio",
+    "expr": [
+     [
+      0,
+      "smile"
+     ],
+     [
+      1.8,
+      "sleepy"
+     ]
+    ],
+    "side": 0.1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s072",
+   "start": 315.33,
+   "end": 322.91,
+   "line": "لأن هناك شيئا لا يعرفه أحد. كل ليلة تغمض عينيك. فيبدأ اليوم من جديد.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.19,
+      "pose": "lie",
+      "expr": "sleepy",
+      "f": 1,
+      "y": 0.815,
+      "still": true,
+      "s": 1.3,
+      "rot": -1.5708
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -30
+   }
+  },
+  {
+   "id": "s073",
+   "start": 322.91,
+   "end": 327.43,
+   "line": "كل وجه. كل صوت. كل كلمة.",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "bedroom",
+    "expr": "worried",
+    "side": 0.0,
+    "memories": true
+   },
+   "notes": ""
+  },
+  {
+   "id": "s074",
+   "start": 327.43,
+   "end": 329.97,
+   "line": "تنام في الثالثة فجرا.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.42,
+      "pose": "sit",
+      "expr": "sleepy",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "clock": [
+     3,
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s075",
+   "start": 329.97,
+   "end": 332.17,
+   "line": "وتستيقظ في السابعة.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "clock",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "sleepy",
+      "f": 1,
+      "s": 1.6
+     }
+    ],
+    "so": {},
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "clock": [
+     7,
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s076",
+   "start": 332.17,
+   "end": 341.99,
+   "line": "وهناك أشياء صغيرة تختفي من حياتك. فيلمك المفضل؟ لا تستطيع أن تشاهده مرة ثانية كأنه جديد.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.4,
+      "pose": "sitBack",
+      "expr": "sleepy",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tv",
+      "x": 0.75
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s077",
+   "start": 341.99,
+   "end": 349.51,
+   "line": "وحين سقطت عن الدراجة في الخامسة من عمرك... ما زلت تشعر بحرارة الأرض على ركبتك كلما تذكرت.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "YOUKID",
+      "x": 0.48,
+      "pose": "fall",
+      "expr": "cry",
+      "f": 1,
+      "rot": 0.5
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.06,
+     "z1": 1.12,
+     "x0": 0,
+     "x1": -30
+    },
+    "labels": [
+     {
+      "s": "في الخامسة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 1.69
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s078",
+   "start": 349.51,
+   "end": 357.87,
+   "line": "وهناك ما هو أسوأ. قبل عامين... قال لك صديقك آدم كلمة جارحة أمام الجميع.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "ADAM",
+      "x": 0.36,
+      "pose": "point",
+      "expr": "smirk",
+      "f": 1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.18,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.2
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.26,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.2
+     },
+     {
+      "c": "YOU",
+      "x": 0.7,
+      "pose": "sad",
+      "expr": "sad",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "قبل عامين",
+      "x": 0.5,
+      "y": 0.16,
+      "box": true,
+      "at": 2.51
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s079",
+   "start": 357.87,
+   "end": 359.93,
+   "line": "اعتذر في اليوم نفسه.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "ADAM",
+      "x": 0.4,
+      "pose": "shrug",
+      "expr": "sad",
+      "f": 1
+     },
+     {
+      "c": "YOU",
+      "x": 0.62,
+      "pose": "crossArms",
+      "expr": "sad",
+      "f": -1
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s080",
+   "start": 359.93,
+   "end": 363.19,
+   "line": "الناس نسوا. آدم نسي.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "ADAM",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.3,
+       0.6
+      ]
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.4,
+       0.7
+      ]
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.3,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.2,
+       0.5
+      ]
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s081",
+   "start": 363.19,
+   "end": 372.57,
+   "line": "وأنت؟ تسمعها الآن. بالنبرة نفسها. وبالوجع نفسه. كأنها قيلت قبل دقيقة.",
+   "scene": "freeze classroom",
+   "set": "classroom",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "freeze",
+     "gain": -6
+    }
+   ],
+   "params": {
+    "tpl": "freeze",
+    "set": "classroom",
+    "expr": [
+     [
+      0,
+      "sad"
+     ],
+     [
+      2,
+      "cry"
+     ]
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s082",
+   "start": 372.57,
+   "end": 375.85,
+   "line": "فكيف تسامح على جرح لا يشيخ أبدا؟",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "bedroom",
+    "expr": "sad",
+    "side": 0.0,
+    "tear": 1.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s083",
+   "start": 375.85,
+   "end": 380.39,
+   "line": "تشرح لك الدكتورة مايا. النسيان ليس عطلا.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "MAYA",
+      "x": 0.32,
+      "pose": "explain",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.6
+     },
+     {
+      "c": "YOU",
+      "x": 0.66,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "s": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "النسيان ليس عطلا",
+      "x": 0.5,
+      "y": 0.15,
+      "box": true,
+      "at": 2.07
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s084",
+   "start": 380.39,
+   "end": 387.53,
+   "line": "إنه يساعد الدماغ على رؤية الصورة الكبيرة... ويخفف حدة الذكريات المؤلمة مع الوقت.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "الصورة الكبيرة",
+    "label": "ذكريات أخف ألما",
+    "size": 100,
+    "at": 0.4,
+    "count": 4
+   },
+   "notes": ""
+  },
+  {
+   "id": "s085",
+   "start": 387.53,
+   "end": 395.57,
+   "line": "وتخبرك عن عالم نفس سوفييتي اسمه ألكسندر لوريا. درس ثلاثين عاما تقريبا رجلا اسمه شيرشفسكي.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "ألكسندر لوريا",
+    "label": "30 عاما من الدراسة",
+    "size": 110
+   },
+   "notes": ""
+  },
+  {
+   "id": "s086",
+   "start": 395.57,
+   "end": 403.19,
+   "line": "كان يحفظ كل شيء تقريبا. وكان يجد صعوبة في النسيان. وفي فهم المعاني المجردة.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "PLAIN",
+    "expr": "confused",
+    "cards": [
+     "يحفظ كل شيء",
+     "لا يستطيع النسيان"
+    ],
+    "cardsX": [
+     0.25,
+     0.75
+    ],
+    "cardsY": [
+     0.25,
+     0.25
+    ],
+    "gap": 1.6
+   },
+   "notes": ""
+  },
+  {
+   "id": "s087",
+   "start": 403.19,
+   "end": 409.67,
+   "line": "نشر لوريا كتابه عنه عام 1968.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "1968",
+    "label": "كتاب لوريا عنه",
+    "size": 150
+   },
+   "notes": ""
+  },
+  {
+   "id": "s088",
+   "start": 409.67,
+   "end": 416.45,
+   "line": "ثم تقول لك بهدوء... التفاصيل الكثيرة قد تخفي عنك الطريق يا يوسف.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "MAYA",
+    "set": "clinic",
+    "expr": "smile",
+    "side": 0.3,
+    "rimSide": 1,
+    "talk": [
+     2.53,
+     6.93
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s089",
+   "start": 416.45,
+   "end": 420.63,
+   "line": "وأنت لا تعرف بعد... كم ستحتاج إلى هذه الجملة.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "clinic",
+    "expr": "thinking",
+    "side": -0.2
+   },
+   "notes": ""
+  },
+  {
+   "id": "s090",
+   "start": 420.63,
+   "end": 427.37,
+   "line": "ومع الوقت صرت الشخص الذي يصحح للجميع كل تاريخ وكل كلمة.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.36,
+      "pose": "point",
+      "expr": "smirk",
+      "f": 1
+     },
+     {
+      "c": "ADAM",
+      "x": 0.6,
+      "pose": "crossArms",
+      "expr": "neutral",
+      "f": -1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.74,
+      "pose": "crossArms",
+      "expr": "neutral",
+      "f": -1,
+      "s": 1.3
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s091",
+   "start": 427.37,
+   "end": 435.81,
+   "line": "وصار أصدقاؤك يختارون كلماتهم أمامك بحذر شديد. فمن يريد صديقا لا ينسى أي خطأ؟",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.3,
+      "pose": "sad",
+      "expr": "sad",
+      "f": 1
+     },
+     {
+      "c": "ADAM",
+      "x": 0.65,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.6,
+       0.85
+      ]
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.75,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.7,
+       0.95
+      ],
+      "s": 1.3
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s092",
+   "start": 435.81,
+   "end": 441.17,
+   "line": "في البيت جدتك ليلى. أحب الناس إليك. وأكثرهم ضحكا.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "LAYLA",
+      "x": 0.56,
+      "pose": "relaxed",
+      "expr": "joy",
+      "f": -1
+     },
+     {
+      "c": "YOU",
+      "x": 0.36,
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "جدتك ليلى",
+      "x": 0.56,
+      "y": 0.18,
+      "box": true,
+      "at": 0.77
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s093",
+   "start": 441.17,
+   "end": 446.41,
+   "line": "لكن الطبيب قال قبل عام إنها في بدايات مرض الزهايمر.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "LAYLA",
+    "set": "home",
+    "expr": "confused",
+    "side": 0.3,
+    "rimSide": 1,
+    "look": [
+     0.4,
+     -0.2
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s094",
+   "start": 446.41,
+   "end": 450.85,
+   "line": "تسألك اليوم ثلاث مرات... هل أكلت يا حبيبي؟",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "LAYLA",
+      "x": 0.6,
+      "pose": "talk",
+      "expr": "smile",
+      "f": -1,
+      "talk": [
+       2.61,
+       4.59
+      ]
+     },
+     {
+      "c": "YOU",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "props": [
+     {
+      "k": "table",
+      "x": 0.5
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "badge": "×3"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s095",
+   "start": 450.85,
+   "end": 454.51,
+   "line": "وتجيبها في كل مرة كأنها الأولى.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "home",
+    "expr": "smile",
+    "side": -0.2
+   },
+   "notes": ""
+  },
+  {
+   "id": "s096",
+   "start": 454.51,
+   "end": 458.03,
+   "line": "هي التي علمتك صنع الشاي وأنت في السادسة.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "LAYLA",
+      "x": 0.58,
+      "pose": "holdFront",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.6
+     },
+     {
+      "c": "YOUKID",
+      "x": 0.44,
+      "pose": "stand",
+      "expr": "happy",
+      "f": 1,
+      "s": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "في السادسة",
+      "x": 0.5,
+      "y": 0.16,
+      "box": true,
+      "at": 2.73
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s097",
+   "start": 458.03,
+   "end": 462.17,
+   "line": "ملعقتان من السكر. وورقة نعناع واحدة.",
+   "scene": "insert teacups",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "teacups",
+    "labels": [
+     {
+      "s": "ملعقتان سكر",
+      "x": 0.3,
+      "y": 0.16,
+      "at": 0.3,
+      "box": true
+     },
+     {
+      "s": "ورقة نعناع",
+      "x": 0.7,
+      "y": 0.16,
+      "box": true,
+      "at": 1.75
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s098",
+   "start": 462.17,
+   "end": 468.91,
+   "line": "والأسبوع الماضي... نادتك باسم أبيك. ثم ضحكت وقالت إنكما تتشابهان.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "LAYLA",
+      "x": 0.58,
+      "pose": "talk",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.6
+     },
+     {
+      "c": "YOU",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": [
+       [
+        0,
+        "smile"
+       ],
+       [
+        2,
+        "sad"
+       ]
+      ],
+      "f": 1,
+      "s": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s099",
+   "start": 468.91,
+   "end": 470.21,
+   "line": "أنت لم تضحك.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "home",
+    "expr": "sad",
+    "side": -0.1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s100",
+   "start": 470.21,
+   "end": 474.67,
+   "line": "هي تنسى كل يوم أكثر. وأنت لا تنسى شيئا.",
+   "scene": "split ",
+   "set": "",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "split"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s101",
+   "start": 474.67,
+   "end": 478.17,
+   "line": "عندما تطبخ تدندن أغنية قديمة.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "LAYLA",
+      "x": 0.6,
+      "pose": "holdFront",
+      "expr": "happy",
+      "f": 1,
+      "s": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "♪",
+      "x": 0.66,
+      "y": 0.25,
+      "at": 0.4
+     },
+     {
+      "s": "♫",
+      "x": 0.72,
+      "y": 0.18,
+      "at": 1.0
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s102",
+   "start": 478.17,
+   "end": 481.63,
+   "line": "تسألها عن اسمها. فتضحك. نسيته.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "LAYLA",
+    "set": "home",
+    "expr": "joy",
+    "side": 0.3,
+    "rimSide": 1,
+    "talk": [
+     2.67,
+     3.61
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s103",
+   "start": 481.63,
+   "end": 483.73,
+   "line": "لكن اللحن لا يذهب.",
+   "scene": "insert song",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "song"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s104",
+   "start": 483.73,
+   "end": 489.49,
+   "line": "وتحكي لك عن مقهى صغير قرب البحر. هناك التقت بجدك أول مرة.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "GRANDPA",
+      "x": 0.4,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "LAYLA",
+      "x": 0.6,
+      "pose": "sit",
+      "expr": "joy",
+      "f": -1,
+      "chair": true
+     }
+    ],
+    "props": [
+     {
+      "k": "table",
+      "x": 0.5,
+      "cups": [
+       [
+        -50,
+        false
+       ],
+       [
+        50,
+        false
+       ]
+      ]
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s105",
+   "start": 489.49,
+   "end": 492.85,
+   "line": "حكتها لك مئة وسبع عشرة مرة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "to": 117,
+    "label": "مرة",
+    "count": 1.6
+   },
+   "notes": ""
+  },
+  {
+   "id": "s106",
+   "start": 492.85,
+   "end": 498.89,
+   "line": "وأنت تتذكر كل مرة. حتى المرات التي غيرت فيها لون فستانها.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "expr": "smile",
+    "n": 60
+   },
+   "notes": ""
+  },
+  {
+   "id": "s107",
+   "start": 498.89,
+   "end": 505.85,
+   "line": "تضع يدها على صدرك وتقول... الذاكرة صندوق يا يوسف. والقلب مفتاحه.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "LAYLA",
+      "x": 0.55,
+      "pose": [
+       [
+        0,
+        "stand"
+       ],
+       [
+        0.6,
+        "reach"
+       ]
+      ],
+      "expr": "smile",
+      "f": -1,
+      "s": 1.9,
+      "talk": [
+       2.69,
+       7.11
+      ]
+     },
+     {
+      "c": "YOU",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.9
+     }
+    ],
+    "cam": {
+     "z0": 1.1,
+     "z1": 1.18,
+     "x0": 0,
+     "x1": -30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s108",
+   "start": 505.85,
+   "end": 508.11,
+   "line": "تبتسم لها. ولا تفهم.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "home",
+    "expr": [
+     [
+      0,
+      "smile"
+     ],
+     [
+      1.2,
+      "thinking"
+     ]
+    ],
+    "side": -0.2
+   },
+   "notes": ""
+  },
+  {
+   "id": "s109",
+   "start": 508.11,
+   "end": 516.31,
+   "line": "وحين تنام في المساء تجلس بجانبها قليلا... وتتمنى لو تستطيع أن تعطيها نصف ذاكرتك.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "LAYLA",
+      "x": 0.4,
+      "pose": "sitBack",
+      "expr": "sleepy",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "YOU",
+      "x": 0.58,
+      "pose": "sit",
+      "expr": "sad",
+      "f": -1,
+      "chair": true
+     }
+    ],
+    "so": {
+     "night": true,
+     "sky": "night"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s110",
+   "start": 516.31,
+   "end": 519.45,
+   "line": "ثم يأتي يوم الجمعة. الرابعة عصرا.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": "relaxed",
+      "expr": "neutral",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "clock": [
+     4,
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s111",
+   "start": 519.45,
+   "end": 522.97,
+   "line": "يرن هاتفك. صوت أمك يرتجف.",
+   "scene": "insert phonering",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "phonering",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "phonering"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s112",
+   "start": 522.97,
+   "end": 527.01,
+   "line": "جدتك خرجت من البيت قبل ساعتين... ولم تعد.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "MOM",
+      "x": 0.62,
+      "pose": "phone",
+      "expr": "scared",
+      "f": -1,
+      "prop": "phone"
+     }
+    ],
+    "props": [
+     {
+      "k": "chairEmpty",
+      "x": 0.35
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "قبل ساعتين",
+      "x": 0.5,
+      "y": 0.16,
+      "coral": true,
+      "box": true,
+      "at": 1.9699999999999998
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s113",
+   "start": 527.01,
+   "end": 529.11,
+   "line": "هاتفها على الطاولة.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [],
+    "props": [
+     {
+      "k": "table",
+      "x": 0.5,
+      "phone": true
+     }
+    ],
+    "cam": {
+     "z0": 1.6,
+     "z1": 1.7,
+     "x0": 0,
+     "x1": -20,
+     "y0": 170,
+     "y1": 175
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s114",
+   "start": 529.11,
+   "end": 533.39,
+   "line": "الشمس تغيب بعد أربعين دقيقة. والهواء بارد.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    },
+    "labels": [
+     {
+      "s": "40 دقيقة",
+      "x": 0.5,
+      "y": 0.2,
+      "coral": true,
+      "box": true,
+      "at": 1.41
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s115",
+   "start": 533.39,
+   "end": 540.09,
+   "line": "أنت تعرف كل مكان ذكرته جدتك في حياتها. هذه قوتك. أليس كذلك؟",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "home",
+    "expr": "determined",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s116",
+   "start": 540.09,
+   "end": 543.11,
+   "line": "تغمض عينيك. وينفتح الأرشيف.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "zoom",
+    "dur": 0.5
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "expr": "determined",
+    "speed": 2.5,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.15,
+     "x0": 0,
+     "x1": 0
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s117",
+   "start": 543.11,
+   "end": 549.93,
+   "line": "سوق الخضار. بيت خالتها القديم. محطة القطار. المدرسة التي عملت فيها.",
+   "scene": "places ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 1.2,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 2.2,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 3.4,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "places",
+    "pins": [
+     [
+      "سوق الخضار",
+      0.2,
+      0.4,
+      0.1
+     ],
+     [
+      "بيت خالتها",
+      0.45,
+      0.65,
+      1.43
+     ],
+     [
+      "محطة القطار",
+      0.7,
+      0.35,
+      3.21
+     ],
+     [
+      "المدرسة",
+      0.85,
+      0.7,
+      4.630000000000001
+     ]
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s118",
+   "start": 549.93,
+   "end": 554.33,
+   "line": "هل ذهبت إلى المحطة؟ إنها على بعد اثني عشر كيلومترا.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [],
+    "so": {
+     "mood": "dusk",
+     "station": true
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "12 كم",
+      "x": 0.5,
+      "y": 0.3,
+      "coral": true,
+      "box": true,
+      "at": 2.9499999999999997
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s119",
+   "start": 554.33,
+   "end": 557.37,
+   "line": "إلى السوق؟ السوق يغلق في الخامسة.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.55,
+       0.45
+      ],
+      "s": 1.1
+     }
+    ],
+    "so": {
+     "mood": "dusk",
+     "market": true
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    },
+    "clock": [
+     5,
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s120",
+   "start": 557.37,
+   "end": 561.27,
+   "line": "إلى المدرسة؟ لكنها أغلقت منذ سنوات طويلة.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "مغلقة",
+      "x": 0.5,
+      "y": 0.2,
+      "coral": true,
+      "box": true,
+      "at": 1.77
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s121",
+   "start": 561.27,
+   "end": 565.31,
+   "line": "ثلاثمئة مكان. أربعون عاما من الحكايات.",
+   "scene": "places ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "places",
+    "many": true,
+    "pins": [],
+    "labels": [
+     {
+      "s": "300 مكان",
+      "x": 0.3,
+      "y": 0.15,
+      "at": 0.2,
+      "box": true
+     },
+     {
+      "s": "40 عاما",
+      "x": 0.7,
+      "y": 0.15,
+      "box": true,
+      "at": 1.77
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s122",
+   "start": 565.31,
+   "end": 572.97,
+   "line": "وكل ذكرى تفتحها... تعود كاملة. برائحتها. بصوتها. بضحكتها.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "expr": "worried",
+    "speed": 3,
+    "cards": [
+     "رائحتها",
+     "صوتها",
+     "ضحكتها"
+    ],
+    "cardsX": [
+     0.2,
+     0.5,
+     0.8
+    ],
+    "cardsY": [
+     0.25,
+     0.18,
+     0.25
+    ],
+    "gap": 0.8
+   },
+   "notes": ""
+  },
+  {
+   "id": "s123",
+   "start": 572.97,
+   "end": 577.35,
+   "line": "تمر دقيقة. ثم خمس. ثم عشر.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "clock",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "data",
+    "value": "",
+    "labels": [
+     {
+      "s": "1 دقيقة",
+      "x": 0.5,
+      "y": 0.35,
+      "at": 0.2,
+      "coral": true,
+      "size": 90,
+      "out": 0.9
+     },
+     {
+      "s": "5 دقائق",
+      "x": 0.5,
+      "y": 0.5,
+      "at": 1.0,
+      "coral": true,
+      "size": 90,
+      "out": 1.8
+     },
+     {
+      "s": "10 دقائق",
+      "x": 0.5,
+      "y": 0.65,
+      "at": 1.9,
+      "coral": true,
+      "size": 100
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s124",
+   "start": 577.35,
+   "end": 580.23,
+   "line": "وأنت ما زلت واقفا في غرفتك.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1,
+      "still": true,
+      "s": 1.2
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s125",
+   "start": 580.23,
+   "end": 585.33,
+   "line": "تسألك أمك على الهاتف أين يمكن أن تكون جدتك الآن.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "worried",
+      "f": 1,
+      "prop": "phone",
+      "s": 1.7
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s126",
+   "start": 585.33,
+   "end": 591.45,
+   "line": "وأنت صاحب الذاكرة التي لا تخطئ أبدا... لا تملك جوابا واحدا.",
+   "scene": "face home",
+   "set": "home",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "home",
+    "expr": [
+     [
+      0,
+      "worried"
+     ],
+     [
+      2.5,
+      "scared"
+     ]
+    ],
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s127",
+   "start": 591.45,
+   "end": 596.17,
+   "line": "ثلاثون دقيقة على الغروب. القاعدة لا ترحم.",
+   "scene": "places ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "heartbeat",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "places",
+    "many": true,
+    "pins": [],
+    "timer": [
+     30,
+     0.0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s128",
+   "start": 596.17,
+   "end": 602.69,
+   "line": "عقلك يحفظ كل شيء... ولهذا لا يجد شيئا. التفاصيل تغرقك.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "glitch",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "pose": "handsOnHead",
+    "expr": "scared",
+    "n": 90,
+    "speed": 4,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.1,
+     "x0": 0,
+     "x1": 0,
+     "shake": 6
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s129",
+   "start": 602.69,
+   "end": 606.27,
+   "line": "وهنا تفهم. أمامك طريقان فقط.",
+   "scene": "bigline home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "أمامك طريقان فقط",
+    "set": "home"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s130",
+   "start": 606.27,
+   "end": 610.48,
+   "line": "إما أن تغوص أعمق في أرشيف لا قاع له...",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "pose": "fall",
+    "expr": "scared",
+    "n": 80,
+    "speed": 3,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.4,
+     "x0": 0,
+     "x1": 0
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s131",
+   "start": 610.48,
+   "end": 613.49,
+   "line": "وإما أن تفتح عينيك وتطلب المساعدة.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "home",
+    "expr": "determined",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s132",
+   "start": 613.49,
+   "end": 619.46,
+   "line": "تفتح عينيك. تمسك الهاتف. وتتصل بآدم.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": [
+       [
+        0,
+        "stand"
+       ],
+       [
+        1,
+        "phone"
+       ]
+      ],
+      "expr": "determined",
+      "f": 1,
+      "prop": "phone",
+      "s": 1.7
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "آدم",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 4.79
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s133",
+   "start": 619.46,
+   "end": 624.54,
+   "line": "آدم نفسه. صاحب الكلمة التي لم تستطع أن تنساها.",
+   "scene": "face city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "ADAM",
+    "set": "city",
+    "expr": "neutral",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s134",
+   "start": 624.54,
+   "end": 628.31,
+   "line": "يرد من الرنة الأولى. أنا قادم.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "footstep",
+     "gain": -14
+    },
+    {
+     "at": 1.2,
+     "name": "footstep",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "ADAM",
+      "x": 0.3,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.15,
+       0.8
+      ],
+      "run": true,
+      "talk": [
+       2.23,
+       3.92
+      ]
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s135",
+   "start": 628.31,
+   "end": 634.23,
+   "line": "وسلمى تطبع صورة حديثة لجدتك... وتنشرها في مجموعة الحي.",
+   "scene": "insert group",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 1.2,
+     "name": "pop",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "group"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s136",
+   "start": 634.23,
+   "end": 639.29,
+   "line": "يصل آدم بعد سبع دقائق. يسألك سؤالا واحدا.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "ADAM",
+      "x": 0.62,
+      "pose": [
+       [
+        0,
+        "stand"
+       ],
+       [
+        1.5,
+        "explain"
+       ]
+      ],
+      "expr": "determined",
+      "f": -1
+     },
+     {
+      "c": "YOU",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "7 دقائق",
+      "x": 0.5,
+      "y": 0.16,
+      "box": true,
+      "at": 1.21
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s137",
+   "start": 639.29,
+   "end": 642.59,
+   "line": "ما الشيء الذي لا تنساه جدتك أبدا؟",
+   "scene": "face city",
+   "set": "city",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "ADAM",
+    "set": "city",
+    "expr": "determined",
+    "side": 0.3,
+    "rimSide": 1,
+    "talk": [
+     0.15,
+     2.69
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s138",
+   "start": 642.59,
+   "end": 646.43,
+   "line": "ليس الشوارع. وليس الأسماء.",
+   "scene": "bigline city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "ليس الشوارع... وليس الأسماء",
+    "set": "city"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s139",
+   "start": 646.43,
+   "end": 650.37,
+   "line": "تتوقف. ثم تسمعه في رأسك.",
+   "scene": "face city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.5,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "city",
+    "expr": [
+     [
+      0,
+      "thinking"
+     ],
+     [
+      1.6,
+      "awe"
+     ]
+    ],
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s140",
+   "start": 650.37,
+   "end": 655.79,
+   "line": "اللحن. الأغنية التي نسيت اسمها... ولم تنس لحنها.",
+   "scene": "insert song",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "song"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s141",
+   "start": 655.79,
+   "end": 661.73,
+   "line": "والمكان الذي تعود إليه في كل حكاية. المقهى قرب البحر.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [],
+    "so": {
+     "outside": true
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    },
+    "labels": [
+     {
+      "s": "المقهى قرب البحر",
+      "x": 0.5,
+      "y": 0.2,
+      "box": true,
+      "at": 3.39
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s142",
+   "start": 661.73,
+   "end": 664.11,
+   "line": "توقفان سيارة أجرة.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "carpass",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "ADAM",
+      "x": 0.36,
+      "pose": "point",
+      "expr": "determined",
+      "f": 1
+     },
+     {
+      "c": "YOU",
+      "x": 0.26,
+      "pose": "stand",
+      "expr": "determined",
+      "f": 1
+     }
+    ],
+    "props": [
+     {
+      "k": "taxi",
+      "x": 0.65,
+      "move": true
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s143",
+   "start": 664.11,
+   "end": 667.95,
+   "line": "الريح باردة. الشمس تلمس الماء.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [],
+    "so": {
+     "outside": true,
+     "sunset": 0.6
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s144",
+   "start": 667.95,
+   "end": 675.79,
+   "line": "وهناك... على كرسي خشبي قرب النافذة... تجلس جدتك. وتدندن.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": "scope",
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "LAYLA",
+      "x": 0.6,
+      "pose": "sit",
+      "expr": "happy",
+      "f": -1,
+      "chair": true
+     }
+    ],
+    "props": [
+     {
+      "k": "table",
+      "x": 0.48,
+      "cups": [
+       [
+        -40,
+        true
+       ],
+       [
+        40,
+        true
+       ]
+      ]
+     },
+     {
+      "k": "chairEmpty",
+      "x": 0.38
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "♪",
+      "x": 0.62,
+      "y": 0.3,
+      "at": 1.5
+     },
+     {
+      "s": "♫",
+      "x": 0.66,
+      "y": 0.24,
+      "at": 2.2
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s145",
+   "start": 675.79,
+   "end": 680.99,
+   "line": "يقول النادل إنها هنا منذ ساعة. طلبت كوبين من الشاي.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "WAITER",
+      "x": 0.32,
+      "pose": "explain",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "worried",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "منذ ساعة",
+      "x": 0.5,
+      "y": 0.16,
+      "box": true,
+      "at": 1.5899999999999999
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s146",
+   "start": 680.99,
+   "end": 689.03,
+   "line": "واحدا لها... وواحدا للكرسي الفارغ أمامها. وفي كل كوب ورقة نعناع واحدة.",
+   "scene": "insert teacups",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "teacups"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s147",
+   "start": 689.03,
+   "end": 692.35,
+   "line": "تقترب منها. تنظر إليك لحظة...",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.3,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.25,
+       0.42
+      ]
+     },
+     {
+      "c": "LAYLA",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "confused",
+      "f": -1,
+      "chair": true
+     }
+    ],
+    "props": [
+     {
+      "k": "table",
+      "x": 0.5,
+      "cups": [
+       [
+        -40,
+        true
+       ],
+       [
+        40,
+        true
+       ]
+      ]
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s148",
+   "start": 692.35,
+   "end": 696.73,
+   "line": "كأنها تبحث عن اسمك. ثم تبتسم.",
+   "scene": "face seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "LAYLA",
+    "set": "seacafe",
+    "expr": [
+     [
+      0,
+      "confused"
+     ],
+     [
+      2.2,
+      "smile"
+     ]
+    ],
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s149",
+   "start": 696.73,
+   "end": 701.11,
+   "line": "جئت يا حبيبي. جدك كان يجلس هنا.",
+   "scene": "face seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "LAYLA",
+    "set": "seacafe",
+    "expr": "joy",
+    "side": 0.3,
+    "rimSide": 1,
+    "talk": [
+     0.15,
+     3.81
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s150",
+   "start": 701.11,
+   "end": 706.75,
+   "line": "تسألها عن اسمه. فتهز رأسها. لا تتذكر.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.4,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "LAYLA",
+      "x": 0.6,
+      "pose": "sit",
+      "expr": [
+       [
+        0,
+        "smile"
+       ],
+       [
+        1.2,
+        "confused"
+       ]
+      ],
+      "f": -1,
+      "chair": true
+     }
+    ],
+    "props": [
+     {
+      "k": "table",
+      "x": 0.5,
+      "cups": [
+       [
+        -40,
+        true
+       ],
+       [
+        40,
+        true
+       ]
+      ]
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s151",
+   "start": 706.75,
+   "end": 711.47,
+   "line": "لكنها تدندن اللحن نفسه. بلا خطأ واحد.",
+   "scene": "face seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "LAYLA",
+    "set": "seacafe",
+    "expr": "joy",
+    "side": 0.3,
+    "rimSide": 1,
+    "labels": [
+     {
+      "s": "♪",
+      "x": 0.25,
+      "y": 0.3,
+      "at": 0.4
+     },
+     {
+      "s": "♫",
+      "x": 0.8,
+      "y": 0.25,
+      "at": 1.0
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s152",
+   "start": 711.47,
+   "end": 718.59,
+   "line": "وفي طريق العودة تنظر إلى آدم. الكلمة ما زالت هناك. لن تختفي.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.3,
+       0.55
+      ]
+     },
+     {
+      "c": "LAYLA",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.2,
+       0.45
+      ]
+     },
+     {
+      "c": "ADAM",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.4,
+       0.65
+      ]
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s153",
+   "start": 718.59,
+   "end": 728.13,
+   "line": "لكنك تختار ألا تحملها بعد اليوم. تقول له... شكرا. لنبدأ من جديد. يبتسم.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.4,
+      "pose": [
+       [
+        0,
+        "stand"
+       ],
+       [
+        2,
+        "explain"
+       ]
+      ],
+      "expr": "smile",
+      "f": 1,
+      "s": 1.8,
+      "talk": [
+       4.87,
+       7.85
+      ]
+     },
+     {
+      "c": "ADAM",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": [
+       [
+        0,
+        "neutral"
+       ],
+       [
+        4,
+        "smile"
+       ]
+      ],
+      "f": -1,
+      "s": 1.8
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s154",
+   "start": 728.13,
+   "end": 734.106,
+   "line": "وفي البيت تعلق أمك في حقيبة جدتك بطاقة صغيرة فيها اسمها ورقم هاتفك.",
+   "scene": "insert card",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "card"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s155",
+   "start": 734.106,
+   "end": 737.85,
+   "line": "وسلمى تعانقها طويلا ولا تقول شيئا.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SALMA",
+      "x": 0.46,
+      "pose": "reach",
+      "expr": "happy",
+      "f": 1
+     },
+     {
+      "c": "LAYLA",
+      "x": 0.55,
+      "pose": "reach",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "so": {
+     "night": true,
+     "sky": "night"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s156",
+   "start": 737.85,
+   "end": 742.71,
+   "line": "وتلك الليلة... يعيد عقلك اليوم كاملا كالعادة.",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "bedroom",
+    "expr": "neutral",
+    "side": 0.0,
+    "memories": true
+   },
+   "notes": ""
+  },
+  {
+   "id": "s157",
+   "start": 742.71,
+   "end": 749.91,
+   "line": "لكنك تتوقف عند لحظة واحدة فقط. جدتك عند النافذة. تدندن.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "LAYLA",
+      "x": 0.6,
+      "pose": "sit",
+      "expr": "happy",
+      "f": -1,
+      "chair": true
+     }
+    ],
+    "props": [
+     {
+      "k": "table",
+      "x": 0.48,
+      "cups": [
+       [
+        -40,
+        true
+       ],
+       [
+        40,
+        true
+       ]
+      ]
+     }
+    ],
+    "cam": {
+     "z0": 1.15,
+     "z1": 1.25,
+     "x0": -100,
+     "x1": -140
+    },
+    "labels": [
+     {
+      "s": "♪",
+      "x": 0.62,
+      "y": 0.28,
+      "at": 1.0
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s158",
+   "start": 749.91,
+   "end": 757.27,
+   "line": "وتفهم أخيرا. عقلك يحفظ كل شيء... لكن قلبك هو الذي يختار ما يبقى.",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "bedroom",
+    "expr": "smile",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "عقلك يحفظ كل شيء",
+      "x": 0.5,
+      "y": 0.22,
+      "at": 2.09
+     },
+     {
+      "s": "لكن قلبك يختار ما يبقى",
+      "x": 0.5,
+      "y": 0.33,
+      "cream": true,
+      "at": 4.510000000000001
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s159",
+   "start": 757.27,
+   "end": 760.01,
+   "line": "فما الحقيقي في هذه القصة؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "ما الحقيقي في هذه القصة؟",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s160",
+   "start": 760.01,
+   "end": 770.27,
+   "line": "الذاكرة الذاتية فائقة القوة حالة حقيقية. وأصحابها يتذكرون أحداث حياتهم وتواريخها بدقة مدهشة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "حالة حقيقية",
+    "label": "الذاكرة الذاتية فائقة القوة",
+    "size": 120
+   },
+   "notes": ""
+  },
+  {
+   "id": "s161",
+   "start": 770.27,
+   "end": 777.11,
+   "line": "لكنهم لا يتذكرون كل ثانية. ولا يتفوقون عادة في حفظ القوائم والأرقام.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "لا يتذكرون كل ثانية",
+    "label": "ولا يتفوقون في حفظ الأرقام",
+    "size": 90
+   },
+   "notes": ""
+  },
+  {
+   "id": "s162",
+   "start": 777.11,
+   "end": 784.93,
+   "line": "بل إن دراسة عام 2013 أظهرت أنهم قد يحملون ذكريات زائفة... مثلنا تماما.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "2013",
+    "label": "ذكريات زائفة أيضا",
+    "size": 150
+   },
+   "notes": ""
+  },
+  {
+   "id": "s163",
+   "start": 784.93,
+   "end": 792.4,
+   "line": "وجيل برايس نفسها وصفت ذاكرتها بأنها تعمل بلا توقف... وأنها مرهقة أكثر منها موهبة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "بلا توقف",
+    "label": "مرهقة أكثر منها موهبة",
+    "size": 120,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s164",
+   "start": 792.4,
+   "end": 801.35,
+   "line": "أما أن تحفظ كل لحظة من مليارين ونصف مليار ثانية؟ فهذا خيال. وهل كنت سترغب فيه أصلا؟",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "2,500,000,000",
+    "label": "خيال",
+    "size": 120,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s165",
+   "start": 801.35,
+   "end": 807.46,
+   "line": "ويبقى سؤال مفتوح. هل النسيان عملية يقوم بها الدماغ عن قصد؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "هل ننسى عن قصد؟",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s166",
+   "start": 807.46,
+   "end": 814.31,
+   "line": "بعض العلماء يرون أن النوم يضعف الروابط العصبية الأقل أهمية... ليفسح المجال لما هو مهم.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "النوم",
+    "label": "يضعف الروابط الأقل أهمية",
+    "size": 110,
+    "count": 3
+   },
+   "notes": ""
+  },
+  {
+   "id": "s167",
+   "start": 814.31,
+   "end": 820.81,
+   "line": "وآخرون يرون أن الصورة أعقد من ذلك. والنقاش مستمر.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "النقاش مستمر",
+    "label": "الصورة أعقد",
+    "size": 110
+   },
+   "notes": ""
+  },
+  {
+   "id": "s168",
+   "start": 820.81,
+   "end": 832.47,
+   "line": "ونصيحة حقيقية أخيرة. إن كان في عائلتك شخص كبير يعاني من مشاكل في الذاكرة... فاحرص على أن يحمل دائما بطاقة فيها اسمه ورقم هاتف للتواصل.",
+   "scene": "insert card",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "card",
+    "labels": [
+     {
+      "s": "بطاقة باسمه ورقم هاتف",
+      "x": 0.5,
+      "y": 0.12,
+      "box": true,
+      "at": 8.85
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s169",
+   "start": 832.47,
+   "end": 835.85,
+   "line": "واحتفظ بصورة حديثة له.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "LAYLA",
+      "x": 0.55,
+      "pose": "relaxed",
+      "expr": "joy",
+      "f": -1
+     },
+     {
+      "c": "YOU",
+      "x": 0.4,
+      "pose": "phone",
+      "expr": "smile",
+      "f": 1,
+      "prop": "phone"
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "صورة حديثة",
+      "x": 0.5,
+      "y": 0.18,
+      "at": 0.3,
+      "box": true
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s170",
+   "start": 835.85,
+   "end": 847.89,
+   "line": "والآن... تخيل العكس. تستيقظ كل صباح والأمس صفحة بيضاء. ماذا لو كان كل يوم يمحى من ذاكرتك... لحظة تنام؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "ماذا لو كان كل يوم يمحى؟",
+    "set": "archive",
+    "str2": "الحلقة القادمة",
+    "at2": 3.5
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s171",
+   "start": 847.89,
+   "end": 863.175,
+   "line": "ما رأيك؟ أخبرنا في التعليقات... وأخبرنا أي قدرة بشرية ندفعها إلى أقصاها في الحلقة القادمة. اضغط زر الإعجاب... واشترك للمزيد.",
+   "scene": "endscreen ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "endscreen",
+    "q": "ما رأيك؟ أخبرنا في التعليقات"
+   },
+   "notes": "",
+   "captions": false
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 122.73,
+   "mood": "playful",
+   "intensity": 0.35
+  },
+  {
+   "start": 122.73,
+   "end": 130.73,
+   "mood": "wonder",
+   "intensity": 0.4
+  },
+  {
+   "start": 130.73,
+   "end": 315.33,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 315.33,
+   "end": 435.81,
+   "mood": "sad",
+   "intensity": 0.35
+  },
+  {
+   "start": 435.81,
+   "end": 516.31,
+   "mood": "hopeful",
+   "intensity": 0.35
+  },
+  {
+   "start": 516.31,
+   "end": 650.37,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 650.37,
+   "end": 757.27,
+   "mood": "hopeful",
+   "intensity": 0.35
+  },
+  {
+   "start": 757.27,
+   "end": 863.175,
+   "mood": "calm",
+   "intensity": 0.3
+  }
+ ],
+ "sfx": []
+}
