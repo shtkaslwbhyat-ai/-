@@ -69,7 +69,37 @@ def audit(path):
     for blob in p.jsonld:
         try: json.loads(blob)
         except Exception as e: add("حرج", f"JSON-LD غير صالح: {e}")
+    # --- جاهزية محركات الذكاء الاصطناعي ---
+    q = [t for _, t in p.heads if t.strip().endswith(("؟", "?"))]
+    if p.heads and not q: add("تنبيه", "لا عنوان بصيغة سؤال — النماذج تقتبس فقرات تجيب أسئلة؛ راجع references/ai-search.md")
+    types = " ".join(p.jsonld)
+    if q and "FAQPage" not in types: add("تنبيه", f"{len(q)} عنوان سؤالي بلا FAQPage في JSON-LD")
+    import os
+    rb = os.path.join(os.path.dirname(os.path.abspath(path)), "robots.txt")
+    if os.path.exists(rb): out.extend(robots(rb))
     return out
+
+BOTS = {"googlebot": ("حرج", "يُخرجك من جوجل وملخّصاته كلها"),
+        "oai-searchbot": ("مهم", "يُخرجك من بحث ChatGPT"),
+        "perplexitybot": ("مهم", "يُخرجك من Perplexity"),
+        "claude-searchbot": ("مهم", "يُخرجك من بحث Claude"),
+        "*": ("حرج", "يحظر كل الزواحف")}
+
+def robots(path):
+    res, agents, grouped = [], [], False
+    for line in open(path, encoding="utf-8", errors="ignore"):
+        line = line.split("#")[0].strip()
+        if ":" not in line: continue
+        k, v = (x.strip() for x in line.split(":", 1)); k = k.lower()
+        if k == "user-agent":
+            if grouped: agents, grouped = [], False
+            agents.append(v.lower())
+        else:
+            grouped = True
+            if k == "disallow" and v == "/":
+                for a in agents:
+                    if a in BOTS: res.append((BOTS[a][0], f"robots.txt: Disallow: / لـ{a} — {BOTS[a][1]}"))
+    return res
 
 ORDER = {"حرج": 0, "مهم": 1, "تنبيه": 2}
 crit = False
