@@ -7,7 +7,7 @@ description: مهندس الصوت في "عالم لو". يستخدم لتولي
 الطريقة:
 1. قسّم input/script.txt إلى أجزاء ≈3000 حرف عند نهايات الجمل (لا تقطع جملة).
 2. ولّد كل جزء بـ edge-tts:
-   SSL_CERT_FILE=/root/.ccr/ca-bundle.crt edge-tts --proxy "$HTTPS_PROXY" --voice ar-SA-HamedNeural --rate=+15% --pitch=-4Hz -f part.txt --write-media partN.mp3
-3. أضف 0.4 ثانية صمت بعد كل جزء، اجمعها، ثم loudnorm=I=-16:TP=-1.5:LRA=11 إلى input/voiceover.mp3.
-4. تحقق: لا جزء فارغ، والمدة لا تزيد عن 10 دقائق (≈ عدد الكلمات ÷ 96). إن زادت فأعد السكريبت للكاتب ليختصره، ولا تسرّع الصوت.
+   SSL_CERT_FILE=/root/.ccr/ca-bundle.crt edge-tts --proxy "$HTTPS_PROXY" --voice ar-SA-HamedNeural --rate=+5% --pitch=-6Hz -f part.txt --write-media partN.mp3
+3. اجمع الأجزاء (0.3 ثانية صمت بينها)، ثم احذف السكتات الطويلة: bash tools/tighten_voice.sh joined.mp3 input/voiceover.mp3 (يختصر كل سكتة أطول من 0.30 ث إلى 0.22 ث ويضبط الصوت). هذه الخطوة إلزامية قبل التوقيتات.
+4. تحقق: لا جزء فارغ، والمدة لا تزيد عن 10 دقائق (≈ عدد الكلمات ÷ 100). إن زادت فأعد السكريبت للكاتب ليختصره، ولا تسرّع الصوت.
 لا تستخدم صوتًا آخر لأي جزء. إن فشل جزء أعد توليده بنفس الصوت.
