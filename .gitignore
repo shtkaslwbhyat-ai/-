@@ -5,3 +5,4 @@ aitrends-2d-studio/vo_parts/
 __pycache__/
 aitrends-2d-studio/vo_single/
 voice-samples/
+deliverables/**/*.mp4
