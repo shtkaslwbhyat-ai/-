@@ -2,7 +2,8 @@
 import json, re, sys
 PROJ = sys.argv[1]
 W = json.load(open(f"{PROJ}/timeline/words.json")); W = W.get("words", W)
-VO = 861.675; DUR = round(VO + 1.5, 3)
+import subprocess
+VO = float(subprocess.run(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",f"{PROJ}/input/voiceover.mp3"],capture_output=True,text=True).stdout); DUR = round(VO + 1.5, 3)
 
 def norm(w):
     w = re.sub(r"[ً-ْٰـ]", "", w)
