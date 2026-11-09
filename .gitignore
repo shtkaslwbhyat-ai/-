@@ -3,3 +3,4 @@ aitrends-2d-studio/projects/*/build/
 aitrends-2d-studio/projects/*/out/
 aitrends-2d-studio/vo_parts/
 __pycache__/
+aitrends-2d-studio/vo_single/
