@@ -1,0 +1,3388 @@
+{
+ "title": "ماذا لو كان كل يوم يُمحى من ذاكرتك لحظة تنام؟",
+ "duration": 394.068,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 3.65,
+   "line": "تفتح عينيك. السقف أبيض. الغرفة غرفتك...",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "KARIM",
+      "x": 0.19,
+      "pose": "lie",
+      "expr": [
+       [
+        0,
+        "sleepy"
+       ],
+       [
+        1.2,
+        "surprised"
+       ]
+      ],
+      "f": 1,
+      "y": 0.815,
+      "still": true,
+      "s": 1.3,
+      "rot": -1.5708
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s002",
+   "start": 3.65,
+   "end": 9.37,
+   "line": "لكن على المرآة ورقة صفراء بخط يدك. لا تخف. اقرأ هذا أولا.",
+   "scene": "insert notes",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "notes",
+    "notes": [
+     "لا تخف",
+     "اقرأ هذا أولا"
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s003",
+   "start": 9.37,
+   "end": 12.7,
+   "line": "تقترب. تحتها ورقة ثانية. اسمك كريم. عمرك ستة وعشرون عاما.",
+   "scene": "insert notes",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.9,
+     "name": "pop",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "notes",
+    "notes": [
+     "لا تخف",
+     "اقرأ هذا أولا",
+     "اسمك كريم",
+     "26 عاما"
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s004",
+   "start": 12.7,
+   "end": 15.61,
+   "line": "تقترب. تحتها ورقة ثانية. اسمك كريم. عمرك ستة وعشرون عاما.",
+   "scene": "insert notes",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "notes",
+    "notes": [
+     "لا تخف",
+     "اقرأ هذا أولا",
+     "اسمك كريم",
+     "26 عاما"
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s005",
+   "start": 15.61,
+   "end": 19.75,
+   "line": "واليوم هو اليوم المئة. تضحك. مزحة سخيفة.",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "KARIM",
+    "set": "bedroom",
+    "expr": [
+     [
+      0,
+      "confused"
+     ],
+     [
+      1.4,
+      "smirk"
+     ]
+    ],
+    "labels": [
+     {
+      "s": "اليوم 100",
+      "x": 0.5,
+      "y": 0.2,
+      "at": 0.2,
+      "box": true
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s006",
+   "start": 19.75,
+   "end": 24.1,
+   "line": "ثم ترى الدفتر الأزرق على الوسادة. مئة صفحة. بخطك أنت. وكل صفحة تبدأ بالجملة نفسها... لا تخف.",
+   "scene": "insert notebook",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "counter",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "notebook",
+    "pages": 100,
+    "head": "لا تخف"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s007",
+   "start": 24.1,
+   "end": 28.01,
+   "line": "ثم ترى الدفتر الأزرق على الوسادة. مئة صفحة. بخطك أنت. وكل صفحة تبدأ بالجملة نفسها... لا تخف.",
+   "scene": "insert notebook",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "notebook",
+    "pages": 100,
+    "head": "لا تخف",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s008",
+   "start": 28.01,
+   "end": 32.32,
+   "line": "في الليل لا ينام دماغك تماما. إنه يعيد تشغيل ما عشته في النهار... ويثبت المهم منه في ذاكرة أطول عمرا.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "الدماغ لا ينام",
+    "label": "يثبّت ذكريات اليوم",
+    "size": 100,
+    "at": 0.3,
+    "count": 3
+   },
+   "notes": ""
+  },
+  {
+   "id": "s009",
+   "start": 32.32,
+   "end": 36.37,
+   "line": "في الليل لا ينام دماغك تماما. إنه يعيد تشغيل ما عشته في النهار... ويثبت المهم منه في ذاكرة أطول عمرا.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "الدماغ لا ينام",
+    "label": "يثبّت ذكريات اليوم",
+    "size": 100,
+    "at": 0.3,
+    "count": 3,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s010",
+   "start": 36.37,
+   "end": 40.75,
+   "line": "ولجزء صغير في عمق الدماغ اسمه الحصين دور كبير في ذلك.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "الحُصين",
+    "label": "ذكريات اليوم تمر من هنا",
+    "size": 120,
+    "count": 2
+   },
+   "notes": ""
+  },
+  {
+   "id": "s011",
+   "start": 40.75,
+   "end": 44.6,
+   "line": "هكذا يصير يومك ذكرى. أما أنت؟ فكل ما عشته قبل الحادث باق. اسمك. أهلك. طفولتك.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "KARIM",
+    "expr": "thinking",
+    "labels": [
+     {
+      "s": "اسمك",
+      "x": 0.22,
+      "y": 0.25,
+      "at": 5.15
+     },
+     {
+      "s": "أهلك",
+      "x": 0.5,
+      "y": 0.18,
+      "at": 6.130000000000001
+     },
+     {
+      "s": "طفولتك",
+      "x": 0.78,
+      "y": 0.25,
+      "at": 6.83
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s012",
+   "start": 44.6,
+   "end": 48.53,
+   "line": "هكذا يصير يومك ذكرى. أما أنت؟ فكل ما عشته قبل الحادث باق. اسمك. أهلك. طفولتك.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "KARIM",
+    "expr": "thinking",
+    "labels": [
+     {
+      "s": "اسمك",
+      "x": 0.22,
+      "y": 0.25,
+      "at": 1.299999999999999
+     },
+     {
+      "s": "أهلك",
+      "x": 0.5,
+      "y": 0.18,
+      "at": 2.2799999999999994
+     },
+     {
+      "s": "طفولتك",
+      "x": 0.78,
+      "y": 0.25,
+      "at": 2.9799999999999986
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s013",
+   "start": 48.53,
+   "end": 52.17,
+   "line": "لكن كل يوم جديد... يمحى لحظة تنام.",
+   "scene": "freeze bedroom",
+   "set": "bedroom",
+   "bars": "scope",
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "freeze",
+     "gain": -6
+    }
+   ],
+   "params": {
+    "tpl": "freeze",
+    "set": "bedroom",
+    "who": "KARIM",
+    "expr": [
+     [
+      0,
+      "neutral"
+     ],
+     [
+      1.0,
+      "sad"
+     ]
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s014",
+   "start": 52.17,
+   "end": 59.57,
+   "line": "وهناك قاعدة واحدة. ما يحفظه عقلك يضيع. لكن ما تتعلمه يداك وقدماك... يبقى.",
+   "scene": "bigline bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "قاعدة واحدة",
+    "set": "bedroom",
+    "str2": "ما تتعلمه يداك وقدماك… يبقى",
+    "at2": 2.0
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s015",
+   "start": 59.57,
+   "end": 61.75,
+   "line": "فالذاكرة ليست في الرأس وحده.",
+   "scene": "bigline bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "الذاكرة ليست في الرأس وحده",
+    "set": "bedroom"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s016",
+   "start": 61.75,
+   "end": 64.49,
+   "line": "فماذا لو كان كل يوم يمحى من ذاكرتك لحظة تنام؟",
+   "scene": "title ",
+   "set": "",
+   "bars": "scope",
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "title",
+    "lines": [
+     "ماذا لو",
+     "كان كل يوم يُمحى من ذاكرتك؟"
+    ]
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s017",
+   "start": 64.49,
+   "end": 67.82,
+   "line": "تبدأ كل صباح بالدفتر. ثلاثون دقيقة من القراءة... قبل أن تعرف من أنت اليوم.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "KARIM",
+      "x": 0.45,
+      "pose": "holdFront",
+      "expr": "thinking",
+      "f": 1,
+      "prop": "paper",
+      "s": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "clock": [
+     7,
+     0
+    ],
+    "labels": [
+     {
+      "s": "30 دقيقة",
+      "x": 0.5,
+      "y": 0.2,
+      "box": true,
+      "at": 2.9899999999999998
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s018",
+   "start": 67.82,
+   "end": 71.37,
+   "line": "تبدأ كل صباح بالدفتر. ثلاثون دقيقة من القراءة... قبل أن تعرف من أنت اليوم.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "KARIM",
+      "x": 0.45,
+      "pose": "holdFront",
+      "expr": "thinking",
+      "f": 1,
+      "prop": "paper",
+      "s": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "clock": [
+     7,
+     0
+    ],
+    "labels": [
+     {
+      "s": "30 دقيقة",
+      "x": 0.5,
+      "y": 0.2,
+      "box": true,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s019",
+   "start": 71.37,
+   "end": 74.91,
+   "line": "صديقك سامر يحكي لك النكتة نفسها منذ شهرين.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "SAMER",
+      "x": 0.6,
+      "pose": "explain",
+      "expr": "happy",
+      "f": -1
+     },
+     {
+      "c": "KARIM",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "منذ شهرين",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 2.37
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s020",
+   "start": 74.91,
+   "end": 77.57,
+   "line": "وأنت تضحك كل مرة حتى تدمع عيناك.",
+   "scene": "face city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "KARIM",
+    "set": "city",
+    "expr": "joy",
+    "side": -0.2
+   },
+   "notes": ""
+  },
+  {
+   "id": "s021",
+   "start": 77.57,
+   "end": 79.65,
+   "line": "هو أسعد صديق في العالم.",
+   "scene": "face city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "SAMER",
+    "set": "city",
+    "expr": "joy",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s022",
+   "start": 79.65,
+   "end": 83.01,
+   "line": "تذهب إلى السوق بقائمة مكتوبة. تشتري الخبز.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "KARIM",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.3,
+       0.6
+      ]
+     }
+    ],
+    "so": {
+     "mood": "golden",
+     "market": true
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s023",
+   "start": 83.01,
+   "end": 86.83,
+   "line": "ثم تجد في المطبخ ثلاثة أرغفة اشتريتها في الصباح.",
+   "scene": "insert bread",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.65,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 1.0,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "bread"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s024",
+   "start": 86.83,
+   "end": 91.73,
+   "line": "فتضيف إلى الدفتر قاعدة جديدة. لا تشتر الخبز قبل أن تنظر في المطبخ.",
+   "scene": "insert notebook",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "notebook",
+    "pages": 40,
+    "head": "لا تشتر الخبز!"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s025",
+   "start": 91.73,
+   "end": 95.77,
+   "line": "فيلمك المفضل؟ شاهدته سبعا وعشرين مرة.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "KARIM",
+      "x": 0.4,
+      "pose": "sitBack",
+      "expr": "happy",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tv",
+      "x": 0.75
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "27 مرة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 2.4299999999999997
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s026",
+   "start": 95.77,
+   "end": 98.63,
+   "line": "وفي كل مرة... تفاجئك النهاية.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "KARIM",
+    "set": "home",
+    "expr": [
+     [
+      0,
+      "surprised"
+     ],
+     [
+      1.0,
+      "awe"
+     ]
+    ],
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s027",
+   "start": 98.63,
+   "end": 102.63,
+   "line": "وهناك ما هو أغرب. أمك تضع أمامك بيانو قديما.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "MOM",
+      "x": 0.6,
+      "pose": "point",
+      "expr": "smile",
+      "f": -1
+     },
+     {
+      "c": "KARIM",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": "confused",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s028",
+   "start": 102.63,
+   "end": 105.29,
+   "line": "في اليوم الأول لا تعرف أين تضع أصابعك.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "KARIM",
+    "set": "home",
+    "expr": "confused",
+    "side": -0.2,
+    "labels": [
+     {
+      "s": "اليوم 1",
+      "x": 0.5,
+      "y": 0.2,
+      "at": 0.1,
+      "box": true
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s029",
+   "start": 105.29,
+   "end": 108.8,
+   "line": "في اليوم الستين... تعزف لحنا كاملا. ولا تتذكر أنك تعلمته يوما.",
+   "scene": "insert piano",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "piano",
+    "labels": [
+     {
+      "s": "اليوم 60",
+      "x": 0.5,
+      "y": 0.12,
+      "at": 0.1,
+      "box": true
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s030",
+   "start": 108.8,
+   "end": 111.31,
+   "line": "في اليوم الستين... تعزف لحنا كاملا. ولا تتذكر أنك تعلمته يوما.",
+   "scene": "insert piano",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "piano",
+    "labels": [
+     {
+      "s": "اليوم 60",
+      "x": 0.5,
+      "y": 0.12,
+      "at": 0.05,
+      "box": true
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s031",
+   "start": 111.31,
+   "end": 112.65,
+   "line": "يداك تتذكران عنك.",
+   "scene": "bigline home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "يداك تتذكران عنك",
+    "set": "home"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s032",
+   "start": 112.65,
+   "end": 116.25,
+   "line": "والأجمل؟ أنت لا تحمل ضغينة لأحد.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "KARIM",
+      "x": 0.4,
+      "pose": "wave",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "c": "SAMER",
+      "x": 0.6,
+      "pose": "wave",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s033",
+   "start": 116.25,
+   "end": 121.17,
+   "line": "الخلاف الذي حدث أمس... لم يحدث أبدا بالنسبة إليك.",
+   "scene": "face city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "KARIM",
+    "set": "city",
+    "expr": "smile",
+    "side": -0.1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s034",
+   "start": 121.17,
+   "end": 123.13,
+   "line": "كل صباح صفحة بيضاء.",
+   "scene": "insert notebook",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "notebook",
+    "pages": 1,
+    "head": "صفحة بيضاء"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s035",
+   "start": 123.13,
+   "end": 126.03,
+   "line": "وفي العيادة يعطيك طبيبك اختبارا غريبا.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DOC",
+      "x": 0.62,
+      "pose": "explain",
+      "expr": "smile",
+      "f": -1
+     },
+     {
+      "c": "KARIM",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "hum",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s036",
+   "start": 126.03,
+   "end": 131.91,
+   "line": "ترسم نجمة وأنت لا ترى يدك إلا في مرآة. في اليوم الأول ترسمها في ست دقائق.",
+   "scene": "insert star",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "star",
+    "messy": true,
+    "timeLabel": "6 دقائق"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s037",
+   "start": 131.91,
+   "end": 134.93,
+   "line": "في اليوم العاشر... في دقيقة واحدة.",
+   "scene": "insert star",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.4,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "star",
+    "messy": false,
+    "timeLabel": "دقيقة واحدة"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s038",
+   "start": 134.93,
+   "end": 138.17,
+   "line": "وأنت تقسم أنك ترى هذا الاختبار لأول مرة.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "KARIM",
+    "set": "clinic",
+    "expr": "confused",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s039",
+   "start": 138.17,
+   "end": 143.51,
+   "line": "يقول لك طبيبك إن حالتك خيالية... لكنها تشبه حالات حقيقية.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DOC",
+      "x": 0.3,
+      "pose": "point",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "c": "KARIM",
+      "x": 0.7,
+      "pose": "stand",
+      "expr": "thinking",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s040",
+   "start": 143.51,
+   "end": 146.63,
+   "line": "أشخاص فقدوا القدرة على صنع ذكريات جديدة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "حالات حقيقية",
+    "label": "فقدوا القدرة على صنع ذكريات جديدة",
+    "size": 100
+   },
+   "notes": ""
+  },
+  {
+   "id": "s041",
+   "start": 146.63,
+   "end": 150.81,
+   "line": "ويريك رقما. ثلاثة آلاف ومئتا سطر في دفترك.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "counter",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "data",
+    "to": 3200,
+    "label": "سطر في دفترك",
+    "count": 1.6
+   },
+   "notes": ""
+  },
+  {
+   "id": "s042",
+   "start": 150.81,
+   "end": 153.89,
+   "line": "كلها لرجل لا تتذكره... هو أنت.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "KARIM",
+    "set": "clinic",
+    "expr": "sad",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s043",
+   "start": 153.89,
+   "end": 157.16,
+   "line": "لكن للصفحة البيضاء ثمنا. هناك امرأة في الصور. اسمها مريم. خطيبتك.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "KARIM",
+    "expr": "worried",
+    "cards": [
+     "مريم"
+    ],
+    "cardsX": [
+     0.72
+    ],
+    "cardsY": [
+     0.3
+    ],
+    "gap": 1.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s044",
+   "start": 157.16,
+   "end": 160.25,
+   "line": "لكن للصفحة البيضاء ثمنا. هناك امرأة في الصور. اسمها مريم. خطيبتك.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "KARIM",
+    "expr": "worried",
+    "cards": [
+     "مريم"
+    ],
+    "cardsX": [
+     0.72
+    ],
+    "cardsY": [
+     0.3
+    ],
+    "gap": 1.0,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s045",
+   "start": 160.25,
+   "end": 164.35,
+   "line": "كل صباح تطرق الباب... وتعرفك بنفسها من جديد.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "MARYAM",
+      "x": 0.6,
+      "pose": [
+       [
+        0,
+        "stand"
+       ],
+       [
+        0.8,
+        "wave"
+       ]
+      ],
+      "expr": "smile",
+      "f": -1
+     },
+     {
+      "c": "KARIM",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": "confused",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "خطيبتك",
+      "x": 0.6,
+      "y": 0.2,
+      "box": true,
+      "at": 0.1
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s046",
+   "start": 164.35,
+   "end": 166.79,
+   "line": "تبتسم لك كأن الأمر سهل.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "MARYAM",
+    "set": "home",
+    "expr": "smile",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s047",
+   "start": 166.79,
+   "end": 169.52,
+   "line": "وفي الصفحة السبعين كتبت سطرا واحدا. رأيتها تبكي في المطبخ حين ظنت أني لا أراها.",
+   "scene": "insert notebook",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "notebook",
+    "pages": 70,
+    "head": "رأيتها تبكي"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s048",
+   "start": 169.52,
+   "end": 172.83,
+   "line": "وفي الصفحة السبعين كتبت سطرا واحدا. رأيتها تبكي في المطبخ حين ظنت أني لا أراها.",
+   "scene": "insert notebook",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "notebook",
+    "pages": 70,
+    "head": "رأيتها تبكي",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s049",
+   "start": 172.83,
+   "end": 176.23,
+   "line": "أنت لا تكبر معها. كل يوم هو اليوم الأول.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "MARYAM",
+      "x": 0.66,
+      "pose": "sad",
+      "expr": "sad",
+      "f": -1
+     },
+     {
+      "c": "KARIM",
+      "x": 0.3,
+      "pose": "stand",
+      "expr": "sad",
+      "f": 1
+     }
+    ],
+    "so": {
+     "night": true,
+     "sky": "night"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s050",
+   "start": 176.23,
+   "end": 179.92,
+   "line": "صرت تسجل لنفسك مقطعا كل ليلة. وجهك يقول لوجهك... كان يوما جميلا. ثق بي.",
+   "scene": "insert selfvideo",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "selfvideo"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s051",
+   "start": 179.92,
+   "end": 183.29,
+   "line": "صرت تسجل لنفسك مقطعا كل ليلة. وجهك يقول لوجهك... كان يوما جميلا. ثق بي.",
+   "scene": "insert selfvideo",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "selfvideo",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s052",
+   "start": 183.29,
+   "end": 188.03,
+   "line": "لكنك في الصباح تنظر إلى الشاشة... كأنك تنظر إلى غريب يشبهك.",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "KARIM",
+    "set": "bedroom",
+    "expr": "confused",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s053",
+   "start": 188.03,
+   "end": 191.83,
+   "line": "فكيف تعد امرأة بالغد... وأنت لا تملك أمس؟",
+   "scene": "bigline home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "كيف تعد بالغد… وأنت لا تملك أمس؟",
+    "set": "home",
+    "coral": true
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s054",
+   "start": 191.83,
+   "end": 196.29,
+   "line": "لكن مريم لا تستسلم. كل مساء تأخذك في الطريق نفسه إلى البحر.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "MARYAM",
+      "x": 0.45,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.3,
+       0.55
+      ]
+     },
+     {
+      "c": "KARIM",
+      "x": 0.35,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.2,
+       0.45
+      ]
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "city",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s055",
+   "start": 196.29,
+   "end": 199.87,
+   "line": "شارع المخبز. ثم الجسر الصغير.",
+   "scene": "stage bakery",
+   "set": "bakery",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bakery",
+    "chars": [
+     {
+      "c": "MARYAM",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.35,
+       0.6
+      ]
+     },
+     {
+      "c": "KARIM",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.25,
+       0.5
+      ]
+     }
+    ],
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    },
+    "labels": [
+     {
+      "s": "شارع المخبز",
+      "x": 0.5,
+      "y": 0.2,
+      "at": 0.1,
+      "box": true
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s056",
+   "start": 199.87,
+   "end": 201.57,
+   "line": "ثم الدرج الحجري.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "MARYAM",
+      "x": 0.55,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "c": "KARIM",
+      "x": 0.42,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     }
+    ],
+    "so": {
+     "outside": true
+    },
+    "props": [
+     {
+      "k": "sand"
+     },
+     {
+      "k": "stairs",
+      "x": 0.3
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s057",
+   "start": 201.57,
+   "end": 203.85,
+   "line": "ثم الصخرة الكبيرة عند الماء.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "MARYAM",
+      "x": 0.62,
+      "pose": "stand",
+      "expr": "happy",
+      "f": -1
+     },
+     {
+      "c": "KARIM",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1
+     }
+    ],
+    "so": {
+     "outside": true
+    },
+    "props": [
+     {
+      "k": "sand"
+     },
+     {
+      "k": "rock",
+      "x": 0.5
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "bars": "scope"
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s058",
+   "start": 203.85,
+   "end": 207.97,
+   "line": "هناك تجلسان. وتحكي لك كيف التقيتما أول مرة.",
+   "scene": "face seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "MARYAM",
+    "set": "seacafe",
+    "expr": "happy",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s059",
+   "start": 207.97,
+   "end": 210.85,
+   "line": "في محطة الحافلات. تحت المطر.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "MARYAM",
+      "x": 0.58,
+      "pose": "stand",
+      "expr": "smile",
+      "f": -1
+     },
+     {
+      "c": "KARIM",
+      "x": 0.42,
+      "pose": "stand",
+      "expr": "awe",
+      "f": 1
+     }
+    ],
+    "so": {
+     "mood": "storm"
+    },
+    "rain": true,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s060",
+   "start": 210.85,
+   "end": 216.55,
+   "line": "وأنت تسمع القصة كأنها فيلم جديد. وتقع في حبها من جديد... كل مساء.",
+   "scene": "face seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "KARIM",
+    "set": "seacafe",
+    "expr": "awe",
+    "side": -0.2
+   },
+   "notes": ""
+  },
+  {
+   "id": "s061",
+   "start": 216.55,
+   "end": 221.67,
+   "line": "وهناك تقول لك كل مرة... أنت لا تتذكرني... لكنك تجدني دائما.",
+   "scene": "face seacafe",
+   "set": "seacafe",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "MARYAM",
+    "set": "seacafe",
+    "expr": "smile",
+    "side": 0.3,
+    "rimSide": 1,
+    "talk": [
+     2.25,
+     5.27
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s062",
+   "start": 221.67,
+   "end": 227.03,
+   "line": "مئة مساء على الطريق نفسه. وأنت لا تتذكر خطوة واحدة منه.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "100 مساء",
+    "label": "على الطريق نفسه",
+    "size": 130
+   },
+   "notes": ""
+  },
+  {
+   "id": "s063",
+   "start": 227.03,
+   "end": 229.57,
+   "line": "لكن قدميك تمشيانه كل يوم.",
+   "scene": "stage bakery",
+   "set": "bakery",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bakery",
+    "chars": [
+     {
+      "c": "KARIM",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.3,
+       0.6
+      ]
+     }
+    ],
+    "cam": {
+     "z0": 1.3,
+     "z1": 1.38,
+     "x0": 0,
+     "x1": -30,
+     "y0": 180,
+     "y1": 185
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s064",
+   "start": 229.57,
+   "end": 232.15,
+   "line": "ثم يأتي اليوم الواحد بعد المئة.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "KARIM",
+      "x": 0.5,
+      "pose": "relaxed",
+      "expr": "neutral",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "اليوم 101",
+      "x": 0.5,
+      "y": 0.18,
+      "at": 0.2,
+      "box": true
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s065",
+   "start": 232.15,
+   "end": 235.07,
+   "line": "يرن هاتفك. صوت مريم يرتجف.",
+   "scene": "insert phonering",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "phonering",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "phonering",
+    "caller": "مريم",
+    "callerColor": "#e8735a"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s066",
+   "start": 235.07,
+   "end": 239.43,
+   "line": "أخوها يونس. ثماني سنوات. ضاع على الشاطئ...",
+   "scene": "face seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOUNES",
+    "set": "seacafe",
+    "expr": "scared",
+    "side": 0.2,
+    "rimSide": 1,
+    "labels": [
+     {
+      "s": "8 سنوات",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.93
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s067",
+   "start": 239.43,
+   "end": 241.97,
+   "line": "وهي عالقة في المستشفى مع أبيها.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "MARYAM",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "scared",
+      "f": 1,
+      "prop": "phone",
+      "s": 1.7
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s068",
+   "start": 241.97,
+   "end": 245.89,
+   "line": "أنت الأقرب إلى البحر. الشمس تغيب بعد عشرين دقيقة.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [],
+    "so": {
+     "outside": true,
+     "sunset": 0.4
+    },
+    "props": [
+     {
+      "k": "sand"
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    },
+    "labels": [
+     {
+      "s": "20 دقيقة",
+      "x": 0.5,
+      "y": 0.2,
+      "coral": true,
+      "box": true,
+      "at": 2.71
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "wind",
+    "gain": -22
+   }
+  },
+  {
+   "id": "s069",
+   "start": 245.89,
+   "end": 250.39,
+   "line": "ثم ينطفئ الهاتف. لا خريطة. لا طريق تعرفه.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "glitch",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "KARIM",
+    "set": "home",
+    "expr": [
+     [
+      0,
+      "worried"
+     ],
+     [
+      0.8,
+      "shocked"
+     ]
+    ],
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s070",
+   "start": 250.39,
+   "end": 254.01,
+   "line": "والشاطئ طويل. كيلومتران من الرمل والصخور.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "2 كم",
+    "label": "من الرمل والصخور",
+    "size": 150,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s071",
+   "start": 254.01,
+   "end": 259.45,
+   "line": "تفتح الدفتر. الطريق مكتوب في مكان ما... بين ثلاثة آلاف سطر.",
+   "scene": "insert notebook",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "heartbeat",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "notebook",
+    "pages": 3200,
+    "head": "أين الطريق؟"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s072",
+   "start": 259.45,
+   "end": 263.66,
+   "line": "صفحة اليوم الثالث. صفحة اليوم العشرين. صفحة اليوم الستين. لا شيء عن الطريق. خمس دقائق تضيع.",
+   "scene": "insert notebook",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "clock",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "notebook",
+    "pages": 60,
+    "head": "لا شيء عن الطريق"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s073",
+   "start": 263.66,
+   "end": 267.85,
+   "line": "صفحة اليوم الثالث. صفحة اليوم العشرين. صفحة اليوم الستين. لا شيء عن الطريق. خمس دقائق تضيع.",
+   "scene": "insert notebook",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "notebook",
+    "pages": 60,
+    "head": "لا شيء عن الطريق",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s074",
+   "start": 267.85,
+   "end": 270.75,
+   "line": "وهنا تفهم. أمامك طريقان.",
+   "scene": "bigline home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "أمامك طريقان",
+    "set": "home"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s075",
+   "start": 270.75,
+   "end": 273.61,
+   "line": "إما أن تبحث في ذاكرة مكتوبة لا تنتهي...",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "KARIM",
+    "pose": "handsOnHead",
+    "expr": "scared",
+    "n": 80,
+    "speed": 3,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.25,
+     "x0": 0,
+     "x1": 0,
+     "shake": 4
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s076",
+   "start": 273.61,
+   "end": 276.98,
+   "line": "وإما أن تغلق الدفتر... وتثق بما لا يمحى.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "KARIM",
+    "set": "home",
+    "expr": "determined",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s077",
+   "start": 276.98,
+   "end": 281.39,
+   "line": "تغلق الدفتر. تخرج. وتترك قدميك تمشيان.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "footstep",
+     "gain": -14
+    },
+    {
+     "at": 0.9,
+     "name": "footstep",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "KARIM",
+      "x": 0.3,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.15,
+       0.8
+      ],
+      "run": true
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s078",
+   "start": 281.39,
+   "end": 285.15,
+   "line": "شارع المخبز. قدماك تنعطفان وحدهما.",
+   "scene": "stage bakery",
+   "set": "bakery",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bakery",
+    "chars": [
+     {
+      "c": "KARIM",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.2,
+       0.7
+      ],
+      "run": true
+     }
+    ],
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    },
+    "labels": [
+     {
+      "s": "شارع المخبز",
+      "x": 0.5,
+      "y": 0.2,
+      "at": 0.1,
+      "box": true
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s079",
+   "start": 285.15,
+   "end": 289.603,
+   "line": "الجسر الصغير. لا تعرف لماذا تعرفه... لكنك تعرفه.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "KARIM",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.25,
+       0.7
+      ]
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "props": [
+     {
+      "k": "bridge",
+      "x": 0.5
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s080",
+   "start": 289.603,
+   "end": 293.51,
+   "line": "الدرج الحجري. تعد الدرجات دون أن تفكر.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "KARIM",
+      "x": 0.35,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.2,
+       0.5
+      ]
+     }
+    ],
+    "so": {
+     "outside": true
+    },
+    "props": [
+     {
+      "k": "sand"
+     },
+     {
+      "k": "stairs",
+      "x": 0.35
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s081",
+   "start": 293.51,
+   "end": 298.05,
+   "line": "وهناك... عند الصخرة الكبيرة... يجلس ولد صغير يبكي.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "YOUNES",
+      "x": 0.56,
+      "pose": "sad",
+      "expr": "cry",
+      "f": -1
+     }
+    ],
+    "so": {
+     "outside": true,
+     "sunset": 0.6
+    },
+    "props": [
+     {
+      "k": "sand"
+     },
+     {
+      "k": "rock",
+      "x": 0.62
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "bars": "scope"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s082",
+   "start": 298.05,
+   "end": 303.23,
+   "line": "يرفع رأسه ويقول... أختي تأتي إلى هنا كل يوم. فانتظرتها.",
+   "scene": "face seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOUNES",
+    "set": "seacafe",
+    "expr": "sad",
+    "side": 0.2,
+    "rimSide": 1,
+    "talk": [
+     1.49,
+     4.93
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s083",
+   "start": 303.23,
+   "end": 308.47,
+   "line": "تجلس بجانبه. يضع يده الصغيرة في يدك. والشمس تغرق في الماء.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "KARIM",
+      "x": 0.44,
+      "pose": "kneel",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "c": "YOUNES",
+      "x": 0.54,
+      "pose": "stand",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "so": {
+     "outside": true,
+     "sunset": 0.8
+    },
+    "props": [
+     {
+      "k": "sand"
+     },
+     {
+      "k": "rock",
+      "x": 0.7
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s084",
+   "start": 308.47,
+   "end": 312.71,
+   "line": "وبعد نصف ساعة تركض نحوكما امرأة. لا تعرف وجهها.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "MARYAM",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.85,
+       0.6
+      ],
+      "run": true
+     },
+     {
+      "c": "KARIM",
+      "x": 0.3,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "c": "YOUNES",
+      "x": 0.38,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1
+     }
+    ],
+    "so": {
+     "outside": true,
+     "sunset": 0.9
+    },
+    "props": [
+     {
+      "k": "sand"
+     }
+    ],
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s085",
+   "start": 312.71,
+   "end": 317.27,
+   "line": "لكن يدك تمتد إلى يدها... كأنها فعلت ذلك مئة مرة.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "KARIM",
+      "x": 0.43,
+      "pose": "reach",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.9
+     },
+     {
+      "c": "MARYAM",
+      "x": 0.57,
+      "pose": "reach",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.9
+     }
+    ],
+    "so": {
+     "outside": true,
+     "sunset": 1.0
+    },
+    "props": [
+     {
+      "k": "sand"
+     }
+    ],
+    "cam": {
+     "z0": 1.08,
+     "z1": 1.16,
+     "x0": 0,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s086",
+   "start": 317.27,
+   "end": 324.41,
+   "line": "تبتسم مريم والدموع في عينيها. ألم أقل لك؟ أنت لا تتذكرني... لكنك تجدني دائما.",
+   "scene": "face seacafe",
+   "set": "seacafe",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "MARYAM",
+    "set": "seacafe",
+    "expr": "joy",
+    "side": 0.3,
+    "rimSide": 1,
+    "tear": 0.4,
+    "talk": [
+     3.77,
+     6.77
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s087",
+   "start": 324.41,
+   "end": 327.44,
+   "line": "وفي تلك الليلة... تكتب ورقة جديدة على المرآة. لا تخف. أنت لست وحدك.",
+   "scene": "insert notes",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "notes",
+    "notes": [
+     "لا تخف",
+     "أنت لست وحدك"
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s088",
+   "start": 327.44,
+   "end": 330.67,
+   "line": "وفي تلك الليلة... تكتب ورقة جديدة على المرآة. لا تخف. أنت لست وحدك.",
+   "scene": "insert notes",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "notes",
+    "notes": [
+     "لا تخف",
+     "أنت لست وحدك"
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s089",
+   "start": 330.67,
+   "end": 333.17,
+   "line": "فالذاكرة ليست في الرأس وحده. فما",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "KARIM",
+    "set": "bedroom",
+    "expr": "smile",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "الذاكرة ليست في الرأس وحده",
+      "x": 0.5,
+      "y": 0.22,
+      "at": 0.2
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s090",
+   "start": 333.17,
+   "end": 334.93,
+   "line": "الحقيقي في هذه القصة؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "ما الحقيقي في هذه القصة؟",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s091",
+   "start": 334.93,
+   "end": 338.71,
+   "line": "فقدان القدرة على صنع ذكريات جديدة حالة حقيقية.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "حالة حقيقية",
+    "label": "فقدان القدرة على صنع ذكريات جديدة",
+    "size": 110
+   },
+   "notes": ""
+  },
+  {
+   "id": "s092",
+   "start": 338.71,
+   "end": 342.54,
+   "line": "أشهر مثال عليها رجل عرف باسم هنري موليسون. بعد جراحة في دماغه عام 1953... لم يعد قادرا على حفظ ذكريات جديدة طويلة الأمد.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "هنري موليسون",
+    "label": "جراحة في الدماغ عام 1953",
+    "size": 110
+   },
+   "notes": ""
+  },
+  {
+   "id": "s093",
+   "start": 342.54,
+   "end": 346.22,
+   "line": "أشهر مثال عليها رجل عرف باسم هنري موليسون. بعد جراحة في دماغه عام 1953... لم يعد قادرا على حفظ ذكريات جديدة طويلة الأمد.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "هنري موليسون",
+    "label": "جراحة في الدماغ عام 1953",
+    "size": 110,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s094",
+   "start": 346.22,
+   "end": 349.75,
+   "line": "أشهر مثال عليها رجل عرف باسم هنري موليسون. بعد جراحة في دماغه عام 1953... لم يعد قادرا على حفظ ذكريات جديدة طويلة الأمد.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "هنري موليسون",
+    "label": "جراحة في الدماغ عام 1953",
+    "size": 110,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s095",
+   "start": 349.75,
+   "end": 353.4,
+   "line": "ومع ذلك تعلم مهارة رسم صعبة... وتحسن فيها يوما بعد يوم... دون أن يتذكر أنه تدرب عليها.",
+   "scene": "insert star",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "star",
+    "messy": false,
+    "timeLabel": "يتحسن كل يوم"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s096",
+   "start": 353.4,
+   "end": 357.17,
+   "line": "ومع ذلك تعلم مهارة رسم صعبة... وتحسن فيها يوما بعد يوم... دون أن يتذكر أنه تدرب عليها.",
+   "scene": "insert star",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "star",
+    "messy": false,
+    "timeLabel": "يتحسن كل يوم",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s097",
+   "start": 357.17,
+   "end": 360.14,
+   "line": "والعازف البريطاني كلايف ويرينغ فقد ذاكرته عام 1985 بسبب عدوى أصابت دماغه...",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "كلايف ويرينغ",
+    "label": "فقد ذاكرته عام 1985",
+    "size": 110
+   },
+   "notes": ""
+  },
+  {
+   "id": "s098",
+   "start": 360.14,
+   "end": 363.87,
+   "line": "والعازف البريطاني كلايف ويرينغ فقد ذاكرته عام 1985 بسبب عدوى أصابت دماغه...",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "كلايف ويرينغ",
+    "label": "فقد ذاكرته عام 1985",
+    "size": 110,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s099",
+   "start": 363.87,
+   "end": 368.83,
+   "line": "لكنه ظل يعزف... وظل يستقبل زوجته بفرح كبير كلما رآها.",
+   "scene": "insert piano",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "piano"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s100",
+   "start": 368.83,
+   "end": 372.95,
+   "line": "أما أن تمحى الذاكرة بالضبط لحظة النوم؟ فهذا خيال.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "خيال",
+    "label": "المحو لحظة النوم",
+    "size": 150,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s101",
+   "start": 372.95,
+   "end": 376.02,
+   "line": "لكن دور النوم في تثبيت الذكريات حقيقي... وما زال العلماء يبحثون كيف يحدث ذلك بالضبط.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "النوم",
+    "label": "يثبّت الذكريات… والبحث مستمر",
+    "size": 110,
+    "count": 3
+   },
+   "notes": ""
+  },
+  {
+   "id": "s102",
+   "start": 376.02,
+   "end": 379.37,
+   "line": "لكن دور النوم في تثبيت الذكريات حقيقي... وما زال العلماء يبحثون كيف يحدث ذلك بالضبط.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "النوم",
+    "label": "يثبّت الذكريات… والبحث مستمر",
+    "size": 110,
+    "count": 3,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s103",
+   "start": 379.37,
+   "end": 383.87,
+   "line": "وفي الحلقة القادمة... ماذا لو كان ذكاؤك أعلى بعشرة أضعاف؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "ماذا لو كان ذكاؤك أعلى بعشرة أضعاف؟",
+    "set": "archive",
+    "str2": "الحلقة القادمة",
+    "at2": 0.8
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s104",
+   "start": 383.87,
+   "end": 394.068,
+   "line": "ما رأيك؟ أخبرنا في التعليقات... وأخبرنا أي قدرة نجربها بعد ذلك. اضغط زر الإعجاب... واشترك للمزيد.",
+   "scene": "endscreen ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "endscreen",
+    "q": "ما رأيك؟ أخبرنا في التعليقات",
+    "cast": [
+     "YOUNES",
+     "MARYAM",
+     "KARIM",
+     "SAMER",
+     "MOM",
+     "DOC"
+    ]
+   },
+   "notes": "",
+   "captions": false
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 61.75,
+   "mood": "playful",
+   "intensity": 0.35
+  },
+  {
+   "start": 61.75,
+   "end": 69.75,
+   "mood": "wonder",
+   "intensity": 0.4
+  },
+  {
+   "start": 69.75,
+   "end": 153.89,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 153.89,
+   "end": 191.83,
+   "mood": "sad",
+   "intensity": 0.35
+  },
+  {
+   "start": 191.83,
+   "end": 229.57,
+   "mood": "hopeful",
+   "intensity": 0.35
+  },
+  {
+   "start": 229.57,
+   "end": 293.51,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 293.51,
+   "end": 333.17,
+   "mood": "hopeful",
+   "intensity": 0.35
+  },
+  {
+   "start": 333.17,
+   "end": 394.068,
+   "mood": "calm",
+   "intensity": 0.3
+  }
+ ],
+ "sfx": []
+}
