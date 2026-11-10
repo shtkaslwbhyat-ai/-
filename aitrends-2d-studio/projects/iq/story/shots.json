@@ -1,0 +1,4284 @@
+{
+ "title": "ماذا لو كان ذكاؤك أعلى بعشرة أضعاف؟",
+ "duration": 492.027,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 1.39,
+   "line": "الفطور لم يبدأ بعد.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.4,
+      "pose": "sit",
+      "expr": "smirk",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "MOM",
+      "x": 0.65,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "props": [
+     {
+      "k": "table",
+      "x": 0.52,
+      "plate": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s002",
+   "start": 1.39,
+   "end": 5.55,
+   "line": "وأنت حللت مكعب روبيك في ثلاث ثوان. بيد واحدة.",
+   "scene": "insert cube",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "swish",
+     "gain": -10
+    },
+    {
+     "at": 1.6,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "cube"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s003",
+   "start": 5.55,
+   "end": 10.1,
+   "line": "أمك تسألك عن واجب الرياضيات. تجيب قبل أن تكمل السؤال. انتهيت منه أمس... ومن كتاب السنة القادمة أيضا.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "MOM",
+      "x": 0.62,
+      "pose": "talk",
+      "expr": "neutral",
+      "f": -1
+     },
+     {
+      "c": "SALIM",
+      "x": 0.38,
+      "pose": "explain",
+      "expr": "smirk",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "انتهيت منه أمس",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 4.57
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s004",
+   "start": 10.1,
+   "end": 14.35,
+   "line": "أمك تسألك عن واجب الرياضيات. تجيب قبل أن تكمل السؤال. انتهيت منه أمس... ومن كتاب السنة القادمة أيضا.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "MOM",
+      "x": 0.62,
+      "pose": "talk",
+      "expr": "neutral",
+      "f": -1
+     },
+     {
+      "c": "SALIM",
+      "x": 0.38,
+      "pose": "explain",
+      "expr": "smirk",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "انتهيت منه أمس",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s005",
+   "start": 14.35,
+   "end": 18.74,
+   "line": "المذيع في التلفاز يخطئ في رقم. تصححه له بصوت عال. هو لا يسمعك. لكن أباك يسمعك... ويتنهد.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.35,
+      "pose": "point",
+      "expr": "determined",
+      "f": 1
+     },
+     {
+      "c": "DAD",
+      "x": 0.55,
+      "pose": "sitBack",
+      "expr": "sad",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tv",
+      "x": 0.82
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s006",
+   "start": 18.74,
+   "end": 23.03,
+   "line": "المذيع في التلفاز يخطئ في رقم. تصححه له بصوت عال. هو لا يسمعك. لكن أباك يسمعك... ويتنهد.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.35,
+      "pose": "point",
+      "expr": "determined",
+      "f": 1
+     },
+     {
+      "c": "DAD",
+      "x": 0.55,
+      "pose": "sitBack",
+      "expr": "sad",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "props": [
+     {
+      "k": "tv",
+      "x": 0.82
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s007",
+   "start": 23.03,
+   "end": 27.2,
+   "line": "تنظر من النافذة. تحسب سرعة كل سيارة تمر في الشارع... وتعرف متى تتحول الإشارة إلى الأخضر قبل أن تتحول.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "thinking",
+      "f": 1,
+      "s": 1.2
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    },
+    "labels": [
+     {
+      "s": "62 كم/س",
+      "x": 0.25,
+      "y": 0.3,
+      "at": 0.5,
+      "cream": true
+     },
+     {
+      "s": "48 كم/س",
+      "x": 0.75,
+      "y": 0.35,
+      "at": 1.0,
+      "cream": true
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s008",
+   "start": 27.2,
+   "end": 31.23,
+   "line": "تنظر من النافذة. تحسب سرعة كل سيارة تمر في الشارع... وتعرف متى تتحول الإشارة إلى الأخضر قبل أن تتحول.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "thinking",
+      "f": 1,
+      "s": 1.2
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "62 كم/س",
+      "x": 0.25,
+      "y": 0.3,
+      "at": 0.05,
+      "cream": true
+     },
+     {
+      "s": "48 كم/س",
+      "x": 0.75,
+      "y": 0.35,
+      "at": 0.05,
+      "cream": true
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s009",
+   "start": 31.23,
+   "end": 34.2,
+   "line": "ثم تدخل أختك الصغيرة نور. وجهها غاضب. وتغلق الباب بقوة.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.5,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "NOUR",
+      "x": 0.6,
+      "pose": "crossArms",
+      "expr": "angry",
+      "f": -1,
+      "s": 1.7
+     },
+     {
+      "c": "SALIM",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": "confused",
+      "f": 1,
+      "s": 1.7
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s010",
+   "start": 34.2,
+   "end": 36.91,
+   "line": "ثم تدخل أختك الصغيرة نور. وجهها غاضب. وتغلق الباب بقوة.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "NOUR",
+      "x": 0.6,
+      "pose": "crossArms",
+      "expr": "angry",
+      "f": -1,
+      "s": 1.7
+     },
+     {
+      "c": "SALIM",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": "confused",
+      "f": 1,
+      "s": 1.7
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s011",
+   "start": 36.91,
+   "end": 41.23,
+   "line": "وأنت؟ أذكى إنسان في المدينة... ولا تعرف لماذا.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "SALIM",
+    "set": "home",
+    "expr": "confused",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s012",
+   "start": 41.23,
+   "end": 45.84,
+   "line": "معظم الناس تقع درجاتهم في اختبارات الذكاء قريبا من مئة. هذا هو المتوسط. ونحو اثنين فقط من كل مئة شخص يتجاوزون مئة وثلاثين.",
+   "scene": "insert iqcurve",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "iqcurve"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s013",
+   "start": 45.84,
+   "end": 50.95,
+   "line": "معظم الناس تقع درجاتهم في اختبارات الذكاء قريبا من مئة. هذا هو المتوسط. ونحو اثنين فقط من كل مئة شخص يتجاوزون مئة وثلاثين.",
+   "scene": "insert iqcurve",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "iqcurve",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s014",
+   "start": 50.95,
+   "end": 54.43,
+   "line": "وأنت؟ عقلك أسرع من عقولهم بعشرة أضعاف.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "10×",
+    "label": "أسرع من الجميع",
+    "size": 170,
+    "count": 2
+   },
+   "notes": ""
+  },
+  {
+   "id": "s015",
+   "start": 54.43,
+   "end": 58.45,
+   "line": "تقرأ الكتاب في ساعة. وتفهمه أفضل من كاتبه.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.45,
+      "pose": "holdFront",
+      "expr": "smirk",
+      "f": 1,
+      "prop": "paper",
+      "s": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "ساعة واحدة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 1.3099999999999998
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s016",
+   "start": 58.45,
+   "end": 64.95,
+   "line": "لكن لهذه القوة قاعدة واحدة. الذكاء يسرع التفكير... ولا يسرع المشاعر.",
+   "scene": "bigline home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "قاعدة واحدة",
+    "set": "home",
+    "str2": "الذكاء يسرّع التفكير… ولا يسرّع المشاعر",
+    "at2": 2.0
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s017",
+   "start": 64.95,
+   "end": 67.73,
+   "line": "الحزن يحتاج وقته. والفرح يحتاج وقته. ولا معادلة تختصر ذلك.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "SALIM",
+    "expr": "thinking",
+    "labels": [
+     {
+      "s": "الحزن يحتاج وقته",
+      "x": 0.3,
+      "y": 0.25,
+      "at": 0.1
+     },
+     {
+      "s": "الفرح يحتاج وقته",
+      "x": 0.7,
+      "y": 0.25,
+      "at": 1.67
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s018",
+   "start": 67.73,
+   "end": 70.41,
+   "line": "الحزن يحتاج وقته. والفرح يحتاج وقته. ولا معادلة تختصر ذلك.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "SALIM",
+    "expr": "thinking",
+    "labels": [
+     {
+      "s": "الحزن يحتاج وقته",
+      "x": 0.3,
+      "y": 0.25,
+      "at": 0.05
+     },
+     {
+      "s": "الفرح يحتاج وقته",
+      "x": 0.7,
+      "y": 0.25,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s019",
+   "start": 70.41,
+   "end": 73.63,
+   "line": "اسمك سليم. عمرك أربعة عشر عاما.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.5,
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.8
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "سليم",
+      "x": 0.5,
+      "y": 0.2,
+      "size": 90,
+      "at": 0.41000000000000003
+     },
+     {
+      "s": "14 عاما",
+      "x": 0.5,
+      "y": 0.32,
+      "cream": true,
+      "at": 1.3699999999999999
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s020",
+   "start": 73.63,
+   "end": 77.63,
+   "line": "وستتعلم يوما أن أذكى إجابة... أحيانا أن تصمت.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "SALIM",
+    "set": "home",
+    "expr": "neutral",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "أذكى إجابة… أحيانا أن تصمت",
+      "x": 0.5,
+      "y": 0.2,
+      "at": 1.3699999999999999
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s021",
+   "start": 77.63,
+   "end": 80.53,
+   "line": "فماذا لو كان ذكاؤك أعلى بعشرة أضعاف؟",
+   "scene": "title ",
+   "set": "",
+   "bars": "scope",
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "title",
+    "lines": [
+     "ماذا لو",
+     "كان ذكاؤك أعلى بعشرة أضعاف؟"
+    ]
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s022",
+   "start": 80.53,
+   "end": 84.49,
+   "line": "تبدأ بالمدرسة. امتحان الفيزياء مدته ساعتان.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.6,
+      "pose": "holdFront",
+      "expr": "smirk",
+      "f": -1,
+      "prop": "paper"
+     },
+     {
+      "c": "TEACHER",
+      "x": 0.3,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s023",
+   "start": 84.49,
+   "end": 87.28,
+   "line": "تسلم الورقة بعد سبع دقائق. وفي آخرها سؤال إضافي كتبته أنت للمعلم.",
+   "scene": "insert exam",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "tick",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "exam"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s024",
+   "start": 87.28,
+   "end": 90.33,
+   "line": "تسلم الورقة بعد سبع دقائق. وفي آخرها سؤال إضافي كتبته أنت للمعلم.",
+   "scene": "insert exam",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "exam",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s025",
+   "start": 90.33,
+   "end": 92.39,
+   "line": "هو لم يحله حتى الآن.",
+   "scene": "face classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "TEACHER",
+    "set": "classroom",
+    "expr": "confused",
+    "side": -0.2
+   },
+   "notes": ""
+  },
+  {
+   "id": "s026",
+   "start": 92.39,
+   "end": 95.78,
+   "line": "في الشهر الثالث تنتقل إلى الجامعة. أصغر طالب في تاريخها. الطلاب يظنونك ابن أحد الأساتذة.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.2
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.3,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.72,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1,
+      "s": 1.4
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "أصغر طالب جامعي",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 2.4899999999999998
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s027",
+   "start": 95.78,
+   "end": 99.69,
+   "line": "في الشهر الثالث تنتقل إلى الجامعة. أصغر طالب في تاريخها. الطلاب يظنونك ابن أحد الأساتذة.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.2
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.3,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.72,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1,
+      "s": 1.4
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "أصغر طالب جامعي",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s028",
+   "start": 99.69,
+   "end": 104.66,
+   "line": "يأخذك أبوك إلى مركز للأبحاث. يعطونك اختبار ذكاء. تنهيه في ربع الوقت. فيعيدونه مرتين... لأنهم يظنون أن الجهاز معطل.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DOC",
+      "x": 0.62,
+      "pose": "think",
+      "expr": "shocked",
+      "f": -1
+     },
+     {
+      "c": "SALIM",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s029",
+   "start": 104.66,
+   "end": 109.91,
+   "line": "يأخذك أبوك إلى مركز للأبحاث. يعطونك اختبار ذكاء. تنهيه في ربع الوقت. فيعيدونه مرتين... لأنهم يظنون أن الجهاز معطل.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DOC",
+      "x": 0.62,
+      "pose": "think",
+      "expr": "shocked",
+      "f": -1
+     },
+     {
+      "c": "SALIM",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s030",
+   "start": 109.91,
+   "end": 111.67,
+   "line": "الرقم خارج المقياس.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "خارج المقياس",
+    "label": "الجهاز ليس معطلا",
+    "size": 130,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s031",
+   "start": 111.67,
+   "end": 114.41,
+   "line": "ثم تدعوك بطولة الشطرنج الوطنية.",
+   "scene": "stage studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "studio",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "determined",
+      "f": 1
+     }
+    ],
+    "crowd": 0.3,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s032",
+   "start": 114.41,
+   "end": 118.26,
+   "line": "تلعب عشرين مباراة في وقت واحد. وعيناك مغمضتان. تفوز بها كلها.",
+   "scene": "insert chess",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "chess"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s033",
+   "start": 118.26,
+   "end": 121.17,
+   "line": "تلعب عشرين مباراة في وقت واحد. وعيناك مغمضتان. تفوز بها كلها.",
+   "scene": "insert chess",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "chess",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s034",
+   "start": 121.17,
+   "end": 124.96,
+   "line": "تتعلم لغة جديدة كل شهر. في الشهر السادس تتكلم ست لغات... ولا تجد من تكلمه بأي منها.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "6 لغات",
+    "label": "ولا أحد تكلمه",
+    "size": 150
+   },
+   "notes": ""
+  },
+  {
+   "id": "s035",
+   "start": 124.96,
+   "end": 128.55,
+   "line": "تتعلم لغة جديدة كل شهر. في الشهر السادس تتكلم ست لغات... ولا تجد من تكلمه بأي منها.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "6 لغات",
+    "label": "ولا أحد تكلمه",
+    "size": 150,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s036",
+   "start": 128.55,
+   "end": 131.69,
+   "line": "ثم تقرأ عن قرى بعيدة لا تجد ماء نظيفا.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.4,
+      "pose": "sad",
+      "expr": "sad",
+      "f": 1,
+      "s": 1.2
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.6,
+      "pose": "sad",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.2
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s037",
+   "start": 131.69,
+   "end": 135.96,
+   "line": "في عطلة نهاية الأسبوع... تصمم مرشح ماء رخيصا من الرمل والفحم. تكلفته أقل من ثمن وجبة. وتنشر تصميمه مجانا.",
+   "scene": "insert filter",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.6,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 1.0,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "filter"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s038",
+   "start": 135.96,
+   "end": 140.93,
+   "line": "في عطلة نهاية الأسبوع... تصمم مرشح ماء رخيصا من الرمل والفحم. تكلفته أقل من ثمن وجبة. وتنشر تصميمه مجانا.",
+   "scene": "insert filter",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "filter",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s039",
+   "start": 140.93,
+   "end": 143.69,
+   "line": "بعد شهر تستعمله عشرات القرى.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "cheer",
+     "gain": -18
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.35,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.2
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.55,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.2
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.75,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.2
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s040",
+   "start": 143.69,
+   "end": 147.05,
+   "line": "الصحف تكتب عنك. القنوات تتصل بأبيك.",
+   "scene": "bigline city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "العبقري الصغير",
+    "set": "city"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s041",
+   "start": 147.05,
+   "end": 149.98,
+   "line": "والعلماء يرسلون لك أسئلتهم الصعبة. وأنت تجيب عنها... قبل أن يبرد الشاي.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.45,
+      "pose": "holdFront",
+      "expr": "smirk",
+      "f": 1,
+      "prop": "phone"
+     }
+    ],
+    "props": [
+     {
+      "k": "table",
+      "x": 0.6,
+      "cups": [
+       [
+        0,
+        false
+       ]
+      ]
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s042",
+   "start": 149.98,
+   "end": 153.19,
+   "line": "والعلماء يرسلون لك أسئلتهم الصعبة. وأنت تجيب عنها... قبل أن يبرد الشاي.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.45,
+      "pose": "holdFront",
+      "expr": "smirk",
+      "f": 1,
+      "prop": "phone"
+     }
+    ],
+    "props": [
+     {
+      "k": "table",
+      "x": 0.6,
+      "cups": [
+       [
+        0,
+        false
+       ]
+      ]
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s043",
+   "start": 153.19,
+   "end": 157.88,
+   "line": "لكن شيئا آخر يحدث. شيئا لا تكتب عنه الصحف. الكلام مع الناس صار انتظارا طويلا. صديقك هادي يحكي لك قصة.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "c": "HADI",
+      "x": 0.6,
+      "pose": "explain",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s044",
+   "start": 157.88,
+   "end": 162.41,
+   "line": "لكن شيئا آخر يحدث. شيئا لا تكتب عنه الصحف. الكلام مع الناس صار انتظارا طويلا. صديقك هادي يحكي لك قصة.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "c": "HADI",
+      "x": 0.6,
+      "pose": "explain",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s045",
+   "start": 162.41,
+   "end": 169.63,
+   "line": "وأنت تعرف نهايتها من الجملة الأولى. فتقولها له. يضحك مرة. ثم يتوقف عن الضحك.",
+   "scene": "face city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "SALIM",
+    "set": "city",
+    "expr": "smirk",
+    "side": -0.2
+   },
+   "notes": ""
+  },
+  {
+   "id": "s046",
+   "start": 169.63,
+   "end": 171.63,
+   "line": "ثم يتوقف عن الحكاية.",
+   "scene": "face city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "HADI",
+    "set": "city",
+    "expr": "sad",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s047",
+   "start": 171.63,
+   "end": 176.13,
+   "line": "وحين يحكي الناس نكتة... أنت لا تضحك. أنت تحللها.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "thinking",
+      "f": 1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.3,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.2
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.7,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.2
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s048",
+   "start": 176.13,
+   "end": 179.5,
+   "line": "في الفصل لم يعد أحد يجلس بجانبك. ليس لأنهم يكرهونك... بل لأنك تشعرهم أنهم بطيئون.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s049",
+   "start": 179.5,
+   "end": 182.99,
+   "line": "في الفصل لم يعد أحد يجلس بجانبك. ليس لأنهم يكرهونك... بل لأنك تشعرهم أنهم بطيئون.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s050",
+   "start": 182.99,
+   "end": 186.76,
+   "line": "وفي حفلة عيد ميلاد هادي تقف في الزاوية. تحسب عدد البالونات وسرعة ذوبان الكعكة... والجميع يرقصون.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.15,
+      "pose": "stand",
+      "expr": "thinking",
+      "f": 1,
+      "s": 1.3
+     },
+     {
+      "c": "HADI",
+      "x": 0.55,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.3
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.7,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.3
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.85,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.3
+     }
+    ],
+    "so": {
+     "night": true,
+     "sky": "night"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s051",
+   "start": 186.76,
+   "end": 190.73,
+   "line": "وفي حفلة عيد ميلاد هادي تقف في الزاوية. تحسب عدد البالونات وسرعة ذوبان الكعكة... والجميع يرقصون.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.15,
+      "pose": "stand",
+      "expr": "thinking",
+      "f": 1,
+      "s": 1.3
+     },
+     {
+      "c": "HADI",
+      "x": 0.55,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.3
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.7,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.3
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.85,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.3
+     }
+    ],
+    "so": {
+     "night": true,
+     "sky": "night"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s052",
+   "start": 190.73,
+   "end": 194.78,
+   "line": "وهناك ثمن آخر. دماغ الإنسان يشكل نحو اثنين من كل مئة من وزن الجسم... لكنه يستهلك نحو خمس طاقته.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "20%",
+    "label": "من طاقة الجسم",
+    "size": 150,
+    "count": 2
+   },
+   "notes": ""
+  },
+  {
+   "id": "s053",
+   "start": 194.78,
+   "end": 198.91,
+   "line": "وهناك ثمن آخر. دماغ الإنسان يشكل نحو اثنين من كل مئة من وزن الجسم... لكنه يستهلك نحو خمس طاقته.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "20%",
+    "label": "من طاقة الجسم",
+    "size": 150,
+    "count": 2,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s054",
+   "start": 198.91,
+   "end": 202.76,
+   "line": "ودماغك لا يتوقف. تأكل كثيرا. وتتعب سريعا. وتسهر وأفكارك تركض أمامك.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.45,
+      "pose": "sit",
+      "expr": "sleepy",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "clock": [
+     2,
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s055",
+   "start": 202.76,
+   "end": 206.17,
+   "line": "ودماغك لا يتوقف. تأكل كثيرا. وتتعب سريعا. وتسهر وأفكارك تركض أمامك.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.45,
+      "pose": "sit",
+      "expr": "sleepy",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "clock": [
+     2,
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s056",
+   "start": 206.17,
+   "end": 209.84,
+   "line": "وحين تسألك أمك كيف كان يومك... تعطيها تقريرا من ثلاث صفحات. وهي كانت تريد كلمة واحدة.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "MOM",
+      "x": 0.62,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1
+     },
+     {
+      "c": "SALIM",
+      "x": 0.38,
+      "pose": "explain",
+      "expr": "neutral",
+      "f": 1,
+      "prop": "paper"
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "تقرير من 3 صفحات",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 3.07
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s057",
+   "start": 209.84,
+   "end": 213.61,
+   "line": "وحين تسألك أمك كيف كان يومك... تعطيها تقريرا من ثلاث صفحات. وهي كانت تريد كلمة واحدة.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "MOM",
+      "x": 0.62,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1
+     },
+     {
+      "c": "SALIM",
+      "x": 0.38,
+      "pose": "explain",
+      "expr": "neutral",
+      "f": 1,
+      "prop": "paper"
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "تقرير من 3 صفحات",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s058",
+   "start": 213.61,
+   "end": 217.47,
+   "line": "صرت تعرف كل شيء... إلا كيف تكون قريبا من أحد.",
+   "scene": "bigline home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "تعرف كل شيء… إلا كيف تكون قريبا",
+    "set": "home",
+    "coral": true
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s059",
+   "start": 217.47,
+   "end": 220.94,
+   "line": "في البيت... أختك نور. سبع سنوات. هي الوحيدة التي لا تبهرها عبقريتك.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "NOUR",
+      "x": 0.58,
+      "pose": "cheer",
+      "expr": "happy",
+      "f": -1
+     },
+     {
+      "c": "SALIM",
+      "x": 0.42,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "نور 7 سنوات",
+      "x": 0.58,
+      "y": 0.2,
+      "box": true,
+      "at": 1.5899999999999999
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s060",
+   "start": 220.94,
+   "end": 223.73,
+   "line": "في البيت... أختك نور. سبع سنوات. هي الوحيدة التي لا تبهرها عبقريتك.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "NOUR",
+      "x": 0.58,
+      "pose": "cheer",
+      "expr": "happy",
+      "f": -1
+     },
+     {
+      "c": "SALIM",
+      "x": 0.42,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "نور 7 سنوات",
+      "x": 0.58,
+      "y": 0.2,
+      "box": true,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s061",
+   "start": 223.73,
+   "end": 227.56,
+   "line": "تعلمك لعبة سخيفة... وتفوز عليك دائما لأنها تغير القواعد كل مرة. أذكى إنسان في المدينة يخسر أمام طفلة في السابعة. وهي تضحك حتى تسقط على الأرض.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "NOUR",
+      "x": 0.6,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.7
+     },
+     {
+      "c": "SALIM",
+      "x": 0.4,
+      "pose": "shrug",
+      "expr": "confused",
+      "f": 1,
+      "s": 1.7
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s062",
+   "start": 227.56,
+   "end": 231.36,
+   "line": "تعلمك لعبة سخيفة... وتفوز عليك دائما لأنها تغير القواعد كل مرة. أذكى إنسان في المدينة يخسر أمام طفلة في السابعة. وهي تضحك حتى تسقط على الأرض.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "NOUR",
+      "x": 0.6,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.7
+     },
+     {
+      "c": "SALIM",
+      "x": 0.4,
+      "pose": "shrug",
+      "expr": "confused",
+      "f": 1,
+      "s": 1.7
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s063",
+   "start": 231.36,
+   "end": 235.17,
+   "line": "تعلمك لعبة سخيفة... وتفوز عليك دائما لأنها تغير القواعد كل مرة. أذكى إنسان في المدينة يخسر أمام طفلة في السابعة. وهي تضحك حتى تسقط على الأرض.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "NOUR",
+      "x": 0.6,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.7
+     },
+     {
+      "c": "SALIM",
+      "x": 0.4,
+      "pose": "shrug",
+      "expr": "confused",
+      "f": 1,
+      "s": 1.7
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s064",
+   "start": 235.17,
+   "end": 238.54,
+   "line": "كل مساء ترسم لك رسمة. شمس صفراء. وولد طويل. وبنت صغيرة تمسك يده.",
+   "scene": "insert drawings",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "drawings",
+    "n": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s065",
+   "start": 238.54,
+   "end": 241.87,
+   "line": "كل مساء ترسم لك رسمة. شمس صفراء. وولد طويل. وبنت صغيرة تمسك يده.",
+   "scene": "insert drawings",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "drawings",
+    "n": 1,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s066",
+   "start": 241.87,
+   "end": 245.73,
+   "line": "وكل مساء تسألك السؤال نفسه. هل أنت سعيد؟",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "NOUR",
+    "set": "home",
+    "expr": "smile",
+    "side": 0.3,
+    "rimSide": 1,
+    "talk": [
+     2.53,
+     3.55
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s067",
+   "start": 245.73,
+   "end": 249.04,
+   "line": "وأنت تجيبها بدقة. السعادة حالة نسبية يا نور... تعتمد على متغيرات كثيرة.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.4,
+      "pose": "explain",
+      "expr": "thinking",
+      "f": 1,
+      "s": 1.7
+     },
+     {
+      "c": "NOUR",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "s": 1.7
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s068",
+   "start": 249.04,
+   "end": 252.17,
+   "line": "وأنت تجيبها بدقة. السعادة حالة نسبية يا نور... تعتمد على متغيرات كثيرة.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.4,
+      "pose": "explain",
+      "expr": "thinking",
+      "f": 1,
+      "s": 1.7
+     },
+     {
+      "c": "NOUR",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "s": 1.7
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s069",
+   "start": 252.17,
+   "end": 256.71,
+   "line": "فتنظر إليك طويلا. ثم تضع الرسمة على مكتبك وتذهب.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "NOUR",
+    "set": "home",
+    "expr": "sad",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s070",
+   "start": 256.71,
+   "end": 261.04,
+   "line": "عندك الآن مئة وعشرون رسمة. تحفظ ألوانها وتواريخها كلها. لكنك لم تجبها مرة واحدة... بكلمة واحدة.",
+   "scene": "insert drawings",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "drawings",
+    "n": 12,
+    "labels": [
+     {
+      "s": "120 رسمة",
+      "x": 0.5,
+      "y": 0.08,
+      "box": true,
+      "at": 0.73
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s071",
+   "start": 261.04,
+   "end": 265.87,
+   "line": "عندك الآن مئة وعشرون رسمة. تحفظ ألوانها وتواريخها كلها. لكنك لم تجبها مرة واحدة... بكلمة واحدة.",
+   "scene": "insert drawings",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "drawings",
+    "n": 12,
+    "labels": [
+     {
+      "s": "120 رسمة",
+      "x": 0.5,
+      "y": 0.08,
+      "box": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s072",
+   "start": 265.87,
+   "end": 270.67,
+   "line": "ثم يأتي ذلك الصباح. سمكة نور الصغيرة... لا تتحرك.",
+   "scene": "insert fishbowl",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "fishbowl",
+    "dead": true
+   },
+   "notes": ""
+  },
+  {
+   "id": "s073",
+   "start": 270.67,
+   "end": 275.23,
+   "line": "نور تبكي. وأنت تعرف الجواب فورا. تشرح لها.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "NOUR",
+    "set": "home",
+    "expr": "cry",
+    "side": 0.3,
+    "rimSide": 1,
+    "tear": 0.3
+   },
+   "notes": ""
+  },
+  {
+   "id": "s074",
+   "start": 275.23,
+   "end": 279.24,
+   "line": "هذا النوع من السمك يعيش عادة عامين أو ثلاثة. وسمكتك عاشت أكثر من المتوسط. هذا أمر جيد إحصائيا.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.4,
+      "pose": "explain",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.7
+     },
+     {
+      "c": "NOUR",
+      "x": 0.6,
+      "pose": "sad",
+      "expr": "cry",
+      "f": -1,
+      "s": 1.7
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "2 إلى 3 سنوات",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 1.9099999999999997
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s075",
+   "start": 279.24,
+   "end": 283.13,
+   "line": "هذا النوع من السمك يعيش عادة عامين أو ثلاثة. وسمكتك عاشت أكثر من المتوسط. هذا أمر جيد إحصائيا.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.4,
+      "pose": "explain",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.7
+     },
+     {
+      "c": "NOUR",
+      "x": 0.6,
+      "pose": "sad",
+      "expr": "cry",
+      "f": -1,
+      "s": 1.7
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "2 إلى 3 سنوات",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s076",
+   "start": 283.13,
+   "end": 286.26,
+   "line": "تنظر إليك نور. ثم تبكي أكثر. ثم تركض إلى غرفتها... وتغلق الباب.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 2.0,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "NOUR",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.6,
+       0.95
+      ],
+      "run": true
+     },
+     {
+      "c": "SALIM",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "shocked",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s077",
+   "start": 286.26,
+   "end": 289.59,
+   "line": "تنظر إليك نور. ثم تبكي أكثر. ثم تركض إلى غرفتها... وتغلق الباب.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "NOUR",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.6,
+       0.95
+      ],
+      "run": true
+     },
+     {
+      "c": "SALIM",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "shocked",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s078",
+   "start": 289.59,
+   "end": 293.07,
+   "line": "تقف وحدك في الممر. عقلك يعمل بأقصى سرعته.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1,
+      "still": true,
+      "s": 1.2
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s079",
+   "start": 293.07,
+   "end": 297.18,
+   "line": "مئة حل في ثانية واحدة. سمكة جديدة. كتاب عن الأسماك. خطة من عشر خطوات للتعامل مع الحزن. وكل حل تعرف أنه سيجعل الأمر أسوأ.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "SALIM",
+    "pose": "handsOnHead",
+    "expr": "worried",
+    "n": 70,
+    "speed": 3,
+    "cards": [
+     "سمكة جديدة",
+     "كتاب عن الأسماك",
+     "خطة من 10 خطوات"
+    ],
+    "cardsX": [
+     0.2,
+     0.5,
+     0.8
+    ],
+    "cardsY": [
+     0.25,
+     0.18,
+     0.25
+    ],
+    "gap": 0.6
+   },
+   "notes": ""
+  },
+  {
+   "id": "s080",
+   "start": 297.18,
+   "end": 300.72,
+   "line": "مئة حل في ثانية واحدة. سمكة جديدة. كتاب عن الأسماك. خطة من عشر خطوات للتعامل مع الحزن. وكل حل تعرف أنه سيجعل الأمر أسوأ.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "SALIM",
+    "pose": "handsOnHead",
+    "expr": "worried",
+    "n": 70,
+    "speed": 3,
+    "cards": [
+     "سمكة جديدة",
+     "كتاب عن الأسماك",
+     "خطة من 10 خطوات"
+    ],
+    "cardsX": [
+     0.2,
+     0.5,
+     0.8
+    ],
+    "cardsY": [
+     0.25,
+     0.18,
+     0.25
+    ],
+    "gap": 0.6,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s081",
+   "start": 300.72,
+   "end": 304.47,
+   "line": "مئة حل في ثانية واحدة. سمكة جديدة. كتاب عن الأسماك. خطة من عشر خطوات للتعامل مع الحزن. وكل حل تعرف أنه سيجعل الأمر أسوأ.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "SALIM",
+    "pose": "handsOnHead",
+    "expr": "worried",
+    "n": 70,
+    "speed": 3,
+    "cards": [
+     "سمكة جديدة",
+     "كتاب عن الأسماك",
+     "خطة من 10 خطوات"
+    ],
+    "cardsX": [
+     0.2,
+     0.5,
+     0.8
+    ],
+    "cardsY": [
+     0.25,
+     0.18,
+     0.25
+    ],
+    "gap": 0.6,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s082",
+   "start": 304.47,
+   "end": 313.95,
+   "line": "وتتذكر أن هاديا اتصل بك قبل أسبوع حزينا لأن جده مريض. فأرسلت له جدولا بأفضل المستشفيات. ولم يرد عليك منذ ذلك اليوم.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "SALIM",
+    "set": "home",
+    "expr": "sad",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s083",
+   "start": 313.95,
+   "end": 318.67,
+   "line": "لأن القاعدة لا ترحم. الحزن لا يحل... الحزن يرافق.",
+   "scene": "bigline home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "الحزن لا يُحلّ… الحزن يُرافَق",
+    "set": "home"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s084",
+   "start": 318.67,
+   "end": 321.53,
+   "line": "وهنا تفهم. أمامك طريقان.",
+   "scene": "bigline home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "أمامك طريقان",
+    "set": "home"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s085",
+   "start": 321.53,
+   "end": 324.64,
+   "line": "إما أن تطرق الباب بحل ذكي جديد... وإما أن تفعل الشيء الوحيد الذي لم تتعلمه أبدا.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "SALIM",
+    "pose": "think",
+    "expr": "thinking",
+    "n": 40
+   },
+   "notes": ""
+  },
+  {
+   "id": "s086",
+   "start": 324.64,
+   "end": 327.51,
+   "line": "إما أن تطرق الباب بحل ذكي جديد... وإما أن تفعل الشيء الوحيد الذي لم تتعلمه أبدا.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "SALIM",
+    "pose": "think",
+    "expr": "thinking",
+    "n": 40,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s087",
+   "start": 327.51,
+   "end": 329.83,
+   "line": "أن تجلس. وتصمت.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "SALIM",
+    "set": "home",
+    "expr": "determined",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s088",
+   "start": 329.83,
+   "end": 333.4,
+   "line": "تجلس على الأرض أمام بابها. لا تقول شيئا. دقيقة. ثم عشر. ثم نصف ساعة.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.45,
+      "pose": "sit",
+      "expr": "sad",
+      "f": 1,
+      "still": true,
+      "y": 0.86
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "bars": "scope"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s089",
+   "start": 333.4,
+   "end": 336.99,
+   "line": "تجلس على الأرض أمام بابها. لا تقول شيئا. دقيقة. ثم عشر. ثم نصف ساعة.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.45,
+      "pose": "sit",
+      "expr": "sad",
+      "f": 1,
+      "still": true,
+      "y": 0.86
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "bars": "scope"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s090",
+   "start": 336.99,
+   "end": 344.43,
+   "line": "تسمع بكاءها يخف شيئا فشيئا. ولأول مرة... لا تحاول أن تفهم. تكتفي بأن تكون هنا.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "SALIM",
+    "set": "home",
+    "expr": "neutral",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s091",
+   "start": 344.43,
+   "end": 348.88,
+   "line": "ثم تأخذ ورقة وقلما. ولأول مرة في حياتك... ترسم رسمة سيئة جدا. شمس صفراء. وولد طويل. وبنت صغيرة تمسك يده. وسمكة صغيرة تسبح في السماء.",
+   "scene": "insert drawings",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "drawings",
+    "n": 1,
+    "fish": true
+   },
+   "notes": ""
+  },
+  {
+   "id": "s092",
+   "start": 348.88,
+   "end": 353.42,
+   "line": "ثم تأخذ ورقة وقلما. ولأول مرة في حياتك... ترسم رسمة سيئة جدا. شمس صفراء. وولد طويل. وبنت صغيرة تمسك يده. وسمكة صغيرة تسبح في السماء.",
+   "scene": "insert drawings",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "drawings",
+    "n": 1,
+    "fish": true,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s093",
+   "start": 353.42,
+   "end": 357.93,
+   "line": "ثم تأخذ ورقة وقلما. ولأول مرة في حياتك... ترسم رسمة سيئة جدا. شمس صفراء. وولد طويل. وبنت صغيرة تمسك يده. وسمكة صغيرة تسبح في السماء.",
+   "scene": "insert drawings",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "drawings",
+    "n": 1,
+    "fish": true,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s094",
+   "start": 357.93,
+   "end": 361.41,
+   "line": "تدخلها من تحت الباب. يمر وقت طويل.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.45,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "still": true,
+      "y": 0.86
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s095",
+   "start": 361.41,
+   "end": 365.26,
+   "line": "ثم يفتح الباب. نور تجلس بجانبك على الأرض. وتضع رأسها على كتفك. لا أحد منكما يقول شيئا.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.45,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "still": true,
+      "y": 0.86,
+      "s": 1.8
+     },
+     {
+      "c": "NOUR",
+      "x": 0.55,
+      "pose": "sit",
+      "expr": "sad",
+      "f": -1,
+      "y": 0.86,
+      "s": 1.8
+     }
+    ],
+    "cam": {
+     "z0": 1.1,
+     "z1": 1.18,
+     "x0": 0,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s096",
+   "start": 365.26,
+   "end": 369.27,
+   "line": "ثم يفتح الباب. نور تجلس بجانبك على الأرض. وتضع رأسها على كتفك. لا أحد منكما يقول شيئا.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.45,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "still": true,
+      "y": 0.86,
+      "s": 1.8
+     },
+     {
+      "c": "NOUR",
+      "x": 0.55,
+      "pose": "sit",
+      "expr": "sad",
+      "f": -1,
+      "y": 0.86,
+      "s": 1.8
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s097",
+   "start": 369.27,
+   "end": 373.73,
+   "line": "وبعد قليل... تسألك بصوت صغير. هل أنت سعيد؟",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "NOUR",
+    "set": "home",
+    "expr": "smile",
+    "side": 0.3,
+    "rimSide": 1,
+    "tear": 0.2,
+    "talk": [
+     3.31,
+     4.15
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s098",
+   "start": 373.73,
+   "end": 377.53,
+   "line": "ولأول مرة... لا تحسب شيئا. نعم.",
+   "scene": "face home",
+   "set": "home",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "SALIM",
+    "set": "home",
+    "expr": "smile",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "نعم",
+      "x": 0.5,
+      "y": 0.2,
+      "size": 110,
+      "at": 2.9299999999999997
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s099",
+   "start": 377.53,
+   "end": 381.7,
+   "line": "وفي المساء تتصل بهادي. وتطلب منه أن يحكي لك قصته من البداية. وتستمع لها حتى النهاية. دون أن تقولها قبله.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.4,
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "c": "HADI",
+      "x": 0.6,
+      "pose": "talk",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s100",
+   "start": 381.7,
+   "end": 386.51,
+   "line": "وفي المساء تتصل بهادي. وتطلب منه أن يحكي لك قصته من البداية. وتستمع لها حتى النهاية. دون أن تقولها قبله.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "SALIM",
+      "x": 0.4,
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "c": "HADI",
+      "x": 0.6,
+      "pose": "talk",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s101",
+   "start": 386.51,
+   "end": 389.7,
+   "line": "وتضع رسمة نور الجديدة في إطار فوق سريرك... بجانب شهادة الجامعة. والرسمة أكبر.",
+   "scene": "insert drawings",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "drawings",
+    "n": 1,
+    "fish": true
+   },
+   "notes": ""
+  },
+  {
+   "id": "s102",
+   "start": 389.7,
+   "end": 392.59,
+   "line": "وتضع رسمة نور الجديدة في إطار فوق سريرك... بجانب شهادة الجامعة. والرسمة أكبر.",
+   "scene": "insert drawings",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "drawings",
+    "n": 1,
+    "fish": true,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s103",
+   "start": 392.59,
+   "end": 403.97,
+   "line": "ذكاؤك ما زال أعلى بعشرة أضعاف. لكنك تعلمت الشيء الوحيد الذي لا يعلمه الذكاء. أن أذكى إجابة... أحيانا أن تصمت... وتجلس بجانب من تحب.",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "SALIM",
+    "set": "bedroom",
+    "expr": "smile",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "أذكى إجابة… أحيانا أن تصمت",
+      "x": 0.5,
+      "y": 0.2,
+      "at": 6.8100000000000005
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s104",
+   "start": 403.97,
+   "end": 405.77,
+   "line": "فما الحقيقي في هذه القصة؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "ما الحقيقي في هذه القصة؟",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s105",
+   "start": 405.77,
+   "end": 408.62,
+   "line": "اختبارات الذكاء تقارنك بغيرك. والمتوسط فيها مئة بالتعريف.",
+   "scene": "insert iqcurve",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "iqcurve"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s106",
+   "start": 408.62,
+   "end": 411.11,
+   "line": "اختبارات الذكاء تقارنك بغيرك. والمتوسط فيها مئة بالتعريف.",
+   "scene": "insert iqcurve",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "iqcurve",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s107",
+   "start": 411.11,
+   "end": 413.88,
+   "line": "لذلك فذكاء أعلى بعشرة أضعاف... لا تستطيع هذه الاختبارات قياسه أصلا.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "1000 IQ؟",
+    "label": "لا يمكن قياسه أصلا",
+    "size": 140,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s108",
+   "start": 413.88,
+   "end": 416.39,
+   "line": "لذلك فذكاء أعلى بعشرة أضعاف... لا تستطيع هذه الاختبارات قياسه أصلا.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "1000 IQ؟",
+    "label": "لا يمكن قياسه أصلا",
+    "size": 140,
+    "color": "coral",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s109",
+   "start": 416.39,
+   "end": 420.91,
+   "line": "والدماغ يستهلك فعلا نحو خمس طاقة الجسم.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "20%",
+    "label": "من طاقة الجسم",
+    "size": 150,
+    "count": 2
+   },
+   "notes": ""
+  },
+  {
+   "id": "s110",
+   "start": 420.91,
+   "end": 424.72,
+   "line": "ومن الحقائق الغريبة أن متوسط درجات اختبارات الذكاء ارتفع في بلدان كثيرة خلال القرن العشرين... بنحو ثلاث نقاط كل عشر سنوات. ويسمى هذا أثر فلين.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "+3 نقاط",
+    "label": "كل 10 سنوات: أثر فلين",
+    "size": 140
+   },
+   "notes": ""
+  },
+  {
+   "id": "s111",
+   "start": 424.72,
+   "end": 428.48,
+   "line": "ومن الحقائق الغريبة أن متوسط درجات اختبارات الذكاء ارتفع في بلدان كثيرة خلال القرن العشرين... بنحو ثلاث نقاط كل عشر سنوات. ويسمى هذا أثر فلين.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "+3 نقاط",
+    "label": "كل 10 سنوات: أثر فلين",
+    "size": 140,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s112",
+   "start": 428.48,
+   "end": 432.19,
+   "line": "ومن الحقائق الغريبة أن متوسط درجات اختبارات الذكاء ارتفع في بلدان كثيرة خلال القرن العشرين... بنحو ثلاث نقاط كل عشر سنوات. ويسمى هذا أثر فلين.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "+3 نقاط",
+    "label": "كل 10 سنوات: أثر فلين",
+    "size": 140,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s113",
+   "start": 432.19,
+   "end": 435.64,
+   "line": "ويختلف العلماء في سببه. هل هو التعليم؟ أم التغذية؟ أم تغير طريقة تفكيرنا؟",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "تعليم؟ تغذية؟",
+    "label": "السبب ما زال محل خلاف",
+    "size": 110
+   },
+   "notes": ""
+  },
+  {
+   "id": "s114",
+   "start": 435.64,
+   "end": 438.67,
+   "line": "ويختلف العلماء في سببه. هل هو التعليم؟ أم التغذية؟ أم تغير طريقة تفكيرنا؟",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "تعليم؟ تغذية؟",
+    "label": "السبب ما زال محل خلاف",
+    "size": 110,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s115",
+   "start": 438.67,
+   "end": 443.54,
+   "line": "وفي عام 1921 بدأ العالم الأمريكي لويس ترمان دراسة تابع فيها أكثر من ألف وخمسمئة طفل ذكي جدا لسنوات طويلة. نجح كثير منهم... لكن الذكاء العالي وحده لم يضمن لهم إنجازا استثنائيا.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "1921",
+    "label": "دراسة ترمان: أكثر من 1500 طفل",
+    "size": 150
+   },
+   "notes": ""
+  },
+  {
+   "id": "s116",
+   "start": 443.54,
+   "end": 448.52,
+   "line": "وفي عام 1921 بدأ العالم الأمريكي لويس ترمان دراسة تابع فيها أكثر من ألف وخمسمئة طفل ذكي جدا لسنوات طويلة. نجح كثير منهم... لكن الذكاء العالي وحده لم يضمن لهم إنجازا استثنائيا.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "1921",
+    "label": "دراسة ترمان: أكثر من 1500 طفل",
+    "size": 150,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s117",
+   "start": 448.52,
+   "end": 453.59,
+   "line": "وفي عام 1921 بدأ العالم الأمريكي لويس ترمان دراسة تابع فيها أكثر من ألف وخمسمئة طفل ذكي جدا لسنوات طويلة. نجح كثير منهم... لكن الذكاء العالي وحده لم يضمن لهم إنجازا استثنائيا.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "1921",
+    "label": "دراسة ترمان: أكثر من 1500 طفل",
+    "size": 150,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s118",
+   "start": 453.59,
+   "end": 457.26,
+   "line": "ومن المفارقات أن طفلين اختبرا ولم يختارا للدراسة... فازا لاحقا بجائزة نوبل في الفيزياء.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "نوبل",
+    "label": "لطفلين لم يُختارا للدراسة",
+    "size": 150
+   },
+   "notes": ""
+  },
+  {
+   "id": "s119",
+   "start": 457.26,
+   "end": 460.11,
+   "line": "ومن المفارقات أن طفلين اختبرا ولم يختارا للدراسة... فازا لاحقا بجائزة نوبل في الفيزياء.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "نوبل",
+    "label": "لطفلين لم يُختارا للدراسة",
+    "size": 150,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s120",
+   "start": 460.11,
+   "end": 465.2,
+   "line": "أما الذكاء العاطفي... فقد طرحه باحثان عام 1990. وانتشر بعد كتاب دانييل جولمان عام 1995.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "الذكاء العاطفي",
+    "label": "1990… وانتشر عام 1995",
+    "size": 110
+   },
+   "notes": ""
+  },
+  {
+   "id": "s121",
+   "start": 465.2,
+   "end": 469.43,
+   "line": "أما الذكاء العاطفي... فقد طرحه باحثان عام 1990. وانتشر بعد كتاب دانييل جولمان عام 1995.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "الذكاء العاطفي",
+    "label": "1990… وانتشر عام 1995",
+    "size": 110,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s122",
+   "start": 469.43,
+   "end": 473.74,
+   "line": "يراه بعض العلماء قدرة مستقلة مهمة... ويرى آخرون أنه يتداخل مع سمات أخرى في الشخصية. والنقاش مستمر.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "النقاش مستمر",
+    "label": "قدرة مستقلة؟ أم سمات شخصية؟",
+    "size": 110
+   },
+   "notes": ""
+  },
+  {
+   "id": "s123",
+   "start": 473.74,
+   "end": 477.95,
+   "line": "يراه بعض العلماء قدرة مستقلة مهمة... ويرى آخرون أنه يتداخل مع سمات أخرى في الشخصية. والنقاش مستمر.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "النقاش مستمر",
+    "label": "قدرة مستقلة؟ أم سمات شخصية؟",
+    "size": 110,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s124",
+   "start": 477.95,
+   "end": 481.75,
+   "line": "وفي الحلقة القادمة... ماذا لو لم تشعر بالألم أبدا؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "ماذا لو لم تشعر بالألم أبدا؟",
+    "set": "archive",
+    "str2": "الحلقة القادمة",
+    "at2": 0.8
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s125",
+   "start": 481.75,
+   "end": 492.027,
+   "line": "ما رأيك؟ أخبرنا في التعليقات... وأخبرنا أي قدرة نجربها بعد ذلك. اضغط زر الإعجاب... واشترك للمزيد.",
+   "scene": "endscreen ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "endscreen",
+    "q": "ما رأيك؟ أخبرنا في التعليقات",
+    "cast": [
+     "NOUR",
+     "SALIM",
+     "HADI",
+     "MOM",
+     "DAD",
+     "TEACHER"
+    ]
+   },
+   "notes": "",
+   "captions": false
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 77.63,
+   "mood": "playful",
+   "intensity": 0.35
+  },
+  {
+   "start": 77.63,
+   "end": 85.63,
+   "mood": "wonder",
+   "intensity": 0.4
+  },
+  {
+   "start": 85.63,
+   "end": 153.19,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 153.19,
+   "end": 217.47,
+   "mood": "sad",
+   "intensity": 0.35
+  },
+  {
+   "start": 217.47,
+   "end": 265.87,
+   "mood": "hopeful",
+   "intensity": 0.35
+  },
+  {
+   "start": 265.87,
+   "end": 361.41,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 361.41,
+   "end": 403.97,
+   "mood": "hopeful",
+   "intensity": 0.35
+  },
+  {
+   "start": 403.97,
+   "end": 492.027,
+   "mood": "calm",
+   "intensity": 0.3
+  }
+ ],
+ "sfx": []
+}
