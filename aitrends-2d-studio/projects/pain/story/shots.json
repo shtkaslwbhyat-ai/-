@@ -1,0 +1,4659 @@
+{
+ "title": "ماذا لو لم تشعر بالألم أبدًا؟",
+ "duration": 457.415,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 2.78,
+   "line": "المقلاة على النار منذ عشر دقائق. تمد يدك... وتمسكها من حافتها الحديدية.",
+   "scene": "insert stove",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "stove"
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s002",
+   "start": 2.78,
+   "end": 5.89,
+   "line": "المقلاة على النار منذ عشر دقائق. تمد يدك... وتمسكها من حافتها الحديدية.",
+   "scene": "insert stove",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "stove",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s003",
+   "start": 5.89,
+   "end": 7.13,
+   "line": "أمك تصرخ.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "hit",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "HUDA",
+      "x": 0.62,
+      "pose": "handsOnHead",
+      "expr": "shocked",
+      "f": -1
+     },
+     {
+      "c": "YAZAN",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": "confused",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s004",
+   "start": 7.13,
+   "end": 9.37,
+   "line": "وأنت تنظر إلى يدك باستغراب.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YAZAN",
+    "set": "home",
+    "expr": "confused",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s005",
+   "start": 9.37,
+   "end": 11.81,
+   "line": "الجلد يحمر... ثم ينتفخ...",
+   "scene": "insert stove",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "stove",
+    "cam": {
+     "z0": 1.25,
+     "z1": 1.4,
+     "x0": 300,
+     "x1": 320
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s006",
+   "start": 11.81,
+   "end": 16.63,
+   "line": "وأنت لا تشعر بشيء. لا لسع. لا وخز. لا شيء.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YAZAN",
+    "set": "home",
+    "expr": "neutral",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "لا لسع",
+      "x": 0.25,
+      "y": 0.25,
+      "cream": true,
+      "at": 2.01
+     },
+     {
+      "s": "لا وخز",
+      "x": 0.75,
+      "y": 0.25,
+      "cream": true,
+      "at": 3.09
+     },
+     {
+      "s": "لا شيء",
+      "x": 0.5,
+      "y": 0.15,
+      "size": 90,
+      "at": 4.21
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s007",
+   "start": 16.63,
+   "end": 21.39,
+   "line": "في المدرسة تصطدم كرة بوجهك بقوة. الجميع يتألمون لأجلك.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "YAZAN",
+      "x": 0.45,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "prop": "ball"
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.25,
+      "pose": "handsOnHead",
+      "expr": "shocked",
+      "f": 1,
+      "s": 1.3
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.72,
+      "pose": "handsOnHead",
+      "expr": "shocked",
+      "f": -1,
+      "s": 1.3
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s008",
+   "start": 21.39,
+   "end": 24.09,
+   "line": "وأنت تضحك... وتكمل اللعب.",
+   "scene": "face classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YAZAN",
+    "set": "classroom",
+    "expr": "joy",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s009",
+   "start": 24.09,
+   "end": 27.18,
+   "line": "في عيادة الأسنان يرفع الطبيب إبرة التخدير. تقول له: لا داعي. وتفتح فمك.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DOC",
+      "x": 0.62,
+      "pose": "holdFront",
+      "expr": "neutral",
+      "f": -1
+     },
+     {
+      "c": "YAZAN",
+      "x": 0.38,
+      "pose": "sitBack",
+      "expr": "smirk",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "لا داعي",
+      "x": 0.5,
+      "y": 0.2,
+      "box": true,
+      "at": 4.23
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s010",
+   "start": 27.18,
+   "end": 30.55,
+   "line": "في عيادة الأسنان يرفع الطبيب إبرة التخدير. تقول له: لا داعي. وتفتح فمك.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DOC",
+      "x": 0.62,
+      "pose": "holdFront",
+      "expr": "neutral",
+      "f": -1
+     },
+     {
+      "c": "YAZAN",
+      "x": 0.38,
+      "pose": "sitBack",
+      "expr": "smirk",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "لا داعي",
+      "x": 0.5,
+      "y": 0.2,
+      "box": true,
+      "at": 1.1400000000000006
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s011",
+   "start": 30.55,
+   "end": 32.97,
+   "line": "أنت لا تشعر بالألم. أبدا.",
+   "scene": "bigline home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "لا تشعر بالألم… أبدا",
+    "set": "home"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s012",
+   "start": 32.97,
+   "end": 36.05,
+   "line": "لا جرح يؤلمك، ولا كسر، ولا حرق.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "0",
+    "label": "جرح • كسر • حرق",
+    "size": 220,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s013",
+   "start": 36.05,
+   "end": 40.69,
+   "line": "فهل هذه أعظم قوة يمكن أن يملكها إنسان؟ أم أخطر لعنة؟",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "YAZAN",
+    "expr": "smirk",
+    "cards": [
+     "قوة خارقة؟",
+     "أم لعنة؟"
+    ],
+    "cardsX": [
+     0.25,
+     0.75
+    ],
+    "gap": 1.6
+   },
+   "notes": ""
+  },
+  {
+   "id": "s014",
+   "start": 40.69,
+   "end": 45.05,
+   "line": "لكن لهذه القوة قاعدة واحدة. الألم ليس عدوك.",
+   "scene": "bigline home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "قاعدة واحدة",
+    "set": "home",
+    "str2": "الألم جرس إنذار",
+    "at2": 2.2
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s015",
+   "start": 45.05,
+   "end": 46.77,
+   "line": "الألم جرس إنذار.",
+   "scene": "insert bell",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "ding",
+     "gain": -8
+    },
+    {
+     "at": 0.6,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "bell"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s016",
+   "start": 46.77,
+   "end": 48.41,
+   "line": "ومن لا يسمع الجرس...",
+   "scene": "insert bell",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bell",
+    "silent": true
+   },
+   "notes": ""
+  },
+  {
+   "id": "s017",
+   "start": 48.41,
+   "end": 50.11,
+   "line": "لا يعرف أن البيت يحترق.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YAZAN",
+      "x": 0.5,
+      "pose": "relaxed",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.3
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    },
+    "labels": [
+     {
+      "s": "🔥",
+      "x": 0.85,
+      "y": 0.35,
+      "size": 110,
+      "at": 0.6
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s018",
+   "start": 50.11,
+   "end": 53.29,
+   "line": "اسمك يزن. خمسة عشر عاما.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YAZAN",
+      "x": 0.5,
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.8
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "يزن",
+      "x": 0.5,
+      "y": 0.2,
+      "size": 90,
+      "at": 0.78
+     },
+     {
+      "s": "15 عاما",
+      "x": 0.5,
+      "y": 0.32,
+      "cream": true,
+      "at": 1.51
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s019",
+   "start": 53.29,
+   "end": 57.69,
+   "line": "وستتعلم يوما أن أخطر الجروح... هو الجرح الذي لا تشعر به.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YAZAN",
+    "set": "home",
+    "expr": "thinking",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "أخطر جرح… الذي لا تشعر به",
+      "x": 0.5,
+      "y": 0.18,
+      "at": 1.27
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s020",
+   "start": 57.69,
+   "end": 61.69,
+   "line": "فماذا لو لم تشعر بالألم أبدا... حتى عندما يجب أن تشعر؟",
+   "scene": "title ",
+   "set": "",
+   "bars": "scope",
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "title",
+    "lines": [
+     "ماذا لو",
+     "لم تشعر بالألم أبدا؟"
+    ]
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s021",
+   "start": 61.69,
+   "end": 64.31,
+   "line": "في الملعب أنت اللاعب الذي لا يسقط.",
+   "scene": "stage pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "pitch",
+    "chars": [
+     {
+      "c": "YAZANJ",
+      "x": 0.45,
+      "pose": "ready",
+      "expr": "determined",
+      "f": 1
+     },
+     {
+      "c": "RIVAL",
+      "x": 0.7,
+      "pose": "ready",
+      "expr": "angry",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "so": {
+     "mood": "dusk",
+     "night": false,
+     "cheer": 0.2
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -24
+   }
+  },
+  {
+   "id": "s022",
+   "start": 64.31,
+   "end": 68.25,
+   "line": "يدفعونك، يركلون ساقيك، تقع على الأرض الصلبة...",
+   "scene": "stage pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hit",
+     "gain": -8
+    },
+    {
+     "at": 1.2,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "pitch",
+    "chars": [
+     {
+      "c": "YAZANJ",
+      "x": 0.45,
+      "pose": "fall",
+      "expr": "surprised",
+      "f": 1
+     },
+     {
+      "c": "RIVAL",
+      "x": 0.62,
+      "pose": "kick",
+      "expr": "angry",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.1,
+     "z1": 1.15,
+     "shake": 6
+    },
+    "so": {
+     "mood": "dusk",
+     "night": false,
+     "cheer": 0.2
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s023",
+   "start": 68.25,
+   "end": 70.53,
+   "line": "ثم تقوم في ثانية وتركض.",
+   "scene": "stage pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "cheer",
+     "gain": -18
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "pitch",
+    "chars": [
+     {
+      "c": "YAZANJ",
+      "x": 0.3,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.3,
+       0.8
+      ],
+      "run": true
+     }
+    ],
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    },
+    "so": {
+     "mood": "dusk",
+     "night": false,
+     "cheer": 0.6
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s024",
+   "start": 70.53,
+   "end": 73.03,
+   "line": "المدرب يبتسم لأول مرة منذ سنوات.",
+   "scene": "face pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "COACH",
+    "set": "pitch",
+    "expr": "smile",
+    "side": 0.2,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s025",
+   "start": 73.03,
+   "end": 76.47,
+   "line": "وزملاؤك يسمونك: الرجل الحديدي.",
+   "scene": "bigline pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "الرجل الحديدي",
+    "set": "pitch"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s026",
+   "start": 76.47,
+   "end": 79.16,
+   "line": "وحين يسقط زميل لك ويصرخ من إصابة صغيرة... تنظر إليه ولا تفهم.",
+   "scene": "stage pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "pitch",
+    "chars": [
+     {
+      "c": "TAREQJ",
+      "x": 0.4,
+      "pose": "lie",
+      "expr": "cry",
+      "f": 1,
+      "y": 0.86
+     },
+     {
+      "c": "YAZANJ",
+      "x": 0.62,
+      "pose": "stand",
+      "expr": "confused",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "so": {
+     "mood": "dusk",
+     "night": false,
+     "cheer": 0.2
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s027",
+   "start": 79.16,
+   "end": 81.97,
+   "line": "وحين يسقط زميل لك ويصرخ من إصابة صغيرة... تنظر إليه ولا تفهم.",
+   "scene": "stage pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "pitch",
+    "chars": [
+     {
+      "c": "TAREQJ",
+      "x": 0.4,
+      "pose": "lie",
+      "expr": "cry",
+      "f": 1,
+      "y": 0.86
+     },
+     {
+      "c": "YAZANJ",
+      "x": 0.62,
+      "pose": "stand",
+      "expr": "confused",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "so": {
+     "mood": "dusk",
+     "night": false,
+     "cheer": 0.2
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s028",
+   "start": 81.97,
+   "end": 83.87,
+   "line": "لماذا كل هذا الصراخ؟",
+   "scene": "face pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YAZAN",
+    "set": "pitch",
+    "expr": "confused",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s029",
+   "start": 83.87,
+   "end": 88.19,
+   "line": "صديقك طارق يصورك وأنت تمشي حافيا على الإسفلت في ظهر الصيف.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "YAZAN",
+      "x": 0.4,
+      "pose": "relaxed",
+      "expr": "smirk",
+      "f": 1
+     },
+     {
+      "c": "TAREQ",
+      "x": 0.65,
+      "pose": "phone",
+      "expr": "joy",
+      "f": -1
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "حافيا • ظهرا",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 2.19
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s030",
+   "start": 88.19,
+   "end": 92.01,
+   "line": "المقطع ينتشر. مئة ألف مشاهدة في يومين.",
+   "scene": "insert views",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.8,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 1.3,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "views"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s031",
+   "start": 92.01,
+   "end": 94.91,
+   "line": "والتعليقات تسأل: هل هذا حقيقي؟",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "هل هذا حقيقي؟",
+    "label": "آلاف التعليقات",
+    "size": 110
+   },
+   "notes": ""
+  },
+  {
+   "id": "s032",
+   "start": 94.91,
+   "end": 97.53,
+   "line": "في يوم التطعيم تقف في أول الطابور.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "YAZAN",
+      "x": 0.25,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.3
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.45,
+      "pose": "stand",
+      "expr": "scared",
+      "f": 1,
+      "s": 1.3
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1,
+      "s": 1.3
+     },
+     {
+      "c": "DOC",
+      "x": 0.8,
+      "pose": "holdFront",
+      "expr": "neutral",
+      "f": -1,
+      "s": 1.3
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s033",
+   "start": 97.53,
+   "end": 100.21,
+   "line": "وفي النادي ترفع أوزانا لا يرفعها غيرك...",
+   "scene": "stage studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "studio",
+    "chars": [
+     {
+      "c": "YAZAN",
+      "x": 0.5,
+      "pose": "pointUp",
+      "expr": "determined",
+      "f": 1,
+      "s": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "150 كغ",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.9500000000000001
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s034",
+   "start": 100.21,
+   "end": 104.29,
+   "line": "ولا تتوقف حين تصرخ عضلاتك... لأنك لا تسمعها.",
+   "scene": "face studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YAZAN",
+    "set": "studio",
+    "expr": "determined",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s035",
+   "start": 104.29,
+   "end": 107.13,
+   "line": "وفي الصف يتحداك طارق أمام الجميع: ضع يدك في الماء المثلج دقيقة كاملة.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "TAREQ",
+      "x": 0.62,
+      "pose": "point",
+      "expr": "smirk",
+      "f": -1
+     },
+     {
+      "c": "YAZAN",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": "smirk",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "دقيقة كاملة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 4.21
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s036",
+   "start": 107.13,
+   "end": 109.77,
+   "line": "وفي الصف يتحداك طارق أمام الجميع: ضع يدك في الماء المثلج دقيقة كاملة.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "TAREQ",
+      "x": 0.62,
+      "pose": "point",
+      "expr": "smirk",
+      "f": -1
+     },
+     {
+      "c": "YAZAN",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": "smirk",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "دقيقة كاملة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 1.3700000000000108
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s037",
+   "start": 109.77,
+   "end": 111.51,
+   "line": "تضعها خمس دقائق.",
+   "scene": "insert icewater",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "tick",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "icewater"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s038",
+   "start": 111.51,
+   "end": 113.27,
+   "line": "الجميع يصفقون...",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "cheer",
+     "gain": -18
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "YAZAN",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.25,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.3
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.75,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.3
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s039",
+   "start": 113.27,
+   "end": 115.97,
+   "line": "ويدك تتحول إلى لون لم تره من قبل.",
+   "scene": "insert icewater",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "icewater",
+    "cam": {
+     "z0": 1.3,
+     "z1": 1.45,
+     "x0": -40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s040",
+   "start": 115.97,
+   "end": 119.13,
+   "line": "لكن أمك هدى لا تضحك مع أحد.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "HUDA",
+    "set": "home",
+    "expr": "worried",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s041",
+   "start": 119.13,
+   "end": 122.22,
+   "line": "كل مساء تمسك ورقة قديمة... وتفحصك كما يفحص الطيار طائرته قبل الإقلاع.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "HUDA",
+      "x": 0.6,
+      "pose": "holdFront",
+      "expr": "worried",
+      "f": -1,
+      "prop": "paper"
+     },
+     {
+      "c": "YAZAN",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "كطيار قبل الإقلاع",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 3.69
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s042",
+   "start": 122.22,
+   "end": 125.11,
+   "line": "كل مساء تمسك ورقة قديمة... وتفحصك كما يفحص الطيار طائرته قبل الإقلاع.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "HUDA",
+      "x": 0.6,
+      "pose": "holdFront",
+      "expr": "worried",
+      "f": -1,
+      "prop": "paper"
+     },
+     {
+      "c": "YAZAN",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "كطيار قبل الإقلاع",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.5999999999999965
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s043",
+   "start": 125.11,
+   "end": 127.52,
+   "line": "القدمان. الركبتان. اليدان. اللسان. العينان.",
+   "scene": "insert checklist",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "checklist",
+    "at": 0.1,
+    "gap": 0.6
+   },
+   "notes": ""
+  },
+  {
+   "id": "s044",
+   "start": 127.52,
+   "end": 130.69,
+   "line": "القدمان. الركبتان. اليدان. اللسان. العينان.",
+   "scene": "insert checklist",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "checklist",
+    "at": 0.1,
+    "gap": 0.6,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s045",
+   "start": 130.69,
+   "end": 134.67,
+   "line": "وفي إحدى الليالي تسمعها تبكي في المطبخ. تقول لأبيك:",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "HUDA",
+      "x": 0.6,
+      "pose": "sit",
+      "expr": "cry",
+      "f": -1,
+      "chair": true
+     },
+     {
+      "c": "DAD",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": "sad",
+      "f": 1
+     }
+    ],
+    "so": {
+     "night": true
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s046",
+   "start": 134.67,
+   "end": 139.43,
+   "line": "كل أم تعرف أن طفلها مريض حين يبكي... ويزن لا يبكي أبدا.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "HUDA",
+    "set": "home",
+    "expr": "cry",
+    "side": 0.3,
+    "rimSide": 1,
+    "tear": 0.5
+   },
+   "notes": ""
+  },
+  {
+   "id": "s047",
+   "start": 139.43,
+   "end": 141.47,
+   "line": "هي تعرف ما لا يعرفه زملاؤك.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "YAZAN",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s048",
+   "start": 141.47,
+   "end": 145.61,
+   "line": "حين كنت رضيعا عضضت لسانك حتى نزف... ولم تبك.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "YAZANKID",
+    "expr": "neutral",
+    "hs": 1.2,
+    "labels": [
+     {
+      "s": "لم يبك",
+      "x": 0.5,
+      "y": 0.2,
+      "box": true,
+      "at": 3.55
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s049",
+   "start": 145.61,
+   "end": 149.22,
+   "line": "وحين بدأت تمشي، كسرت قدمك... ومشيت عليها أسبوعا كاملا قبل أن يلاحظ أحد أنها متورمة.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "YAZANKID",
+    "pose": "relaxed",
+    "expr": "smile",
+    "hs": 1.2,
+    "n": 50,
+    "labels": [
+     {
+      "s": "أسبوع كامل",
+      "x": 0.5,
+      "y": 0.2,
+      "box": true,
+      "coral": true,
+      "at": 3.63
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s050",
+   "start": 149.22,
+   "end": 152.61,
+   "line": "وحين بدأت تمشي، كسرت قدمك... ومشيت عليها أسبوعا كاملا قبل أن يلاحظ أحد أنها متورمة.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "YAZANKID",
+    "pose": "relaxed",
+    "expr": "smile",
+    "hs": 1.2,
+    "n": 50,
+    "labels": [
+     {
+      "s": "أسبوع كامل",
+      "x": 0.5,
+      "y": 0.2,
+      "box": true,
+      "coral": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s051",
+   "start": 152.61,
+   "end": 155.47,
+   "line": "وذات مساء تتوقف أمك عند كاحلك.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "HUDA",
+      "x": 0.58,
+      "pose": "crouch",
+      "expr": "shocked",
+      "f": -1
+     },
+     {
+      "c": "YAZAN",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s052",
+   "start": 155.47,
+   "end": 157.85,
+   "line": "الكاحل منتفخ، ولونه أزرق.",
+   "scene": "insert bodymap",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bodymap",
+    "spots": [
+     [
+      -70,
+      380,
+      "الكاحل",
+      0.3
+     ]
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s053",
+   "start": 157.85,
+   "end": 160.65,
+   "line": "تسألك: منذ متى؟ وأنت لا تعرف.",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YAZAN",
+    "set": "bedroom",
+    "expr": "worried",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "منذ متى؟",
+      "x": 0.5,
+      "y": 0.2,
+      "box": true,
+      "at": 1.23
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s054",
+   "start": 160.65,
+   "end": 163.24,
+   "line": "في المستشفى يضع الطبيب صورة الأشعة على الضوء. ثم يصمت طويلا.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DOC",
+      "x": 0.6,
+      "pose": "point",
+      "expr": "thinking",
+      "f": -1
+     },
+     {
+      "c": "YAZAN",
+      "x": 0.35,
+      "pose": "sit",
+      "expr": "worried",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "HUDA",
+      "x": 0.18,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s055",
+   "start": 163.24,
+   "end": 165.67,
+   "line": "في المستشفى يضع الطبيب صورة الأشعة على الضوء. ثم يصمت طويلا.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DOC",
+      "x": 0.6,
+      "pose": "point",
+      "expr": "thinking",
+      "f": -1
+     },
+     {
+      "c": "YAZAN",
+      "x": 0.35,
+      "pose": "sit",
+      "expr": "worried",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "HUDA",
+      "x": 0.18,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s056",
+   "start": 165.67,
+   "end": 169.2,
+   "line": "كسر جديد في الكاحل... وثلاثة كسور قديمة التأمت وحدها... وأنت لم تعرف بأي منها.",
+   "scene": "insert xray",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -12
+    },
+    {
+     "at": 1.4,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 1.9,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 2.4,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "xray"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s057",
+   "start": 169.2,
+   "end": 172.63,
+   "line": "كسر جديد في الكاحل... وثلاثة كسور قديمة التأمت وحدها... وأنت لم تعرف بأي منها.",
+   "scene": "insert xray",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "xray",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s058",
+   "start": 172.63,
+   "end": 177.33,
+   "line": "يقول الطبيب: جسمك يصرخ يا يزن... لكن لا أحد يسمعه.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "DOC",
+    "set": "clinic",
+    "expr": "sad",
+    "side": 0.2,
+    "rimSide": 1,
+    "talk": [
+     1.11,
+     2.73
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s059",
+   "start": 177.33,
+   "end": 178.81,
+   "line": "ولا حتى أنت.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YAZAN",
+    "set": "clinic",
+    "expr": "sad",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s060",
+   "start": 178.81,
+   "end": 180.59,
+   "line": "ستة أسابيع بلا كرة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "6 أسابيع",
+    "label": "بلا كرة",
+    "size": 170,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s061",
+   "start": 180.59,
+   "end": 182.53,
+   "line": "وأنت ترى فريقك من المدرجات.",
+   "scene": "stage pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "pitch",
+    "chars": [
+     {
+      "c": "YAZANJ",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "f": 1,
+      "y": 0.6,
+      "s": 1.2
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    },
+    "so": {
+     "mood": "dusk",
+     "night": false,
+     "cheer": 0.5
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s062",
+   "start": 182.53,
+   "end": 185.67,
+   "line": "الرجل الحديدي... يجلس وحده.",
+   "scene": "face pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YAZAN",
+    "set": "pitch",
+    "expr": "sad",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s063",
+   "start": 185.67,
+   "end": 188.8,
+   "line": "والمقاطع التي ضحك عليها الناس صارت تخيفك. كلما رأيت قدميك على الإسفلت الحار تتساءل:",
+   "scene": "insert views",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "views",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.04,
+     "x0": 0,
+     "x1": 0
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s064",
+   "start": 188.8,
+   "end": 191.57,
+   "line": "والمقاطع التي ضحك عليها الناس صارت تخيفك. كلما رأيت قدميك على الإسفلت الحار تتساءل:",
+   "scene": "insert views",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "views",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s065",
+   "start": 191.57,
+   "end": 193.95,
+   "line": "ماذا احترق يومها ولم أعرف؟",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YAZAN",
+    "set": "bedroom",
+    "expr": "worried",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s066",
+   "start": 193.95,
+   "end": 197.26,
+   "line": "ثم يأتي طارق ويجلس بجانبك. يحذف المقطع أمامك ويقول: كنا نضحك... ولم نكن نعرف.",
+   "scene": "stage pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "pitch",
+    "chars": [
+     {
+      "c": "YAZANJ",
+      "x": 0.42,
+      "pose": "sit",
+      "expr": "sad",
+      "f": 1,
+      "y": 0.6,
+      "s": 1.3
+     },
+     {
+      "c": "TAREQ",
+      "x": 0.58,
+      "pose": "sit",
+      "expr": "sad",
+      "f": -1,
+      "y": 0.6,
+      "s": 1.3,
+      "prop": "phone"
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "so": {
+     "mood": "dusk",
+     "night": false,
+     "cheer": 0.3
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s067",
+   "start": 197.26,
+   "end": 200.95,
+   "line": "ثم يأتي طارق ويجلس بجانبك. يحذف المقطع أمامك ويقول: كنا نضحك... ولم نكن نعرف.",
+   "scene": "stage pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "pitch",
+    "chars": [
+     {
+      "c": "YAZANJ",
+      "x": 0.42,
+      "pose": "sit",
+      "expr": "sad",
+      "f": 1,
+      "y": 0.6,
+      "s": 1.3
+     },
+     {
+      "c": "TAREQ",
+      "x": 0.58,
+      "pose": "sit",
+      "expr": "sad",
+      "f": -1,
+      "y": 0.6,
+      "s": 1.3,
+      "prop": "phone"
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "so": {
+     "mood": "dusk",
+     "night": false,
+     "cheer": 0.3
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s068",
+   "start": 200.95,
+   "end": 205.75,
+   "line": "من اليوم أنا عينك في الملعب. إذا رأيت شيئا... سأقوله.",
+   "scene": "face pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "TAREQ",
+    "set": "pitch",
+    "expr": "determined",
+    "side": 0.3,
+    "rimSide": 1,
+    "talk": [
+     0.15,
+     2.01
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s069",
+   "start": 205.75,
+   "end": 208.99,
+   "line": "ثم يعود الموسم. ويأتي يوم النهائي.",
+   "scene": "bigline pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "يوم النهائي",
+    "set": "pitch"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s070",
+   "start": 208.99,
+   "end": 212.37,
+   "line": "في الصباح لا تأكل فطورك. لا جوع عندك.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YAZAN",
+      "x": 0.4,
+      "pose": "sit",
+      "expr": "sleepy",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "HUDA",
+      "x": 0.65,
+      "pose": "stand",
+      "expr": "worried",
+      "f": -1
+     }
+    ],
+    "props": [
+     {
+      "k": "table",
+      "x": 0.5,
+      "plate": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s071",
+   "start": 212.37,
+   "end": 214.33,
+   "line": "أمك تضع يدها على جبينك...",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "HUDA",
+      "x": 0.55,
+      "pose": "reach",
+      "expr": "worried",
+      "f": -1,
+      "s": 1.8
+     },
+     {
+      "c": "YAZAN",
+      "x": 0.4,
+      "pose": "sit",
+      "expr": "sleepy",
+      "f": 1,
+      "chair": true,
+      "s": 1.8
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s072",
+   "start": 214.33,
+   "end": 217.95,
+   "line": "ثم تحضر مقياس الحرارة. تسع وثلاثون درجة.",
+   "scene": "insert thermo",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "tick",
+     "gain": -16
+    },
+    {
+     "at": 2.2,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "thermo"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s073",
+   "start": 217.95,
+   "end": 220.37,
+   "line": "تقول: لن تلعب اليوم.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "HUDA",
+    "set": "home",
+    "expr": "determined",
+    "side": 0.3,
+    "rimSide": 1,
+    "talk": [
+     1.19,
+     2.13
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s074",
+   "start": 220.37,
+   "end": 224.69,
+   "line": "وأنت تقول: أنا بخير يا أمي. أنا لا أشعر بشيء.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YAZAN",
+    "set": "home",
+    "expr": "smile",
+    "side": 0.0,
+    "talk": [
+     1.13,
+     2.53
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s075",
+   "start": 224.69,
+   "end": 230.01,
+   "line": "فتنظر إليك وتقول الجملة التي ستتذكرها طويلا: وهذه هي المشكلة.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "HUDA",
+    "set": "home",
+    "expr": "sad",
+    "side": 0.3,
+    "rimSide": 1,
+    "labels": [
+     {
+      "s": "وهذه هي المشكلة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "coral": true,
+      "at": 3.61
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s076",
+   "start": 230.01,
+   "end": 234.43,
+   "line": "لكنك تذهب. تعدها أن تراقب نفسك... وتلعب.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "YAZAN",
+      "x": 0.3,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.3,
+       0.7
+      ]
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s077",
+   "start": 234.43,
+   "end": 237.47,
+   "line": "الشوط الأول جيد. تسجل هدفا.",
+   "scene": "stage pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "whistle",
+     "gain": -14
+    },
+    {
+     "at": 0.9,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "pitch",
+    "chars": [
+     {
+      "c": "YAZANJ",
+      "x": 0.4,
+      "pose": "kick",
+      "expr": "determined",
+      "f": 1
+     },
+     {
+      "c": "RIVAL",
+      "x": 0.65,
+      "pose": "dive",
+      "expr": "surprised",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "so": {
+     "mood": "dusk",
+     "night": false,
+     "cheer": 0.4
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s078",
+   "start": 237.47,
+   "end": 239.29,
+   "line": "المدرجات تهتف باسمك.",
+   "scene": "stage pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "cheer",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "pitch",
+    "chars": [
+     {
+      "c": "YAZANJ",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.6
+     },
+     {
+      "c": "TAREQJ",
+      "x": 0.3,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.4
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    },
+    "so": {
+     "mood": "dusk",
+     "night": false,
+     "cheer": 1.0
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s079",
+   "start": 239.29,
+   "end": 241.61,
+   "line": "لكن العرق بارد على جبينك.",
+   "scene": "face pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YAZAN",
+    "set": "pitch",
+    "expr": "nervous",
+    "side": 0.0,
+    "tilt": 0.05
+   },
+   "notes": ""
+  },
+  {
+   "id": "s080",
+   "start": 241.61,
+   "end": 244.05,
+   "line": "والملعب يميل قليلا كلما ركضت.",
+   "scene": "stage pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "pitch",
+    "chars": [
+     {
+      "c": "YAZANJ",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1,
+      "s": 1.4,
+      "rot": 0.08
+     }
+    ],
+    "cam": {
+     "z0": 1.05,
+     "z1": 1.15,
+     "x0": 0,
+     "x1": -30,
+     "r": 0.05
+    },
+    "so": {
+     "mood": "dusk",
+     "night": false,
+     "cheer": 0.2
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s081",
+   "start": 244.05,
+   "end": 246.27,
+   "line": "في الاستراحة ينظر إليك طارق ويقول:",
+   "scene": "stage pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "pitch",
+    "chars": [
+     {
+      "c": "TAREQJ",
+      "x": 0.6,
+      "pose": "explain",
+      "expr": "worried",
+      "f": -1,
+      "s": 1.7
+     },
+     {
+      "c": "YAZANJ",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "nervous",
+      "f": 1,
+      "s": 1.7
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "so": {
+     "mood": "dusk",
+     "night": true,
+     "cheer": 0.2
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s082",
+   "start": 246.27,
+   "end": 249.49,
+   "line": "وجهك أصفر يا يزن. أصفر جدا.",
+   "scene": "face pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "TAREQ",
+    "set": "pitch",
+    "expr": "scared",
+    "side": 0.3,
+    "rimSide": 1,
+    "talk": [
+     0.15,
+     1.81
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s083",
+   "start": 249.49,
+   "end": 252.56,
+   "line": "والمدرب ينظر إلى لوحة النتيجة... ثم إليك. هدف واحد يفصلكم عن الكأس.",
+   "scene": "insert scoreboard",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "scoreboard",
+    "score": "1 - 1",
+    "min": "45'"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s084",
+   "start": 252.56,
+   "end": 255.23,
+   "line": "والمدرب ينظر إلى لوحة النتيجة... ثم إليك. هدف واحد يفصلكم عن الكأس.",
+   "scene": "insert scoreboard",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "scoreboard",
+    "score": "1 - 1",
+    "min": "45'",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s085",
+   "start": 255.23,
+   "end": 258.47,
+   "line": "وترى في عينيه أنه يريدك في الملعب.",
+   "scene": "face pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "COACH",
+    "set": "pitch",
+    "expr": "determined",
+    "side": 0.2,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s086",
+   "start": 258.47,
+   "end": 261.41,
+   "line": "وهنا تفهم. أمامك طريقان.",
+   "scene": "bigline pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "أمامك طريقان",
+    "set": "pitch"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s087",
+   "start": 261.41,
+   "end": 265.79,
+   "line": "إما أن تسمع الصمت في داخلك... وتكمل لأنك لا تشعر بشيء.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "YAZANJ",
+    "pose": "think",
+    "expr": "thinking",
+    "n": 40
+   },
+   "notes": ""
+  },
+  {
+   "id": "s088",
+   "start": 265.79,
+   "end": 270.58,
+   "line": "وإما أن تسمع ما يقوله جسمك بلغة أخرى. الحرارة. العرق البارد. الدوار. ووجه صديقك الخائف.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "YAZANJ",
+    "pose": "handsOnHead",
+    "expr": "worried",
+    "n": 60,
+    "speed": 2,
+    "cards": [
+     "الحرارة",
+     "العرق البارد",
+     "الدوار",
+     "وجه صديقك"
+    ],
+    "cardsX": [
+     0.2,
+     0.8,
+     0.22,
+     0.78
+    ],
+    "cardsY": [
+     0.22,
+     0.22,
+     0.45,
+     0.45
+    ],
+    "gap": 0.9
+   },
+   "notes": ""
+  },
+  {
+   "id": "s089",
+   "start": 270.58,
+   "end": 274.73,
+   "line": "وإما أن تسمع ما يقوله جسمك بلغة أخرى. الحرارة. العرق البارد. الدوار. ووجه صديقك الخائف.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "YAZANJ",
+    "pose": "handsOnHead",
+    "expr": "worried",
+    "n": 60,
+    "speed": 2,
+    "cards": [
+     "الحرارة",
+     "العرق البارد",
+     "الدوار",
+     "وجه صديقك"
+    ],
+    "cardsX": [
+     0.2,
+     0.8,
+     0.22,
+     0.78
+    ],
+    "cardsY": [
+     0.22,
+     0.22,
+     0.45,
+     0.45
+    ],
+    "gap": 0.9,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s090",
+   "start": 274.73,
+   "end": 277.19,
+   "line": "ترفع يدك. وتطلب التبديل.",
+   "scene": "stage pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "pitch",
+    "chars": [
+     {
+      "c": "YAZANJ",
+      "x": 0.5,
+      "pose": "pointUp",
+      "expr": "determined",
+      "f": 1,
+      "s": 1.7
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "so": {
+     "mood": "dusk",
+     "night": true,
+     "cheer": 0.2
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s091",
+   "start": 277.19,
+   "end": 281.67,
+   "line": "لأول مرة في حياتك... يخرج الرجل الحديدي من الملعب.",
+   "scene": "stage pitch",
+   "set": "pitch",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "pitch",
+    "chars": [
+     {
+      "c": "YAZANJ",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.5,
+       0.1
+      ]
+     },
+     {
+      "c": "COACH",
+      "x": 0.12,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    },
+    "so": {
+     "mood": "dusk",
+     "night": true,
+     "cheer": 0.1
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s092",
+   "start": 281.67,
+   "end": 284.19,
+   "line": "بعد ساعة أنت في غرفة العمليات.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DOC",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "determined",
+      "f": -1
+     },
+     {
+      "c": "HUDA",
+      "x": 0.35,
+      "pose": "handsOnHead",
+      "expr": "worried",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s093",
+   "start": 284.19,
+   "end": 286.31,
+   "line": "الزائدة الدودية ملتهبة.",
+   "scene": "insert bodymap",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bodymap",
+    "spots": [
+     [
+      45,
+      10,
+      "الزائدة الدودية",
+      0.3
+     ]
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s094",
+   "start": 286.31,
+   "end": 289.85,
+   "line": "والجراح يقول لأمك: لو تأخر قليلا لانفجرت.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DOC",
+      "x": 0.6,
+      "pose": "talk",
+      "expr": "neutral",
+      "f": -1,
+      "talk": [
+       1.67,
+       3.69
+      ]
+     },
+     {
+      "c": "HUDA",
+      "x": 0.38,
+      "pose": "handsOnHead",
+      "expr": "worried",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s095",
+   "start": 289.85,
+   "end": 296.13,
+   "line": "أي إنسان آخر كان سيصرخ من الألم منذ الأمس. أما ابنك... فأنقذه أنه أصغى.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "DOC",
+    "set": "clinic",
+    "expr": "smile",
+    "side": 0.2,
+    "rimSide": 1,
+    "labels": [
+     {
+      "s": "أنقذه أنه أصغى",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 4.61
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s096",
+   "start": 296.13,
+   "end": 300.85,
+   "line": "حين تفتح عينيك تجدها بجانب السرير. لا تصرخ هذه المرة.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "YAZAN",
+      "x": 0.42,
+      "pose": "sitBack",
+      "expr": "sleepy",
+      "f": 1,
+      "chair": true,
+      "s": 1.6
+     },
+     {
+      "c": "HUDA",
+      "x": 0.62,
+      "pose": "stand",
+      "expr": "smile",
+      "f": -1,
+      "s": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s097",
+   "start": 300.85,
+   "end": 303.93,
+   "line": "تمسك يدك وتسأل: كيف عرفت يا يزن؟",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "HUDA",
+    "set": "clinic",
+    "expr": "smile",
+    "side": 0.3,
+    "rimSide": 1,
+    "tear": 0.6,
+    "talk": [
+     1.43,
+     2.81
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s098",
+   "start": 303.93,
+   "end": 309.41,
+   "line": "فتجيبها: لم أسمع الألم يا أمي... سمعت طارقا. وسمعتك.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YAZAN",
+    "set": "clinic",
+    "expr": "smile",
+    "side": 0.0,
+    "talk": [
+     0.91,
+     2.83
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s099",
+   "start": 309.41,
+   "end": 314.37,
+   "line": "في المساء يدخل طارق وبقية الفريق إلى غرفتك. لقد فازوا بالنهائي.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "cheer",
+     "gain": -18
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "YAZAN",
+      "x": 0.25,
+      "pose": "sitBack",
+      "expr": "joy",
+      "f": 1,
+      "chair": true,
+      "s": 1.3
+     },
+     {
+      "c": "TAREQJ",
+      "x": 0.45,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.3
+     },
+     {
+      "c": "COACH",
+      "x": 0.62,
+      "pose": "stand",
+      "expr": "smile",
+      "f": -1,
+      "s": 1.3
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.78,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.3
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s100",
+   "start": 314.37,
+   "end": 316.39,
+   "line": "ويضعون الميدالية على صدرك.",
+   "scene": "insert medal",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "medal"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s101",
+   "start": 316.39,
+   "end": 322.25,
+   "line": "يقول المدرب: أشجع شيء فعلته هذا الموسم لم يكن الهدف. كان أن تخرج.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "COACH",
+    "set": "clinic",
+    "expr": "smile",
+    "side": 0.2,
+    "rimSide": 1,
+    "labels": [
+     {
+      "s": "أشجع شيء… أن تخرج",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 4.550000000000001
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s102",
+   "start": 322.25,
+   "end": 326.55,
+   "line": "وفي تلك الليلة تطلب من أمك الورقة القديمة. ولأول مرة...",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "YAZAN",
+      "x": 0.4,
+      "pose": "holdFront",
+      "expr": "determined",
+      "f": 1,
+      "prop": "paper"
+     },
+     {
+      "c": "HUDA",
+      "x": 0.65,
+      "pose": "stand",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s103",
+   "start": 326.55,
+   "end": 329.2,
+   "line": "تفحص نفسك بنفسك. القدمان. الركبتان. الحرارة.",
+   "scene": "insert checklist",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "checklist",
+    "items": [
+     "القدمان",
+     "الركبتان",
+     "الحرارة"
+    ],
+    "at": 0.6,
+    "gap": 0.8
+   },
+   "notes": ""
+  },
+  {
+   "id": "s104",
+   "start": 329.2,
+   "end": 331.59,
+   "line": "تفحص نفسك بنفسك. القدمان. الركبتان. الحرارة.",
+   "scene": "insert checklist",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "checklist",
+    "items": [
+     "القدمان",
+     "الركبتان",
+     "الحرارة"
+    ],
+    "at": 0.6,
+    "gap": 0.8,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s105",
+   "start": 331.59,
+   "end": 333.85,
+   "line": "ثم تخبرها بكل شيء.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "YAZAN",
+      "x": 0.4,
+      "pose": "explain",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "c": "HUDA",
+      "x": 0.62,
+      "pose": "stand",
+      "expr": "joy",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s106",
+   "start": 333.85,
+   "end": 337.45,
+   "line": "أنت لا تملك جرس إنذار... فصرت أنت الجرس.",
+   "scene": "bigline bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "ding",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "صرت أنت الجرس",
+    "set": "bedroom"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s107",
+   "start": 337.45,
+   "end": 342.89,
+   "line": "لم تشعر بالألم يوما. لكنك تعلمت أخيرا أن تسمع ما كان يريد أن يقوله.",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YAZAN",
+    "set": "bedroom",
+    "expr": "smile",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s108",
+   "start": 342.89,
+   "end": 345.07,
+   "line": "فما الحقيقي في هذه القصة؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "ما الحقيقي في هذه القصة؟",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s109",
+   "start": 345.07,
+   "end": 348.02,
+   "line": "عدم الإحساس بالألم حالة حقيقية، لكنها نادرة جدا، ويولد بها الإنسان.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "نادرة جدا",
+    "label": "عدم الإحساس الخلقي بالألم",
+    "size": 140
+   },
+   "notes": ""
+  },
+  {
+   "id": "s110",
+   "start": 348.02,
+   "end": 350.85,
+   "line": "عدم الإحساس بالألم حالة حقيقية، لكنها نادرة جدا، ويولد بها الإنسان.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "نادرة جدا",
+    "label": "عدم الإحساس الخلقي بالألم",
+    "size": 140,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s111",
+   "start": 350.85,
+   "end": 353.98,
+   "line": "ومن أشهر أسبابها خلل في جين واحد يصنع بوابة صغيرة في أعصاب الألم، تنقل الإشارة إلى الدماغ.",
+   "scene": "insert nerve",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "nerve",
+    "gene": "SCN9A"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s112",
+   "start": 353.98,
+   "end": 357.63,
+   "line": "ومن أشهر أسبابها خلل في جين واحد يصنع بوابة صغيرة في أعصاب الألم، تنقل الإشارة إلى الدماغ.",
+   "scene": "insert nerve",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "nerve",
+    "gene": "SCN9A",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s113",
+   "start": 357.63,
+   "end": 361.17,
+   "line": "حين تتعطل البوابة... لا تصل الرسالة.",
+   "scene": "insert nerve",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "nerve",
+    "broken": true,
+    "gene": "SCN9A"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s114",
+   "start": 361.17,
+   "end": 366.48,
+   "line": "وفي الجسم السليم تعمل هذه الرسالة بسرعة مدهشة. حين تلمس شيئا حارا تسحب يدك قبل أن تفكر، لأن الحبل الشوكي يصدر الأمر قبل أن يصل الخبر إلى الدماغ.",
+   "scene": "insert nerve",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "nerve",
+    "reflex": true
+   },
+   "notes": ""
+  },
+  {
+   "id": "s115",
+   "start": 366.48,
+   "end": 371.71,
+   "line": "وفي الجسم السليم تعمل هذه الرسالة بسرعة مدهشة. حين تلمس شيئا حارا تسحب يدك قبل أن تفكر، لأن الحبل الشوكي يصدر الأمر قبل أن يصل الخبر إلى الدماغ.",
+   "scene": "insert nerve",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "nerve",
+    "reflex": true,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s116",
+   "start": 371.71,
+   "end": 376.57,
+   "line": "وفي عام ألفين وستة نشر العلماء دراسة عن عائلات في شمال باكستان.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "2006",
+    "label": "دراسة عائلات في شمال باكستان",
+    "size": 160
+   },
+   "notes": ""
+  },
+  {
+   "id": "s117",
+   "start": 376.57,
+   "end": 380.2,
+   "line": "بدأت القصة بصبي كان يقدم عروضا في الشارع: يمشي على الجمر، ويغرس السكاكين في ذراعيه... ولا يتألم.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.25,
+      "pose": "handsOnHead",
+      "expr": "shocked",
+      "f": 1,
+      "s": 1.2
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.75,
+      "pose": "handsOnHead",
+      "expr": "shocked",
+      "f": -1,
+      "s": 1.2
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s118",
+   "start": 380.2,
+   "end": 383.77,
+   "line": "بدأت القصة بصبي كان يقدم عروضا في الشارع: يمشي على الجمر، ويغرس السكاكين في ذراعيه... ولا يتألم.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.25,
+      "pose": "handsOnHead",
+      "expr": "shocked",
+      "f": 1,
+      "s": 1.2
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.75,
+      "pose": "handsOnHead",
+      "expr": "shocked",
+      "f": -1,
+      "s": 1.2
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s119",
+   "start": 383.77,
+   "end": 388.71,
+   "line": "ومات قبل أن يكمل الرابعة عشرة، بعد أن قفز من فوق سطح بيت.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "14",
+    "label": "لم يكمل الرابعة عشرة",
+    "size": 200,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s120",
+   "start": 388.71,
+   "end": 392.62,
+   "line": "وما تعيشه أم يزن حقيقي أيضا. فالأطفال المصابون كثيرا ما يعضون ألسنتهم وشفاههم، وتصاب عظامهم بكسور لا يلاحظها أحد، وتتضرر مفاصلهم وعيونهم.",
+   "scene": "insert bodymap",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bodymap",
+    "spots": [
+     [
+      0,
+      -305,
+      "اللسان",
+      0.4
+     ],
+     [
+      135,
+      -60,
+      "المفاصل",
+      1.2
+     ],
+     [
+      50,
+      230,
+      "العظام",
+      2.0
+     ]
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s121",
+   "start": 392.62,
+   "end": 396.52,
+   "line": "وما تعيشه أم يزن حقيقي أيضا. فالأطفال المصابون كثيرا ما يعضون ألسنتهم وشفاههم، وتصاب عظامهم بكسور لا يلاحظها أحد، وتتضرر مفاصلهم وعيونهم.",
+   "scene": "insert bodymap",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bodymap",
+    "spots": [
+     [
+      0,
+      -305,
+      "اللسان",
+      0.4
+     ],
+     [
+      135,
+      -60,
+      "المفاصل",
+      1.2
+     ],
+     [
+      50,
+      230,
+      "العظام",
+      2.0
+     ]
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s122",
+   "start": 396.52,
+   "end": 400.13,
+   "line": "وما تعيشه أم يزن حقيقي أيضا. فالأطفال المصابون كثيرا ما يعضون ألسنتهم وشفاههم، وتصاب عظامهم بكسور لا يلاحظها أحد، وتتضرر مفاصلهم وعيونهم.",
+   "scene": "insert bodymap",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bodymap",
+    "spots": [
+     [
+      0,
+      -305,
+      "اللسان",
+      0.4
+     ],
+     [
+      135,
+      -60,
+      "المفاصل",
+      1.2
+     ],
+     [
+      50,
+      230,
+      "العظام",
+      2.0
+     ]
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s123",
+   "start": 400.13,
+   "end": 403.21,
+   "line": "لذلك تتعلم العائلات فحص الجسم بانتظام.",
+   "scene": "insert checklist",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "checklist",
+    "at": 0.2,
+    "gap": 0.4
+   },
+   "notes": ""
+  },
+  {
+   "id": "s124",
+   "start": 403.21,
+   "end": 406.74,
+   "line": "وكثير منهم لا يشمون الروائح أيضا، لأن البوابة نفسها تعمل في أعصاب الشم.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "👃 ✕",
+    "label": "فقدان الشم أيضا",
+    "size": 150
+   },
+   "notes": ""
+  },
+  {
+   "id": "s125",
+   "start": 406.74,
+   "end": 409.67,
+   "line": "وكثير منهم لا يشمون الروائح أيضا، لأن البوابة نفسها تعمل في أعصاب الشم.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "👃 ✕",
+    "label": "فقدان الشم أيضا",
+    "size": 150,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s126",
+   "start": 409.67,
+   "end": 412.54,
+   "line": "وفي عام ألفين وتسعة عشر وصف العلماء حالة امرأة إسكتلندية اسمها جو كاميرون.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "2019",
+    "label": "جو كاميرون — إسكتلندا",
+    "size": 160
+   },
+   "notes": ""
+  },
+  {
+   "id": "s127",
+   "start": 412.54,
+   "end": 415.23,
+   "line": "وفي عام ألفين وتسعة عشر وصف العلماء حالة امرأة إسكتلندية اسمها جو كاميرون.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "2019",
+    "label": "جو كاميرون — إسكتلندا",
+    "size": 160,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s128",
+   "start": 415.23,
+   "end": 418.12,
+   "line": "اكتشفت في الستينيات من عمرها أنها لا تحتاج إلى مسكنات بعد عملية جراحية في يدها.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.4,
+      "pose": "sitBack",
+      "expr": "smile",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "DOC",
+      "x": 0.65,
+      "pose": "shrug",
+      "expr": "surprised",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "بلا مسكنات",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 3.17
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s129",
+   "start": 418.12,
+   "end": 421.23,
+   "line": "اكتشفت في الستينيات من عمرها أنها لا تحتاج إلى مسكنات بعد عملية جراحية في يدها.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.4,
+      "pose": "sitBack",
+      "expr": "smile",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "DOC",
+      "x": 0.65,
+      "pose": "shrug",
+      "expr": "surprised",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "بلا مسكنات",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.28000000000001357
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s130",
+   "start": 421.23,
+   "end": 424.38,
+   "line": "وتبين أن عندها تغيرا جينيا نادرا... وأنها نادرا ما تشعر بالقلق أيضا.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "FAAH-OUT",
+    "label": "تغير جيني نادر… وقلق أقل",
+    "size": 130
+   },
+   "notes": ""
+  },
+  {
+   "id": "s131",
+   "start": 424.38,
+   "end": 427.09,
+   "line": "وتبين أن عندها تغيرا جينيا نادرا... وأنها نادرا ما تشعر بالقلق أيضا.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "FAAH-OUT",
+    "label": "تغير جيني نادر… وقلق أقل",
+    "size": 130,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s132",
+   "start": 427.09,
+   "end": 431.24,
+   "line": "وهنا سؤال ما زال مفتوحا: هل يمكن أن نصنع من هذه الجينات مسكنات جديدة لملايين المرضى الذين يعيشون مع ألم مزمن؟",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "مسكنات جديدة؟",
+    "label": "لملايين المرضى بألم مزمن",
+    "size": 120
+   },
+   "notes": ""
+  },
+  {
+   "id": "s133",
+   "start": 431.24,
+   "end": 435.19,
+   "line": "وهنا سؤال ما زال مفتوحا: هل يمكن أن نصنع من هذه الجينات مسكنات جديدة لملايين المرضى الذين يعيشون مع ألم مزمن؟",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "مسكنات جديدة؟",
+    "label": "لملايين المرضى بألم مزمن",
+    "size": 120,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s134",
+   "start": 435.19,
+   "end": 438.12,
+   "line": "بعض الأدوية التي جربت حتى الآن لم تنجح كما كان متوقعا... والبحث مستمر.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "البحث مستمر",
+    "label": "نتائج أقل من المتوقع حتى الآن",
+    "size": 120,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s135",
+   "start": 438.12,
+   "end": 441.19,
+   "line": "بعض الأدوية التي جربت حتى الآن لم تنجح كما كان متوقعا... والبحث مستمر.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "البحث مستمر",
+    "label": "نتائج أقل من المتوقع حتى الآن",
+    "size": 120,
+    "color": "coral",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s136",
+   "start": 441.19,
+   "end": 445.35,
+   "line": "فالألم الذي نكرهه... هو نفسه الحارس الذي يبقينا أحياء.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "الألم… هو الحارس",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s137",
+   "start": 445.35,
+   "end": 449.59,
+   "line": "وفي الحلقة القادمة: ماذا لو كان سمعك أقوى بمليون مرة؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "ماذا لو كان سمعك أقوى بمليون مرة؟",
+    "set": "archive",
+    "str2": "الحلقة القادمة",
+    "at2": 0.8
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s138",
+   "start": 449.59,
+   "end": 457.415,
+   "line": "ما رأيك؟ أخبرنا في التعليقات: لو كنت مكان يزن... هل كنت ستخرج من الملعب؟",
+   "scene": "endscreen ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "endscreen",
+    "q": "لو كنت مكان يزن… هل كنت ستخرج؟",
+    "cast": [
+     "HUDA",
+     "YAZAN",
+     "TAREQ",
+     "COACH",
+     "DOC",
+     "DAD"
+    ]
+   },
+   "notes": "",
+   "captions": false
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 46.77,
+   "mood": "playful",
+   "intensity": 0.35
+  },
+  {
+   "start": 46.77,
+   "end": 57.69,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 57.69,
+   "end": 65.69,
+   "mood": "wonder",
+   "intensity": 0.4
+  },
+  {
+   "start": 65.69,
+   "end": 115.97,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 115.97,
+   "end": 200.95,
+   "mood": "sad",
+   "intensity": 0.35
+  },
+  {
+   "start": 200.95,
+   "end": 208.99,
+   "mood": "hopeful",
+   "intensity": 0.35
+  },
+  {
+   "start": 208.99,
+   "end": 277.19,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 277.19,
+   "end": 289.85,
+   "mood": "sad",
+   "intensity": 0.35
+  },
+  {
+   "start": 289.85,
+   "end": 342.89,
+   "mood": "hopeful",
+   "intensity": 0.35
+  },
+  {
+   "start": 342.89,
+   "end": 457.415,
+   "mood": "calm",
+   "intensity": 0.3
+  }
+ ],
+ "sfx": []
+}
