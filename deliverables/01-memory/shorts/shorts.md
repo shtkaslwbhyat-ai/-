@@ -109,3 +109,7 @@ Vertical YouTube Shorts cover, 9:16, bold cartoon style, dramatic. Dark red back
 ```
 Vertical YouTube Shorts cover, 9:16, warm cinematic cartoon style. Sunset orange-pink background with a seaside café window. Center: grandmother stick figure with white hair bun, yellow dress and round glasses, eyes closed smiling, golden music notes floating around her. Top third: giant Arabic text "أغنية واحدة" in correct right-to-left script, ultra bold yellow with thick black outline. Three elements only, warm and emotional.
 ```
+
+
+## ✅ المعتمد للنشر 2026-11-13 (النسخة القصيرة 02-billion-seconds-short.mp4، 35 ثانية)
+العنوان (90 في vidIQ): هل تتذكر ماذا أكلت قبل 4 سنوات؟ · عقله لا ينسى ثانية واحدة 🤯 #shorts
