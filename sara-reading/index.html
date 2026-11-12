@@ -134,6 +134,7 @@ nav button[aria-current="true"]{background:var(--blue);border-color:var(--blue);
 </div>
 <canvas id="confetti"></canvas>
 
+<script src="audio.js"></script>
 <script>
 /* ---------- المحتوى من الكتاب ---------- */
 const SYL = "أَأْ أَبْ أَتْ أَثْ أَجْ أَحْ أَخْ أَدْ أَذْ أَرْ أَزْ أَسْ إِشْ حَصْ حَضْ سِطْ فَظْ فَعْ فَغْ فِفْ حَقْ بَكْ سَلْ إِمْ قَنْ بَهْ بِوْ أُيْ بُكْ فُرْ بُرْ تُضْ أُطْ حُرْ صُمْ فُغْ".split(" ");
@@ -148,13 +149,14 @@ const WORDS = [
 ];
 const QALQALA = "قطبجد";
 const SUKUN = "ْ";
-const NAMES = {"ا":"ألف","أ":"ألف عليها همزة","إ":"ألف تحتها همزة","ء":"همزة","ب":"باء","ت":"تاء","ث":"ثاء","ج":"جيم","ح":"حاء","خ":"خاء","د":"دال","ذ":"ذال","ر":"راء","ز":"زاي","س":"سين","ش":"شين","ص":"صاد","ض":"ضاد","ط":"طاء","ظ":"ظاء","ع":"عين","غ":"غين","ف":"فاء","ق":"قاف","ك":"كاف","ل":"لام","م":"ميم","ن":"نون","ه":"هاء","و":"واو","ي":"ياء"};
+const NAMES = {"ا":"ألف","أ":"همزة","إ":"همزة","ء":"همزة","ب":"باء","ت":"تاء","ث":"ثاء","ج":"جيم","ح":"حاء","خ":"خاء","د":"دال","ذ":"ذال","ر":"راء","ز":"زاي","س":"سين","ش":"شين","ص":"صاد","ض":"ضاد","ط":"طاء","ظ":"ظاء","ع":"عين","غ":"غين","ف":"فاء","ق":"قاف","ك":"كاف","ل":"لام","م":"ميم","ن":"نون","ه":"هاء","و":"واو","ي":"ياء"};
 const MARKS = {"َ":"فتحة","ِ":"كسرة","ُ":"ضمة","ْ":"سكون","ٌ":"تنوين ضم","ً":"تنوين فتح","ٍ":"تنوين كسر"};
 
 const units = w => w.match(/[ء-ي][ً-ْٰ]*/g) || [];
 const base = u => u[0];
 const mark = u => u.slice(1);
 const hasSukun = u => u.includes(SUKUN);
+const spoken = u => [NAMES[base(u)]||base(u), MARKS[mark(u)]||null];
 const describe = u => (NAMES[base(u)]||base(u)) + (mark(u) ? " عليها " + (MARKS[mark(u)]||"حركة") : " بدون حركة");
 const shuffle = a => { a=[...a]; for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]} return a; };
 const pick = (a,n) => shuffle(a).slice(0,n);
@@ -169,13 +171,28 @@ let tts=null, dict=null;
 let arVoice=null;
 function loadVoices(){ try{ arVoice=(speechSynthesis.getVoices()||[]).find(v=>/^ar/i.test(v.lang))||null; }catch(e){} }
 try{ loadVoices(); speechSynthesis.onvoiceschanged=loadVoices; }catch(e){}
-async function say(text){
+const AUDIO=window.SARA_AUDIO||{};
+let cur=null, seq=0;
+function playClip(src){
+  return new Promise(r=>{ try{ if(cur){cur.pause();} cur=new Audio(src); cur.onended=r; cur.onerror=r; cur.play().catch(r);}catch(e){r()} });
+}
+function stopAll(){ seq++; try{ if(cur) cur.pause(); speechSynthesis.cancel(); }catch(e){} try{ tts&&tts.stop(); }catch(e){} }
+async function say(text){ stopAll(); return sayOne(text); }
+async function sayParts(parts){
+  stopAll(); const my=seq;
+  for(const t of parts.filter(Boolean)){ if(my!==seq) return; await sayOne(t); }
+}
+async function sayOne(text){
+  if(AUDIO[text]) return playClip(AUDIO[text]);
+  if(arVoice) return synth(text);
   if(tts){
     try{ await tts.speak(text,{language:"ar",rate:0.85}); return; }
     catch(e){ if(!e || !["not_granted","unavailable"].includes(e.code)) return; tts=null; }
   }
+  return synth(text);
+}
+async function synth(text){
   try{
-    speechSynthesis.cancel();
     const u=new SpeechSynthesisUtterance(text); u.lang="ar-SA"; if(arVoice) u.voice=arVoice; u.rate=0.8;
     await new Promise(r=>{u.onend=r;u.onerror=r;speechSynthesis.speak(u);});
   }catch(e){}
@@ -258,7 +275,7 @@ function frame(title,i,inner){
 }
 function setMsg(t,cls){const m=$("#msg");if(m){m.textContent=t;m.className="msg "+(cls||"")}}
 function finish(title,earned,again){
-  addStar(earned); confetti(); chime(true); say("أحسنتِ يا سارة! أنهيتِ اللعبة وربحتِ "+earned+" نجوم");
+  addStar(earned); confetti(); chime(true); say("أحسنتِ يا سارة! أنهيتِ اللعبة وربحتِ نجومًا");
   view.innerHTML=`<section class="panel play"><div class="pic">🏅</div><div class="win">أحسنتِ يا سارة!</div>
    <p class="hint">أنهيتِ «${title}» وربحتِ ${"⭐".repeat(earned)}</p>
    <div class="row" style="justify-content:center"><button class="btn sun" data-go="${again}">العبي مرة ثانية</button><button class="btn ghost" data-go="games">ألعاب أخرى</button></div></section>`;
@@ -297,10 +314,10 @@ function gSpell(){
       if(t===want){
         btn.classList.add("used"); document.querySelectorAll(".tile.glow").forEach(x=>x.classList.remove("glow"));
         const slot=document.querySelector(`.slot[data-k="${pos}"]`); slot.textContent=t; slot.classList.add("filled");
-        pos++; wrongHere=0; setMsg(describe(t),"good"); say(t);
+        pos++; wrongHere=0; setMsg(describe(t),"good"); sayParts(spoken(t));
         if(pos===us.length){
           chime(true); setMsg(praise()+" "+us.join(" ـ ")+" = "+w,"good");
-          await new Promise(r=>setTimeout(r,500)); await say(praise()+"، "+us.join("، ")+"، "+w);
+          await new Promise(r=>setTimeout(r,500)); await sayParts([praise(), w]);
           i++; setTimeout(round,700);
         }
       } else {
@@ -308,7 +325,8 @@ function gSpell(){
         let txt;
         if(base(t)===base(want)) txt=`الحرف صحيح، لكن انتبهي للحركة: نريد ${want} — ${describe(want)}`;
         else txt=`ليس هذا. اخترتِ ${NAMES[base(t)]||t}، ونحتاج الآن ${describe(want)}`;
-        setMsg(txt,"bad"); say(txt.replace(" — ","، "));
+        setMsg(txt,"bad");
+        sayParts(base(t)===base(want) ? ["الحرف صحيح، لكن انتبهي للحركة", ...spoken(want)] : ["ليس هذا الحرف","نحتاج", ...spoken(want)]);
         if(wrongHere>=2){ const ok=[...document.querySelectorAll(".tiles .tile:not(.used)")].find(x=>x.dataset.t===want); ok&&ok.classList.add("glow"); }
       }
     });
@@ -330,9 +348,10 @@ function gListen(){
     $("#hear").onclick=()=>say(ans); say(ans);
     let tries=0;
     document.querySelectorAll(".opts .tile").forEach(b=>b.onclick=async()=>{
-      if(b.dataset.o===ans){ b.classList.add("right"); chime(true); setMsg(praise(),"good"); await say(praise()); i++; setTimeout(round,600); }
+      if(b.dataset.o===ans){ b.classList.add("right"); chime(true); const pr=praise(); setMsg(pr,"good"); await say(pr); i++; setTimeout(round,600); }
       else { tries++; wrong++; b.classList.add("wrong"); chime(false); shakeEl(b); setMsg("هذه «"+b.dataset.o+"». اسمعي مرة ثانية","bad");
-        await say("هذه "+b.dataset.o+". اسمعي مرة ثانية"); say(ans); }
+        
+        sayParts(["ليست هذه، اسمعي مرة ثانية", ans]); }
     });
   };
   round();
@@ -354,9 +373,9 @@ function gFind(){
       const u=us[+b.dataset.k]; if(b.classList.contains("ok")) return;
       if(hasSukun(u)){ b.textContent=u; b.classList.add("ok"); found++; chime(true);
         const q=QALQALA.includes(base(u))?" وهو من حروف القلقلة!":"";
-        setMsg(`صحيح! ${NAMES[base(u)]} ساكنة: ${u}${q}`,"good"); await say(`صحيح، ${u}${q?"، قلقلة":""}`);
-        if(found===need){ await say(praise()+"، "+w); i++; setTimeout(round,600); } }
-      else { wrong++; chime(false); shakeEl(b); const t=`هذا الحرف ${describe(u)}، ليس ساكنًا`; setMsg(t,"bad"); say(t); }
+        setMsg(`صحيح! ${NAMES[base(u)]} ساكنة: ${u}${q}`,"good"); await sayParts(["صحيح!", NAMES[base(u)], "سكون", q?"وهو من حروف القلقلة":null]);
+        if(found===need){ await sayParts([praise(), w]); i++; setTimeout(round,600); } }
+      else { wrong++; chime(false); shakeEl(b); setMsg(`هذا الحرف ${describe(u)}، ليس ساكنًا`,"bad"); sayParts(["هذا الحرف ليس ساكنًا"]); }
     });
   };
   round();
@@ -397,8 +416,8 @@ function gRead(){
         $("#heard").textContent="سمعتُ: "+text;
         const h=norm(text), t=norm(w);
         if(h.includes(t) || (t.startsWith("ا") && h.includes(t.slice(1)))){
-          chime(true); setMsg(praise()+" قراءة صحيحة ✅","good"); await say(praise()); i++; setTimeout(round,900);
-        } else { wrong++; chime(false); setMsg("قريب! اسمعي النطق الصحيح وجربي مرة ثانية: "+w,"bad"); await say("اسمعي جيدًا، "+w+"، جربي مرة ثانية"); }
+          chime(true); const pr=praise(); setMsg(pr+" قراءة صحيحة ✅","good"); await say(pr); i++; setTimeout(round,900);
+        } else { wrong++; chime(false); setMsg("قريب! اسمعي النطق الصحيح وجربي مرة ثانية: "+w,"bad"); await sayParts(["اسمعي جيدًا، وجربي مرة ثانية", w]); }
       };
     };
   };
@@ -421,7 +440,7 @@ function gMatch(){
       if(!sel){setMsg("اختاري الكلمة أولًا","bad");return}
       if(b.dataset.p===sel.dataset.w){ b.classList.add("right");sel.classList.add("right");sel.classList.remove("sel");sel=null;done++;chime(true);setMsg(praise(),"good");
         if(done===4){await say(praise());i++;setTimeout(round,600)} }
-      else { wrong++;chime(false);shakeEl(b);setMsg("ليست هذه الصورة، جربي مرة ثانية","bad"); }
+      else { wrong++;chime(false);shakeEl(b);setMsg("ليست هذه الصورة، جربي مرة ثانية","bad");say("ليست هذه الصورة، جربي مرة ثانية"); }
     });
   };
   round();
