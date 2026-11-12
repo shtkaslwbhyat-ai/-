@@ -1,0 +1,59 @@
+# الحلقة 5 — حزمة الرفع
+
+## العنوان
+ماذا لو كان سمعك أقوى بمليون مرة… إلا لصوت واحد؟ 😱
+
+(لم يُقيَّم بأداة vidIQ لأن الرصيد نفد حتى 2026-11-23. يجمع نمط الرقم الكبير (94/100) ونمط المفارقة "... إلا ..." (95/100).)
+بديل أقصر: ماذا لو كان سمعك أقوى بمليون مرة؟ 😱
+
+## الوصف
+```
+ماذا لو سمعت قلب جارك خلف الجدار، ونملة تمشي على الزجاج، وهمس أمك في الطابق الأرضي… وكل سر في المدينة؟
+عمر يسمع كل شيء… إلا الصوت الوحيد الذي يحتاج أن يسمعه.
+
+⏱️ فصول الحلقة
+0:00 الساعة الثالثة فجرًا
+0:41 القاعدة: الأذن تسمع والدماغ ينصت
+1:03 الحياة لعبة
+1:29 قطة اسمها همسة
+1:41 ليلة الغاز
+2:09 الرادار
+2:14 مدينة لا تنام
+2:27 الامتحان وطبيب الأذن
+2:47 أسرار لا تريد سماعها
+3:02 جدك يوسف
+3:43 ذلك المساء
+3:55 المستشفى
+4:27 أمامك طريقان
+4:39 قلب جدك
+5:10 اسمع من تحب
+5:47 ما الحقيقي في هذه القصة؟
+5:49 مدى سمع الإنسان
+5:58 لغز الديسيبل
+6:29 أقوى سمع في عالم الحيوان
+6:49 فرط السمع
+7:01 تأثير حفلة الكوكتيل
+7:27 الحلقة القادمة
+```
+ثم الوصف الثابت من docs/upload-template.md (مع: لو سمعت كل أسرار من حولك… هل كنت ستخبرهم؟).
+
+## الوسوم
+ماذا لو, ماذا لو كان سمعك أقوى بمليون مرة, السمع, الأذن, الديسيبل, فرط السمع, تأثير حفلة الكوكتيل, عثة الشمع, أقوى سمع في الحيوانات, الدماغ, قصص خيالية, قصص ماذا لو, انيميشن عربي, حقائق علمية, عالم لو
+
+## إعدادات الرفع
+ليس للأطفال — التعليم — المحتوى الاصطناعي: نعم — قائمة "ماذا لو؟ | قصص خيالية بالعربي وحقائق علمية" — النشر الأربعاء 18 نوفمبر الساعة 20:00 بتوقيت مكة.
+
+## برومبت الصورة المصغرة (وصفة الـ 90)
+```
+YouTube thumbnail, bold vibrant cartoon style, 16:9, 1280x720, razor sharp, highly saturated, high contrast, eye-catching. BACKGROUND: vivid bright red-orange background with a glowing yellow light burst behind the character, energetic glowing golden sound-wave rings radiating toward his head from every direction, clean and simple, no clutter. LEFT SIDE: a huge black cartoon character head filling about 60% of the frame height, tightly cropped at the bottom, curly black hair silhouette, magenta hoodie at the bottom edge. EXTREME overwhelmed expression: enormous round white eyes with tiny pupils, eyebrows raised, mouth open, both black hands cupped behind his ears. Thick bright yellow-orange rim light outlining the head. CENTER: ONE single small speech bubble from an old man (fedora hat and glasses silhouette at the edge), the bubble EMPTY with only "..." inside, glowing softly. RIGHT SIDE: giant Arabic text "إلا هو!" in correct right-to-left Arabic script, ultra heavy bold Arabic font, bright yellow #FFD400 letters with a very thick black outline plus a soft dark drop shadow, fully legible. Only three elements: the face, the empty bubble, the text. No other text, no watermark.
+```
+
+## مراجعة المدقق للحقائق
+- مدى سمع الإنسان نحو 20–20,000 هرتز، ويقل الحد الأعلى مع العمر: صحيح.
+- الديسيبل مقياس لوغاريتمي: كل +10 ديسيبل تعني شدة أكبر بعشر مرات، فالشدة الأكبر بمليون مرة تساوي +60 ديسيبل: صحيح.
+- حساسية الأذن قريبة من حد سماع الحركة العشوائية لجزيئات الهواء: ذُكر بصيغة "يرى بعض العلماء… لربما".
+- الغرف الكاتمة للصدى (مثل غرفة مايكروسوفت المسجلة كأهدأ مكان): الزوار يذكرون سماع قلوبهم وأصوات أجسامهم. ذُكر كقول للزوار.
+- عثة الشمع الكبيرة (Galleria mellonella): دراسة عام 2013 وجدت أنها تسمع حتى نحو 300 كيلوهرتز، أي 15 ضعف الحد البشري (20 كيلوهرتز). وارتباط ذلك بسماع الخفافيش ذُكر بصيغة "يرجح العلماء".
+- فرط السمع (Hyperacusis): حالة حقيقية تصبح فيها الأصوات العادية مزعجة أو مؤلمة.
+- تأثير حفلة الكوكتيل: الانتباه الانتقائي، والالتفات عند سماع الاسم. آلية الدماغ ما زالت قيد البحث.
+- قصة عمر وجده خيالية، وتشخيص "طبيب الأذن" فيها درامي.

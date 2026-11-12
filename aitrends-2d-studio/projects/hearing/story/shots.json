@@ -1,0 +1,4097 @@
+{
+ "title": "ماذا لو كان سمعك أقوى بمليون مرة؟",
+ "duration": 460.001,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 4.01,
+   "line": "الساعة الثالثة فجرا. البيت صامت... إلا عندك.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "OMAR",
+      "x": 0.45,
+      "pose": "sit",
+      "expr": "sleepy",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "clock": [
+     3,
+     0
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s002",
+   "start": 4.01,
+   "end": 6.43,
+   "line": "تسمع قلب جارك يدق خلف الجدار.",
+   "scene": "insert heart",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.0,
+     "name": "heartbeat",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "heart",
+    "mode": "calm",
+    "label": "خلف الجدار"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s003",
+   "start": 6.43,
+   "end": 9.03,
+   "line": "تسمع نملة تمشي على زجاج النافذة.",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "OMAR",
+    "set": "bedroom",
+    "expr": "surprised",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "نملة على الزجاج",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.47
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s004",
+   "start": 9.03,
+   "end": 12.79,
+   "line": "والثلاجة في المطبخ تهدر كأنها قطار يمر في غرفتك.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "hum",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [],
+    "so": {
+     "night": true,
+     "sky": "night"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    },
+    "labels": [
+     {
+      "s": "هدير قطار!",
+      "x": 0.5,
+      "y": 0.3,
+      "size": 90,
+      "coral": true,
+      "at": 2.03
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s005",
+   "start": 12.79,
+   "end": 16.46,
+   "line": "ثم تسمع أمك. هي في الطابق الأرضي، تتكلم في الهاتف بصوت خافت جدا... حتى لا يسمعها أحد.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SAWSAN",
+      "x": 0.55,
+      "pose": "phone",
+      "expr": "sad",
+      "f": -1
+     }
+    ],
+    "so": {
+     "night": true,
+     "sky": "night"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "الطابق الأرضي",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 1.9699999999999998
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s006",
+   "start": 16.46,
+   "end": 20.45,
+   "line": "ثم تسمع أمك. هي في الطابق الأرضي، تتكلم في الهاتف بصوت خافت جدا... حتى لا يسمعها أحد.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SAWSAN",
+      "x": 0.55,
+      "pose": "phone",
+      "expr": "sad",
+      "f": -1
+     }
+    ],
+    "so": {
+     "night": true,
+     "sky": "night"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "الطابق الأرضي",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s007",
+   "start": 20.45,
+   "end": 22.23,
+   "line": "وأنت تسمع كل كلمة.",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "OMAR",
+    "set": "bedroom",
+    "expr": "worried",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s008",
+   "start": 22.23,
+   "end": 30.71,
+   "line": "في الصباح تعرف أن الحافلة ستتأخر قبل أن تخرج من البيت. تسمع محركها عالقا في الزحام... على بعد ثلاثة كيلومترات.",
+   "scene": "places ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "places",
+    "pins": [
+     [
+      "البيت",
+      0.25,
+      0.65
+     ],
+     [
+      "الحافلة عالقة",
+      0.78,
+      0.32,
+      1.4
+     ]
+    ],
+    "home": 0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s009",
+   "start": 30.71,
+   "end": 33.81,
+   "line": "سمعك أقوى من سمع أي إنسان بمليون مرة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "data",
+    "value": "×1,000,000",
+    "label": "أقوى من سمع أي إنسان",
+    "size": 150
+   },
+   "notes": ""
+  },
+  {
+   "id": "s010",
+   "start": 33.81,
+   "end": 38.15,
+   "line": "تسمع كل سر في المدينة. كل همسة. كل كذبة.",
+   "scene": "insert waves",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "waves",
+    "src": [
+     "كل سر",
+     "كل همسة",
+     "كل كذبة"
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s011",
+   "start": 38.15,
+   "end": 41.29,
+   "line": "إلا شيئا واحدا. الصوت الذي يكلمك أنت.",
+   "scene": "face city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "OMAR",
+    "set": "city",
+    "expr": "confused",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "إلا الصوت الذي يكلمك",
+      "x": 0.5,
+      "y": 0.18,
+      "at": 1.77
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s012",
+   "start": 41.29,
+   "end": 47.95,
+   "line": "لأن لهذه القوة قاعدة واحدة. الأذن تسمع... لكن الدماغ هو الذي ينصت.",
+   "scene": "bigline home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "قاعدة واحدة",
+    "set": "home",
+    "str2": "الأذن تسمع… والدماغ ينصت",
+    "at2": 1.6
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s013",
+   "start": 47.95,
+   "end": 52.25,
+   "line": "وحين يصل إليه كل صوت في العالم... يضيع الصوت الأقرب.",
+   "scene": "insert bubbles",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bubbles",
+    "n": 44
+   },
+   "notes": ""
+  },
+  {
+   "id": "s014",
+   "start": 52.25,
+   "end": 55.07,
+   "line": "اسمك عمر. سبعة عشر عاما.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "OMAR",
+      "x": 0.5,
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.8
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "عمر",
+      "x": 0.5,
+      "y": 0.2,
+      "size": 90,
+      "at": 0.49
+     },
+     {
+      "s": "17 عاما",
+      "x": 0.5,
+      "y": 0.32,
+      "cream": true,
+      "at": 1.3499999999999999
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s015",
+   "start": 55.07,
+   "end": 60.21,
+   "line": "وستتعلم يوما أن أصعب شيء ليس أن تسمع كل شيء... بل أن تختار ما تسمعه.",
+   "scene": "face city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "OMAR",
+    "set": "city",
+    "expr": "thinking",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "أن تختار ما تسمعه",
+      "x": 0.5,
+      "y": 0.18,
+      "at": 4.03
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s016",
+   "start": 60.21,
+   "end": 63.21,
+   "line": "فماذا لو كان سمعك أقوى بمليون مرة؟",
+   "scene": "title ",
+   "set": "",
+   "bars": "scope",
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "title",
+    "lines": [
+     "ماذا لو",
+     "كان سمعك أقوى بمليون مرة؟"
+    ]
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s017",
+   "start": 63.21,
+   "end": 68.09,
+   "line": "في البداية تبدو الحياة لعبة. في الحفلة الموسيقية تسمع كل آلة وحدها.",
+   "scene": "stage studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "studio",
+    "chars": [
+     {
+      "c": "OMAR",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "chair": true,
+      "s": 1.3
+     }
+    ],
+    "crowd": 0.2,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "murmur",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s018",
+   "start": 68.09,
+   "end": 73.33,
+   "line": "تعرف أن عازف الكمان الثالث متوتر، لأنك تسمع أنفاسه بين النغمات.",
+   "scene": "face studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "OMAR",
+    "set": "studio",
+    "expr": "smirk",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "الكمان الثالث متوتر",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 1.25
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s019",
+   "start": 73.33,
+   "end": 76.18,
+   "line": "وتعرف أن سيارة أبيك ستتعطل قبل أسبوع من تعطلها. في المحرك صوت صغير...",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "DAD",
+      "x": 0.6,
+      "pose": "shrug",
+      "expr": "confused",
+      "f": -1
+     },
+     {
+      "c": "OMAR",
+      "x": 0.4,
+      "pose": "point",
+      "expr": "determined",
+      "f": 1
+     }
+    ],
+    "props": [
+     {
+      "k": "taxi",
+      "x": 0.75
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "بعد أسبوع",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 2.4899999999999998
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s020",
+   "start": 76.18,
+   "end": 79.15,
+   "line": "وتعرف أن سيارة أبيك ستتعطل قبل أسبوع من تعطلها. في المحرك صوت صغير...",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "DAD",
+      "x": 0.6,
+      "pose": "shrug",
+      "expr": "confused",
+      "f": -1
+     },
+     {
+      "c": "OMAR",
+      "x": 0.4,
+      "pose": "point",
+      "expr": "determined",
+      "f": 1
+     }
+    ],
+    "props": [
+     {
+      "k": "taxi",
+      "x": 0.75
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "بعد أسبوع",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s021",
+   "start": 79.15,
+   "end": 80.95,
+   "line": "لا يسمعه الميكانيكي نفسه.",
+   "scene": "face city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "DAD",
+    "set": "city",
+    "expr": "surprised",
+    "side": 0.2,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s022",
+   "start": 80.95,
+   "end": 84.05,
+   "line": "وفي الصف لا يستطيع أحد أن يكذب عليك.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "OMAR",
+      "x": 0.38,
+      "pose": "crossArms",
+      "expr": "smirk",
+      "f": 1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.62,
+      "pose": "explain",
+      "expr": "nervous",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s023",
+   "start": 84.05,
+   "end": 86.28,
+   "line": "حين يكذب زميلك... يتسارع قلبه. وأنت تسمع ذلك بوضوح.",
+   "scene": "insert heart",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "heartbeat",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "heart",
+    "mode": "fast",
+    "label": "يكذب…"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s024",
+   "start": 86.28,
+   "end": 89.11,
+   "line": "حين يكذب زميلك... يتسارع قلبه. وأنت تسمع ذلك بوضوح.",
+   "scene": "insert heart",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "heart",
+    "mode": "fast",
+    "label": "يكذب…",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s025",
+   "start": 89.11,
+   "end": 92.36,
+   "line": "وخلف الحي تسمع مواء ضعيفا جدا... قطة صغيرة عالقة في أنبوب تحت الأرض منذ يومين.",
+   "scene": "insert cat",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "cat"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s026",
+   "start": 92.36,
+   "end": 95.61,
+   "line": "وخلف الحي تسمع مواء ضعيفا جدا... قطة صغيرة عالقة في أنبوب تحت الأرض منذ يومين.",
+   "scene": "insert cat",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "cat",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s027",
+   "start": 95.61,
+   "end": 99.01,
+   "line": "تحفر بيديك ساعة كاملة... وتخرجها.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "OMAR",
+      "x": 0.45,
+      "pose": "kneel",
+      "expr": "determined",
+      "f": 1
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s028",
+   "start": 99.01,
+   "end": 101.97,
+   "line": "تسميها همسة. وتصير قطتك.",
+   "scene": "insert cat",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "cat",
+    "out": true
+   },
+   "notes": ""
+  },
+  {
+   "id": "s029",
+   "start": 101.97,
+   "end": 104.72,
+   "line": "لكن الليلة التي غيرت كل شيء كانت ليلة الغاز. كنت عائدا إلى البيت حين سمعته.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "OMAR",
+      "x": 0.45,
+      "pose": "stand",
+      "expr": "shocked",
+      "f": 1
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s030",
+   "start": 104.72,
+   "end": 107.95,
+   "line": "لكن الليلة التي غيرت كل شيء كانت ليلة الغاز. كنت عائدا إلى البيت حين سمعته.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "OMAR",
+      "x": 0.45,
+      "pose": "stand",
+      "expr": "shocked",
+      "f": 1
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s031",
+   "start": 107.95,
+   "end": 110.46,
+   "line": "فحيح رفيع... يخرج من أنبوب مكسور في الطابق الخامس.",
+   "scene": "insert gas",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "wind",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "gas"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s032",
+   "start": 110.46,
+   "end": 113.21,
+   "line": "فحيح رفيع... يخرج من أنبوب مكسور في الطابق الخامس.",
+   "scene": "insert gas",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "gas",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s033",
+   "start": 113.21,
+   "end": 114.79,
+   "line": "الجميع نائمون.",
+   "scene": "insert building",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "building",
+    "hiss": true
+   },
+   "notes": ""
+  },
+  {
+   "id": "s034",
+   "start": 114.79,
+   "end": 117.05,
+   "line": "تطرق الأبواب. تصرخ.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "hit",
+     "gain": -10
+    },
+    {
+     "at": 0.6,
+     "name": "hit",
+     "gain": -10
+    },
+    {
+     "at": 1.0,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "OMAR",
+      "x": 0.5,
+      "pose": "point",
+      "expr": "shocked",
+      "f": 1,
+      "s": 1.4
+     }
+    ],
+    "so": {
+     "night": true,
+     "sky": "night"
+    },
+    "cam": {
+     "z0": 1.05,
+     "z1": 1.12,
+     "shake": 4
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s035",
+   "start": 117.05,
+   "end": 121.03,
+   "line": "وينزل السكان إلى الشارع بملابس النوم... غاضبين.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.25,
+      "pose": "crossArms",
+      "expr": "angry",
+      "f": 1,
+      "s": 1.2
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.4,
+      "pose": "crossArms",
+      "expr": "angry",
+      "f": 1,
+      "s": 1.2
+     },
+     {
+      "c": "OMAR",
+      "x": 0.6,
+      "pose": "explain",
+      "expr": "worried",
+      "f": -1,
+      "s": 1.2
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.78,
+      "pose": "crossArms",
+      "expr": "angry",
+      "f": -1,
+      "s": 1.2
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s036",
+   "start": 121.03,
+   "end": 125.33,
+   "line": "ثم يصل رجال الطوارئ. ويجدون التسرب تماما حيث قلت.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whistle",
+     "gain": -16
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "MEDIC",
+      "x": 0.4,
+      "pose": "point",
+      "expr": "determined",
+      "f": 1
+     },
+     {
+      "c": "MEDIC",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s037",
+   "start": 125.33,
+   "end": 129.05,
+   "line": "في الصباح تكتب الصحف عن الفتى الذي أنقذ عمارة كاملة.",
+   "scene": "insert news",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "news"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s038",
+   "start": 129.05,
+   "end": 131.65,
+   "line": "ويسميك أصدقاؤك: الرادار.",
+   "scene": "bigline city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "الرادار",
+    "set": "city"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s039",
+   "start": 131.65,
+   "end": 134.51,
+   "line": "لكن الرادار لا يعرف كيف يطفئ نفسه.",
+   "scene": "face city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "OMAR",
+    "set": "city",
+    "expr": "worried",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s040",
+   "start": 134.51,
+   "end": 137.3,
+   "line": "المدينة عندك لا تنام أبدا. أبواق السيارات. أجهزة التكييف.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "carpass",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "OMAR",
+      "x": 0.5,
+      "pose": "handsOnHead",
+      "expr": "worried",
+      "f": 1,
+      "s": 1.3
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.05,
+     "z1": 1.12,
+     "x0": 0,
+     "x1": -20,
+     "shake": 3
+    },
+    "labels": [
+     {
+      "s": "بيب!",
+      "x": 0.2,
+      "y": 0.3,
+      "coral": true,
+      "at": 2.37
+     },
+     {
+      "s": "ززززز",
+      "x": 0.8,
+      "y": 0.3,
+      "coral": true,
+      "at": 3.73
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s041",
+   "start": 137.3,
+   "end": 139.81,
+   "line": "المدينة عندك لا تنام أبدا. أبواق السيارات. أجهزة التكييف.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "OMAR",
+      "x": 0.5,
+      "pose": "handsOnHead",
+      "expr": "worried",
+      "f": 1,
+      "s": 1.3
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "بيب!",
+      "x": 0.2,
+      "y": 0.3,
+      "coral": true,
+      "at": 0.05
+     },
+     {
+      "s": "ززززز",
+      "x": 0.8,
+      "y": 0.3,
+      "coral": true,
+      "at": 0.9399999999999795
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s042",
+   "start": 139.81,
+   "end": 141.69,
+   "line": "شخير عمارة كاملة.",
+   "scene": "insert building",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "building",
+    "snore": true
+   },
+   "notes": ""
+  },
+  {
+   "id": "s043",
+   "start": 141.69,
+   "end": 144.4,
+   "line": "صرت تنام وعلى أذنيك سماعتان كبيرتان تعزلان الصوت... ومع ذلك تسمع.",
+   "scene": "insert headphones",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "headphones"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s044",
+   "start": 144.4,
+   "end": 147.23,
+   "line": "صرت تنام وعلى أذنيك سماعتان كبيرتان تعزلان الصوت... ومع ذلك تسمع.",
+   "scene": "insert headphones",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "headphones",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s045",
+   "start": 147.23,
+   "end": 150.4,
+   "line": "وفي الامتحان تسمع أقلام ثلاثين طالبا تكتب في وقت واحد... فلا تستطيع أن تقرأ سؤالا واحدا.",
+   "scene": "insert exam",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "tick",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "exam",
+    "noTimer": true,
+    "labels": [
+     {
+      "s": "30 قلما… في وقت واحد",
+      "x": 0.5,
+      "y": 0.12,
+      "box": true,
+      "coral": true,
+      "at": 1.17
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s046",
+   "start": 150.4,
+   "end": 153.89,
+   "line": "وفي الامتحان تسمع أقلام ثلاثين طالبا تكتب في وقت واحد... فلا تستطيع أن تقرأ سؤالا واحدا.",
+   "scene": "insert exam",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "exam",
+    "noTimer": true,
+    "labels": [
+     {
+      "s": "30 قلما… في وقت واحد",
+      "x": 0.5,
+      "y": 0.12,
+      "box": true,
+      "coral": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s047",
+   "start": 153.89,
+   "end": 156.29,
+   "line": "ودرجاتك تهبط شهرا بعد شهر.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "↓",
+    "label": "الدرجات تهبط شهرا بعد شهر",
+    "size": 200,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s048",
+   "start": 156.29,
+   "end": 159.76,
+   "line": "يأخذك أبوك إلى طبيب الأذن. يفحصك طويلا، ثم يقول: أذناك سليمتان تماما.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DOC",
+      "x": 0.62,
+      "pose": "think",
+      "expr": "thinking",
+      "f": -1
+     },
+     {
+      "c": "OMAR",
+      "x": 0.4,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "DAD",
+      "x": 0.2,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s049",
+   "start": 159.76,
+   "end": 162.95,
+   "line": "يأخذك أبوك إلى طبيب الأذن. يفحصك طويلا، ثم يقول: أذناك سليمتان تماما.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DOC",
+      "x": 0.62,
+      "pose": "think",
+      "expr": "thinking",
+      "f": -1
+     },
+     {
+      "c": "OMAR",
+      "x": 0.4,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "DAD",
+      "x": 0.2,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s050",
+   "start": 162.95,
+   "end": 167.81,
+   "line": "المشكلة ليست في ما تسمعه... بل في أن دماغك لا يعرف ماذا يترك.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "DOC",
+    "set": "clinic",
+    "expr": "neutral",
+    "side": 0.2,
+    "rimSide": 1,
+    "labels": [
+     {
+      "s": "دماغك لا يعرف ماذا يترك",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 2.83
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s051",
+   "start": 167.81,
+   "end": 171.02,
+   "line": "والأسرار ليست ممتعة كما كنت تظن. تسمع أصدقاءك في المقهى يضحكون عليك بعد أن تخرج.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.3,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.2
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.48,
+      "pose": "talk",
+      "expr": "smirk",
+      "f": -1,
+      "s": 1.2
+     },
+     {
+      "c": "OMAR",
+      "x": 0.85,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.2
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s052",
+   "start": 171.02,
+   "end": 173.89,
+   "line": "والأسرار ليست ممتعة كما كنت تظن. تسمع أصدقاءك في المقهى يضحكون عليك بعد أن تخرج.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.3,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.2
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.48,
+      "pose": "talk",
+      "expr": "smirk",
+      "f": -1,
+      "s": 1.2
+     },
+     {
+      "c": "OMAR",
+      "x": 0.85,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.2
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s053",
+   "start": 173.89,
+   "end": 177.19,
+   "line": "وتسمع أمك تبكي ليلا من ديون لا تريد أن تخبرك بها.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SAWSAN",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "cry",
+      "f": -1,
+      "chair": true
+     }
+    ],
+    "props": [
+     {
+      "k": "table",
+      "x": 0.6
+     }
+    ],
+    "so": {
+     "night": true,
+     "sky": "night"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "ديون",
+      "x": 0.5,
+      "y": 0.2,
+      "box": true,
+      "coral": true,
+      "at": 1.69
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s054",
+   "start": 177.19,
+   "end": 182.83,
+   "line": "صرت تعرف كل شيء عن الناس... ولا تستطيع أن تقول لهم إنك تعرف.",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "OMAR",
+    "set": "bedroom",
+    "expr": "sad",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s055",
+   "start": 182.83,
+   "end": 186.02,
+   "line": "لكن أصعب ما في الأمر... جدك يوسف. جدك يتكلم بصوت هادئ منخفض.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "OMAR",
+      "x": 0.4,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "YOUSEF",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "smile",
+      "f": -1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "جدك يوسف",
+      "x": 0.62,
+      "y": 0.2,
+      "box": true,
+      "at": 2.31
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s056",
+   "start": 186.02,
+   "end": 188.43,
+   "line": "لكن أصعب ما في الأمر... جدك يوسف. جدك يتكلم بصوت هادئ منخفض.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "OMAR",
+      "x": 0.4,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "YOUSEF",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "smile",
+      "f": -1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "جدك يوسف",
+      "x": 0.62,
+      "y": 0.2,
+      "box": true,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s057",
+   "start": 188.43,
+   "end": 191.43,
+   "line": "وكل مساء يجلس بجانبك ليحكي لك حكاية.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOUSEF",
+    "set": "home",
+    "expr": "smile",
+    "side": 0.3,
+    "rimSide": 1,
+    "talk": [
+     2.01,
+     3.15
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s058",
+   "start": 191.43,
+   "end": 195.32,
+   "line": "حكايات عن البحر، وعن أبيه الصياد، وعن اليوم الذي ولدت فيه. وأنت تسمع كل شيء إلا صوته.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "YOUSEF",
+      "x": 0.5,
+      "pose": "explain",
+      "expr": "happy",
+      "f": 1,
+      "s": 1.4
+     }
+    ],
+    "so": {
+     "outside": true
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s059",
+   "start": 195.32,
+   "end": 198.99,
+   "line": "حكايات عن البحر، وعن أبيه الصياد، وعن اليوم الذي ولدت فيه. وأنت تسمع كل شيء إلا صوته.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "YOUSEF",
+      "x": 0.5,
+      "pose": "explain",
+      "expr": "happy",
+      "f": 1,
+      "s": 1.4
+     }
+    ],
+    "so": {
+     "outside": true
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s060",
+   "start": 198.99,
+   "end": 202.16,
+   "line": "يضيع بين دقات ساعة الجدار، وصوت التلفاز عند الجيران، وبكاء طفل في الشارع المجاور.",
+   "scene": "insert bubbles",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bubbles",
+    "n": 34
+   },
+   "notes": ""
+  },
+  {
+   "id": "s061",
+   "start": 202.16,
+   "end": 205.17,
+   "line": "يضيع بين دقات ساعة الجدار، وصوت التلفاز عند الجيران، وبكاء طفل في الشارع المجاور.",
+   "scene": "insert bubbles",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bubbles",
+    "n": 34,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s062",
+   "start": 205.17,
+   "end": 210.61,
+   "line": "فتقول له: ماذا يا جدي؟ ويعيد. ثم تقول: ماذا؟",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "OMAR",
+    "set": "home",
+    "expr": "confused",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "ماذا؟",
+      "x": 0.5,
+      "y": 0.18,
+      "size": 100,
+      "at": 0.8300000000000001
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s063",
+   "start": 210.61,
+   "end": 212.81,
+   "line": "فيبتسم... ويسكت.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOUSEF",
+    "set": "home",
+    "expr": "sad",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s064",
+   "start": 212.81,
+   "end": 216.88,
+   "line": "والغريب أن جدك نفسه يضع سماعة طبية في أذنه. هو لا يسمع جيدا... وأنت تسمع أكثر من اللازم. ومع ذلك...",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOUSEF",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.8
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "سماعة طبية",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 1.67
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s065",
+   "start": 216.88,
+   "end": 221.13,
+   "line": "والغريب أن جدك نفسه يضع سماعة طبية في أذنه. هو لا يسمع جيدا... وأنت تسمع أكثر من اللازم. ومع ذلك...",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOUSEF",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.8
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "سماعة طبية",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s066",
+   "start": 221.13,
+   "end": 223.31,
+   "line": "هو الذي يفهمك دائما.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "OMAR",
+      "x": 0.42,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "chair": true,
+      "s": 1.5
+     },
+     {
+      "c": "YOUSEF",
+      "x": 0.6,
+      "pose": "sit",
+      "expr": "smile",
+      "f": -1,
+      "chair": true,
+      "s": 1.5
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s067",
+   "start": 223.31,
+   "end": 227.89,
+   "line": "ثم يأتي ذلك المساء. جدك يمسك صدره ويجلس على الأرض.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOUSEF",
+      "x": 0.55,
+      "pose": "kneel",
+      "expr": "scared",
+      "f": -1
+     },
+     {
+      "c": "OMAR",
+      "x": 0.35,
+      "pose": "stand",
+      "expr": "shocked",
+      "f": 1
+     }
+    ],
+    "so": {
+     "night": true,
+     "sky": "night"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s068",
+   "start": 227.89,
+   "end": 230.8,
+   "line": "وأنت تسمع قلبه. يدق بسرعة... ثم يبطؤ... ثم يتعثر.",
+   "scene": "insert heart",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "heartbeat",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "heart",
+    "mode": "stumble"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s069",
+   "start": 230.8,
+   "end": 233.39,
+   "line": "وأنت تسمع قلبه. يدق بسرعة... ثم يبطؤ... ثم يتعثر.",
+   "scene": "insert heart",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "heart",
+    "mode": "stumble",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s070",
+   "start": 233.39,
+   "end": 235.71,
+   "line": "سيارة الإسعاف تصل بعد دقائق.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "MEDIC",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.2,
+       0.6
+      ],
+      "run": true
+     },
+     {
+      "c": "MEDIC",
+      "x": 0.25,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.05,
+       0.45
+      ],
+      "run": true
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s071",
+   "start": 235.71,
+   "end": 240.02,
+   "line": "وفي المستشفى يبدأ الجحيم. مئات الأجهزة تصدر أصواتها. مئات القلوب تدق في الغرف. أطباء يركضون. أبواب تفتح وتغلق. وصراخ في قسم الطوارئ.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "buzz",
+     "gain": -14
+    },
+    {
+     "at": 1.0,
+     "name": "blip",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "OMAR",
+    "pose": "handsOnHead",
+    "expr": "scared",
+    "n": 70,
+    "speed": 3,
+    "cards": [
+     "أجهزة",
+     "قلوب",
+     "أبواب",
+     "صراخ"
+    ],
+    "cardsX": [
+     0.2,
+     0.8,
+     0.22,
+     0.78
+    ],
+    "cardsY": [
+     0.22,
+     0.22,
+     0.45,
+     0.45
+    ],
+    "gap": 0.7
+   },
+   "notes": ""
+  },
+  {
+   "id": "s072",
+   "start": 240.02,
+   "end": 244.02,
+   "line": "وفي المستشفى يبدأ الجحيم. مئات الأجهزة تصدر أصواتها. مئات القلوب تدق في الغرف. أطباء يركضون. أبواب تفتح وتغلق. وصراخ في قسم الطوارئ.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "OMAR",
+    "pose": "handsOnHead",
+    "expr": "scared",
+    "n": 70,
+    "speed": 3,
+    "cards": [
+     "أجهزة",
+     "قلوب",
+     "أبواب",
+     "صراخ"
+    ],
+    "cardsX": [
+     0.2,
+     0.8,
+     0.22,
+     0.78
+    ],
+    "cardsY": [
+     0.22,
+     0.22,
+     0.45,
+     0.45
+    ],
+    "gap": 0.7,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s073",
+   "start": 244.02,
+   "end": 247.55,
+   "line": "وفي المستشفى يبدأ الجحيم. مئات الأجهزة تصدر أصواتها. مئات القلوب تدق في الغرف. أطباء يركضون. أبواب تفتح وتغلق. وصراخ في قسم الطوارئ.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "OMAR",
+    "pose": "handsOnHead",
+    "expr": "scared",
+    "n": 70,
+    "speed": 3,
+    "cards": [
+     "أجهزة",
+     "قلوب",
+     "أبواب",
+     "صراخ"
+    ],
+    "cardsX": [
+     0.2,
+     0.8,
+     0.22,
+     0.78
+    ],
+    "cardsY": [
+     0.22,
+     0.22,
+     0.45,
+     0.45
+    ],
+    "gap": 0.7,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s074",
+   "start": 247.55,
+   "end": 250.97,
+   "line": "تضع يديك على أذنيك... ولا يتوقف شيء.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "OMAR",
+    "set": "clinic",
+    "expr": "scared",
+    "side": 0.0,
+    "tilt": 0.06
+   },
+   "notes": ""
+  },
+  {
+   "id": "s075",
+   "start": 250.97,
+   "end": 254.18,
+   "line": "ثم يسمح لك بالدخول. جدك على السرير، ووجهه شاحب. يشير إليك أن تقترب.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "YOUSEF",
+      "x": 0.55,
+      "pose": "sitBack",
+      "expr": "sleepy",
+      "f": -1,
+      "chair": true
+     },
+     {
+      "c": "OMAR",
+      "x": 0.35,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s076",
+   "start": 254.18,
+   "end": 257.41,
+   "line": "ثم يسمح لك بالدخول. جدك على السرير، ووجهه شاحب. يشير إليك أن تقترب.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "YOUSEF",
+      "x": 0.55,
+      "pose": "sitBack",
+      "expr": "sleepy",
+      "f": -1,
+      "chair": true
+     },
+     {
+      "c": "OMAR",
+      "x": 0.35,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s077",
+   "start": 257.41,
+   "end": 262.45,
+   "line": "يحرك شفتيه... يهمس لك بشيء. وأنت لا تسمعه.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOUSEF",
+    "set": "clinic",
+    "expr": "sleepy",
+    "side": 0.3,
+    "rimSide": 1,
+    "talk": [
+     1.93,
+     3.67
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s078",
+   "start": 262.45,
+   "end": 267.17,
+   "line": "الصوت الوحيد الذي تريده في العالم... هو الصوت الوحيد الذي لا تسمعه.",
+   "scene": "bigline clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "الصوت الوحيد الذي لا تسمعه",
+    "set": "clinic",
+    "coral": true
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s079",
+   "start": 267.17,
+   "end": 270.19,
+   "line": "وهنا تفهم. أمامك طريقان.",
+   "scene": "bigline clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "أمامك طريقان",
+    "set": "clinic"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s080",
+   "start": 270.19,
+   "end": 273.52,
+   "line": "إما أن تحاول أن تسمع كل شيء كما تفعل دائما... فيضيع صوته كما يضيع كل مساء.",
+   "scene": "insert bubbles",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bubbles",
+    "n": 44
+   },
+   "notes": ""
+  },
+  {
+   "id": "s081",
+   "start": 273.52,
+   "end": 275.95,
+   "line": "إما أن تحاول أن تسمع كل شيء كما تفعل دائما... فيضيع صوته كما يضيع كل مساء.",
+   "scene": "insert bubbles",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bubbles",
+    "n": 44,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s082",
+   "start": 275.95,
+   "end": 279.81,
+   "line": "وإما أن تفعل شيئا لم تفعله من قبل. أن تختار.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "OMAR",
+    "pose": "think",
+    "expr": "thinking",
+    "n": 40
+   },
+   "notes": ""
+  },
+  {
+   "id": "s083",
+   "start": 279.81,
+   "end": 286.27,
+   "line": "تغمض عينيك. وتبحث بين آلاف الأصوات عن صوت واحد تعرفه منذ طفولتك. قلب جدك.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "OMAR",
+    "set": "clinic",
+    "expr": "sleepy",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s084",
+   "start": 286.27,
+   "end": 290.15,
+   "line": "القلب الذي كنت تنام عليه وأنت صغير، ورأسك على صدره.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOUSEF",
+      "x": 0.5,
+      "pose": "sitBack",
+      "expr": "smile",
+      "f": 1,
+      "chair": true,
+      "s": 1.6
+     },
+     {
+      "c": "OMARKID",
+      "x": 0.56,
+      "pose": "sit",
+      "expr": "sleepy",
+      "f": -1,
+      "y": 0.62,
+      "s": 1.2
+     }
+    ],
+    "so": {
+     "night": true,
+     "sky": "night"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s085",
+   "start": 290.15,
+   "end": 294.29,
+   "line": "تجده. دقة... ثم دقة. وتتبعه.",
+   "scene": "insert heart",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "heartbeat",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "heart",
+    "mode": "calm"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s086",
+   "start": 294.29,
+   "end": 298.06,
+   "line": "وشيئا فشيئا... يبتعد كل شيء آخر. الأجهزة. الأبواب. الصراخ.",
+   "scene": "insert bubbles",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bubbles",
+    "n": 44,
+    "pick": true,
+    "label": "قلب جدك"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s087",
+   "start": 298.06,
+   "end": 301.09,
+   "line": "وشيئا فشيئا... يبتعد كل شيء آخر. الأجهزة. الأبواب. الصراخ.",
+   "scene": "insert bubbles",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bubbles",
+    "n": 44,
+    "pick": true,
+    "label": "قلب جدك",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s088",
+   "start": 301.09,
+   "end": 304.85,
+   "line": "لأول مرة في حياتك... يصير العالم هادئا.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "OMAR",
+    "set": "clinic",
+    "expr": "awe",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s089",
+   "start": 304.85,
+   "end": 310.79,
+   "line": "وتسمعه. يقول لك: لا تحتاج أن تسمع كل شيء يا عمر... اسمع من تحب.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOUSEF",
+    "set": "clinic",
+    "expr": "smile",
+    "side": 0.3,
+    "rimSide": 1,
+    "labels": [
+     {
+      "s": "اسمع من تحب",
+      "x": 0.5,
+      "y": 0.18,
+      "at": 4.550000000000001
+     }
+    ],
+    "talk": [
+     1.89,
+     4.65
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s090",
+   "start": 310.79,
+   "end": 315.1,
+   "line": "بعد أسبوع يعود جدك إلى البيت. وفي أول مساء يجلس بجانبك ويبدأ حكايته. وهذه المرة... لا تقول: ماذا؟",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "OMAR",
+      "x": 0.4,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "YOUSEF",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "happy",
+      "f": -1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s091",
+   "start": 315.1,
+   "end": 319.77,
+   "line": "بعد أسبوع يعود جدك إلى البيت. وفي أول مساء يجلس بجانبك ويبدأ حكايته. وهذه المرة... لا تقول: ماذا؟",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "OMAR",
+      "x": 0.4,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "YOUSEF",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "happy",
+      "f": -1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s092",
+   "start": 319.77,
+   "end": 324.67,
+   "line": "تغمض عينيك، وتختار صوته، وتسمع الحكاية كلها لأول مرة.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "OMAR",
+    "set": "home",
+    "expr": "smile",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s093",
+   "start": 324.67,
+   "end": 327.38,
+   "line": "وفي اليوم التالي تذهب إلى أمك وتقول لها: أعرف عن الديون... وسنحلها معا.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "OMAR",
+      "x": 0.4,
+      "pose": "talk",
+      "expr": "determined",
+      "f": 1,
+      "talk": [
+       2.83,
+       4.59
+      ]
+     },
+     {
+      "c": "SAWSAN",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "سنحلها معا",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 4.49
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s094",
+   "start": 327.38,
+   "end": 330.61,
+   "line": "وفي اليوم التالي تذهب إلى أمك وتقول لها: أعرف عن الديون... وسنحلها معا.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "OMAR",
+      "x": 0.4,
+      "pose": "talk",
+      "expr": "determined",
+      "f": 1,
+      "talk": [
+       2.83,
+       4.59
+      ]
+     },
+     {
+      "c": "SAWSAN",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "سنحلها معا",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 1.7800000000000207
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s095",
+   "start": 330.61,
+   "end": 334.53,
+   "line": "وحين يضحك أصدقاؤك خلف ظهرك... تختار ألا تسمع.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "OMAR",
+      "x": 0.5,
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.4
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s096",
+   "start": 334.53,
+   "end": 336.82,
+   "line": "وفي الليل تنام همسة على صدرك... وتسمع قلبها الصغير، وتبتسم.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "OMAR",
+      "x": 0.45,
+      "pose": "sitBack",
+      "expr": "smile",
+      "f": 1,
+      "chair": true,
+      "s": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "همسة",
+      "x": 0.5,
+      "y": 0.2,
+      "box": true,
+      "at": 1.0299999999999998
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s097",
+   "start": 336.82,
+   "end": 339.65,
+   "line": "وفي الليل تنام همسة على صدرك... وتسمع قلبها الصغير، وتبتسم.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "OMAR",
+      "x": 0.45,
+      "pose": "sitBack",
+      "expr": "smile",
+      "f": 1,
+      "chair": true,
+      "s": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "همسة",
+      "x": 0.5,
+      "y": 0.2,
+      "box": true,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s098",
+   "start": 339.65,
+   "end": 347.33,
+   "line": "ما زلت تسمع أقوى من أي إنسان بمليون مرة. لكنك تعلمت أخيرا أن السمع شيء... والإنصات شيء آخر.",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "OMAR",
+    "set": "bedroom",
+    "expr": "smile",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "السمع شيء… والإنصات شيء آخر",
+      "x": 0.5,
+      "y": 0.18,
+      "at": 4.890000000000001
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s099",
+   "start": 347.33,
+   "end": 349.15,
+   "line": "فما الحقيقي في هذه القصة؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "ما الحقيقي في هذه القصة؟",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s100",
+   "start": 349.15,
+   "end": 351.92,
+   "line": "أذن الإنسان تسمع الأصوات التي تتراوح تردداتها تقريبا بين عشرين وعشرين ألف هرتز.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "20 – 20,000",
+    "label": "هرتز: مدى سمع الإنسان",
+    "size": 140
+   },
+   "notes": ""
+  },
+  {
+   "id": "s101",
+   "start": 351.92,
+   "end": 355.21,
+   "line": "أذن الإنسان تسمع الأصوات التي تتراوح تردداتها تقريبا بين عشرين وعشرين ألف هرتز.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "20 – 20,000",
+    "label": "هرتز: مدى سمع الإنسان",
+    "size": 140,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s102",
+   "start": 355.21,
+   "end": 358.01,
+   "line": "ويقل الحد الأعلى مع التقدم في العمر.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "↓ مع العمر",
+    "label": "يقل الحد الأعلى",
+    "size": 130
+   },
+   "notes": ""
+  },
+  {
+   "id": "s103",
+   "start": 358.01,
+   "end": 362.14,
+   "line": "أما قوة الصوت فتقاس بالديسيبل، وهو مقياس غريب. كل عشرة ديسيبلات زيادة تعني صوتا أقوى بعشر مرات.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "+10 dB = ×10",
+    "label": "مقياس الديسيبل",
+    "size": 130
+   },
+   "notes": ""
+  },
+  {
+   "id": "s104",
+   "start": 362.14,
+   "end": 366.03,
+   "line": "أما قوة الصوت فتقاس بالديسيبل، وهو مقياس غريب. كل عشرة ديسيبلات زيادة تعني صوتا أقوى بعشر مرات.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "+10 dB = ×10",
+    "label": "مقياس الديسيبل",
+    "size": 130,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s105",
+   "start": 366.03,
+   "end": 370.77,
+   "line": "لذلك فالصوت الأقوى بمليون مرة... يزيد ستين ديسيبلا فقط.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "+60 dB",
+    "label": "= أقوى بمليون مرة",
+    "size": 170,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s106",
+   "start": 370.77,
+   "end": 375.94,
+   "line": "وأذنك حساسة أصلا إلى درجة مدهشة. يرى بعض العلماء أنها لو كانت أحس بكثير، لربما سمعنا حركة جزيئات الهواء نفسها كهسهسة لا تتوقف.",
+   "scene": "insert waves",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "waves",
+    "src": [
+     "جزيئات الهواء؟"
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s107",
+   "start": 375.94,
+   "end": 381.01,
+   "line": "وأذنك حساسة أصلا إلى درجة مدهشة. يرى بعض العلماء أنها لو كانت أحس بكثير، لربما سمعنا حركة جزيئات الهواء نفسها كهسهسة لا تتوقف.",
+   "scene": "insert waves",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "waves",
+    "src": [
+     "جزيئات الهواء؟"
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s108",
+   "start": 381.01,
+   "end": 385.32,
+   "line": "وفي أهدإ الغرف التي بناها الإنسان، وهي غرف خاصة تمتص الصدى، يقول الزوار إنهم يبدؤون بسماع دقات قلوبهم وأصوات أجسامهم.",
+   "scene": "insert heart",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "heart",
+    "mode": "calm",
+    "label": "أهدأ غرفة في العالم"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s109",
+   "start": 385.32,
+   "end": 389.87,
+   "line": "وفي أهدإ الغرف التي بناها الإنسان، وهي غرف خاصة تمتص الصدى، يقول الزوار إنهم يبدؤون بسماع دقات قلوبهم وأصوات أجسامهم.",
+   "scene": "insert heart",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "heart",
+    "mode": "calm",
+    "label": "أهدأ غرفة في العالم",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s110",
+   "start": 389.87,
+   "end": 395.16,
+   "line": "أما أقوى سمع عرف في عالم الحيوان، فقد وجده العلماء عام ألفين وثلاثة عشر عند فراشة ليلية صغيرة اسمها عثة الشمع الكبيرة. تسمع ترددات تصل إلى ثلاثمئة ألف هرتز. أي أعلى من حد سمعك بخمس عشرة مرة.",
+   "scene": "insert moth",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "moth"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s111",
+   "start": 395.16,
+   "end": 400.46,
+   "line": "أما أقوى سمع عرف في عالم الحيوان، فقد وجده العلماء عام ألفين وثلاثة عشر عند فراشة ليلية صغيرة اسمها عثة الشمع الكبيرة. تسمع ترددات تصل إلى ثلاثمئة ألف هرتز. أي أعلى من حد سمعك بخمس عشرة مرة.",
+   "scene": "insert moth",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "moth",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s112",
+   "start": 400.46,
+   "end": 405.49,
+   "line": "أما أقوى سمع عرف في عالم الحيوان، فقد وجده العلماء عام ألفين وثلاثة عشر عند فراشة ليلية صغيرة اسمها عثة الشمع الكبيرة. تسمع ترددات تصل إلى ثلاثمئة ألف هرتز. أي أعلى من حد سمعك بخمس عشرة مرة.",
+   "scene": "insert moth",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "moth",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s113",
+   "start": 405.49,
+   "end": 409.89,
+   "line": "ويرجح العلماء أن ذلك يساعدها على سماع الخفافيش التي تصطادها.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "🦇",
+    "label": "تسمع الخفافيش التي تصطادها",
+    "size": 160
+   },
+   "notes": ""
+  },
+  {
+   "id": "s114",
+   "start": 409.89,
+   "end": 413.6,
+   "line": "ومعاناة عمر لها أصل حقيقي أيضا. فهناك حالة اسمها فرط السمع، تصير فيها الأصوات العادية مزعجة أو مؤلمة لصاحبها، مثل صوت الأطباق أو حركة المرور.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "فرط السمع",
+    "label": "أصوات عادية… مؤلمة",
+    "size": 140
+   },
+   "notes": ""
+  },
+  {
+   "id": "s115",
+   "start": 413.6,
+   "end": 417.38,
+   "line": "ومعاناة عمر لها أصل حقيقي أيضا. فهناك حالة اسمها فرط السمع، تصير فيها الأصوات العادية مزعجة أو مؤلمة لصاحبها، مثل صوت الأطباق أو حركة المرور.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "فرط السمع",
+    "label": "أصوات عادية… مؤلمة",
+    "size": 140,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s116",
+   "start": 417.38,
+   "end": 421.25,
+   "line": "ومعاناة عمر لها أصل حقيقي أيضا. فهناك حالة اسمها فرط السمع، تصير فيها الأصوات العادية مزعجة أو مؤلمة لصاحبها، مثل صوت الأطباق أو حركة المرور.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "فرط السمع",
+    "label": "أصوات عادية… مؤلمة",
+    "size": 140,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s117",
+   "start": 421.25,
+   "end": 424.48,
+   "line": "أما قدرة عمر الأخيرة فيملكها كل إنسان. يسميها العلماء تأثير حفلة الكوكتيل.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "تأثير حفلة الكوكتيل",
+    "label": "يملكه كل إنسان",
+    "size": 100
+   },
+   "notes": ""
+  },
+  {
+   "id": "s118",
+   "start": 424.48,
+   "end": 427.33,
+   "line": "أما قدرة عمر الأخيرة فيملكها كل إنسان. يسميها العلماء تأثير حفلة الكوكتيل.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "تأثير حفلة الكوكتيل",
+    "label": "يملكه كل إنسان",
+    "size": 100,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s119",
+   "start": 427.33,
+   "end": 431.08,
+   "line": "في غرفة مزدحمة يتكلم فيها الجميع، يستطيع دماغك أن يختار صوتا واحدا ويتابعه... ويخفض الباقي.",
+   "scene": "insert bubbles",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bubbles",
+    "n": 44,
+    "pick": true,
+    "label": "صوت واحد"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s120",
+   "start": 431.08,
+   "end": 434.95,
+   "line": "في غرفة مزدحمة يتكلم فيها الجميع، يستطيع دماغك أن يختار صوتا واحدا ويتابعه... ويخفض الباقي.",
+   "scene": "insert bubbles",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bubbles",
+    "n": 44,
+    "pick": true,
+    "label": "صوت واحد",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s121",
+   "start": 434.95,
+   "end": 439.69,
+   "line": "وإذا نطق أحد اسمك في الطرف الآخر من الغرفة... التفت إليه فورا.",
+   "scene": "insert bubbles",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bubbles",
+    "n": 44,
+    "pick": true,
+    "label": "اسمك!"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s122",
+   "start": 439.69,
+   "end": 443.83,
+   "line": "وما زال العلماء يدرسون كيف يفعل الدماغ ذلك بالضبط.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "البحث مستمر",
+    "label": "كيف يختار الدماغ؟",
+    "size": 130
+   },
+   "notes": ""
+  },
+  {
+   "id": "s123",
+   "start": 443.83,
+   "end": 447.73,
+   "line": "فأذنك تسمع... لكن دماغك هو الذي يختار.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "أذنك تسمع… ودماغك يختار",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s124",
+   "start": 447.73,
+   "end": 451.89,
+   "line": "وفي الحلقة القادمة: ماذا لو احتجت إلى ساعة نوم واحدة فقط؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "ماذا لو احتجت إلى ساعة نوم واحدة فقط؟",
+    "set": "archive",
+    "str2": "الحلقة القادمة",
+    "at2": 0.8
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s125",
+   "start": 451.89,
+   "end": 460.001,
+   "line": "ما رأيك؟ أخبرنا في التعليقات: لو سمعت كل أسرار من حولك... هل كنت ستخبرهم؟",
+   "scene": "endscreen ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "endscreen",
+    "q": "لو سمعت كل الأسرار… هل كنت ستخبرهم؟",
+    "cast": [
+     "SAWSAN",
+     "OMAR",
+     "YOUSEF",
+     "DAD",
+     "DOC",
+     "MEDIC"
+    ]
+   },
+   "notes": "",
+   "captions": false
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 60.21,
+   "mood": "playful",
+   "intensity": 0.35
+  },
+  {
+   "start": 60.21,
+   "end": 68.21,
+   "mood": "wonder",
+   "intensity": 0.4
+  },
+  {
+   "start": 68.21,
+   "end": 89.11,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 89.11,
+   "end": 101.97,
+   "mood": "hopeful",
+   "intensity": 0.35
+  },
+  {
+   "start": 101.97,
+   "end": 125.33,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 125.33,
+   "end": 131.65,
+   "mood": "hopeful",
+   "intensity": 0.35
+  },
+  {
+   "start": 131.65,
+   "end": 182.83,
+   "mood": "sad",
+   "intensity": 0.35
+  },
+  {
+   "start": 182.83,
+   "end": 223.31,
+   "mood": "calm",
+   "intensity": 0.3
+  },
+  {
+   "start": 223.31,
+   "end": 279.81,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 279.81,
+   "end": 301.09,
+   "mood": "calm",
+   "intensity": 0.3
+  },
+  {
+   "start": 301.09,
+   "end": 347.33,
+   "mood": "hopeful",
+   "intensity": 0.35
+  },
+  {
+   "start": 347.33,
+   "end": 460.001,
+   "mood": "calm",
+   "intensity": 0.3
+  }
+ ],
+ "sfx": []
+}
