@@ -106,14 +106,30 @@ const End: React.FC = () => {
 export const AD15_SCENES = { hook: 75, texture: 105, hero: 150, end: 120 };
 export const AD15_TOTAL = AD15_SCENES.hook + AD15_SCENES.texture + AD15_SCENES.hero + AD15_SCENES.end;
 
-export const Ad15: React.FC<{ audio?: string | null }> = ({ audio = "cetaphil/vo15.mp3" }) => {
+// Cut transition: punch-zoom out of the old scene + white flash + zoom into the new one.
+const Cuts: React.FC<{ at: number[] }> = ({ at }) => {
+  const f = useCurrentFrame();
+  const o = Math.max(0, ...at.map((c) => interpolate(f, [c - 3, c, c + 7], [0, 0.9, 0], clamp)));
+  return <AbsoluteFill style={{ background: "white", opacity: o, pointerEvents: "none" }} />;
+};
+const Punch: React.FC<{ len: number; children: React.ReactNode }> = ({ len, children }) => {
+  const f = useCurrentFrame();
+  const zin = interpolate(f, [0, 10], [1.12, 1], clamp);
+  const zout = interpolate(f, [len - 6, len], [1, 1.18], clamp);
+  const blur = interpolate(f, [len - 6, len], [0, 14], clamp) + interpolate(f, [0, 6], [10, 0], clamp);
+  return <AbsoluteFill style={{ transform: `scale(${zin * zout})`, filter: `blur(${blur}px)` }}>{children}</AbsoluteFill>;
+};
+
+export const Ad15: React.FC<{ audio?: string | null }> = ({ audio = "cetaphil/sfx15.wav" }) => {
   const s = AD15_SCENES;
+  const c1 = s.hook, c2 = s.hook + s.texture, c3 = s.hook + s.texture + s.hero;
   return (
     <AbsoluteFill style={{ fontFamily, direction: "rtl", background: "#000" }}>
-      <Sequence durationInFrames={s.hook}><Hook /></Sequence>
-      <Sequence from={s.hook} durationInFrames={s.texture}><Texture dur={s.texture} /></Sequence>
-      <Sequence from={s.hook + s.texture} durationInFrames={s.hero}><Hero dur={s.hero} /></Sequence>
-      <Sequence from={s.hook + s.texture + s.hero} durationInFrames={s.end}><End /></Sequence>
+      <Sequence durationInFrames={s.hook}><Punch len={s.hook}><Hook /></Punch></Sequence>
+      <Sequence from={c1} durationInFrames={s.texture}><Punch len={s.texture}><Texture dur={s.texture} /></Punch></Sequence>
+      <Sequence from={c2} durationInFrames={s.hero}><Punch len={s.hero}><Hero dur={s.hero} /></Punch></Sequence>
+      <Sequence from={c3} durationInFrames={s.end}><Punch len={s.end + 10}><End /></Punch></Sequence>
+      <Cuts at={[c1, c2, c3]} />
       {audio ? <Audio src={staticFile(audio)} /> : null}
     </AbsoluteFill>
   );
