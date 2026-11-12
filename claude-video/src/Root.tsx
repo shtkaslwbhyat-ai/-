@@ -6,6 +6,7 @@ import { JourneyVideo, calculateJourneyMetadata } from "./journey/Journey";
 import { LessonsVideo, calculateLessonsMetadata } from "./lessons/Lessons";
 import { ViduPromo } from "./vidu/ViduPromo";
 import { Ad15, AD15_TOTAL } from "./cetaphil/Ad15";
+import { Ad30, AD30_TOTAL } from "./cetaphil/Ad30";
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -43,5 +44,6 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="ViduPromoV2" component={ViduPromo} durationInFrames={506} fps={FPS} width={1080} height={1920} defaultProps={{ variant: "v2" as const }} />
     <Composition id="ViduPromoV3" component={ViduPromo} durationInFrames={554} fps={FPS} width={1080} height={1920} defaultProps={{ variant: "v3" as const }} />
     <Composition id="CetaphilAd15" component={Ad15} durationInFrames={AD15_TOTAL} fps={FPS} width={1080} height={1920} defaultProps={{ audio: "cetaphil/sfx15.wav" as string | null }} />
+    <Composition id="CetaphilAd30" component={Ad30} durationInFrames={AD30_TOTAL} fps={FPS} width={1920} height={1080} defaultProps={{ audio: "cetaphil/sfx30.wav" as string | null }} />
   </>
 );
