@@ -1,0 +1,441 @@
+<title>سارة تقرأ</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500;700;800&family=Noto+Naskh+Arabic:wght@500;700&display=swap">
+<style>
+/* Layout: one centered "school notebook" column; big tappable tiles echo the textbook's blue grid */
+:root{
+  --bg:#EAF4FB; --card:#FFFFFF; --ink:#17324D; --muted:#5A7690;
+  --blue:#2A7FBF; --blue-soft:#CFE6F5; --sun:#FFC53D; --sun-ink:#5A3D00;
+  --coral:#E8503F; --mint:#1FA463; --line:#B9D6EA;
+  --f-display:"Baloo Bhaijaan 2","Segoe UI",Tahoma,sans-serif;
+  --f-text:"Noto Naskh Arabic","Traditional Arabic","Times New Roman",serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E1C2A; --card:#172B3E; --ink:#EAF3FA; --muted:#9DB6CB;
+  --blue:#5AAEE6; --blue-soft:#1E3B55; --sun:#FFCF56; --sun-ink:#3A2800;
+  --coral:#FF7B6B; --mint:#3DD68C; --line:#2B4A66; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1C2A; --card:#172B3E; --ink:#EAF3FA; --muted:#9DB6CB;
+  --blue:#5AAEE6; --blue-soft:#1E3B55; --sun:#FFCF56; --sun-ink:#3A2800;
+  --coral:#FF7B6B; --mint:#3DD68C; --line:#2B4A66; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-display);font-size:18px}
+#app{max-width:1000px;margin:0 auto;padding-block:16px 48px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  display:flex;flex-direction:column;gap:20px}
+button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
+button:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px}
+.badge{width:56px;height:56px;border-radius:18px;background:var(--blue);color:#fff;display:grid;place-items:center;
+  font-size:34px;font-weight:800;transform:rotate(-6deg);box-shadow:0 4px 0 color-mix(in srgb,var(--blue) 60%,#000)}
+.brand h1{margin:0;font-size:30px;line-height:1.1;font-weight:800}
+.brand p{margin:0;color:var(--muted);font-size:16px}
+.stars{background:var(--sun);color:var(--sun-ink);padding:8px 16px;border-radius:999px;font-weight:800;font-size:20px;
+  display:flex;align-items:center;gap:6px;font-variant-numeric:tabular-nums}
+.stars.pop{animation:pop .5s}
+@keyframes pop{50%{transform:scale(1.25)}}
+nav{display:flex;gap:8px;flex-wrap:wrap}
+nav button{padding:10px 18px;border-radius:14px;background:var(--card);border:2px solid var(--line);font-weight:700;font-size:18px}
+nav button[aria-current="true"]{background:var(--blue);border-color:var(--blue);color:#fff}
+.panel{background:var(--card);border-radius:24px;padding:22px;border:2px solid var(--line);display:flex;flex-direction:column;gap:16px}
+.panel h2{margin:0;font-size:26px;text-wrap:balance}
+.hint{margin:0;color:var(--muted);font-size:17px;line-height:1.7}
+.rule{background:var(--blue-soft);border-radius:18px;padding:16px 18px;font-family:var(--f-text);font-size:22px;line-height:1.9}
+.rule b{color:var(--coral)}
+.big{font-family:var(--f-text);font-weight:700}
+.sk{color:var(--coral)}
+.qq{color:var(--coral);display:inline-block;animation:bounce 1.2s infinite}
+@keyframes bounce{0%,100%{transform:translateY(0)}30%{transform:translateY(-6px)}}
+.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:0;border:2px solid var(--ink);border-radius:10px;overflow:hidden}
+.cell{font-family:var(--f-text);font-weight:700;font-size:clamp(22px,4.2vw,40px);padding:14px 4px;border:1px solid var(--line);
+  min-height:84px;display:grid;place-items:center;transition:transform .12s,background .2s}
+.grid .cell:nth-child(12n+1),.grid .cell:nth-child(12n+3),.grid .cell:nth-child(12n+5),
+.grid .cell:nth-child(12n+8),.grid .cell:nth-child(12n+10),.grid .cell:nth-child(12n+12){background:var(--blue-soft)}
+.cell:hover{transform:scale(1.04)}
+.cell.on{background:var(--sun)!important;color:var(--sun-ink)}
+.cell .em{display:block;font-size:22px;line-height:1}
+.words .cell{font-size:clamp(20px,3.4vw,34px)}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.btn{padding:12px 22px;border-radius:16px;background:var(--blue);color:#fff;font-weight:800;font-size:20px;
+  box-shadow:0 4px 0 color-mix(in srgb,var(--blue) 55%,#000);transition:transform .1s}
+.btn:active{transform:translateY(3px);box-shadow:0 1px 0 color-mix(in srgb,var(--blue) 55%,#000)}
+.btn.sun{background:var(--sun);color:var(--sun-ink);box-shadow:0 4px 0 color-mix(in srgb,var(--sun) 55%,#000)}
+.btn.ghost{background:var(--blue-soft);color:var(--ink);box-shadow:none}
+.games{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}
+.game{background:var(--bg);border:2px solid var(--line);border-radius:20px;padding:18px;text-align:right;display:flex;flex-direction:column;gap:6px;transition:transform .15s}
+.game:hover{transform:translateY(-3px);border-color:var(--blue)}
+.game .ic{font-size:40px}
+.game b{font-size:22px}
+.game span{color:var(--muted);font-size:16px;line-height:1.5}
+.play{display:flex;flex-direction:column;align-items:center;gap:18px;text-align:center}
+.dots{display:flex;gap:6px}
+.dots i{width:14px;height:14px;border-radius:50%;background:var(--line)}
+.dots i.done{background:var(--mint)} .dots i.now{background:var(--sun)}
+.pic{font-size:84px;line-height:1}
+.target{font-family:var(--f-text);font-weight:700;font-size:clamp(44px,9vw,76px);line-height:1.5}
+.target.faint{opacity:.35}
+.slots{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;direction:rtl}
+.slot{min-width:72px;height:88px;border-radius:16px;border:3px dashed var(--line);display:grid;place-items:center;
+  font-family:var(--f-text);font-weight:700;font-size:44px}
+.slot.filled{border-style:solid;border-color:var(--mint);background:color-mix(in srgb,var(--mint) 14%,transparent)}
+.tiles{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;max-width:720px}
+.tile{min-width:76px;height:84px;padding:0 10px;border-radius:16px;background:var(--card);border:3px solid var(--line);
+  font-family:var(--f-text);font-weight:700;font-size:42px;box-shadow:0 4px 0 var(--line);transition:transform .1s}
+.tile:hover{transform:translateY(-2px)}
+.tile.used{visibility:hidden}
+.tile.glow{border-color:var(--sun);box-shadow:0 0 0 6px color-mix(in srgb,var(--sun) 45%,transparent)}
+.shake{animation:shake .4s}
+@keyframes shake{25%{transform:translateX(-8px)}75%{transform:translateX(8px)}}
+.letters{display:flex;gap:8px;direction:rtl;justify-content:center;flex-wrap:wrap}
+.letters .tile{font-size:52px;height:100px;min-width:84px}
+.letters .tile.ok{border-color:var(--mint);background:color-mix(in srgb,var(--mint) 18%,transparent);color:var(--coral)}
+.opts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;width:100%;max-width:560px}
+.opts .tile{height:96px;font-size:44px}
+.tile.right{border-color:var(--mint);background:color-mix(in srgb,var(--mint) 18%,transparent)}
+.tile.wrong{border-color:var(--coral);opacity:.55}
+.msg{min-height:64px;font-size:22px;font-weight:700;max-width:640px;line-height:1.6}
+.msg.good{color:var(--mint)} .msg.bad{color:var(--coral)}
+.match{display:grid;grid-template-columns:1fr 1fr;gap:14px;width:100%;max-width:560px}
+.match .col{display:flex;flex-direction:column;gap:10px}
+.match .tile{height:84px;width:100%}
+.match .tile.sel{border-color:var(--blue);box-shadow:0 0 0 5px color-mix(in srgb,var(--blue) 35%,transparent)}
+.match .tile.right{visibility:visible;opacity:.5;pointer-events:none}
+.heard{font-family:var(--f-text);font-size:28px;min-height:44px;color:var(--muted)}
+.mic{width:110px;height:110px;border-radius:50%;background:var(--coral);color:#fff;font-size:48px;
+  box-shadow:0 6px 0 color-mix(in srgb,var(--coral) 55%,#000)}
+.mic.live{animation:pulse 1s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--coral) 60%,transparent)}100%{box-shadow:0 0 0 26px transparent}}
+.win{font-size:34px;font-weight:800}
+.toggle{display:flex;align-items:center;gap:8px;font-size:17px;color:var(--muted)}
+.toggle input{width:22px;height:22px;accent-color:var(--blue)}
+#confetti{position:fixed;inset:0;pointer-events:none;z-index:50}
+@media (max-width:560px){.grid{grid-template-columns:repeat(3,1fr)}
+  .grid .cell{background:var(--card)!important}.grid .cell:nth-child(odd){background:var(--blue-soft)!important}
+  .slot{min-width:56px;height:72px;font-size:34px}.tile{min-width:62px;height:72px;font-size:34px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div id="app" dir="rtl" lang="ar">
+  <header class="top">
+    <div class="brand">
+      <div class="badge">س</div>
+      <div><h1>مغامرة سارة في القراءة</h1><p>درس السكون · الصفحات 108 و110</p></div>
+    </div>
+    <div class="stars" id="stars">⭐ <span id="starN">0</span></div>
+  </header>
+  <nav id="nav">
+    <button data-v="lesson" aria-current="true">📘 الدرس</button>
+    <button data-v="syl">🔤 المقاطع</button>
+    <button data-v="words">📖 الكلمات</button>
+    <button data-v="games">🎮 الألعاب</button>
+  </nav>
+  <main id="view"></main>
+</div>
+<canvas id="confetti"></canvas>
+
+<script>
+/* ---------- المحتوى من الكتاب ---------- */
+const SYL = "أَأْ أَبْ أَتْ أَثْ أَجْ أَحْ أَخْ أَدْ أَذْ أَرْ أَزْ أَسْ إِشْ حَصْ حَضْ سِطْ فَظْ فَعْ فَغْ فِفْ حَقْ بَكْ سَلْ إِمْ قَنْ بَهْ بِوْ أُيْ بُكْ فُرْ بُرْ تُضْ أُطْ حُرْ صُمْ فُغْ".split(" ");
+const WORDS = [
+ ["فَخْرٌ","🏆"],["طَعْمٌ","👅"],["عَبْدٌ","🙏"],["فَزْعٌ","😱"],["فَجْرٌ","🌅"],["عَيْنٌ","👁️"],
+ ["حَرْفٌ","✏️"],["حَرْثٌ","🚜"],["صَبْرٌ","⏳"],["رَصْدٌ","🔭"],["رَسْمٌ","🎨"],["صَدْرٌ","🫁"],
+ ["أَنْوَرُ","💡"],["أَذْهَبُ","🚶‍♀️"],["أَسْعَدُ","😊"],["أَحْمَدُ","👦"],["دَمْعٌ","😢"],["زَرْعٌ","🌱"],
+ ["اِقْرَأْ","📖"],["اِسْمَحْ","🤝"],["اِفْتَحْ","🚪"],["اِلْعَبْ","⚽"],["اِطْمَحْ","🚀"],["اِشْبَعْ","🍽️"],
+ ["فَرْحَانُ","😄"],["اِشْرَبْ","🥤"],["اِحْفَظْ","🧠"],["اِبْدَأْ","🏁"],["اِفْرَحْ","🎉"],["اِمْرَحْ","🎈"],
+ ["يُحْزِنُ","😔"],["يُنْصِفُ","⚖️"],["يُبْصِرُ","👀"],["فُنْدُقٌ","🏨"],["بُنْدُقٌ","🌰"],["يَسْمَعُ","👂"],
+ ["يَمْرَحُونَ","🤸"],["يَرْكُضُونَ","🏃"],["يَكْتُمُونَ","🤫"],["يَلْعَبُونَ","🧩"],["يَجْلِسُونَ","🪑"],["يَدْخُلُونَ","🏠"]
+];
+const QALQALA = "قطبجد";
+const SUKUN = "ْ";
+const NAMES = {"ا":"ألف","أ":"ألف عليها همزة","إ":"ألف تحتها همزة","ء":"همزة","ب":"باء","ت":"تاء","ث":"ثاء","ج":"جيم","ح":"حاء","خ":"خاء","د":"دال","ذ":"ذال","ر":"راء","ز":"زاي","س":"سين","ش":"شين","ص":"صاد","ض":"ضاد","ط":"طاء","ظ":"ظاء","ع":"عين","غ":"غين","ف":"فاء","ق":"قاف","ك":"كاف","ل":"لام","م":"ميم","ن":"نون","ه":"هاء","و":"واو","ي":"ياء"};
+const MARKS = {"َ":"فتحة","ِ":"كسرة","ُ":"ضمة","ْ":"سكون","ٌ":"تنوين ضم","ً":"تنوين فتح","ٍ":"تنوين كسر"};
+
+const units = w => w.match(/[ء-ي][ً-ْٰ]*/g) || [];
+const base = u => u[0];
+const mark = u => u.slice(1);
+const hasSukun = u => u.includes(SUKUN);
+const describe = u => (NAMES[base(u)]||base(u)) + (mark(u) ? " عليها " + (MARKS[mark(u)]||"حركة") : " بدون حركة");
+const shuffle = a => { a=[...a]; for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]} return a; };
+const pick = (a,n) => shuffle(a).slice(0,n);
+const esc = s => s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function colorWord(w){
+  return units(w).map(u=>hasSukun(u) ? `<span class="${QALQALA.includes(base(u))?'qq':'sk'}">${u}</span>` : u).join("");
+}
+
+/* ---------- الصوت ---------- */
+let tts=null, dict=null;
+(async()=>{ try{ if(window.claude?.use){ tts=await claude.use("tts"); dict=await claude.use("dictation"); } }catch(e){} })();
+let arVoice=null;
+function loadVoices(){ try{ arVoice=(speechSynthesis.getVoices()||[]).find(v=>/^ar/i.test(v.lang))||null; }catch(e){} }
+try{ loadVoices(); speechSynthesis.onvoiceschanged=loadVoices; }catch(e){}
+async function say(text){
+  if(tts){
+    try{ await tts.speak(text,{language:"ar",rate:0.85}); return; }
+    catch(e){ if(!e || !["not_granted","unavailable"].includes(e.code)) return; tts=null; }
+  }
+  try{
+    speechSynthesis.cancel();
+    const u=new SpeechSynthesisUtterance(text); u.lang="ar-SA"; if(arVoice) u.voice=arVoice; u.rate=0.8;
+    await new Promise(r=>{u.onend=r;u.onerror=r;speechSynthesis.speak(u);});
+  }catch(e){}
+}
+let actx=null;
+function chime(good){
+  try{
+    actx=actx||new (window.AudioContext||window.webkitAudioContext)();
+    const notes=good?[523,659,784,1046]:[330,262];
+    notes.forEach((f,i)=>{const o=actx.createOscillator(),g=actx.createGain();o.type=good?"triangle":"sine";o.frequency.value=f;
+      const t=actx.currentTime+i*0.09;g.gain.setValueAtTime(0.0001,t);g.gain.exponentialRampToValueAtTime(0.25,t+0.02);g.gain.exponentialRampToValueAtTime(0.0001,t+0.25);
+      o.connect(g).connect(actx.destination);o.start(t);o.stop(t+0.3);});
+  }catch(e){}
+}
+const PRAISE=["أحسنتِ يا سارة!","ممتاز يا سارة!","رائعة يا سارة!","برافو يا بطلة!","شاطرة يا سارة!"];
+const praise=()=>PRAISE[Math.random()*PRAISE.length|0];
+
+/* ---------- النجوم ---------- */
+let stars=0; try{ stars=+localStorage.getItem("sara-stars")||0 }catch(e){}
+function addStar(n=1){ stars+=n; try{localStorage.setItem("sara-stars",stars)}catch(e){}
+  $("#starN").textContent=stars; const s=$("#stars"); s.classList.remove("pop"); void s.offsetWidth; s.classList.add("pop"); }
+const $=s=>document.querySelector(s);
+$("#starN").textContent=stars;
+
+/* ---------- التنقل ---------- */
+const view=$("#view");
+document.getElementById("nav").addEventListener("click",e=>{const b=e.target.closest("button");if(b) go(b.dataset.v)});
+function go(v){
+  document.querySelectorAll("#nav button").forEach(b=>b.setAttribute("aria-current",String(b.dataset.v===v || (v.startsWith("g-")&&b.dataset.v==="games"))));
+  ({lesson,syl:sylBoard,words:wordBoard,games,"g-listen":gListen,"g-spell":gSpell,"g-find":gFind,"g-read":gRead,"g-match":gMatch}[v]||lesson)();
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
+function lesson(){
+  view.innerHTML=`<section class="panel">
+    <h2>السكون <span class="big sk">ـْـ</span></h2>
+    <div class="rule">الحرف <b>الساكن</b> لا يُنطق وحده، إنما يُنطق مع الحرف الذي قبله بأي حركة من الحركات الثلاث: <b>فتحة، كسرة، ضمة</b>.</div>
+    <p class="hint">اضغطي على كل مثال لتسمعيه 👇</p>
+    <div class="row">
+      ${["أَبْ","إِمْ","بُرْ","فَجْرٌ"].map(w=>`<button class="tile" data-say="${w}" style="font-size:40px">${colorWord(w)}</button>`).join("")}
+    </div>
+    <div class="rule">⚡ <b>القلقلة:</b> إذا كان الحرف الساكن واحدًا من حروف <b>(ق، ط، ب، ج، د)</b> نهزّه هزة خفيفة عند النطق، مثل: <span class="qq">بْ</span> في «أَبْ» و <span class="qq">دْ</span> في «عَبْدٌ». تجدينها تقفز في اللعبة!</div>
+    <div class="row">${["حَقْ","أُطْ","أَبْ","أَجْ","أَدْ"].map(w=>`<button class="tile" data-say="${w}" style="font-size:40px">${colorWord(w)}</button>`).join("")}</div>
+    <div class="row"><button class="btn sun" data-go="syl">ابدئي بالمقاطع ←</button><button class="btn" data-go="games">🎮 العبي الآن</button></div>
+  </section>`;
+}
+function sylBoard(){
+  view.innerHTML=`<section class="panel"><h2>اقرئي بصوت واضح وجهوري</h2>
+    <p class="hint">اضغطي على المقطع لتسمعيه، ثم كرريه بصوتك. الحرف الساكن باللون الأحمر، وحروف القلقلة تقفز.</p>
+    <div class="grid">${SYL.map(s=>`<button class="cell" data-say="${s}">${colorWord(s)}</button>`).join("")}</div>
+    <div class="row"><button class="btn sun" id="readAll">🔊 اقرئي معي السطر الأول</button></div></section>`;
+  $("#readAll").onclick=async()=>{const cells=[...document.querySelectorAll(".cell")].slice(0,6);
+    for(const c of cells){c.classList.add("on");await say(c.dataset.say);c.classList.remove("on");}};
+}
+function wordBoard(){
+  view.innerHTML=`<section class="panel"><h2>اقرئي الكلمات مع التركيز على الحرف الساكن</h2>
+    <p class="hint">اقرئي أفقيًا ثم رأسيًا. اضغطي على أي كلمة لتسمعيها.</p>
+    <div class="grid words">${WORDS.map(([w,e])=>`<button class="cell" data-say="${w}"><span><span class="em">${e}</span>${colorWord(w)}</span></button>`).join("")}</div></section>`;
+}
+function games(){
+  const G=[["g-spell","🧩","تهجّي الكلمة","ركّبي الكلمة حرفًا حرفًا، وأنا أصحح لكِ"],
+    ["g-listen","👂","اسمعي واختاري","اسمعي الكلمة واختاري الصحيحة"],
+    ["g-find","🔍","أين الساكن؟","اكتشفي الحرف الساكن المختفي"],
+    ["g-read","🎤","اقرئي بصوتك","اقرئي الكلمة وأنا أسمعكِ"],
+    ["g-match","🖼️","صِلي بالصورة","صِلي كل كلمة بصورتها"]];
+  view.innerHTML=`<section class="panel"><h2>اختاري لعبة يا سارة 🌟</h2>
+    <div class="games">${G.map(([id,ic,t,d])=>`<button class="game" data-go="${id}"><span class="ic">${ic}</span><b>${t}</b><span>${d}</span></button>`).join("")}</div></section>`;
+}
+document.addEventListener("click",e=>{
+  const s=e.target.closest("[data-say]"); if(s) say(s.dataset.say);
+  const g=e.target.closest("[data-go]"); if(g) go(g.dataset.go);
+});
+
+/* ---------- إطار الجولة ---------- */
+const ROUNDS=6;
+function frame(title,i,inner){
+  return `<section class="panel play"><h2>${title}</h2>
+    <div class="dots">${Array.from({length:ROUNDS},(_,k)=>`<i class="${k<i?'done':k===i?'now':''}"></i>`).join("")}</div>${inner}
+    <div class="msg" id="msg"></div></section>`;
+}
+function setMsg(t,cls){const m=$("#msg");if(m){m.textContent=t;m.className="msg "+(cls||"")}}
+function finish(title,earned,again){
+  addStar(earned); confetti(); chime(true); say("أحسنتِ يا سارة! أنهيتِ اللعبة وربحتِ "+earned+" نجوم");
+  view.innerHTML=`<section class="panel play"><div class="pic">🏅</div><div class="win">أحسنتِ يا سارة!</div>
+   <p class="hint">أنهيتِ «${title}» وربحتِ ${"⭐".repeat(earned)}</p>
+   <div class="row" style="justify-content:center"><button class="btn sun" data-go="${again}">العبي مرة ثانية</button><button class="btn ghost" data-go="games">ألعاب أخرى</button></div></section>`;
+}
+function shakeEl(el){el.classList.remove("shake");void el.offsetWidth;el.classList.add("shake")}
+
+/* ---------- 1) تهجّي الكلمة ---------- */
+function variants(u){
+  const b=base(u), out=[];
+  if(!mark(u)) return [];
+  for(const m of ["َ","ِ","ُ",SUKUN]) if(m!==mark(u) && !(m==="ِ"&&b==="أ") && !(m===SUKUN&&"اأإ".includes(b))) out.push(b+m);
+  return out;
+}
+let spellHide=false;
+function gSpell(){
+  const list=pick(WORDS,ROUNDS); let i=0, mistakes=0;
+  const round=()=>{
+    if(i>=ROUNDS) return finish("تهجّي الكلمة",Math.max(1,5-Math.floor(mistakes/3)),"g-spell");
+    const [w,em]=list[i], us=units(w);
+    let distract=shuffle(us.flatMap(variants)).filter(d=>!us.includes(d)).slice(0,Math.min(4,us.length));
+    const tiles=shuffle([...us,...distract]);
+    let pos=0, wrongHere=0;
+    view.innerHTML=frame("تهجّي الكلمة 🧩",i,`
+      <div class="pic">${em}</div>
+      <div class="target big ${spellHide?'':'faint'}" id="tg" ${spellHide?'hidden':''}>${w}</div>
+      <div class="row" style="justify-content:center"><button class="btn ghost" id="hear">🔊 اسمعي الكلمة</button>
+        <label class="toggle"><input type="checkbox" id="hide" ${spellHide?'checked':''}> تحدٍّ: أخفي الكلمة</label></div>
+      <div class="slots">${us.map((_,k)=>`<div class="slot" data-k="${k}"></div>`).join("")}</div>
+      <p class="hint">اضغطي الحروف بالترتيب من اليمين إلى اليسار</p>
+      <div class="tiles">${tiles.map((t,k)=>`<button class="tile" data-t="${t}" data-i="${k}">${t}</button>`).join("")}</div>`);
+    $("#hear").onclick=()=>say(w);
+    $("#hide").onchange=e=>{spellHide=e.target.checked;$("#tg").hidden=spellHide;$("#tg").classList.toggle("faint",!spellHide)};
+    say(w);
+    document.querySelectorAll(".tiles .tile").forEach(btn=>btn.onclick=async()=>{
+      const t=btn.dataset.t, want=us[pos];
+      if(t===want){
+        btn.classList.add("used"); document.querySelectorAll(".tile.glow").forEach(x=>x.classList.remove("glow"));
+        const slot=document.querySelector(`.slot[data-k="${pos}"]`); slot.textContent=t; slot.classList.add("filled");
+        pos++; wrongHere=0; setMsg(describe(t),"good"); say(t);
+        if(pos===us.length){
+          chime(true); setMsg(praise()+" "+us.join(" ـ ")+" = "+w,"good");
+          await new Promise(r=>setTimeout(r,500)); await say(praise()+"، "+us.join("، ")+"، "+w);
+          i++; setTimeout(round,700);
+        }
+      } else {
+        mistakes++; wrongHere++; chime(false); shakeEl(btn);
+        let txt;
+        if(base(t)===base(want)) txt=`الحرف صحيح، لكن انتبهي للحركة: نريد ${want} — ${describe(want)}`;
+        else txt=`ليس هذا. اخترتِ ${NAMES[base(t)]||t}، ونحتاج الآن ${describe(want)}`;
+        setMsg(txt,"bad"); say(txt.replace(" — ","، "));
+        if(wrongHere>=2){ const ok=[...document.querySelectorAll(".tiles .tile:not(.used)")].find(x=>x.dataset.t===want); ok&&ok.classList.add("glow"); }
+      }
+    });
+  };
+  round();
+}
+
+/* ---------- 2) اسمعي واختاري ---------- */
+function gListen(){
+  let i=0, wrong=0;
+  const round=()=>{
+    if(i>=ROUNDS) return finish("اسمعي واختاري",Math.max(1,5-wrong),"g-listen");
+    const pool=i%2?WORDS.map(x=>x[0]):SYL;
+    const ans=pool[Math.random()*pool.length|0];
+    const opts=shuffle([ans,...pick(pool.filter(x=>x!==ans),3)]);
+    view.innerHTML=frame("اسمعي واختاري 👂",i,`
+      <button class="btn sun" id="hear" style="font-size:26px">🔊 اسمعي</button>
+      <div class="opts">${opts.map(o=>`<button class="tile" data-o="${o}">${colorWord(o)}</button>`).join("")}</div>`);
+    $("#hear").onclick=()=>say(ans); say(ans);
+    let tries=0;
+    document.querySelectorAll(".opts .tile").forEach(b=>b.onclick=async()=>{
+      if(b.dataset.o===ans){ b.classList.add("right"); chime(true); setMsg(praise(),"good"); await say(praise()); i++; setTimeout(round,600); }
+      else { tries++; wrong++; b.classList.add("wrong"); chime(false); shakeEl(b); setMsg("هذه «"+b.dataset.o+"». اسمعي مرة ثانية","bad");
+        await say("هذه "+b.dataset.o+". اسمعي مرة ثانية"); say(ans); }
+    });
+  };
+  round();
+}
+
+/* ---------- 3) أين الساكن؟ ---------- */
+function gFind(){
+  const list=pick(WORDS,ROUNDS); let i=0, wrong=0;
+  const round=()=>{
+    if(i>=ROUNDS) return finish("أين الساكن؟",Math.max(1,5-wrong),"g-find");
+    const [w,em]=list[i], us=units(w), need=us.filter(hasSukun).length; let found=0;
+    view.innerHTML=frame("أين الحرف الساكن؟ 🔍",i,`
+      <div class="pic">${em}</div>
+      <p class="hint">السكون اختفى! اضغطي على الحرف الذي يجب أن يكون <b>ساكنًا</b>${need>1?" (في هذه الكلمة "+need+" حروف ساكنة)":""}</p>
+      <div class="letters">${us.map((u,k)=>`<button class="tile" data-k="${k}">${u.replace(SUKUN,"")}</button>`).join("")}</div>
+      <button class="btn ghost" id="hear">🔊 اسمعي الكلمة</button>`);
+    $("#hear").onclick=()=>say(w); say(w);
+    document.querySelectorAll(".letters .tile").forEach(b=>b.onclick=async()=>{
+      const u=us[+b.dataset.k]; if(b.classList.contains("ok")) return;
+      if(hasSukun(u)){ b.textContent=u; b.classList.add("ok"); found++; chime(true);
+        const q=QALQALA.includes(base(u))?" وهو من حروف القلقلة!":"";
+        setMsg(`صحيح! ${NAMES[base(u)]} ساكنة: ${u}${q}`,"good"); await say(`صحيح، ${u}${q?"، قلقلة":""}`);
+        if(found===need){ await say(praise()+"، "+w); i++; setTimeout(round,600); } }
+      else { wrong++; chime(false); shakeEl(b); const t=`هذا الحرف ${describe(u)}، ليس ساكنًا`; setMsg(t,"bad"); say(t); }
+    });
+  };
+  round();
+}
+
+/* ---------- 4) اقرئي بصوتك ---------- */
+const norm=s=>s.replace(/[ً-ْٰـ]/g,"").replace(/[أإآ]/g,"ا").replace(/ة/g,"ه").replace(/ى/g,"ي").replace(/[^ء-ي]/g,"");
+let dictBound=false, dictCb=null;
+function gRead(){
+  if(!dict){
+    view.innerHTML=`<section class="panel play"><div class="pic">🎤</div><h2>اقرئي بصوتك</h2>
+      <p class="hint">الميكروفون غير متاح هنا. افتحي الصفحة في متصفح Chrome على الكمبيوتر وأنتِ داخلة لحسابك. في الوقت الحالي جربي «تهجّي الكلمة».</p>
+      <button class="btn sun" data-go="g-spell">🧩 تهجّي الكلمة</button></section>`; return;
+  }
+  const list=pick(WORDS,ROUNDS); let i=0, wrong=0;
+  if(!dictBound){ dictBound=true;
+    dict.onPartial(({text})=>{const h=$("#heard"); if(h) h.textContent=text;});
+    dict.onFinal(({text})=>{ dictCb&&dictCb(text); });
+    dict.onState(({state})=>{const m=$("#mic"); if(m) m.classList.toggle("live",state==="listening"||state==="starting");});
+  }
+  const round=()=>{
+    if(i>=ROUNDS) return finish("اقرئي بصوتك",Math.max(1,5-wrong),"g-read");
+    const [w,em]=list[i];
+    view.innerHTML=frame("اقرئي الكلمة بصوت واضح 🎤",i,`
+      <div class="pic">${em}</div><div class="target">${colorWord(w)}</div>
+      <button class="mic" id="mic" aria-label="اضغطي وتكلمي">🎤</button>
+      <div class="heard" id="heard">اضغطي على الميكروفون واقرئي</div>
+      <div class="row" style="justify-content:center"><button class="btn ghost" id="hear">🔊 كيف تُقرأ؟</button><button class="btn ghost" id="skip">التالية ←</button></div>`);
+    $("#hear").onclick=()=>say(w);
+    $("#skip").onclick=()=>{i++;round()};
+    let timer=null;
+    $("#mic").onclick=()=>{
+      const p=dict.start({language:"ar"}); p.catch(err=>{ setMsg(err&&err.code==="not_granted"?"لم يُسمح بالميكروفون. يمكنك تفعيله من قائمة الأذونات.":"تعذّر تشغيل الميكروفون، جربي مرة ثانية","bad"); });
+      $("#heard").textContent="أسمعكِ... 👂"; setMsg("");
+      clearTimeout(timer); timer=setTimeout(()=>dict.stop().catch(()=>{}),6000);
+      dictCb=async text=>{
+        dictCb=null; clearTimeout(timer); dict.stop().catch(()=>{});
+        $("#heard").textContent="سمعتُ: "+text;
+        const h=norm(text), t=norm(w);
+        if(h.includes(t) || (t.startsWith("ا") && h.includes(t.slice(1)))){
+          chime(true); setMsg(praise()+" قراءة صحيحة ✅","good"); await say(praise()); i++; setTimeout(round,900);
+        } else { wrong++; chime(false); setMsg("قريب! اسمعي النطق الصحيح وجربي مرة ثانية: "+w,"bad"); await say("اسمعي جيدًا، "+w+"، جربي مرة ثانية"); }
+      };
+    };
+  };
+  round();
+}
+
+/* ---------- 5) صِلي بالصورة ---------- */
+function gMatch(){
+  let i=0, wrong=0; const SETS=3;
+  const round=()=>{
+    if(i>=SETS) return finish("صِلي بالصورة",Math.max(1,5-wrong),"g-match");
+    const set=pick(WORDS,4); const pics=shuffle(set); let sel=null, done=0;
+    view.innerHTML=`<section class="panel play"><h2>صِلي الكلمة بصورتها 🖼️</h2>
+      <p class="hint">اضغطي على كلمة، ثم على صورتها (المجموعة ${i+1} من ${SETS})</p>
+      <div class="match"><div class="col">${set.map(([w])=>`<button class="tile" data-w="${w}" style="font-size:34px">${colorWord(w)}</button>`).join("")}</div>
+      <div class="col">${pics.map(([w,e])=>`<button class="tile" data-p="${w}" style="font-size:46px">${e}</button>`).join("")}</div></div>
+      <div class="msg" id="msg"></div></section>`;
+    document.querySelectorAll("[data-w]").forEach(b=>b.onclick=()=>{document.querySelectorAll("[data-w]").forEach(x=>x.classList.remove("sel"));b.classList.add("sel");sel=b;say(b.dataset.w)});
+    document.querySelectorAll("[data-p]").forEach(b=>b.onclick=async()=>{
+      if(!sel){setMsg("اختاري الكلمة أولًا","bad");return}
+      if(b.dataset.p===sel.dataset.w){ b.classList.add("right");sel.classList.add("right");sel.classList.remove("sel");sel=null;done++;chime(true);setMsg(praise(),"good");
+        if(done===4){await say(praise());i++;setTimeout(round,600)} }
+      else { wrong++;chime(false);shakeEl(b);setMsg("ليست هذه الصورة، جربي مرة ثانية","bad"); }
+    });
+  };
+  round();
+}
+
+/* ---------- احتفال ---------- */
+function confetti(){
+  if(matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const c=$("#confetti"),x=c.getContext("2d");c.width=innerWidth;c.height=innerHeight;
+  const cols=["#FFC53D","#E8503F","#2A7FBF","#1FA463","#B36BE0"];
+  const P=Array.from({length:140},()=>({x:Math.random()*c.width,y:-20-Math.random()*c.height*.5,r:4+Math.random()*6,c:cols[Math.random()*5|0],vy:2+Math.random()*3,vx:-1.5+Math.random()*3,a:Math.random()*6}));
+  let f=0;(function tick(){x.clearRect(0,0,c.width,c.height);P.forEach(p=>{p.y+=p.vy;p.x+=p.vx;p.a+=.1;x.fillStyle=p.c;x.save();x.translate(p.x,p.y);x.rotate(p.a);x.fillRect(-p.r/2,-p.r/2,p.r,p.r*1.6);x.restore()});
+    if(++f<180) requestAnimationFrame(tick); else x.clearRect(0,0,c.width,c.height);})();
+}
+
+lesson();
+</script>
