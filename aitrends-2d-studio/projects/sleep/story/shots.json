@@ -1,0 +1,4719 @@
+{
+ "title": "ماذا لو احتجت إلى ساعة نوم واحدة فقط؟",
+ "duration": 507.805,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 4.01,
+   "line": "نمت ساعة واحدة فقط... كل ليلة، منذ ثلاث سنوات.",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "ZAID",
+    "set": "bedroom",
+    "expr": "smirk",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "ساعة واحدة… منذ 3 سنوات",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.1
+     }
+    ]
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s002",
+   "start": 4.01,
+   "end": 8.61,
+   "line": "ولم تشعر بالتعب يوما واحدا. الساعة الثالثة فجرا.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.45,
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "clock": [
+     3,
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s003",
+   "start": 8.61,
+   "end": 10.49,
+   "line": "المدينة كلها نائمة.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    },
+    "labels": [
+     {
+      "s": "3:00 فجرا",
+      "x": 0.5,
+      "y": 0.2,
+      "box": true,
+      "at": 0.1
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s004",
+   "start": 10.49,
+   "end": 13.56,
+   "line": "وأنت أنهيت رواية كاملة، وحفظت مئتي كلمة يابانية، ورسمت جدارية على حائط غرفتك.",
+   "scene": "insert mural",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "swish",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "mural"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s005",
+   "start": 13.56,
+   "end": 16.85,
+   "line": "وأنت أنهيت رواية كاملة، وحفظت مئتي كلمة يابانية، ورسمت جدارية على حائط غرفتك.",
+   "scene": "insert mural",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "mural",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s006",
+   "start": 16.85,
+   "end": 20.37,
+   "line": "وما زال أمامك ثلاث ساعات قبل أن يستيقظ أحد.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.45,
+      "pose": "holdFront",
+      "expr": "smile",
+      "f": 1,
+      "prop": "paper"
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "clock": [
+     3,
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s007",
+   "start": 20.37,
+   "end": 23.63,
+   "line": "الناس ينامون ثلث أعمارهم. أما أنت؟",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "⅓",
+    "label": "من أعمارنا… نوم",
+    "size": 200
+   },
+   "notes": ""
+  },
+  {
+   "id": "s008",
+   "start": 23.63,
+   "end": 26.59,
+   "line": "فتعيش ثلاثا وعشرين ساعة كل يوم.",
+   "scene": "insert clock24",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "tick",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "clock24"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s009",
+   "start": 26.59,
+   "end": 29.2,
+   "line": "سبع ساعات إضافية كل ليلة... أي أكثر من مئة يوم إضافي كل سنة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "data",
+    "value": "+100 يوم",
+    "label": "إضافي كل سنة",
+    "size": 170
+   },
+   "notes": ""
+  },
+  {
+   "id": "s010",
+   "start": 29.2,
+   "end": 31.65,
+   "line": "سبع ساعات إضافية كل ليلة... أي أكثر من مئة يوم إضافي كل سنة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "+100 يوم",
+    "label": "إضافي كل سنة",
+    "size": 170,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s011",
+   "start": 31.65,
+   "end": 38.21,
+   "line": "لكن لهذه القوة قاعدة واحدة. الوقت الذي تربحه... لا يساوي شيئا إن عشته وحدك.",
+   "scene": "bigline bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "قاعدة واحدة",
+    "set": "bedroom",
+    "str2": "الوقت الذي تعيشه وحدك… لا يساوي شيئا",
+    "at2": 1.6
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s012",
+   "start": 38.21,
+   "end": 40.79,
+   "line": "اسمك زيد. عشرون عاما.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.5,
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.8
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "زيد",
+      "x": 0.5,
+      "y": 0.2,
+      "size": 90,
+      "at": 0.53
+     },
+     {
+      "s": "20 عاما",
+      "x": 0.5,
+      "y": 0.32,
+      "cream": true,
+      "at": 1.3499999999999999
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s013",
+   "start": 40.79,
+   "end": 45.23,
+   "line": "وستتعلم يوما أن أجمل ساعاتك... هي التي تعطيها لغيرك.",
+   "scene": "face city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "ZAID",
+    "set": "city",
+    "expr": "thinking",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "أجمل ساعاتك… التي تعطيها",
+      "x": 0.5,
+      "y": 0.18,
+      "at": 1.3299999999999998
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s014",
+   "start": 45.23,
+   "end": 48.15,
+   "line": "فماذا لو احتجت إلى ساعة نوم واحدة فقط؟",
+   "scene": "title ",
+   "set": "",
+   "bars": "scope",
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "title",
+    "lines": [
+     "ماذا لو",
+     "احتجت إلى ساعة نوم واحدة فقط؟"
+    ]
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s015",
+   "start": 48.15,
+   "end": 52.96,
+   "line": "في البداية يبدو الأمر كنزا. في الجامعة تدرس تخصصين في وقت واحد. الطب في النهار... والهندسة في الليل. وتتفوق فيهما معا.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.5,
+      "pose": "explain",
+      "expr": "smirk",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "طب + هندسة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 3.37
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s016",
+   "start": 52.96,
+   "end": 58.31,
+   "line": "في البداية يبدو الأمر كنزا. في الجامعة تدرس تخصصين في وقت واحد. الطب في النهار... والهندسة في الليل. وتتفوق فيهما معا.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.5,
+      "pose": "explain",
+      "expr": "smirk",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "طب + هندسة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s017",
+   "start": 58.31,
+   "end": 60.69,
+   "line": "تتعلم العزف على العود في شهرين.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "ding",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.45,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "العود في شهرين",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 1.1099999999999999
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s018",
+   "start": 60.69,
+   "end": 63.65,
+   "line": "وتقرأ ثلاثمئة كتاب في سنة واحدة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "300",
+    "label": "كتاب في سنة",
+    "size": 200
+   },
+   "notes": ""
+  },
+  {
+   "id": "s019",
+   "start": 63.65,
+   "end": 67.27,
+   "line": "وفي الثانية فجرا تعمل في مخبز الحي مع العم صالح.",
+   "scene": "stage bakery",
+   "set": "bakery",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bakery",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.42,
+      "pose": "holdFront",
+      "expr": "smile",
+      "f": 1
+     },
+     {
+      "c": "SALEH",
+      "x": 0.62,
+      "pose": "explain",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -26
+   }
+  },
+  {
+   "id": "s020",
+   "start": 67.27,
+   "end": 71.93,
+   "line": "العجين، والفرن، ورائحة الخبز الأول قبل أن يستيقظ أحد.",
+   "scene": "insert bread",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bread",
+    "noQ": true
+   },
+   "notes": ""
+  },
+  {
+   "id": "s021",
+   "start": 71.93,
+   "end": 74.95,
+   "line": "العم صالح يعمل في الليل منذ أربعين عاما.",
+   "scene": "stage bakery",
+   "set": "bakery",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bakery",
+    "chars": [
+     {
+      "c": "SALEH",
+      "x": 0.55,
+      "pose": "holdFront",
+      "expr": "smile",
+      "f": -1,
+      "s": 1.7
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "40 عاما في الليل",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 1.9099999999999997
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s022",
+   "start": 74.95,
+   "end": 79.09,
+   "line": "يقول لك: أنت أول شاب لا يتثاءب في هذا المخبز.",
+   "scene": "face bakery",
+   "set": "bakery",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "SALEH",
+    "set": "bakery",
+    "expr": "smile",
+    "side": 0.25,
+    "rimSide": 1,
+    "talk": [
+     1.07,
+     2.79
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s023",
+   "start": 79.09,
+   "end": 81.86,
+   "line": "وفي الخامسة تركض على الكورنيش وحدك... وبعد سنة تنهي أول ماراثون في حياتك.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.3,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.15,
+       0.85
+      ],
+      "run": true
+     }
+    ],
+    "so": {
+     "outside": true
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s024",
+   "start": 81.86,
+   "end": 84.41,
+   "line": "وفي الخامسة تركض على الكورنيش وحدك... وبعد سنة تنهي أول ماراثون في حياتك.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.3,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.15,
+       0.85
+      ],
+      "run": true
+     }
+    ],
+    "so": {
+     "outside": true
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s025",
+   "start": 84.41,
+   "end": 87.32,
+   "line": "ثم تفتح مشروعك الصغير. توصل الخبز الساخن إلى البيوت مع أذان الفجر.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.35,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.2,
+       0.7
+      ]
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.8,
+      "pose": "wave",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s026",
+   "start": 87.32,
+   "end": 90.09,
+   "line": "ثم تفتح مشروعك الصغير. توصل الخبز الساخن إلى البيوت مع أذان الفجر.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.35,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.2,
+       0.7
+      ]
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.8,
+      "pose": "wave",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s027",
+   "start": 90.09,
+   "end": 93.13,
+   "line": "بعد ستة أشهر يعمل معك عشرة شبان.",
+   "scene": "stage bakery",
+   "set": "bakery",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bakery",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.3
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.3,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.2
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.72,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.2
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    },
+    "labels": [
+     {
+      "s": "10 شبان",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 1.77
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s028",
+   "start": 93.13,
+   "end": 95.86,
+   "line": "وتدفع ديون أبيك كلها. وتشتري لأمك الغسالة التي حلمت بها سنوات.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.4,
+      "pose": "holdFront",
+      "expr": "smile",
+      "f": 1,
+      "prop": "paper"
+     },
+     {
+      "c": "DAD",
+      "x": 0.6,
+      "pose": "handsOnHead",
+      "expr": "joy",
+      "f": -1
+     },
+     {
+      "c": "MOM",
+      "x": 0.78,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s029",
+   "start": 95.86,
+   "end": 98.77,
+   "line": "وتدفع ديون أبيك كلها. وتشتري لأمك الغسالة التي حلمت بها سنوات.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.4,
+      "pose": "holdFront",
+      "expr": "smile",
+      "f": 1,
+      "prop": "paper"
+     },
+     {
+      "c": "DAD",
+      "x": 0.6,
+      "pose": "handsOnHead",
+      "expr": "joy",
+      "f": -1
+     },
+     {
+      "c": "MOM",
+      "x": 0.78,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s030",
+   "start": 98.77,
+   "end": 101.81,
+   "line": "الصحف تسميك: الشاب الذي لا ينام.",
+   "scene": "insert news",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "news",
+    "head": "الشاب الذي لا ينام",
+    "who": "ZAID"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s031",
+   "start": 101.81,
+   "end": 104.76,
+   "line": "والأطباء يطلبون فحصك. وأنت تجلس في المختبر ليلة كاملة والأسلاك على رأسك.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.42,
+      "pose": "sitBack",
+      "expr": "neutral",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "DOC",
+      "x": 0.64,
+      "pose": "think",
+      "expr": "thinking",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s032",
+   "start": 104.76,
+   "end": 107.59,
+   "line": "والأطباء يطلبون فحصك. وأنت تجلس في المختبر ليلة كاملة والأسلاك على رأسك.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.42,
+      "pose": "sitBack",
+      "expr": "neutral",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "DOC",
+      "x": 0.64,
+      "pose": "think",
+      "expr": "thinking",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s033",
+   "start": 107.59,
+   "end": 111.44,
+   "line": "يقول الطبيب إن دماغك ينام نوما عميقا جدا... ثم يستيقظ فجأة. ساعة واحدة. ولا ثانية أكثر.",
+   "scene": "insert eeg",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.4,
+     "name": "blip",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "eeg"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s034",
+   "start": 111.44,
+   "end": 116.31,
+   "line": "يقول الطبيب إن دماغك ينام نوما عميقا جدا... ثم يستيقظ فجأة. ساعة واحدة. ولا ثانية أكثر.",
+   "scene": "insert eeg",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "eeg",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s035",
+   "start": 116.31,
+   "end": 119.85,
+   "line": "ويسألك سؤالا غريبا: متى حلمت آخر مرة؟",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "DOC",
+    "set": "clinic",
+    "expr": "thinking",
+    "side": 0.2,
+    "rimSide": 1,
+    "labels": [
+     {
+      "s": "متى حلمت آخر مرة؟",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 1.51
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s036",
+   "start": 119.85,
+   "end": 121.41,
+   "line": "وأنت لا تتذكر.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "ZAID",
+    "set": "clinic",
+    "expr": "confused",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s037",
+   "start": 121.41,
+   "end": 124.05,
+   "line": "لكن الليل طويل. طويل جدا.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "sad",
+      "f": 1,
+      "s": 1.2
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s038",
+   "start": 124.05,
+   "end": 128.26,
+   "line": "في البداية كنت ترسل الرسائل لأصدقائك في الثالثة فجرا. ولا يرد أحد. ثم صرت تتوقف عن الإرسال.",
+   "scene": "insert chat",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "chat"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s039",
+   "start": 128.26,
+   "end": 132.13,
+   "line": "في البداية كنت ترسل الرسائل لأصدقائك في الثالثة فجرا. ولا يرد أحد. ثم صرت تتوقف عن الإرسال.",
+   "scene": "insert chat",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "chat",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s040",
+   "start": 132.13,
+   "end": 135.52,
+   "line": "وحين يضحكون في الصباح على شيء حدث في سهرة الأمس... تكتشف أنك كنت مستيقظا وحدك في مكان آخر.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.3,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.48,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1
+     },
+     {
+      "c": "ZAID",
+      "x": 0.78,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s041",
+   "start": 135.52,
+   "end": 139.19,
+   "line": "وحين يضحكون في الصباح على شيء حدث في سهرة الأمس... تكتشف أنك كنت مستيقظا وحدك في مكان آخر.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.3,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.48,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1
+     },
+     {
+      "c": "ZAID",
+      "x": 0.78,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s042",
+   "start": 139.19,
+   "end": 143.81,
+   "line": "صرت تسبق الجميع بسنوات... وتبتعد عنهم كل يوم قليلا.",
+   "scene": "face classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "ZAID",
+    "set": "classroom",
+    "expr": "sad",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s043",
+   "start": 143.81,
+   "end": 146.8,
+   "line": "في عرس صديقك أحمد يرقص الجميع حتى منتصف الليل... ثم يعودون إلى بيوتهم.",
+   "scene": "stage studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "cheer",
+     "gain": -18
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "studio",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.35,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1
+     },
+     {
+      "c": "ZAID",
+      "x": 0.65,
+      "pose": "cheer",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "crowd": 0.6,
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s044",
+   "start": 146.8,
+   "end": 149.65,
+   "line": "في عرس صديقك أحمد يرقص الجميع حتى منتصف الليل... ثم يعودون إلى بيوتهم.",
+   "scene": "stage studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "studio",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.35,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1
+     },
+     {
+      "c": "ZAID",
+      "x": 0.65,
+      "pose": "cheer",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "crowd": 0.6,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s045",
+   "start": 149.65,
+   "end": 154.19,
+   "line": "وأنت تبقى في الشارع الفارغ ست ساعات أخرى، لا تعرف أين تذهب.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "sad",
+      "f": 1,
+      "still": true
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    },
+    "labels": [
+     {
+      "s": "6 ساعات أخرى",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 1.6099999999999999
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s046",
+   "start": 154.19,
+   "end": 158.02,
+   "line": "تعرف المدينة في الليل كما لا يعرفها أحد: القطط التي تعبر الشوارع، وعمال النظافة، والممرضات العائدات من المناوبة. هم وحدهم رفقاؤك الآن... ولا يعرفون اسمك.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.3,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.1,
+       0.4
+      ]
+     },
+     {
+      "c": "NURSE",
+      "x": 0.7,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.9,
+       0.6
+      ]
+     },
+     {
+      "c": "ZAID",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s047",
+   "start": 158.02,
+   "end": 161.975,
+   "line": "تعرف المدينة في الليل كما لا يعرفها أحد: القطط التي تعبر الشوارع، وعمال النظافة، والممرضات العائدات من المناوبة. هم وحدهم رفقاؤك الآن... ولا يعرفون اسمك.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.3,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.1,
+       0.4
+      ]
+     },
+     {
+      "c": "NURSE",
+      "x": 0.7,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.9,
+       0.6
+      ]
+     },
+     {
+      "c": "ZAID",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s048",
+   "start": 161.975,
+   "end": 165.91,
+   "line": "تعرف المدينة في الليل كما لا يعرفها أحد: القطط التي تعبر الشوارع، وعمال النظافة، والممرضات العائدات من المناوبة. هم وحدهم رفقاؤك الآن... ولا يعرفون اسمك.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.3,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.1,
+       0.4
+      ]
+     },
+     {
+      "c": "NURSE",
+      "x": 0.7,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.9,
+       0.6
+      ]
+     },
+     {
+      "c": "ZAID",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s049",
+   "start": 165.91,
+   "end": 168.35,
+   "line": "فتجلس في المخبز مع العم صالح.",
+   "scene": "stage bakery",
+   "set": "bakery",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bakery",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.4,
+      "pose": "sit",
+      "expr": "sad",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "SALEH",
+      "x": 0.62,
+      "pose": "holdFront",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s050",
+   "start": 168.35,
+   "end": 174.57,
+   "line": "ويقول لك يوما وهو يعجن: الليل يا بني جميل... لمن ينتظره أحد في الصباح.",
+   "scene": "face bakery",
+   "set": "bakery",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "SALEH",
+    "set": "bakery",
+    "expr": "smile",
+    "side": 0.25,
+    "rimSide": 1,
+    "labels": [
+     {
+      "s": "لمن ينتظره أحد في الصباح",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 3.69
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s051",
+   "start": 174.57,
+   "end": 178.84,
+   "line": "وفي البيت أختك الصغيرة لينا. ست سنوات. كل مساء تأتيك بكتابها الملون وتقول: احك لي قصة حتى أنام.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "LINA",
+      "x": 0.58,
+      "pose": "holdFront",
+      "expr": "happy",
+      "f": -1,
+      "prop": "book"
+     },
+     {
+      "c": "ZAID",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "لينا 6 سنوات",
+      "x": 0.58,
+      "y": 0.2,
+      "box": true,
+      "at": 1.3499999999999999
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s052",
+   "start": 178.84,
+   "end": 183.25,
+   "line": "وفي البيت أختك الصغيرة لينا. ست سنوات. كل مساء تأتيك بكتابها الملون وتقول: احك لي قصة حتى أنام.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "LINA",
+      "x": 0.58,
+      "pose": "holdFront",
+      "expr": "happy",
+      "f": -1,
+      "prop": "book"
+     },
+     {
+      "c": "ZAID",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "لينا 6 سنوات",
+      "x": 0.58,
+      "y": 0.2,
+      "box": true,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s053",
+   "start": 183.25,
+   "end": 186.67,
+   "line": "وأنت تقول: غدا يا لينا... عندي عمل.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "LINA",
+    "set": "home",
+    "expr": "sad",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s054",
+   "start": 186.67,
+   "end": 190.55,
+   "line": "وكل صباح تجلس بجانبك على الفطور وتحكي لك حلمها.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "LINA",
+      "x": 0.58,
+      "pose": "explain",
+      "expr": "joy",
+      "f": -1
+     },
+     {
+      "c": "ZAID",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "props": [
+     {
+      "k": "table",
+      "x": 0.48,
+      "plate": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s055",
+   "start": 190.55,
+   "end": 194.71,
+   "line": "حلمت أني أطير فوق البحر. حلمت أن قطتنا تتكلم.",
+   "scene": "insert dreamsea",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "dreamsea"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s056",
+   "start": 194.71,
+   "end": 197.95,
+   "line": "ثم تسألك: وأنت؟ بماذا حلمت؟",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "LINA",
+    "set": "home",
+    "expr": "smile",
+    "side": 0.3,
+    "rimSide": 1,
+    "talk": [
+     1.87,
+     3.03
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s057",
+   "start": 197.95,
+   "end": 202.37,
+   "line": "وأنت لا تعرف بماذا تجيب. أنت لم تحلم منذ ثلاث سنوات.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "ZAID",
+    "set": "home",
+    "expr": "sad",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "لا أحلام منذ 3 سنوات",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "coral": true,
+      "at": 2.55
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s058",
+   "start": 202.37,
+   "end": 206.45,
+   "line": "وبدأت أشياء صغيرة تتغير فيك. صرت تنفعل بسرعة.",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "ZAID",
+    "set": "bedroom",
+    "expr": "angry",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s059",
+   "start": 206.45,
+   "end": 209.89,
+   "line": "وتنسى وجوه الناس الذين قابلتهم أمس.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "confused",
+      "f": 1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.7,
+      "pose": "wave",
+      "expr": "happy",
+      "f": -1
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s060",
+   "start": 209.89,
+   "end": 213.95,
+   "line": "والألوان في جداريتك صارت رمادية... دون أن تقصد.",
+   "scene": "insert mural",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "mural",
+    "gray": true
+   },
+   "notes": ""
+  },
+  {
+   "id": "s061",
+   "start": 213.95,
+   "end": 216.96,
+   "line": "أمك تلاحظ. تضع يدها على كتفك وتقول: أنت هنا معنا... ولست معنا.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "MOM",
+      "x": 0.58,
+      "pose": "reach",
+      "expr": "sad",
+      "f": -1
+     },
+     {
+      "c": "ZAID",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "هنا معنا… ولست معنا",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 3.73
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s062",
+   "start": 216.96,
+   "end": 219.93,
+   "line": "أمك تلاحظ. تضع يدها على كتفك وتقول: أنت هنا معنا... ولست معنا.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "MOM",
+      "x": 0.58,
+      "pose": "reach",
+      "expr": "sad",
+      "f": -1
+     },
+     {
+      "c": "ZAID",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "هنا معنا… ولست معنا",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.7199999999999807
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s063",
+   "start": 219.93,
+   "end": 223.21,
+   "line": "ثم تأتي تلك الليلة. ليلة المسابقة.",
+   "scene": "bigline bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "ليلة المسابقة",
+    "set": "bedroom"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s064",
+   "start": 223.21,
+   "end": 226.94,
+   "line": "مشروع عملت عليه ثمانية أشهر: جهاز صغير ينبه مرضى الربو قبل النوبة. والتسليم في السادسة صباحا.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.45,
+      "pose": "sit",
+      "expr": "determined",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "props": [
+     {
+      "k": "desk",
+      "x": 0.6
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "التسليم 6:00 صباحا",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "coral": true,
+      "at": 5.430000000000001
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s065",
+   "start": 226.94,
+   "end": 230.75,
+   "line": "مشروع عملت عليه ثمانية أشهر: جهاز صغير ينبه مرضى الربو قبل النوبة. والتسليم في السادسة صباحا.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.45,
+      "pose": "sit",
+      "expr": "determined",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "props": [
+     {
+      "k": "desk",
+      "x": 0.6
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "التسليم 6:00 صباحا",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "coral": true,
+      "at": 1.7000000000000108
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s066",
+   "start": 230.75,
+   "end": 233.48,
+   "line": "أبوك وأمك مسافران إلى عرس في مدينة أخرى. وأنت وحدك مع لينا.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.45,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "c": "LINA",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "sleepy",
+      "f": -1
+     }
+    ],
+    "so": {
+     "night": true,
+     "sky": "night"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s067",
+   "start": 233.48,
+   "end": 236.11,
+   "line": "أبوك وأمك مسافران إلى عرس في مدينة أخرى. وأنت وحدك مع لينا.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.45,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "c": "LINA",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "sleepy",
+      "f": -1
+     }
+    ],
+    "so": {
+     "night": true,
+     "sky": "night"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s068",
+   "start": 236.11,
+   "end": 239.09,
+   "line": "في الثالثة فجرا تسمع صوتا غريبا من غرفتها.",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "heartbeat",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "ZAID",
+    "set": "bedroom",
+    "expr": "shocked",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s069",
+   "start": 239.09,
+   "end": 243.72,
+   "line": "صفير في صدرها. وأنفاس قصيرة سريعة. تعرف هذا الصوت جيدا... لأنك درسته ثمانية أشهر. نوبة ربو.",
+   "scene": "insert breath",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "wind",
+     "gain": -18
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "breath"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s070",
+   "start": 243.72,
+   "end": 248.41,
+   "line": "صفير في صدرها. وأنفاس قصيرة سريعة. تعرف هذا الصوت جيدا... لأنك درسته ثمانية أشهر. نوبة ربو.",
+   "scene": "insert breath",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "breath",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s071",
+   "start": 248.41,
+   "end": 252.55,
+   "line": "تحملها إلى السيارة. تقود ويدك على صدرها الصغير...",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.3,
+       0.7
+      ],
+      "run": true
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s072",
+   "start": 252.55,
+   "end": 256.08,
+   "line": "وتعد أنفاسها كما علمك مشروعك: ثلاثون... خمسة وثلاثون... أربعون نفسا في الدقيقة.",
+   "scene": "insert breath",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "breath"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s073",
+   "start": 256.08,
+   "end": 259.57,
+   "line": "وتعد أنفاسها كما علمك مشروعك: ثلاثون... خمسة وثلاثون... أربعون نفسا في الدقيقة.",
+   "scene": "insert breath",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "breath",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s074",
+   "start": 259.57,
+   "end": 262.14,
+   "line": "الشوارع فارغة. والمدينة نائمة كما هي دائما. ولأول مرة...",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [],
+    "props": [
+     {
+      "k": "taxi",
+      "x": 0.5,
+      "move": true
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s075",
+   "start": 262.14,
+   "end": 264.87,
+   "line": "الشوارع فارغة. والمدينة نائمة كما هي دائما. ولأول مرة...",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [],
+    "props": [
+     {
+      "k": "taxi",
+      "x": 0.5,
+      "move": true
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s076",
+   "start": 264.87,
+   "end": 267.11,
+   "line": "تشكر الله أنك لا تنام.",
+   "scene": "face city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "ZAID",
+    "set": "city",
+    "expr": "determined",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s077",
+   "start": 267.11,
+   "end": 271.4,
+   "line": "في الطوارئ يقول الطبيب إنك وصلت في الوقت المناسب تماما. يضعون القناع على وجهها... ويهدأ الصفير شيئا فشيئا.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DOC",
+      "x": 0.62,
+      "pose": "explain",
+      "expr": "neutral",
+      "f": -1
+     },
+     {
+      "c": "ZAID",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1
+     },
+     {
+      "c": "NURSE",
+      "x": 0.82,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s078",
+   "start": 271.4,
+   "end": 275.19,
+   "line": "في الطوارئ يقول الطبيب إنك وصلت في الوقت المناسب تماما. يضعون القناع على وجهها... ويهدأ الصفير شيئا فشيئا.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DOC",
+      "x": 0.62,
+      "pose": "explain",
+      "expr": "neutral",
+      "f": -1
+     },
+     {
+      "c": "ZAID",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1
+     },
+     {
+      "c": "NURSE",
+      "x": 0.82,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s079",
+   "start": 275.19,
+   "end": 280.22,
+   "line": "الساعة الآن الرابعة والنصف. وهاتفك يذكرك: ساعة ونصف على تسليم المشروع. الحاسوب في السيارة. ويمكنك أن تنهيه في غرفة الانتظار.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "tick",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.45,
+      "pose": "sit",
+      "expr": "worried",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "clock": [
+     4,
+     30
+    ],
+    "labels": [
+     {
+      "s": "1:30 على التسليم",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "coral": true,
+      "at": 3.51
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s080",
+   "start": 280.22,
+   "end": 285.35,
+   "line": "الساعة الآن الرابعة والنصف. وهاتفك يذكرك: ساعة ونصف على تسليم المشروع. الحاسوب في السيارة. ويمكنك أن تنهيه في غرفة الانتظار.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.45,
+      "pose": "sit",
+      "expr": "worried",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "clock": [
+     4,
+     30
+    ],
+    "labels": [
+     {
+      "s": "1:30 على التسليم",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "coral": true,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s081",
+   "start": 285.35,
+   "end": 289.95,
+   "line": "ثم تمسك لينا يدك بقوة. عيناها خائفتان فوق القناع.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.42,
+      "pose": "sit",
+      "expr": "worried",
+      "f": 1,
+      "chair": true,
+      "s": 1.7
+     },
+     {
+      "c": "LINA",
+      "x": 0.6,
+      "pose": "reach",
+      "expr": "scared",
+      "f": -1,
+      "s": 1.5
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s082",
+   "start": 289.95,
+   "end": 294.71,
+   "line": "وتقول بصوت ضعيف: لا تذهب... احك لي قصة حتى أنام.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "LINA",
+    "set": "clinic",
+    "expr": "scared",
+    "side": 0.3,
+    "rimSide": 1,
+    "talk": [
+     1.81,
+     2.73
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s083",
+   "start": 294.71,
+   "end": 297.67,
+   "line": "وهنا تفهم. أمامك طريقان.",
+   "scene": "bigline clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "أمامك طريقان",
+    "set": "clinic"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s084",
+   "start": 297.67,
+   "end": 301.74,
+   "line": "إما أن تأخذ الساعة والنصف كما أخذت كل ساعاتك... لنفسك، ولمشروعك، وللسنوات التي تسبق بها الجميع.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "ZAID",
+    "pose": "think",
+    "expr": "thinking",
+    "n": 50,
+    "cards": [
+     "المشروع",
+     "المسابقة",
+     "السنوات"
+    ],
+    "cardsX": [
+     0.2,
+     0.5,
+     0.8
+    ],
+    "cardsY": [
+     0.25,
+     0.18,
+     0.25
+    ],
+    "gap": 0.6
+   },
+   "notes": ""
+  },
+  {
+   "id": "s085",
+   "start": 301.74,
+   "end": 305.01,
+   "line": "إما أن تأخذ الساعة والنصف كما أخذت كل ساعاتك... لنفسك، ولمشروعك، وللسنوات التي تسبق بها الجميع.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "ZAID",
+    "pose": "think",
+    "expr": "thinking",
+    "n": 50,
+    "cards": [
+     "المشروع",
+     "المسابقة",
+     "السنوات"
+    ],
+    "cardsX": [
+     0.2,
+     0.5,
+     0.8
+    ],
+    "cardsY": [
+     0.25,
+     0.18,
+     0.25
+    ],
+    "gap": 0.6,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s086",
+   "start": 305.01,
+   "end": 306.53,
+   "line": "وإما أن تعطيها لها.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "ZAID",
+    "set": "clinic",
+    "expr": "determined",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s087",
+   "start": 306.53,
+   "end": 308.9,
+   "line": "تطفئ الهاتف. تجلس على الكرسي بجانب سريرها. وتبدأ:",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.45,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "chair": true,
+      "s": 1.6
+     },
+     {
+      "c": "LINA",
+      "x": 0.62,
+      "pose": "sitBack",
+      "expr": "sleepy",
+      "f": -1,
+      "chair": true,
+      "s": 1.4
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s088",
+   "start": 308.9,
+   "end": 311.69,
+   "line": "تطفئ الهاتف. تجلس على الكرسي بجانب سريرها. وتبدأ:",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.45,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "chair": true,
+      "s": 1.6
+     },
+     {
+      "c": "LINA",
+      "x": 0.62,
+      "pose": "sitBack",
+      "expr": "sleepy",
+      "f": -1,
+      "chair": true,
+      "s": 1.4
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s089",
+   "start": 311.69,
+   "end": 314.28,
+   "line": "كان يا ما كان... بنت صغيرة تطير فوق البحر، ومعها قطة تتكلم.",
+   "scene": "insert storybook",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "storybook"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s090",
+   "start": 314.28,
+   "end": 316.97,
+   "line": "كان يا ما كان... بنت صغيرة تطير فوق البحر، ومعها قطة تتكلم.",
+   "scene": "insert storybook",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "storybook",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s091",
+   "start": 316.97,
+   "end": 322.77,
+   "line": "تضحك لينا تحت القناع. ثم تغمض عينيها. وتبقى يدها الصغيرة في يدك.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "LINA",
+    "set": "clinic",
+    "expr": "joy",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s092",
+   "start": 322.77,
+   "end": 325.83,
+   "line": "وتكمل القصة... حتى بعد أن تنام.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.45,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "chair": true,
+      "s": 1.7
+     },
+     {
+      "c": "LINA",
+      "x": 0.62,
+      "pose": "sitBack",
+      "expr": "sleepy",
+      "f": -1,
+      "chair": true,
+      "s": 1.5
+     }
+    ],
+    "cam": {
+     "z0": 1.1,
+     "z1": 1.2,
+     "x0": 0,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s093",
+   "start": 325.83,
+   "end": 329.7,
+   "line": "وفي مكان ما بين البحر والقطة... يحدث شيء لم يحدث منذ ثلاث سنوات. تغفو أنت أيضا. وتحلم. ترى لينا تطير فوق البحر وتضحك... وأنت تطير بجانبها.",
+   "scene": "insert dreamsea",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "dreamsea"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s094",
+   "start": 329.7,
+   "end": 333.71,
+   "line": "وفي مكان ما بين البحر والقطة... يحدث شيء لم يحدث منذ ثلاث سنوات. تغفو أنت أيضا. وتحلم. ترى لينا تطير فوق البحر وتضحك... وأنت تطير بجانبها.",
+   "scene": "insert dreamsea",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "dreamsea",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s095",
+   "start": 333.71,
+   "end": 337.69,
+   "line": "وفي مكان ما بين البحر والقطة... يحدث شيء لم يحدث منذ ثلاث سنوات. تغفو أنت أيضا. وتحلم. ترى لينا تطير فوق البحر وتضحك... وأنت تطير بجانبها.",
+   "scene": "insert dreamsea",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "dreamsea",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s096",
+   "start": 337.69,
+   "end": 341.17,
+   "line": "تستيقظ في السابعة. موعد المسابقة انتهى.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.45,
+      "pose": "sitBack",
+      "expr": "sleepy",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "clock": [
+     7,
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s097",
+   "start": 341.17,
+   "end": 344.65,
+   "line": "ولينا تنظر إليك وتبتسم: بماذا حلمت؟",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "LINA",
+    "set": "clinic",
+    "expr": "smile",
+    "side": 0.3,
+    "rimSide": 1,
+    "talk": [
+     2.33,
+     3.63
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s098",
+   "start": 344.65,
+   "end": 347.21,
+   "line": "ولأول مرة... عندك جواب.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "ZAID",
+    "set": "clinic",
+    "expr": "joy",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s099",
+   "start": 347.21,
+   "end": 350.52,
+   "line": "وحين تصل أمك ظهرا، تجدكما نائمين على سرير واحد في المستشفى... فتبكي وتضحك في الوقت نفسه.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "MOM",
+      "x": 0.62,
+      "pose": "handsOnHead",
+      "expr": "joy",
+      "f": -1
+     },
+     {
+      "c": "ZAID",
+      "x": 0.4,
+      "pose": "sitBack",
+      "expr": "sleepy",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s100",
+   "start": 350.52,
+   "end": 354.11,
+   "line": "وحين تصل أمك ظهرا، تجدكما نائمين على سرير واحد في المستشفى... فتبكي وتضحك في الوقت نفسه.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "MOM",
+      "x": 0.62,
+      "pose": "handsOnHead",
+      "expr": "joy",
+      "f": -1
+     },
+     {
+      "c": "ZAID",
+      "x": 0.4,
+      "pose": "sitBack",
+      "expr": "sleepy",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s101",
+   "start": 354.11,
+   "end": 357.55,
+   "line": "بعد أسبوع ترسل مشروعك إلى مستشفى الأطفال مجانا.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "مجانا",
+    "label": "للمستشفى",
+    "size": 170
+   },
+   "notes": ""
+  },
+  {
+   "id": "s102",
+   "start": 357.55,
+   "end": 360.26,
+   "line": "وصرت تقضي ليلتين كل أسبوع في جناح الأطفال... تحكي القصص لمن لا يستطيع النوم.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.5,
+      "pose": "holdFront",
+      "expr": "smile",
+      "f": 1,
+      "prop": "book",
+      "s": 1.3
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.3,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "chair": true,
+      "s": 1.0
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.7,
+      "pose": "sit",
+      "expr": "joy",
+      "f": -1,
+      "chair": true,
+      "s": 1.0
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s103",
+   "start": 360.26,
+   "end": 363.17,
+   "line": "وصرت تقضي ليلتين كل أسبوع في جناح الأطفال... تحكي القصص لمن لا يستطيع النوم.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.5,
+      "pose": "holdFront",
+      "expr": "smile",
+      "f": 1,
+      "prop": "book",
+      "s": 1.3
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.3,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "chair": true,
+      "s": 1.0
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.7,
+      "pose": "sit",
+      "expr": "joy",
+      "f": -1,
+      "chair": true,
+      "s": 1.0
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s104",
+   "start": 363.17,
+   "end": 365.8,
+   "line": "وصارت الممرضات وعمال النظافة يعرفون اسمك... وينتظرونك.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "NURSE",
+      "x": 0.35,
+      "pose": "wave",
+      "expr": "happy",
+      "f": 1
+     },
+     {
+      "c": "ZAID",
+      "x": 0.6,
+      "pose": "wave",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s105",
+   "start": 365.8,
+   "end": 368.31,
+   "line": "وصارت الممرضات وعمال النظافة يعرفون اسمك... وينتظرونك.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "NURSE",
+      "x": 0.35,
+      "pose": "wave",
+      "expr": "happy",
+      "f": 1
+     },
+     {
+      "c": "ZAID",
+      "x": 0.6,
+      "pose": "wave",
+      "expr": "smile",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s106",
+   "start": 368.31,
+   "end": 371.02,
+   "line": "وفي كل مساء... تأتيك لينا بكتابها الملون. ولا تقول لها: غدا.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "LINA",
+      "x": 0.58,
+      "pose": "holdFront",
+      "expr": "happy",
+      "f": -1,
+      "prop": "book"
+     },
+     {
+      "c": "ZAID",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s107",
+   "start": 371.02,
+   "end": 374.01,
+   "line": "وفي كل مساء... تأتيك لينا بكتابها الملون. ولا تقول لها: غدا.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "LINA",
+      "x": 0.58,
+      "pose": "holdFront",
+      "expr": "happy",
+      "f": -1,
+      "prop": "book"
+     },
+     {
+      "c": "ZAID",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s108",
+   "start": 374.01,
+   "end": 376.64,
+   "line": "ما زلت تنام ساعة واحدة. وما زال عندك ثلاث وعشرون ساعة كل يوم.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.45,
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    },
+    "clock": [
+     23,
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s109",
+   "start": 376.64,
+   "end": 379.43,
+   "line": "ما زلت تنام ساعة واحدة. وما زال عندك ثلاث وعشرون ساعة كل يوم.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "ZAID",
+      "x": 0.45,
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "clock": [
+     23,
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s110",
+   "start": 379.43,
+   "end": 384.33,
+   "line": "لكنك تعلمت أخيرا أن أجملها... هي الساعة التي تعطيها لغيرك.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "ZAID",
+    "set": "home",
+    "expr": "smile",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "أجمل ساعة… التي تعطيها",
+      "x": 0.5,
+      "y": 0.18,
+      "at": 1.73
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s111",
+   "start": 384.33,
+   "end": 386.21,
+   "line": "فما الحقيقي في هذه القصة؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "ما الحقيقي في هذه القصة؟",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s112",
+   "start": 386.21,
+   "end": 390.91,
+   "line": "توصي جمعيات طب النوم البالغين بأن يناموا سبع ساعات أو أكثر كل ليلة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "7+ ساعات",
+    "label": "توصية النوم للبالغين",
+    "size": 160
+   },
+   "notes": ""
+  },
+  {
+   "id": "s113",
+   "start": 390.91,
+   "end": 393.42,
+   "line": "لكن هناك أشخاصا نادرين يسميهم العلماء: قصيري النوم الطبيعيين.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "قصيرو النوم",
+    "label": "الطبيعيون: نادرون جدا",
+    "size": 130
+   },
+   "notes": ""
+  },
+  {
+   "id": "s114",
+   "start": 393.42,
+   "end": 396.03,
+   "line": "لكن هناك أشخاصا نادرين يسميهم العلماء: قصيري النوم الطبيعيين.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "قصيرو النوم",
+    "label": "الطبيعيون: نادرون جدا",
+    "size": 130,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s115",
+   "start": 396.03,
+   "end": 399.72,
+   "line": "في عام ألفين وتسعة وجد العلماء أما وابنتها تنامان نحو ست ساعات فقط كل ليلة، وتستيقظان بنشاط كامل.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "2009",
+    "label": "أم وابنتها: نحو 6 ساعات",
+    "size": 160
+   },
+   "notes": ""
+  },
+  {
+   "id": "s116",
+   "start": 399.72,
+   "end": 403.55,
+   "line": "في عام ألفين وتسعة وجد العلماء أما وابنتها تنامان نحو ست ساعات فقط كل ليلة، وتستيقظان بنشاط كامل.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "2009",
+    "label": "أم وابنتها: نحو 6 ساعات",
+    "size": 160,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s117",
+   "start": 403.55,
+   "end": 407.34,
+   "line": "والسبب تغير نادر في جين واحد. ثم اكتشفت تغيرات أخرى في جينات مختلفة لدى عائلات مشابهة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "جين واحد",
+    "label": "تغير نادر",
+    "size": 130,
+    "count": 2
+   },
+   "notes": ""
+  },
+  {
+   "id": "s118",
+   "start": 407.34,
+   "end": 410.87,
+   "line": "والسبب تغير نادر في جين واحد. ثم اكتشفت تغيرات أخرى في جينات مختلفة لدى عائلات مشابهة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "جين واحد",
+    "label": "تغير نادر",
+    "size": 130,
+    "count": 2,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s119",
+   "start": 410.87,
+   "end": 415.17,
+   "line": "أما ساعة واحدة فقط؟ فلم يوثقها العلم عند أي إنسان.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "ساعة واحدة؟",
+    "label": "لم يوثقها العلم",
+    "size": 140,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s120",
+   "start": 415.17,
+   "end": 418.9,
+   "line": "وفي عام ألف وتسعمئة وأربعة وستين بقي طالب أمريكي اسمه راندي غاردنر مستيقظا أحد عشر يوما متواصلة. وفي الأيام الأخيرة عانى من تقلب المزاج وضعف التركيز والذاكرة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "11 يوما",
+    "label": "بلا نوم — 1964",
+    "size": 170,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s121",
+   "start": 418.9,
+   "end": 422.88,
+   "line": "وفي عام ألف وتسعمئة وأربعة وستين بقي طالب أمريكي اسمه راندي غاردنر مستيقظا أحد عشر يوما متواصلة. وفي الأيام الأخيرة عانى من تقلب المزاج وضعف التركيز والذاكرة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "11 يوما",
+    "label": "بلا نوم — 1964",
+    "size": 170,
+    "color": "coral",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s122",
+   "start": 422.88,
+   "end": 426.75,
+   "line": "وفي عام ألف وتسعمئة وأربعة وستين بقي طالب أمريكي اسمه راندي غاردنر مستيقظا أحد عشر يوما متواصلة. وفي الأيام الأخيرة عانى من تقلب المزاج وضعف التركيز والذاكرة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "11 يوما",
+    "label": "بلا نوم — 1964",
+    "size": 170,
+    "color": "coral",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s123",
+   "start": 426.75,
+   "end": 429.92,
+   "line": "وبسبب خطورة مثل هذه التجارب توقفت موسوعة غينيس عن تسجيل أرقام الحرمان من النوم.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "غينيس",
+    "label": "توقفت عن تسجيل هذا الرقم",
+    "size": 150
+   },
+   "notes": ""
+  },
+  {
+   "id": "s124",
+   "start": 429.92,
+   "end": 432.77,
+   "line": "وبسبب خطورة مثل هذه التجارب توقفت موسوعة غينيس عن تسجيل أرقام الحرمان من النوم.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "غينيس",
+    "label": "توقفت عن تسجيل هذا الرقم",
+    "size": 150,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s125",
+   "start": 432.77,
+   "end": 437.92,
+   "line": "ولماذا لم يحلم زيد؟ النوم يمر في دورات تستغرق الواحدة منها نحو تسعين دقيقة. ومعظم الأحلام الواضحة تأتي في مرحلة اسمها نوم حركة العين السريعة، وهي تطول في آخر الليل. فمن ينام ساعة واحدة... قد لا يصل إليها أصلا.",
+   "scene": "insert hypno",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "hypno"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s126",
+   "start": 437.92,
+   "end": 443.72,
+   "line": "ولماذا لم يحلم زيد؟ النوم يمر في دورات تستغرق الواحدة منها نحو تسعين دقيقة. ومعظم الأحلام الواضحة تأتي في مرحلة اسمها نوم حركة العين السريعة، وهي تطول في آخر الليل. فمن ينام ساعة واحدة... قد لا يصل إليها أصلا.",
+   "scene": "insert hypno",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "hypno",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s127",
+   "start": 443.72,
+   "end": 449.13,
+   "line": "ولماذا لم يحلم زيد؟ النوم يمر في دورات تستغرق الواحدة منها نحو تسعين دقيقة. ومعظم الأحلام الواضحة تأتي في مرحلة اسمها نوم حركة العين السريعة، وهي تطول في آخر الليل. فمن ينام ساعة واحدة... قد لا يصل إليها أصلا.",
+   "scene": "insert hypno",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "hypno",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s128",
+   "start": 449.13,
+   "end": 452.77,
+   "line": "وفي النوم أيضا يثبت الدماغ ما تعلمناه في النهار.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "تثبيت الذاكرة",
+    "label": "أثناء النوم",
+    "size": 110,
+    "count": 2
+   },
+   "notes": ""
+  },
+  {
+   "id": "s129",
+   "start": 452.77,
+   "end": 456.42,
+   "line": "وفي عام ألفين وثلاثة عشر وجدت دراسة على الفئران أن الدماغ يغسل فضلاته أثناء النوم بسرعة أكبر بكثير.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "2013",
+    "label": "الدماغ يغسل فضلاته أثناء النوم (في الفئران)",
+    "size": 150
+   },
+   "notes": ""
+  },
+  {
+   "id": "s130",
+   "start": 456.42,
+   "end": 459.69,
+   "line": "وفي عام ألفين وثلاثة عشر وجدت دراسة على الفئران أن الدماغ يغسل فضلاته أثناء النوم بسرعة أكبر بكثير.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "2013",
+    "label": "الدماغ يغسل فضلاته أثناء النوم (في الفئران)",
+    "size": 150,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s131",
+   "start": 459.69,
+   "end": 462.76,
+   "line": "أما عند الإنسان فما زال العلماء يدرسون كيف يحدث ذلك، وبعض النتائج الحديثة محل نقاش.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "محل نقاش",
+    "label": "عند الإنسان",
+    "size": 140
+   },
+   "notes": ""
+  },
+  {
+   "id": "s132",
+   "start": 462.76,
+   "end": 465.87,
+   "line": "أما عند الإنسان فما زال العلماء يدرسون كيف يحدث ذلك، وبعض النتائج الحديثة محل نقاش.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "محل نقاش",
+    "label": "عند الإنسان",
+    "size": 140,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s133",
+   "start": 465.87,
+   "end": 470.3,
+   "line": "ومن أغرب أسرار النوم أن الدلافين تنيم نصف دماغها فقط... بينما يبقى النصف الآخر مستيقظا، لتستمر في التنفس والانتباه.",
+   "scene": "insert dolphin",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "dolphin"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s134",
+   "start": 470.3,
+   "end": 474.43,
+   "line": "ومن أغرب أسرار النوم أن الدلافين تنيم نصف دماغها فقط... بينما يبقى النصف الآخر مستيقظا، لتستمر في التنفس والانتباه.",
+   "scene": "insert dolphin",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "dolphin",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s135",
+   "start": 474.43,
+   "end": 478.84,
+   "line": "ويبقى سؤال يختلف فيه العلماء حتى اليوم: لماذا نحلم أصلا؟ بعضهم يرى أن الأحلام تساعدنا على معالجة مشاعرنا، وآخرون يرونها نشاطا عشوائيا للدماغ النائم. ولا جواب نهائيا بعد.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "لماذا نحلم؟",
+    "label": "سؤال بلا جواب نهائي",
+    "size": 140
+   },
+   "notes": ""
+  },
+  {
+   "id": "s136",
+   "start": 478.84,
+   "end": 483.56,
+   "line": "ويبقى سؤال يختلف فيه العلماء حتى اليوم: لماذا نحلم أصلا؟ بعضهم يرى أن الأحلام تساعدنا على معالجة مشاعرنا، وآخرون يرونها نشاطا عشوائيا للدماغ النائم. ولا جواب نهائيا بعد.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "لماذا نحلم؟",
+    "label": "سؤال بلا جواب نهائي",
+    "size": 140,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s137",
+   "start": 483.56,
+   "end": 487.77,
+   "line": "ويبقى سؤال يختلف فيه العلماء حتى اليوم: لماذا نحلم أصلا؟ بعضهم يرى أن الأحلام تساعدنا على معالجة مشاعرنا، وآخرون يرونها نشاطا عشوائيا للدماغ النائم. ولا جواب نهائيا بعد.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "لماذا نحلم؟",
+    "label": "سؤال بلا جواب نهائي",
+    "size": 140,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s138",
+   "start": 487.77,
+   "end": 492.57,
+   "line": "فالنوم ليس وقتا ضائعا... إنه الوقت الذي يصلح فيه الدماغ نفسه.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "النوم… وقت يصلح فيه الدماغ نفسه",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s139",
+   "start": 492.57,
+   "end": 498.49,
+   "line": "وفي الحلقة القادمة: ماذا لو التأمت جروحك أسرع بمئة مرة... إلا جرحا واحدا؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "ماذا لو التأمت جروحك أسرع بمئة مرة… إلا جرحا واحدا؟",
+    "set": "archive",
+    "str2": "الحلقة القادمة",
+    "at2": 0.8,
+    "size": 64
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s140",
+   "start": 498.49,
+   "end": 507.805,
+   "line": "ما رأيك؟ أخبرنا في التعليقات: لو كان عندك سبع ساعات إضافية كل يوم... ماذا كنت ستفعل بها؟",
+   "scene": "endscreen ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "endscreen",
+    "q": "7 ساعات إضافية كل يوم… ماذا ستفعل بها؟",
+    "cast": [
+     "MOM",
+     "ZAID",
+     "LINA",
+     "SALEH",
+     "NURSE",
+     "DOC"
+    ]
+   },
+   "notes": "",
+   "captions": false
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 45.23,
+   "mood": "playful",
+   "intensity": 0.35
+  },
+  {
+   "start": 45.23,
+   "end": 53.23,
+   "mood": "wonder",
+   "intensity": 0.4
+  },
+  {
+   "start": 53.23,
+   "end": 119.85,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 119.85,
+   "end": 174.57,
+   "mood": "sad",
+   "intensity": 0.35
+  },
+  {
+   "start": 174.57,
+   "end": 219.93,
+   "mood": "calm",
+   "intensity": 0.3
+  },
+  {
+   "start": 219.93,
+   "end": 305.01,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 305.01,
+   "end": 325.83,
+   "mood": "calm",
+   "intensity": 0.3
+  },
+  {
+   "start": 325.83,
+   "end": 384.33,
+   "mood": "hopeful",
+   "intensity": 0.35
+  },
+  {
+   "start": 384.33,
+   "end": 507.805,
+   "mood": "calm",
+   "intensity": 0.3
+  }
+ ],
+ "sfx": []
+}
