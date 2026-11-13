@@ -169,7 +169,7 @@ function colorWord(w){
 let tts=null, dict=null;
 (async()=>{ try{ if(window.claude?.use){ tts=await claude.use("tts"); dict=await claude.use("dictation"); } }catch(e){} })();
 let arVoice=null;
-function loadVoices(){ try{ arVoice=(speechSynthesis.getVoices()||[]).find(v=>/^ar/i.test(v.lang))||null; }catch(e){} }
+function loadVoices(){ try{ const vs=(speechSynthesis.getVoices()||[]).filter(v=>/^ar/i.test(v.lang)); arVoice=vs.find(v=>/natural|online/i.test(v.name))||vs[0]||null; }catch(e){} }
 try{ loadVoices(); speechSynthesis.onvoiceschanged=loadVoices; }catch(e){}
 const AUDIO=window.SARA_AUDIO||{};
 let cur=null, seq=0;
