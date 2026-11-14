@@ -1,0 +1,4056 @@
+{
+ "title": "ماذا لو التأمت جروحك أسرع بمئة مرة؟",
+ "duration": 485.836,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 3.18,
+   "line": "جرحت يدك بسكين المطبخ جرحا عميقا... وقبل أن تصل أمك بالضمادة، كان الجرح قد اختفى.",
+   "scene": "insert palm",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "swish",
+     "gain": -10
+    },
+    {
+     "at": 1.8,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "palm",
+    "cut": true
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s002",
+   "start": 3.18,
+   "end": 6.01,
+   "line": "جرحت يدك بسكين المطبخ جرحا عميقا... وقبل أن تصل أمك بالضمادة، كان الجرح قد اختفى.",
+   "scene": "insert palm",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "palm",
+    "cut": true,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": "",
+   "amb": {
+    "name": "roomtone",
+    "gain": -28
+   }
+  },
+  {
+   "id": "s003",
+   "start": 6.01,
+   "end": 9.57,
+   "line": "لا ندبة. لا أثر. كأن شيئا لم يكن.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "MOM",
+      "x": 0.62,
+      "pose": "handsOnHead",
+      "expr": "shocked",
+      "f": -1
+     },
+     {
+      "c": "FARIS",
+      "x": 0.4,
+      "pose": "holdFront",
+      "expr": "smirk",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "لا ندبة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.6900000000000001
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s004",
+   "start": 9.57,
+   "end": 14.15,
+   "line": "تسقط عن دراجتك على الإسفلت، فتغلق ركبتك جرحها وأنت تقوم.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hit",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.45,
+      "pose": "fall",
+      "expr": "surprised",
+      "f": 1
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.05,
+     "z1": 1.12,
+     "shake": 5
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s005",
+   "start": 14.15,
+   "end": 17.16,
+   "line": "وحين كسرت ذراعك في مباراة كرة السلة... عادت سليمة في الصباح التالي.",
+   "scene": "insert bone",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "hit",
+     "gain": -10
+    },
+    {
+     "at": 2.4,
+     "name": "ding",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "bone"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s006",
+   "start": 17.16,
+   "end": 19.99,
+   "line": "وحين كسرت ذراعك في مباراة كرة السلة... عادت سليمة في الصباح التالي.",
+   "scene": "insert bone",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bone",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s007",
+   "start": 19.99,
+   "end": 22.59,
+   "line": "جسمك يشفى أسرع بمئة مرة من أي إنسان.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "data",
+    "value": "×100",
+    "label": "أسرع من أي إنسان",
+    "size": 200
+   },
+   "notes": ""
+  },
+  {
+   "id": "s008",
+   "start": 22.59,
+   "end": 26.52,
+   "line": "إلا جرحا واحدا. خط أحمر رفيع في باطن يدك اليسرى... عمره سنتان، ولم يلتئم يوما واحدا.",
+   "scene": "insert palm",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "palm"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s009",
+   "start": 26.52,
+   "end": 30.21,
+   "line": "إلا جرحا واحدا. خط أحمر رفيع في باطن يدك اليسرى... عمره سنتان، ولم يلتئم يوما واحدا.",
+   "scene": "insert palm",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "palm",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s010",
+   "start": 30.21,
+   "end": 36.87,
+   "line": "لأن لهذه القوة قاعدة واحدة. جسدك يشفي كل جرح... إلا الجرح الذي تهرب منه.",
+   "scene": "bigline home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "قاعدة واحدة",
+    "set": "home",
+    "str2": "جسدك يشفي كل جرح… إلا الذي تهرب منه",
+    "at2": 1.6
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s011",
+   "start": 36.87,
+   "end": 40.01,
+   "line": "اسمك فارس. ثمانية عشر عاما.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.5,
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.8
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "فارس",
+      "x": 0.5,
+      "y": 0.2,
+      "size": 90,
+      "at": 0.52
+     },
+     {
+      "s": "18 عاما",
+      "x": 0.5,
+      "y": 0.32,
+      "cream": true,
+      "at": 1.0
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s012",
+   "start": 40.01,
+   "end": 43.61,
+   "line": "وستتعلم يوما أن الشفاء السريع... ليس هو الشفاء.",
+   "scene": "face city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "FARIS",
+    "set": "city",
+    "expr": "thinking",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "الشفاء السريع… ليس هو الشفاء",
+      "x": 0.5,
+      "y": 0.18,
+      "at": 1.3299999999999998
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s013",
+   "start": 43.61,
+   "end": 48.03,
+   "line": "فماذا لو التأمت جروحك أسرع بمئة مرة... إلا جرحا واحدا؟",
+   "scene": "title ",
+   "set": "",
+   "bars": "scope",
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "title",
+    "lines": [
+     "ماذا لو",
+     "التأمت جروحك أسرع بمئة مرة؟"
+    ]
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s014",
+   "start": 48.03,
+   "end": 52.38,
+   "line": "في البداية يبدو الأمر لعبة لا تنتهي. تقفز من فوق أسطح الحي، وتتسلق الجدران، وتسقط... ثم تقوم ضاحكا.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.3,
+      "pose": "jump",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.3
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s015",
+   "start": 52.38,
+   "end": 56.59,
+   "line": "في البداية يبدو الأمر لعبة لا تنتهي. تقفز من فوق أسطح الحي، وتتسلق الجدران، وتسقط... ثم تقوم ضاحكا.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.3,
+      "pose": "jump",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.3
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s016",
+   "start": 56.59,
+   "end": 60.03,
+   "line": "مقاطعك على الإنترنت تصل إلى ملايين المشاهدات.",
+   "scene": "insert views",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -12
+    },
+    {
+     "at": 0.8,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "views"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s017",
+   "start": 60.03,
+   "end": 62.99,
+   "line": "والناس يسمونك: الفتى الذي لا يكسر.",
+   "scene": "bigline city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "الفتى الذي لا يُكسر",
+    "set": "city"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s018",
+   "start": 62.99,
+   "end": 66.06,
+   "line": "أصدقاؤك الجدد يتحدونك أن تقفز من صخرة الكورنيش العالية إلى البحر البارد. تقفز.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.5,
+      "pose": "dive",
+      "expr": "joy",
+      "f": 1,
+      "y": 0.55
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.2,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.2
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.8,
+      "pose": "phone",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.2
+     }
+    ],
+    "so": {
+     "outside": true
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s019",
+   "start": 66.06,
+   "end": 68.93,
+   "line": "أصدقاؤك الجدد يتحدونك أن تقفز من صخرة الكورنيش العالية إلى البحر البارد. تقفز.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.5,
+      "pose": "dive",
+      "expr": "joy",
+      "f": 1,
+      "y": 0.55
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.2,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1,
+      "s": 1.2
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.8,
+      "pose": "phone",
+      "expr": "joy",
+      "f": -1,
+      "s": 1.2
+     }
+    ],
+    "so": {
+     "outside": true
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s020",
+   "start": 68.93,
+   "end": 72.27,
+   "line": "وترتطم بالماء بقوة تكسر ضلعين من أضلاعك.",
+   "scene": "face seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "impact",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "face",
+    "who": "FARIS",
+    "set": "seacafe",
+    "expr": "shocked",
+    "side": 0.0,
+    "tilt": 0.06
+   },
+   "notes": ""
+  },
+  {
+   "id": "s021",
+   "start": 72.27,
+   "end": 75.52,
+   "line": "وقبل أن تصل إلى الشاطئ سباحة... يكون الضلعان قد التأما. والكل يصرخ ويصور.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "cheer",
+     "gain": -18
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.3,
+      "pose": "phone",
+      "expr": "joy",
+      "f": 1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.7,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1
+     }
+    ],
+    "so": {
+     "outside": true
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s022",
+   "start": 75.52,
+   "end": 78.59,
+   "line": "وقبل أن تصل إلى الشاطئ سباحة... يكون الضلعان قد التأما. والكل يصرخ ويصور.",
+   "scene": "stage seacafe",
+   "set": "seacafe",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "seacafe",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.5,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": 1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.3,
+      "pose": "phone",
+      "expr": "joy",
+      "f": 1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.7,
+      "pose": "cheer",
+      "expr": "joy",
+      "f": -1
+     }
+    ],
+    "so": {
+     "outside": true
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s023",
+   "start": 78.59,
+   "end": 83.92,
+   "line": "الأطباء يدرسون صور الأشعة التي التقطت لذراعك. كسر كامل في المساء... وعظم سليم في الصباح. الكسر نفسه يحتاج عند غيرك أسابيع طويلة.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DOC",
+      "x": 0.6,
+      "pose": "point",
+      "expr": "shocked",
+      "f": -1
+     },
+     {
+      "c": "FARIS",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "smirk",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "أسابيع… في ليلة واحدة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 7.2700000000000005
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s024",
+   "start": 83.92,
+   "end": 89.19,
+   "line": "الأطباء يدرسون صور الأشعة التي التقطت لذراعك. كسر كامل في المساء... وعظم سليم في الصباح. الكسر نفسه يحتاج عند غيرك أسابيع طويلة.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DOC",
+      "x": 0.6,
+      "pose": "point",
+      "expr": "shocked",
+      "f": -1
+     },
+     {
+      "c": "FARIS",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "smirk",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "أسابيع… في ليلة واحدة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 1.9400000000000022
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s025",
+   "start": 89.19,
+   "end": 92.46,
+   "line": "وفي ليلة شتوية تشتعل النار في بيت جيرانكم. وطفل صغير عالق في الطابق الثاني.",
+   "scene": "insert fire",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "fire"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s026",
+   "start": 92.46,
+   "end": 95.73,
+   "line": "وفي ليلة شتوية تشتعل النار في بيت جيرانكم. وطفل صغير عالق في الطابق الثاني.",
+   "scene": "insert fire",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "fire",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s027",
+   "start": 95.73,
+   "end": 101.15,
+   "line": "تدخل قبل أن يصل رجال الإطفاء. اللهب يلسع ذراعيك، والدخان يملأ صدرك...",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "FARIS",
+    "set": "home",
+    "expr": "determined",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s028",
+   "start": 101.15,
+   "end": 103.8,
+   "line": "وتخرج والطفل بين يديك. وبعد دقائق تختفي الحروق كلها عن جلدك.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "cheer",
+     "gain": -18
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.45,
+      "pose": "holdFront",
+      "expr": "determined",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "FIRE",
+      "x": 0.75,
+      "pose": "point",
+      "expr": "surprised",
+      "f": -1
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s029",
+   "start": 103.8,
+   "end": 106.17,
+   "line": "وتخرج والطفل بين يديك. وبعد دقائق تختفي الحروق كلها عن جلدك.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.45,
+      "pose": "holdFront",
+      "expr": "determined",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "FIRE",
+      "x": 0.75,
+      "pose": "point",
+      "expr": "surprised",
+      "f": -1
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s030",
+   "start": 106.17,
+   "end": 111.07,
+   "line": "أم الطفل تبكي وتقبل يديك. وأنت تخفي يدك اليسرى خلف ظهرك.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.6,
+      "pose": "reach",
+      "expr": "cry",
+      "f": -1,
+      "s": 1.6
+     },
+     {
+      "c": "FARIS",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.6
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s031",
+   "start": 111.07,
+   "end": 113.92,
+   "line": "لأن الخط الأحمر بدأ ينزف من جديد. كل جرح في جسدك يختفي... إلا هذا.",
+   "scene": "insert palm",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "palm"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s032",
+   "start": 113.92,
+   "end": 116.91,
+   "line": "لأن الخط الأحمر بدأ ينزف من جديد. كل جرح في جسدك يختفي... إلا هذا.",
+   "scene": "insert palm",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "palm",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s033",
+   "start": 116.91,
+   "end": 120.46,
+   "line": "يفحصه الأطباء ولا يفهمون. خيطوه مرتين... وفي الصباح وجدوه مفتوحا.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DOC",
+      "x": 0.6,
+      "pose": "shrug",
+      "expr": "confused",
+      "f": -1
+     },
+     {
+      "c": "FARIS",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "worried",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "خُيّط مرتين… وانفتح",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "coral": true,
+      "at": 2.29
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s034",
+   "start": 120.46,
+   "end": 123.17,
+   "line": "يفحصه الأطباء ولا يفهمون. خيطوه مرتين... وفي الصباح وجدوه مفتوحا.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DOC",
+      "x": 0.6,
+      "pose": "shrug",
+      "expr": "confused",
+      "f": -1
+     },
+     {
+      "c": "FARIS",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "worried",
+      "f": 1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "خُيّط مرتين… وانفتح",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "coral": true,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s035",
+   "start": 123.17,
+   "end": 125.29,
+   "line": "لكنك تعرف من أين جاء.",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "FARIS",
+    "set": "bedroom",
+    "expr": "sad",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s036",
+   "start": 125.29,
+   "end": 128.36,
+   "line": "قبل سنتين، كان رامي أقرب صديق لك. كنتما تقضيان الصيف كله معا على الدراجتين.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "RAMIKID",
+    "expr": "joy",
+    "hs": 1.2,
+    "labels": [
+     {
+      "s": "رامي",
+      "x": 0.5,
+      "y": 0.2,
+      "box": true,
+      "at": 1.73
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s037",
+   "start": 128.36,
+   "end": 131.13,
+   "line": "قبل سنتين، كان رامي أقرب صديق لك. كنتما تقضيان الصيف كله معا على الدراجتين.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "RAMIKID",
+    "expr": "joy",
+    "hs": 1.2,
+    "labels": [
+     {
+      "s": "رامي",
+      "x": 0.5,
+      "y": 0.2,
+      "box": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s038",
+   "start": 131.13,
+   "end": 135.0,
+   "line": "بنيتما كوخا خشبيا فوق شجرة التين في بيت جده، وكتبتما على بابه: ممنوع الدخول إلا للأبطال. وكانت أمه ترسل لكما شطائر الزعتر في سلة مربوطة بحبل.",
+   "scene": "insert treehouse",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "shimmer",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "treehouse"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s039",
+   "start": 135.0,
+   "end": 139.02,
+   "line": "بنيتما كوخا خشبيا فوق شجرة التين في بيت جده، وكتبتما على بابه: ممنوع الدخول إلا للأبطال. وكانت أمه ترسل لكما شطائر الزعتر في سلة مربوطة بحبل.",
+   "scene": "insert treehouse",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "treehouse",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s040",
+   "start": 139.02,
+   "end": 142.29,
+   "line": "بنيتما كوخا خشبيا فوق شجرة التين في بيت جده، وكتبتما على بابه: ممنوع الدخول إلا للأبطال. وكانت أمه ترسل لكما شطائر الزعتر في سلة مربوطة بحبل.",
+   "scene": "insert treehouse",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "treehouse",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s041",
+   "start": 142.29,
+   "end": 145.36,
+   "line": "وفي ذلك اليوم تحديته أن ينزل تل الحي الكبير بلا مكابح. قال لك: إنه خطر.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "FARISKID",
+      "x": 0.4,
+      "pose": "point",
+      "expr": "smirk",
+      "f": 1
+     },
+     {
+      "c": "RAMIKID",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "worried",
+      "f": -1
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "بلا مكابح",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "coral": true,
+      "at": 3.73
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s042",
+   "start": 145.36,
+   "end": 148.47,
+   "line": "وفي ذلك اليوم تحديته أن ينزل تل الحي الكبير بلا مكابح. قال لك: إنه خطر.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "FARISKID",
+      "x": 0.4,
+      "pose": "point",
+      "expr": "smirk",
+      "f": 1
+     },
+     {
+      "c": "RAMIKID",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "worried",
+      "f": -1
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "بلا مكابح",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "coral": true,
+      "at": 0.6599999999999784
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s043",
+   "start": 148.47,
+   "end": 150.51,
+   "line": "فضحكت وقلت: جبان.",
+   "scene": "face city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "FARIS",
+    "set": "city",
+    "expr": "smirk",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "جبان",
+      "x": 0.5,
+      "y": 0.18,
+      "size": 100,
+      "coral": true,
+      "at": 1.3299999999999998
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s044",
+   "start": 150.51,
+   "end": 155.19,
+   "line": "نزل رامي. وفي المنعطف الأخير... طارت الدراجة.",
+   "scene": "insert hill",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.6,
+     "name": "whoosh",
+     "gain": -10
+    },
+    {
+     "at": 2.1,
+     "name": "hit",
+     "gain": -6
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "hill"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s045",
+   "start": 155.19,
+   "end": 158.29,
+   "line": "ومددت يدك لتمسكه فجرحك حد السياج الحديدي.",
+   "scene": "insert palm",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "flash",
+    "dur": 0.4
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "palm",
+    "cut": false
+   },
+   "notes": ""
+  },
+  {
+   "id": "s046",
+   "start": 158.29,
+   "end": 160.84,
+   "line": "كسرت ساق رامي في ثلاثة أماكن. وما زال يعرج حتى اليوم.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "3 كسور",
+    "label": "وما زال يعرج",
+    "size": 170,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s047",
+   "start": 160.84,
+   "end": 163.45,
+   "line": "كسرت ساق رامي في ثلاثة أماكن. وما زال يعرج حتى اليوم.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "3 كسور",
+    "label": "وما زال يعرج",
+    "size": 170,
+    "color": "coral",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s048",
+   "start": 163.45,
+   "end": 169.67,
+   "line": "وأنت؟ لم تزره في المستشفى. ولم تقل له كلمة واحدة. كنت تخاف أن ترى عينيه.",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "FARIS",
+    "set": "bedroom",
+    "expr": "sad",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s049",
+   "start": 169.67,
+   "end": 172.91,
+   "line": "فصرت تغير طريقك كلما رأيته في الشارع.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.3,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.45,
+       0.1
+      ]
+     },
+     {
+      "c": "RAMI",
+      "x": 0.8,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s050",
+   "start": 172.91,
+   "end": 176.16,
+   "line": "وفي المدرسة تراه يصعد الدرج ببطء، ممسكا بالدرابزين. وبعض الطلاب يقلدون مشيته ويضحكون.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "RAMI",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.3
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.25,
+      "pose": "cheer",
+      "expr": "smirk",
+      "f": 1,
+      "s": 1.2
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.75,
+      "pose": "point",
+      "expr": "smirk",
+      "f": -1,
+      "s": 1.2
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s051",
+   "start": 176.16,
+   "end": 179.77,
+   "line": "وفي المدرسة تراه يصعد الدرج ببطء، ممسكا بالدرابزين. وبعض الطلاب يقلدون مشيته ويضحكون.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "RAMI",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.3
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.25,
+      "pose": "cheer",
+      "expr": "smirk",
+      "f": 1,
+      "s": 1.2
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.75,
+      "pose": "point",
+      "expr": "smirk",
+      "f": -1,
+      "s": 1.2
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s052",
+   "start": 179.77,
+   "end": 183.07,
+   "line": "وأنت تقف بينهم... ولا تقول شيئا.",
+   "scene": "face classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "FARIS",
+    "set": "classroom",
+    "expr": "sad",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s053",
+   "start": 183.07,
+   "end": 186.96,
+   "line": "وتلك الليلة تستيقظ والدم على وسادتك من يدك اليسرى. وهكذا بقي الجرح في يدك... مفتوحا مثل سؤال لم تجب عنه.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.45,
+      "pose": "sit",
+      "expr": "shocked",
+      "f": 1,
+      "chair": true,
+      "s": 1.5
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "دم على الوسادة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "coral": true,
+      "at": 1.9099999999999997
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s054",
+   "start": 186.96,
+   "end": 191.39,
+   "line": "وتلك الليلة تستيقظ والدم على وسادتك من يدك اليسرى. وهكذا بقي الجرح في يدك... مفتوحا مثل سؤال لم تجب عنه.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.45,
+      "pose": "sit",
+      "expr": "shocked",
+      "f": 1,
+      "chair": true,
+      "s": 1.5
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "دم على الوسادة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "coral": true,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s055",
+   "start": 191.39,
+   "end": 196.12,
+   "line": "ومع الوقت صارت قوتك تغيرك. لا شيء يؤلمك طويلا، فلا شيء يخيفك. صرت تقبل كل تحد... وتتحدى الآخرين أيضا.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.5,
+      "pose": "jump",
+      "expr": "smirk",
+      "f": 1,
+      "s": 1.3
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s056",
+   "start": 196.12,
+   "end": 200.81,
+   "line": "ومع الوقت صارت قوتك تغيرك. لا شيء يؤلمك طويلا، فلا شيء يخيفك. صرت تقبل كل تحد... وتتحدى الآخرين أيضا.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.5,
+      "pose": "jump",
+      "expr": "smirk",
+      "f": 1,
+      "s": 1.3
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s057",
+   "start": 200.81,
+   "end": 204.63,
+   "line": "أمك تراك تقفز من سطح إلى سطح، فتغمض عينيها.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "MOM",
+      "x": 0.58,
+      "pose": "handsOnHead",
+      "expr": "worried",
+      "f": -1
+     },
+     {
+      "c": "FARIS",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "smirk",
+      "f": 1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s058",
+   "start": 204.63,
+   "end": 210.563,
+   "line": "وتقول لك ليلة: جسمك يشفى يا فارس... لكن قلبي أنا لا يشفى كلما خرجت.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "MOM",
+    "set": "home",
+    "expr": "sad",
+    "side": 0.3,
+    "rimSide": 1,
+    "labels": [
+     {
+      "s": "قلبي أنا لا يشفى",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 3.03
+     }
+    ],
+    "talk": [
+     3.13,
+     5.15
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s059",
+   "start": 210.563,
+   "end": 214.34,
+   "line": "وأصدقاؤك الجدد يحبون المقاطع... لا يحبونك. لا أحد منهم يعرف لماذا تلف يدك اليسرى برباط أسود دائما.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.3,
+      "pose": "phone",
+      "expr": "joy",
+      "f": 1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "joy",
+      "f": 1
+     },
+     {
+      "c": "FARIS",
+      "x": 0.75,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "رباط أسود",
+      "x": 0.75,
+      "y": 0.3,
+      "box": true,
+      "at": 6.720000000000001
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s060",
+   "start": 214.34,
+   "end": 218.41,
+   "line": "وأصدقاؤك الجدد يحبون المقاطع... لا يحبونك. لا أحد منهم يعرف لماذا تلف يدك اليسرى برباط أسود دائما.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.3,
+      "pose": "phone",
+      "expr": "joy",
+      "f": 1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.5,
+      "pose": "phone",
+      "expr": "joy",
+      "f": 1
+     },
+     {
+      "c": "FARIS",
+      "x": 0.75,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "رباط أسود",
+      "x": 0.75,
+      "y": 0.3,
+      "box": true,
+      "at": 2.9429999999999854
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s061",
+   "start": 218.41,
+   "end": 223.5,
+   "line": "ثم يأتي ذلك المساء. رسالة من رقم لا تعرفه. أنا والد رامي. رامي سيدخل غرفة العمليات غدا... عملية لتصحيح ساقه. ويحتاج إلى متبرع بالدم من فصيلته النادرة. وبنك الدم لا يملك ما يكفي.",
+   "scene": "insert chat",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "chat",
+    "msgs": [
+     "أنا والد رامي",
+     "عملية غدا",
+     "يحتاج متبرعا بالدم",
+     "فصيلته نادرة"
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s062",
+   "start": 223.5,
+   "end": 228.94,
+   "line": "ثم يأتي ذلك المساء. رسالة من رقم لا تعرفه. أنا والد رامي. رامي سيدخل غرفة العمليات غدا... عملية لتصحيح ساقه. ويحتاج إلى متبرع بالدم من فصيلته النادرة. وبنك الدم لا يملك ما يكفي.",
+   "scene": "insert chat",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "chat",
+    "msgs": [
+     "أنا والد رامي",
+     "عملية غدا",
+     "يحتاج متبرعا بالدم",
+     "فصيلته نادرة"
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s063",
+   "start": 228.94,
+   "end": 234.03,
+   "line": "ثم يأتي ذلك المساء. رسالة من رقم لا تعرفه. أنا والد رامي. رامي سيدخل غرفة العمليات غدا... عملية لتصحيح ساقه. ويحتاج إلى متبرع بالدم من فصيلته النادرة. وبنك الدم لا يملك ما يكفي.",
+   "scene": "insert chat",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "chat",
+    "msgs": [
+     "أنا والد رامي",
+     "عملية غدا",
+     "يحتاج متبرعا بالدم",
+     "فصيلته نادرة"
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s064",
+   "start": 234.03,
+   "end": 237.68,
+   "line": "فصيلة دم رامي؟ هي فصيلة دمك نفسها. كنتما تمزحان بها صغارا: نحن إخوة بالدم.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "نفس الفصيلة",
+    "label": "إخوة بالدم",
+    "size": 130
+   },
+   "notes": ""
+  },
+  {
+   "id": "s065",
+   "start": 237.68,
+   "end": 241.13,
+   "line": "فصيلة دم رامي؟ هي فصيلة دمك نفسها. كنتما تمزحان بها صغارا: نحن إخوة بالدم.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "نفس الفصيلة",
+    "label": "إخوة بالدم",
+    "size": 130,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s066",
+   "start": 241.13,
+   "end": 246.4,
+   "line": "تقضي الليل والهاتف في يدك. تكتب رسالة لرامي... ثم تمسحها. تكتبها مرة أخرى... وتمسحها. عشرون رسالة لم ترسل.",
+   "scene": "insert chat",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "chat",
+    "msgs": [
+     "رامي… أنا آسف",
+     "⌫",
+     "رامي أنا",
+     "⌫"
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s067",
+   "start": 246.4,
+   "end": 251.55,
+   "line": "تقضي الليل والهاتف في يدك. تكتب رسالة لرامي... ثم تمسحها. تكتبها مرة أخرى... وتمسحها. عشرون رسالة لم ترسل.",
+   "scene": "insert chat",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "chat",
+    "msgs": [
+     "رامي… أنا آسف",
+     "⌫",
+     "رامي أنا",
+     "⌫"
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s068",
+   "start": 251.55,
+   "end": 255.67,
+   "line": "وتنام قرب الفجر، والرباط الأسود مبلل بالدم.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.45,
+      "pose": "sitBack",
+      "expr": "sad",
+      "f": 1,
+      "chair": true,
+      "s": 1.5
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    },
+    "clock": [
+     5,
+     0
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s069",
+   "start": 255.67,
+   "end": 259.93,
+   "line": "في الصباح تذهب إلى المستشفى. تجلس على كرسي التبرع.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.42,
+      "pose": "sitBack",
+      "expr": "neutral",
+      "f": 1,
+      "chair": true
+     },
+     {
+      "c": "NURSE",
+      "x": 0.64,
+      "pose": "holdFront",
+      "expr": "neutral",
+      "f": -1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s070",
+   "start": 259.93,
+   "end": 263.15,
+   "line": "الإبرة في ذراعك... والكيس يمتلئ.",
+   "scene": "insert bloodbag",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bloodbag"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s071",
+   "start": 263.15,
+   "end": 266.59,
+   "line": "وتقول للممرضة: لا تذكري اسمي... رجاء.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "FARIS",
+    "set": "clinic",
+    "expr": "sad",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "لا تذكري اسمي",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 1.43
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s072",
+   "start": 266.59,
+   "end": 270.14,
+   "line": "ثم تقف أمام باب غرفته. الباب نصف مفتوح. رامي يجلس على السرير، وعكازه بجانبه.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.25,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1
+     },
+     {
+      "c": "RAMI",
+      "x": 0.68,
+      "pose": "sitBack",
+      "expr": "sad",
+      "f": -1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s073",
+   "start": 270.14,
+   "end": 273.77,
+   "line": "ثم تقف أمام باب غرفته. الباب نصف مفتوح. رامي يجلس على السرير، وعكازه بجانبه.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.25,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1
+     },
+     {
+      "c": "RAMI",
+      "x": 0.68,
+      "pose": "sitBack",
+      "expr": "sad",
+      "f": -1,
+      "chair": true
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s074",
+   "start": 273.77,
+   "end": 277.13,
+   "line": "والجرح في يدك ينزف أكثر من أي يوم مضى.",
+   "scene": "insert palm",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "palm"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s075",
+   "start": 277.13,
+   "end": 279.67,
+   "line": "وهنا تفهم. أمامك طريقان.",
+   "scene": "bigline clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "أمامك طريقان",
+    "set": "clinic"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s076",
+   "start": 279.67,
+   "end": 283.3,
+   "line": "إما أن تمشي بعيدا كما فعلت دائما... بطل لا يعرفه أحد، وجرح لا يغلق أبدا. وإما أن تدخل. وتنظر في العينين اللتين هربت منهما سنتين.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "FARIS",
+    "pose": "think",
+    "expr": "thinking",
+    "n": 50,
+    "cards": [
+     "تمشي بعيدا",
+     "تدخل"
+    ],
+    "cardsX": [
+     0.25,
+     0.75
+    ],
+    "gap": 1.2
+   },
+   "notes": ""
+  },
+  {
+   "id": "s077",
+   "start": 283.3,
+   "end": 286.9,
+   "line": "إما أن تمشي بعيدا كما فعلت دائما... بطل لا يعرفه أحد، وجرح لا يغلق أبدا. وإما أن تدخل. وتنظر في العينين اللتين هربت منهما سنتين.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "FARIS",
+    "pose": "think",
+    "expr": "thinking",
+    "n": 50,
+    "cards": [
+     "تمشي بعيدا",
+     "تدخل"
+    ],
+    "cardsX": [
+     0.25,
+     0.75
+    ],
+    "gap": 1.2,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s078",
+   "start": 286.9,
+   "end": 290.67,
+   "line": "إما أن تمشي بعيدا كما فعلت دائما... بطل لا يعرفه أحد، وجرح لا يغلق أبدا. وإما أن تدخل. وتنظر في العينين اللتين هربت منهما سنتين.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "FARIS",
+    "pose": "think",
+    "expr": "thinking",
+    "n": 50,
+    "cards": [
+     "تمشي بعيدا",
+     "تدخل"
+    ],
+    "cardsX": [
+     0.25,
+     0.75
+    ],
+    "gap": 1.2,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s079",
+   "start": 290.67,
+   "end": 294.71,
+   "line": "تطرق الباب. يرفع رامي رأسه. ويسكت طويلا.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "hit",
+     "gain": -14
+    },
+    {
+     "at": 0.5,
+     "name": "hit",
+     "gain": -14
+    }
+   ],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.35,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1,
+      "s": 1.6
+     },
+     {
+      "c": "RAMI",
+      "x": 0.62,
+      "pose": "sitBack",
+      "expr": "surprised",
+      "f": -1,
+      "chair": true,
+      "s": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s080",
+   "start": 294.71,
+   "end": 301.45,
+   "line": "ثم تقول الكلمة التي تأخرت سنتين: آسف يا رامي. كنت أنا الجبان... لا أنت.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "FARIS",
+    "set": "clinic",
+    "expr": "sad",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "آسف يا رامي",
+      "x": 0.5,
+      "y": 0.18,
+      "size": 90,
+      "at": 3.11
+     }
+    ],
+    "talk": [
+     3.21,
+     4.47
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s081",
+   "start": 301.45,
+   "end": 309.71,
+   "line": "ينظر رامي إلى يدك الملفوفة بالرباط. ثم يقول: لم أكن غاضبا من السقوط يا فارس. كنت غاضبا لأنك اختفيت.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "RAMI",
+    "set": "clinic",
+    "expr": "sad",
+    "side": 0.3,
+    "rimSide": 1,
+    "talk": [
+     3.99,
+     6.43
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s082",
+   "start": 309.71,
+   "end": 312.73,
+   "line": "كنت أحتاج صديقي... أكثر من ساقي.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "RAMI",
+    "set": "clinic",
+    "expr": "smile",
+    "side": 0.3,
+    "rimSide": 1,
+    "tear": 0.3,
+    "labels": [
+     {
+      "s": "كنت أحتاج صديقي… أكثر من ساقي",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.1
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s083",
+   "start": 312.73,
+   "end": 315.18,
+   "line": "ثم يمد يده. وحين تمسكها... تشعر بشيء دافئ في باطن يدك.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.45,
+      "pose": "reach",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.8
+     },
+     {
+      "c": "RAMI",
+      "x": 0.58,
+      "pose": "reach",
+      "expr": "smile",
+      "f": -1,
+      "s": 1.8
+     }
+    ],
+    "cam": {
+     "z0": 1.1,
+     "z1": 1.2,
+     "x0": 0,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s084",
+   "start": 315.18,
+   "end": 318.33,
+   "line": "ثم يمد يده. وحين تمسكها... تشعر بشيء دافئ في باطن يدك.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.45,
+      "pose": "reach",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.8
+     },
+     {
+      "c": "RAMI",
+      "x": 0.58,
+      "pose": "reach",
+      "expr": "smile",
+      "f": -1,
+      "s": 1.8
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s085",
+   "start": 318.33,
+   "end": 321.52,
+   "line": "تفك الرباط بعد أن تخرج. الجرح ما زال هناك... لكنه لأول مرة لا ينزف.",
+   "scene": "insert palm",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "palm",
+    "healed": false
+   },
+   "notes": ""
+  },
+  {
+   "id": "s086",
+   "start": 321.52,
+   "end": 324.49,
+   "line": "تفك الرباط بعد أن تخرج. الجرح ما زال هناك... لكنه لأول مرة لا ينزف.",
+   "scene": "insert palm",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "palm",
+    "healed": false,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s087",
+   "start": 324.49,
+   "end": 328.18,
+   "line": "وبعد العملية يعرف والد رامي اسم المتبرع من الممرضة. يأتيك في الممر... ويضمك طويلا دون أن يقول شيئا.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DAD",
+      "x": 0.55,
+      "pose": "reach",
+      "expr": "cry",
+      "f": -1,
+      "s": 1.6
+     },
+     {
+      "c": "FARIS",
+      "x": 0.42,
+      "pose": "stand",
+      "expr": "sad",
+      "f": 1,
+      "s": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s088",
+   "start": 328.18,
+   "end": 332.15,
+   "line": "وبعد العملية يعرف والد رامي اسم المتبرع من الممرضة. يأتيك في الممر... ويضمك طويلا دون أن يقول شيئا.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DAD",
+      "x": 0.55,
+      "pose": "reach",
+      "expr": "cry",
+      "f": -1,
+      "s": 1.6
+     },
+     {
+      "c": "FARIS",
+      "x": 0.42,
+      "pose": "stand",
+      "expr": "sad",
+      "f": 1,
+      "s": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s089",
+   "start": 332.15,
+   "end": 336.1,
+   "line": "وتشعر لأول مرة منذ سنتين أنك لست هاربا.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "FARIS",
+    "set": "clinic",
+    "expr": "smile",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s090",
+   "start": 336.1,
+   "end": 340.08,
+   "line": "وفي الأيام التالية يلتئم ببطء. ليس في ثانية كبقية جروحك. بل يوما بعد يوم... مثل أي جرح عند أي إنسان.",
+   "scene": "insert palm",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "palm",
+    "healed": true
+   },
+   "notes": ""
+  },
+  {
+   "id": "s091",
+   "start": 340.08,
+   "end": 344.37,
+   "line": "وفي الأيام التالية يلتئم ببطء. ليس في ثانية كبقية جروحك. بل يوما بعد يوم... مثل أي جرح عند أي إنسان.",
+   "scene": "insert palm",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "palm",
+    "healed": true,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s092",
+   "start": 344.37,
+   "end": 348.74,
+   "line": "بعد شهر يخرج رامي من العلاج الطبيعي. وتمشيان معا إلى تل الحي القديم. هو يمشي ببطء... وأنت تمشي بسرعته هو.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.2,
+       0.55
+      ]
+     },
+     {
+      "c": "RAMI",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "walk": [
+       0.3,
+       0.65
+      ]
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s093",
+   "start": 348.74,
+   "end": 353.15,
+   "line": "بعد شهر يخرج رامي من العلاج الطبيعي. وتمشيان معا إلى تل الحي القديم. هو يمشي ببطء... وأنت تمشي بسرعته هو.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "walk": [
+       0.2,
+       0.55
+      ]
+     },
+     {
+      "c": "RAMI",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "walk": [
+       0.3,
+       0.65
+      ]
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s094",
+   "start": 353.15,
+   "end": 357.69,
+   "line": "وتجلسان على القمة وتضحكان كما كنتما تضحكان قبل سنتين.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "FARIS",
+      "x": 0.45,
+      "pose": "sit",
+      "expr": "joy",
+      "f": 1,
+      "y": 0.82,
+      "s": 1.4
+     },
+     {
+      "c": "RAMI",
+      "x": 0.58,
+      "pose": "sit",
+      "expr": "joy",
+      "f": -1,
+      "y": 0.82,
+      "s": 1.4
+     }
+    ],
+    "so": {
+     "mood": "golden"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s095",
+   "start": 357.69,
+   "end": 361.26,
+   "line": "لم يبق من الجرح إلا ندبة بيضاء صغيرة. الندبة الوحيدة في جسدك كله. ولا تريدها أن تختفي.",
+   "scene": "insert palm",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "palm",
+    "healed": true
+   },
+   "notes": ""
+  },
+  {
+   "id": "s096",
+   "start": 361.26,
+   "end": 364.59,
+   "line": "لم يبق من الجرح إلا ندبة بيضاء صغيرة. الندبة الوحيدة في جسدك كله. ولا تريدها أن تختفي.",
+   "scene": "insert palm",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "palm",
+    "healed": true,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s097",
+   "start": 364.59,
+   "end": 369.35,
+   "line": "لأنك تعلمت أخيرا أن بعض الجروح لا تشفى بالسرعة... بل بالشجاعة.",
+   "scene": "face city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "FARIS",
+    "set": "city",
+    "expr": "smile",
+    "side": 0.0,
+    "labels": [
+     {
+      "s": "بعض الجروح تُشفى بالشجاعة",
+      "x": 0.5,
+      "y": 0.18,
+      "at": 2.01
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s098",
+   "start": 369.35,
+   "end": 371.99,
+   "line": "فما الحقيقي في هذه القصة؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "ما الحقيقي في هذه القصة؟",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s099",
+   "start": 371.99,
+   "end": 377.46,
+   "line": "يمر شفاء الجروح في جسم الإنسان بمراحل متتالية: يتوقف النزيف، ثم يأتي الالتهاب لينظف المكان، ثم يبنى نسيج جديد، ثم يعاد ترتيبه على مدى شهور.",
+   "scene": "insert phases",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "phases"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s100",
+   "start": 377.46,
+   "end": 382.69,
+   "line": "يمر شفاء الجروح في جسم الإنسان بمراحل متتالية: يتوقف النزيف، ثم يأتي الالتهاب لينظف المكان، ثم يبنى نسيج جديد، ثم يعاد ترتيبه على مدى شهور.",
+   "scene": "insert phases",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "phases",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s101",
+   "start": 382.69,
+   "end": 386.34,
+   "line": "والندبة ليست جلدا عاديا، بل ألياف من الكولاجين مرتبة بطريقة مختلفة، ولا تعود قوتها أبدا كقوة الجلد الأصلي؛ تصل في أحسن الأحوال إلى نحو ثمانين في المئة منها.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "80%",
+    "label": "أقصى قوة للندبة مقارنة بالجلد",
+    "size": 180
+   },
+   "notes": ""
+  },
+  {
+   "id": "s102",
+   "start": 386.34,
+   "end": 390.12,
+   "line": "والندبة ليست جلدا عاديا، بل ألياف من الكولاجين مرتبة بطريقة مختلفة، ولا تعود قوتها أبدا كقوة الجلد الأصلي؛ تصل في أحسن الأحوال إلى نحو ثمانين في المئة منها.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "80%",
+    "label": "أقصى قوة للندبة مقارنة بالجلد",
+    "size": 180,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s103",
+   "start": 390.12,
+   "end": 393.79,
+   "line": "والندبة ليست جلدا عاديا، بل ألياف من الكولاجين مرتبة بطريقة مختلفة، ولا تعود قوتها أبدا كقوة الجلد الأصلي؛ تصل في أحسن الأحوال إلى نحو ثمانين في المئة منها.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "80%",
+    "label": "أقصى قوة للندبة مقارنة بالجلد",
+    "size": 180,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s104",
+   "start": 393.79,
+   "end": 397.0,
+   "line": "والكسر العادي يحتاج غالبا من ستة أسابيع إلى ثمانية، وقد يطول أكثر.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "6–8 أسابيع",
+    "label": "لالتئام كسر عادي",
+    "size": 140
+   },
+   "notes": ""
+  },
+  {
+   "id": "s105",
+   "start": 397.0,
+   "end": 399.59,
+   "line": "والكسر العادي يحتاج غالبا من ستة أسابيع إلى ثمانية، وقد يطول أكثر.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "6–8 أسابيع",
+    "label": "لالتئام كسر عادي",
+    "size": 140,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s106",
+   "start": 399.59,
+   "end": 404.92,
+   "line": "لكن في الطبيعة أبطالا حقيقيين في الشفاء. حيوان السلمندر المكسيكي، الأكسولوتل، يعيد نمو أطرافه المقطوعة كاملة، وأجزاء من قلبه وحبله الشوكي.",
+   "scene": "insert axolotl",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "axolotl"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s107",
+   "start": 404.92,
+   "end": 410.53,
+   "line": "لكن في الطبيعة أبطالا حقيقيين في الشفاء. حيوان السلمندر المكسيكي، الأكسولوتل، يعيد نمو أطرافه المقطوعة كاملة، وأجزاء من قلبه وحبله الشوكي.",
+   "scene": "insert axolotl",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "axolotl",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s108",
+   "start": 410.53,
+   "end": 414.16,
+   "line": "وفي عام ألف وتسعمئة وثمانية وتسعين لاحظ العلماء سلالة من الفئران تغلق ثقوبا في آذانها دون أن تترك أي ندبة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "1998",
+    "label": "فئران تشفى بلا ندبة",
+    "size": 160
+   },
+   "notes": ""
+  },
+  {
+   "id": "s109",
+   "start": 414.16,
+   "end": 418.09,
+   "line": "وفي عام ألف وتسعمئة وثمانية وتسعين لاحظ العلماء سلالة من الفئران تغلق ثقوبا في آذانها دون أن تترك أي ندبة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "1998",
+    "label": "فئران تشفى بلا ندبة",
+    "size": 160,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s110",
+   "start": 418.09,
+   "end": 423.3,
+   "line": "وحتى الإنسان يملك شيئا من هذه القوة. فالكبد يستطيع أن ينمو من جديد حتى بعد استئصال أكثر من نصفه، ولهذا يمكن لإنسان حي أن يتبرع بجزء من كبده.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "الكبد",
+    "label": "ينمو من جديد بعد استئصال أكثر من نصفه",
+    "size": 150
+   },
+   "notes": ""
+  },
+  {
+   "id": "s111",
+   "start": 423.3,
+   "end": 428.35,
+   "line": "وحتى الإنسان يملك شيئا من هذه القوة. فالكبد يستطيع أن ينمو من جديد حتى بعد استئصال أكثر من نصفه، ولهذا يمكن لإنسان حي أن يتبرع بجزء من كبده.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "الكبد",
+    "label": "ينمو من جديد بعد استئصال أكثر من نصفه",
+    "size": 150,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s112",
+   "start": 428.35,
+   "end": 432.45,
+   "line": "وأطراف أصابع الأطفال الصغار قد تنمو أحيانا بعد أن تقطع.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "أطراف الأصابع",
+    "label": "عند الأطفال الصغار… أحيانا",
+    "size": 120
+   },
+   "notes": ""
+  },
+  {
+   "id": "s113",
+   "start": 432.45,
+   "end": 437.1,
+   "line": "أما الجلد في الأشهر الأولى من حياة الجنين، فيلتئم دون أن يترك أي ندبة تقريبا... ويدرس العلماء هذا السر على أمل أن يساعد المصابين بالحروق يوما.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "بلا ندبة",
+    "label": "جلد الجنين في الأشهر الأولى",
+    "size": 150
+   },
+   "notes": ""
+  },
+  {
+   "id": "s114",
+   "start": 437.1,
+   "end": 442.21,
+   "line": "أما الجلد في الأشهر الأولى من حياة الجنين، فيلتئم دون أن يترك أي ندبة تقريبا... ويدرس العلماء هذا السر على أمل أن يساعد المصابين بالحروق يوما.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "بلا ندبة",
+    "label": "جلد الجنين في الأشهر الأولى",
+    "size": 150,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s115",
+   "start": 442.21,
+   "end": 445.23,
+   "line": "وهناك رابط حقيقي بين القلب والجسد.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "القلب والجسد",
+    "label": "رابط حقيقي",
+    "size": 110,
+    "count": 2
+   },
+   "notes": ""
+  },
+  {
+   "id": "s116",
+   "start": 445.23,
+   "end": 450.42,
+   "line": "في عام ألف وتسعمئة وخمسة وتسعين وجدت دراسة أن جروحا صغيرة احتاجت وقتا أطول بنحو الربع لتلتئم عند أشخاص يعيشون ضغطا نفسيا طويلا.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "+24%",
+    "label": "وقت أطول للشفاء مع الضغط النفسي (1995)",
+    "size": 170,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s117",
+   "start": 450.42,
+   "end": 455.07,
+   "line": "في عام ألف وتسعمئة وخمسة وتسعين وجدت دراسة أن جروحا صغيرة احتاجت وقتا أطول بنحو الربع لتلتئم عند أشخاص يعيشون ضغطا نفسيا طويلا.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "+24%",
+    "label": "وقت أطول للشفاء مع الضغط النفسي (1995)",
+    "size": 170,
+    "color": "coral",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s118",
+   "start": 455.07,
+   "end": 458.3,
+   "line": "وفي عام ألفين وثلاثة أظهرت دراسة للدماغ أن ألم الرفض والإقصاء ينشط مناطق تشارك أيضا في الألم الجسدي.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "ألم الرفض",
+    "label": "ينشط مناطق من الألم الجسدي (2003)",
+    "size": 110,
+    "count": 2
+   },
+   "notes": ""
+  },
+  {
+   "id": "s119",
+   "start": 458.3,
+   "end": 461.71,
+   "line": "وفي عام ألفين وثلاثة أظهرت دراسة للدماغ أن ألم الرفض والإقصاء ينشط مناطق تشارك أيضا في الألم الجسدي.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "ألم الرفض",
+    "label": "ينشط مناطق من الألم الجسدي (2003)",
+    "size": 110,
+    "count": 2,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s120",
+   "start": 461.71,
+   "end": 465.44,
+   "line": "لكن العلماء ما زالوا يختلفون في مدى هذا التشابه، وهل يعني أن القلب المكسور يؤلم فعلا كالعظم المكسور.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "محل خلاف",
+    "label": "هل يؤلم القلب المكسور كالعظم؟",
+    "size": 130
+   },
+   "notes": ""
+  },
+  {
+   "id": "s121",
+   "start": 465.44,
+   "end": 468.65,
+   "line": "لكن العلماء ما زالوا يختلفون في مدى هذا التشابه، وهل يعني أن القلب المكسور يؤلم فعلا كالعظم المكسور.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "محل خلاف",
+    "label": "هل يؤلم القلب المكسور كالعظم؟",
+    "size": 130,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s122",
+   "start": 468.65,
+   "end": 473.33,
+   "line": "فالجسد يشفى بالوقت... أما القلب فيحتاج أحيانا إلى كلمة واحدة.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "الجسد يُشفى بالوقت… والقلب بكلمة",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s123",
+   "start": 473.33,
+   "end": 477.27,
+   "line": "وفي الحلقة القادمة: ماذا لو كان بصرك أحد بمئة مرة؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "ماذا لو كان بصرك أحد بمئة مرة؟",
+    "set": "archive",
+    "str2": "الحلقة القادمة",
+    "at2": 0.8
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s124",
+   "start": 477.27,
+   "end": 485.836,
+   "line": "ما رأيك؟ أخبرنا في التعليقات: هل هناك اعتذار تأخرت فيه... وما زال ينتظرك؟",
+   "scene": "endscreen ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "endscreen",
+    "q": "هل هناك اعتذار تأخرت فيه؟",
+    "cast": [
+     "MOM",
+     "FARIS",
+     "RAMI",
+     "DAD",
+     "NURSE",
+     "DOC"
+    ]
+   },
+   "notes": "",
+   "captions": false
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 22.59,
+   "mood": "playful",
+   "intensity": 0.35
+  },
+  {
+   "start": 22.59,
+   "end": 43.61,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 43.61,
+   "end": 51.61,
+   "mood": "wonder",
+   "intensity": 0.4
+  },
+  {
+   "start": 51.61,
+   "end": 89.19,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 89.19,
+   "end": 123.17,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 123.17,
+   "end": 218.41,
+   "mood": "sad",
+   "intensity": 0.35
+  },
+  {
+   "start": 218.41,
+   "end": 294.71,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 294.71,
+   "end": 312.73,
+   "mood": "calm",
+   "intensity": 0.3
+  },
+  {
+   "start": 312.73,
+   "end": 369.35,
+   "mood": "hopeful",
+   "intensity": 0.35
+  },
+  {
+   "start": 369.35,
+   "end": 485.836,
+   "mood": "calm",
+   "intensity": 0.3
+  }
+ ],
+ "sfx": []
+}
