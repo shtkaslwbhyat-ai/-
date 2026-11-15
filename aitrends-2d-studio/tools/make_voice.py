@@ -6,12 +6,12 @@ Splits the vowelized script at sentence ends (~2800 chars per chunk), voices eac
 Edge TTS (Bassel, ar-IQ-BasselNeural, --rate=+15% --pitch=-4Hz) through the session proxy,
 pads 0.3 s, concatenates, trims long silences with tools/tighten_voice.sh and writes
 <out_dir>/voiceover.mp3. Prints words, duration and pace; exits 2 when the duration is
-outside [--min, --max] seconds (channel rule: 8–10 minutes), so the writer adds/cuts a scene first.
+outside [--min, --max] seconds (channel rule: 8–12 minutes), so the writer adds/cuts a scene first.
 """
 import argparse, os, re, subprocess, sys
 VOICE, RATE, PITCH = "ar-IQ-BasselNeural", "+15%", "-4Hz"
 ap = argparse.ArgumentParser(); ap.add_argument("script"); ap.add_argument("out")
-ap.add_argument("--min", type=float, default=480); ap.add_argument("--max", type=float, default=600)
+ap.add_argument("--min", type=float, default=480); ap.add_argument("--max", type=float, default=720)
 a = ap.parse_args(); os.makedirs(a.out, exist_ok=True)
 t = open(a.script).read().strip()
 sents = re.findall(r".+?(?:\.\.\.|[.؟?:!])(?:\s+|$)", t, flags=re.S) or [t]
@@ -42,4 +42,4 @@ words = len(t.split())
 print(f"{final}\n  words {words} | chunks {len(chunks)} | duration {int(dur//60)}:{dur%60:04.1f} | pace {words/dur*60:.0f} wpm")
 if dur < a.min: print(f"  TOO SHORT: need about {int((a.min-dur)/60*words/dur*60)+20} more words (rule: >= {a.min/60:.0f} min)"); sys.exit(2)
 if dur > a.max: print(f"  TOO LONG: cut about {int((dur-a.max)/60*words/dur*60)+20} words (rule: <= {a.max/60:.0f} min)"); sys.exit(2)
-print("  OK: within the channel's 8–10 minute rule")
+print("  OK: within the channel's 8–12 minute rule")
