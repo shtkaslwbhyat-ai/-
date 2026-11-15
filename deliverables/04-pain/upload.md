@@ -5,10 +5,12 @@
 
 (لم يُقيَّم بأداة vidIQ لأن الرصيد نفد حتى 2026-11-23. يتبع نمط المفارقة الذي حصل على 95/100. بحث "ماذا لو لم تشعر بالالم": نحو 5.5 ألف بحث شهريًا، والمنافسة 17.)
 
-## الوصف
+## الوصف (نسخة 2: قالب الـ 100 مع فقرة كلمات الوسوم)
 ```
-ماذا لو لم تشعر بالألم أبدًا؟ تمسك المقلاة الحارة، وتجلس عند طبيب الأسنان بلا تخدير، وتنهض في ثانية مهما سقطت في الملعب.
-يزن هو "الرجل الحديدي" في فريقه… حتى يأتي اليوم الذي يصبح فيه الألم الغائب أخطر شيء في حياته.
+ماذا لو لم تشعر بالألم أبدًا؟ تمسك المقلاة المشتعلة بيدك، وتجلس عند طبيب الأسنان بلا تخدير، وتسقط في الملعب ثم تقوم في ثانية وكأن شيئًا لم يكن.
+يزن هو "الرجل الحديدي" في فريقه… حتى يكتشف الأطباء في صورة الأشعة ثلاثة كسور قديمة لم يشعر بها أبدًا، ويأتي يوم النهائي بحرارة 39.
+
+في هذه الحلقة من "ماذا لو" نعيش قصة خيالية بالرسوم المتحركة، ثم نكشف الحقائق العلمية عن الألم والأعصاب: ما هي حالة عدم الإحساس الخلقي بالألم؟ ما دور الجين SCN9A وبوابة الألم في الأعصاب؟ ماذا حدث للصبي الباكستاني الذي كان يمشي على الجمر؟ من هي جو كاميرون التي لا تحتاج إلى مسكنات؟ ولماذا يعتبر العلماء الألم حارسًا ينقذ حياتك، ولماذا فشلت أدوية الألم الجديدة حتى الآن؟
 
 ⏱️ فصول الحلقة
 0:00 لا يشعر بأي شيء
@@ -28,8 +30,27 @@
 6:49 جو كاميرون
 7:07 مسكنات المستقبل؟
 7:25 الحلقة القادمة
+
+━━━━━━━━━━━━━━━━━━
+🌍 عن عالم لو
+عالم لو قناة "ماذا لو" بالعربي. في كل حلقة نأخذ قدرة بشرية عادية وندفعها إلى أقصى حد، فنعيش القصة برسوم متحركة، ثم نسأل في النهاية: ما الحقيقي في كل هذا؟
+
+📌 القصة في الحلقة خيالية، أما المعلومات العلمية فيها فحقيقية وموثقة. وحين يختلف العلماء في مسألة نذكر الآراء كلها بأمانة.
+
+🔔 اشترك في القناة وفعّل الجرس حتى تصلك كل حلقة جديدة:
+https://www.youtube.com/channel/UC6qe-5Xe8NRusT1z2iq0LcQ?sub_confirmation=1
+
+💬 شاركنا في التعليقات:
+لو كنت مكان يزن… هل كنت ستخرج من الملعب؟
+وما هي "ماذا لو" التي تريد أن نجربها في الحلقة القادمة؟
+
+━━━━━━━━━━━━━━━━━━
+🎬 عن الإنتاج
+الرسوم والموسيقى والمؤثرات من إنتاج القناة.
+التعليق الصوتي مُولّد بالذكاء الاصطناعي.
+
+#ماذا_لو #عالم_لو #الألم #حقائق_علمية #قصص_خيالية
 ```
-ثم الوصف الثابت من docs/upload-template.md (مع: ماذا كنت ستفعل لو كنت مكان يزن؟ هل كنت ستخرج من الملعب؟).
 
 ## الوسوم
 ماذا لو, ماذا لو لم تشعر بالألم, عدم الإحساس بالألم, عدم الإحساس الخلقي بالألم, الألم, الأعصاب, جو كاميرون, SCN9A, الزائدة الدودية, كرة القدم, قصص خيالية, قصص ماذا لو, انيميشن عربي, حقائق علمية, عالم لو
@@ -37,14 +58,9 @@
 ## إعدادات الرفع
 ليس للأطفال — التعليم — المحتوى الاصطناعي: نعم — قائمة "ماذا لو؟ | قصص خيالية بالعربي وحقائق علمية" — النشر الاثنين 16 نوفمبر الساعة 20:00 بتوقيت مكة (حسب docs/publishing-plan.md).
 
-## برومبت الصورة المصغرة (نسخة 2 بنفس شخصية ووصفة صور الـ 90)
+## برومبت الصورة المصغرة (نسخة 3: "حياة بدون ألم" — خلفية حمراء كاملة، وجه أكبر)
 ```
-YouTube thumbnail, flat 2D vector cartoon, bold vibrant style, 16:9, 1280x720, razor sharp, highly saturated, high contrast, eye-catching. CHARACTER STYLE (same as the channel's other thumbnails): a black silhouette stick-figure character with a perfectly round solid pitch-black head, NO skin color, NO nose, NO ears, NO realistic features, only big round white cartoon eyes, white eyebrows and a simple white-outlined mouth, short spiky black hair silhouette. BACKGROUND: vivid bright red-orange background with a glowing yellow light burst behind the character, energetic light rays radiating outward, clean and simple, no clutter. LEFT SIDE: the huge black round head filling about 60% of the frame height, tightly cropped at the bottom, amber-yellow hoodie visible at the bottom edge. EXTREME SHOCK expression: enormous round white eyes with tiny black pupils, raised eyebrows, mouth wide open, one black hand grabbing the side of his head, staring in disbelief at his OTHER hand. Thick bright yellow-orange rim light outlining the head. CENTER: his other black hand raised in front of him, completely ENGULFED IN BRIGHT ORANGE FLAMES with sparks and smoke, sharp, the single focal object. RIGHT SIDE: giant Arabic text "لا أشعر!" in correct right-to-left Arabic script, ultra heavy bold Arabic font, bright yellow #FFD400 letters with a very thick black outline plus a soft dark drop shadow, fully legible. Only three elements: the face, the burning hand, the text. No other text, no watermark, no 3D, no realistic human.
-```
-
-النسخة البديلة (للاختبار والمقارنة):
-```
-YouTube thumbnail, flat 2D vector cartoon, bold vibrant style, 16:9, 1280x720, razor sharp, highly saturated, high contrast. CHARACTER STYLE: black silhouette stick-figure character with a perfectly round solid pitch-black head, NO skin, NO nose, NO ears, only big round white cartoon eyes and a simple white mouth, short spiky black hair. BACKGROUND: vivid red-orange with a glowing yellow burst and light rays, no clutter. LEFT SIDE: huge black round head, 60% of frame height, amber-yellow hoodie at the bottom edge, EXTREME SHOCK: enormous white eyes, mouth wide open, both black hands grabbing the sides of his head. Thick yellow-orange rim light. CENTER: ONE glowing light-blue X-ray of an ankle and foot bones with three cracks circled in bright red, sharp. RIGHT SIDE: giant Arabic text "3 كسور!" in correct right-to-left script, ultra heavy bold, bright yellow #FFD400 with very thick black outline and drop shadow. Only three elements. No other text, no watermark, no 3D, no realistic human.
+YouTube thumbnail, flat 2D vector cartoon, bold vibrant style, 16:9, 1280x720, razor sharp, highly saturated, high contrast, eye-catching. CHARACTER STYLE (same as the channel's other thumbnails): a black silhouette stick-figure character with a perfectly round solid pitch-black head, NO skin color, NO nose, NO ears, NO realistic features, only big round white cartoon eyes, white eyebrows and a simple white-outlined mouth, short spiky black hair silhouette. BACKGROUND: the whole background vivid bright red-orange with a strong glowing yellow light burst behind the character and energetic light rays, clean, no clutter. LEFT SIDE: the huge black round head filling about 65% of the frame height, tightly cropped at the bottom, amber-yellow hoodie visible at the bottom edge. EXTREME SHOCK expression: enormous round white eyes with tiny black pupils, raised eyebrows, mouth wide open, one black hand grabbing the side of his head, staring in disbelief at his OTHER hand. Thick bright yellow-orange rim light outlining the head. CENTER: his other black hand raised in front of him, completely ENGULFED IN BRIGHT ORANGE FLAMES with sparks and smoke, sharp, the single focal object. RIGHT SIDE: giant Arabic text in two lines "حياة" on the first line and "بدون ألم" on the second line, in correct right-to-left Arabic script, extra large ultra heavy bold Arabic font, bright yellow #FFD400 letters with an extra thick black outline plus a soft dark drop shadow, readable on a small phone screen. Only three elements: the face, the burning hand, the text. No other text, no watermark, no 3D, no realistic human.
 ```
 
 ## مراجعة المدقق للحقائق
