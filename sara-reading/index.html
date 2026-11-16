@@ -114,55 +114,76 @@ nav button[aria-current="true"]{background:var(--blue);border-color:var(--blue);
   .grid .cell{background:var(--card)!important}.grid .cell:nth-child(odd){background:var(--blue-soft)!important}
   .slot{min-width:56px;height:72px;font-size:34px}.tile{min-width:62px;height:72px;font-size:34px}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+.unit-h{margin:6px 0 0;font-size:20px;color:var(--muted)}
+.lessons{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.lesson{background:var(--bg);border:2px solid var(--line);border-radius:18px;padding:14px 16px;text-align:right;display:flex;flex-direction:column;gap:4px;transition:transform .15s}
+.lesson:hover{transform:translateY(-2px);border-color:var(--blue)}
+.lesson[aria-current="true"]{border-color:var(--blue);background:var(--blue-soft)}
+.lesson b{font-size:21px}
+.lesson span{color:var(--muted);font-size:15px}
+.lesson .ex{font-family:var(--f-text);font-size:24px;color:var(--ink)}
+.cell .hint{display:block;font-size:20px;color:var(--muted);font-family:var(--f-text);font-weight:500;direction:rtl}
+.grid-title{margin:8px 0 0;font-size:20px}
+.fx{color:var(--coral)}
 </style>
 
 <div id="app" dir="rtl" lang="ar">
   <header class="top">
     <div class="brand">
       <div class="badge">س</div>
-      <div><h1>مغامرة سارة في القراءة</h1><p>درس السكون · الصفحات 108 و110</p></div>
+      <div><h1>مغامرة سارة في القراءة</h1><p id="sub">اختاري درسًا</p></div>
     </div>
     <div class="stars" id="stars">⭐ <span id="starN">0</span></div>
   </header>
   <nav id="nav">
-    <button data-v="lesson" aria-current="true">📘 الدرس</button>
-    <button data-v="syl">🔤 المقاطع</button>
-    <button data-v="words">📖 الكلمات</button>
+    <button data-v="home">📚 الدروس</button>
+    <button data-v="lesson">📘 الشرح</button>
+    <button data-v="pages">📖 الصفحات</button>
     <button data-v="games">🎮 الألعاب</button>
   </nav>
   <main id="view"></main>
 </div>
 <canvas id="confetti"></canvas>
 
+<script src="lessons.js"></script>
 <script src="audio.js"></script>
 <script>
-/* ---------- المحتوى من الكتاب ---------- */
-const SYL = "أَأْ أَبْ أَتْ أَثْ أَجْ أَحْ أَخْ أَدْ أَذْ أَرْ أَزْ أَسْ إِشْ حَصْ حَضْ سِطْ فَظْ فَعْ فَغْ فِفْ حَقْ بَكْ سَلْ إِمْ قَنْ بَهْ بِوْ أُيْ بُكْ فُرْ بُرْ تُضْ أُطْ حُرْ صُمْ فُغْ".split(" ");
-const WORDS = [
- ["فَخْرٌ","🏆"],["طَعْمٌ","👅"],["عَبْدٌ","🙏"],["فَزْعٌ","😱"],["فَجْرٌ","🌅"],["عَيْنٌ","👁️"],
- ["حَرْفٌ","✏️"],["حَرْثٌ","🚜"],["صَبْرٌ","⏳"],["رَصْدٌ","🔭"],["رَسْمٌ","🎨"],["صَدْرٌ","🫁"],
- ["أَنْوَرُ","💡"],["أَذْهَبُ","🚶‍♀️"],["أَسْعَدُ","😊"],["أَحْمَدُ","👦"],["دَمْعٌ","😢"],["زَرْعٌ","🌱"],
- ["اِقْرَأْ","📖"],["اِسْمَحْ","🤝"],["اِفْتَحْ","🚪"],["اِلْعَبْ","⚽"],["اِطْمَحْ","🚀"],["اِشْبَعْ","🍽️"],
- ["فَرْحَانُ","😄"],["اِشْرَبْ","🥤"],["اِحْفَظْ","🧠"],["اِبْدَأْ","🏁"],["اِفْرَحْ","🎉"],["اِمْرَحْ","🎈"],
- ["يُحْزِنُ","😔"],["يُنْصِفُ","⚖️"],["يُبْصِرُ","👀"],["فُنْدُقٌ","🏨"],["بُنْدُقٌ","🌰"],["يَسْمَعُ","👂"],
- ["يَمْرَحُونَ","🤸"],["يَرْكُضُونَ","🏃"],["يَكْتُمُونَ","🤫"],["يَلْعَبُونَ","🧩"],["يَجْلِسُونَ","🪑"],["يَدْخُلُونَ","🏠"]
-];
+const LESSONS = window.SARA_LESSONS;
 const QALQALA = "قطبجد";
-const SUKUN = "ْ";
-const NAMES = {"ا":"ألف","أ":"همزة","إ":"همزة","ء":"همزة","ب":"باء","ت":"تاء","ث":"ثاء","ج":"جيم","ح":"حاء","خ":"خاء","د":"دال","ذ":"ذال","ر":"راء","ز":"زاي","س":"سين","ش":"شين","ص":"صاد","ض":"ضاد","ط":"طاء","ظ":"ظاء","ع":"عين","غ":"غين","ف":"فاء","ق":"قاف","ك":"كاف","ل":"لام","م":"ميم","ن":"نون","ه":"هاء","و":"واو","ي":"ياء"};
+const SUKUN="ْ", SHADDA="ّ";
+const NAMES = {"ا":"ألف","آ":"ألف","أ":"همزة","إ":"همزة","ء":"همزة","ؤ":"همزة","ئ":"همزة","ى":"ألف مقصورة","ة":"تاء مربوطة","ب":"باء","ت":"تاء","ث":"ثاء","ج":"جيم","ح":"حاء","خ":"خاء","د":"دال","ذ":"ذال","ر":"راء","ز":"زاي","س":"سين","ش":"شين","ص":"صاد","ض":"ضاد","ط":"طاء","ظ":"ظاء","ع":"عين","غ":"غين","ف":"فاء","ق":"قاف","ك":"كاف","ل":"لام","م":"ميم","ن":"نون","ه":"هاء","و":"واو","ي":"ياء"};
 const MARKS = {"َ":"فتحة","ِ":"كسرة","ُ":"ضمة","ْ":"سكون","ٌ":"تنوين ضم","ً":"تنوين فتح","ٍ":"تنوين كسر"};
+const FOCUS = {
+  sukun:{ name:"الحرف الساكن", q:"السكون اختفى! اضغطي على الحرف الساكن", hide:SUKUN },
+  shadda:{ name:"الحرف المشدد", q:"الشدة اختفت! اضغطي على الحرف المشدد", hide:SHADDA },
+  tanween:{ name:"الحرف المنوَّن", q:"التنوين اختفى! اضغطي على الحرف الذي عليه تنوين", hide:"tanween" },
+  madd:{ name:"حرف المد", q:"اضغطي على حرف المد في الكلمة (ا، و، ي)", hide:null },
+  lam:{ name:"اللام القمرية", q:"اضغطي على اللام القمرية في الكلمة", hide:null }
+};
 
-const units = w => w.match(/[ء-ي][ً-ْٰ]*/g) || [];
+const units = w => w.normalize("NFC").match(/[ء-ي][ً-ْٰ]*/g) || [];
 const base = u => u[0];
 const mark = u => u.slice(1);
 const hasSukun = u => u.includes(SUKUN);
-const spoken = u => [NAMES[base(u)]||base(u), MARKS[mark(u)]||null];
-const describe = u => (NAMES[base(u)]||base(u)) + (mark(u) ? " عليها " + (MARKS[mark(u)]||"حركة") : " بدون حركة");
+const hasShadda = u => u.includes(SHADDA);
+const hasTanween = u => /[ً-ٍ]/.test(u);
+const harakah = u => mark(u).replace(SHADDA,"");
+const spoken = u => [NAMES[base(u)]||base(u), hasShadda(u)?"شدة":null, MARKS[harakah(u)]||null];
+const describe = u => (NAMES[base(u)]||base(u)) + (hasShadda(u)?" مشددة":"") + (harakah(u) ? " عليها " + MARKS[harakah(u)] : (hasShadda(u)?"":" بدون حركة"));
+function isFocus(f,u,i,us){
+  if(f==="sukun") return hasSukun(u);
+  if(f==="shadda") return hasShadda(u);
+  if(f==="tanween") return hasTanween(u);
+  if(f==="lam") return i===1 && base(u)==="ل" && base(us[0])==="ا";
+  if(f==="madd"){ if(i===0||mark(u)) return false; const p=harakah(us[i-1]);
+    return (base(u)==="ا"&&p==="َ")||(base(u)==="و"&&p==="ُ")||(base(u)==="ي"&&p==="ِ"); }
+  return false;
+}
 const shuffle = a => { a=[...a]; for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]} return a; };
 const pick = (a,n) => shuffle(a).slice(0,n);
-const esc = s => s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-function colorWord(w){
-  return units(w).map(u=>hasSukun(u) ? `<span class="${QALQALA.includes(base(u))?'qq':'sk'}">${u}</span>` : u).join("");
+function colorWord(w,f){
+  f=f||cur().focus; const us=units(w);
+  return us.map((u,i)=>isFocus(f,u,i,us) ? `<span class="${f==="sukun"&&QALQALA.includes(base(u))?'qq':'fx'}">${u}</span>` : u).join("");
 }
 
 /* ---------- الصوت ---------- */
@@ -172,99 +193,103 @@ let arVoice=null;
 function loadVoices(){ try{ const vs=(speechSynthesis.getVoices()||[]).filter(v=>/^ar/i.test(v.lang)); arVoice=vs.find(v=>/natural|online/i.test(v.name))||vs[0]||null; }catch(e){} }
 try{ loadVoices(); speechSynthesis.onvoiceschanged=loadVoices; }catch(e){}
 const AUDIO=window.SARA_AUDIO||{};
-let cur=null, seq=0;
-function playClip(src){
-  return new Promise(r=>{ try{ if(cur){cur.pause();} cur=new Audio(src); cur.onended=r; cur.onerror=r; cur.play().catch(r);}catch(e){r()} });
-}
-function stopAll(){ seq++; try{ if(cur) cur.pause(); speechSynthesis.cancel(); }catch(e){} try{ tts&&tts.stop(); }catch(e){} }
+let curAudio=null, seq=0;
+function playClip(src){ return new Promise(r=>{ try{ if(curAudio) curAudio.pause(); curAudio=new Audio(src); curAudio.onended=r; curAudio.onerror=r; curAudio.play().catch(r);}catch(e){r()} }); }
+function stopAll(){ seq++; try{ if(curAudio) curAudio.pause(); speechSynthesis.cancel(); }catch(e){} try{ tts&&tts.stop(); }catch(e){} }
 async function say(text){ stopAll(); return sayOne(text); }
-async function sayParts(parts){
-  stopAll(); const my=seq;
-  for(const t of parts.filter(Boolean)){ if(my!==seq) return; await sayOne(t); }
-}
+async function sayParts(parts){ stopAll(); const my=seq; for(const t of parts.filter(Boolean)){ if(my!==seq) return; await sayOne(t); } }
 async function sayOne(text){
+  text=text.normalize("NFC");
   if(AUDIO[text]) return playClip(AUDIO[text]);
   if(arVoice) return synth(text);
-  if(tts){
-    try{ await tts.speak(text,{language:"ar",rate:0.85}); return; }
-    catch(e){ if(!e || !["not_granted","unavailable"].includes(e.code)) return; tts=null; }
-  }
+  if(tts){ try{ await tts.speak(text,{language:"ar",rate:0.85}); return; } catch(e){ if(!e||!["not_granted","unavailable"].includes(e.code)) return; tts=null; } }
   return synth(text);
 }
 async function synth(text){
-  try{
-    const u=new SpeechSynthesisUtterance(text); u.lang="ar-SA"; if(arVoice) u.voice=arVoice; u.rate=0.8;
-    await new Promise(r=>{u.onend=r;u.onerror=r;speechSynthesis.speak(u);});
-  }catch(e){}
+  try{ const u=new SpeechSynthesisUtterance(text); u.lang="ar-SA"; if(arVoice) u.voice=arVoice; u.rate=0.8;
+    await new Promise(r=>{u.onend=r;u.onerror=r;speechSynthesis.speak(u);}); }catch(e){}
 }
 let actx=null;
 function chime(good){
-  try{
-    actx=actx||new (window.AudioContext||window.webkitAudioContext)();
+  try{ actx=actx||new (window.AudioContext||window.webkitAudioContext)();
     const notes=good?[523,659,784,1046]:[330,262];
     notes.forEach((f,i)=>{const o=actx.createOscillator(),g=actx.createGain();o.type=good?"triangle":"sine";o.frequency.value=f;
       const t=actx.currentTime+i*0.09;g.gain.setValueAtTime(0.0001,t);g.gain.exponentialRampToValueAtTime(0.25,t+0.02);g.gain.exponentialRampToValueAtTime(0.0001,t+0.25);
-      o.connect(g).connect(actx.destination);o.start(t);o.stop(t+0.3);});
-  }catch(e){}
+      o.connect(g).connect(actx.destination);o.start(t);o.stop(t+0.3);}); }catch(e){}
 }
 const PRAISE=["أحسنتِ يا سارة!","ممتاز يا سارة!","رائعة يا سارة!","برافو يا بطلة!","شاطرة يا سارة!"];
 const praise=()=>PRAISE[Math.random()*PRAISE.length|0];
 
-/* ---------- النجوم ---------- */
-let stars=0; try{ stars=+localStorage.getItem("sara-stars")||0 }catch(e){}
+/* ---------- الحالة ---------- */
+const $=s=>document.querySelector(s);
+let stars=0, curId="sukun";
+try{ stars=+localStorage.getItem("sara-stars")||0; curId=localStorage.getItem("sara-lesson")||curId; }catch(e){}
+const cur=()=>LESSONS.find(l=>l.id===curId)||LESSONS[0];
+const words=()=>cur().grids.filter(g=>g.kind==="word").flatMap(g=>g.items);
+const syls=()=>cur().grids.filter(g=>g.kind==="syl").flatMap(g=>g.items);
 function addStar(n=1){ stars+=n; try{localStorage.setItem("sara-stars",stars)}catch(e){}
   $("#starN").textContent=stars; const s=$("#stars"); s.classList.remove("pop"); void s.offsetWidth; s.classList.add("pop"); }
-const $=s=>document.querySelector(s);
 $("#starN").textContent=stars;
+function setLesson(id){ curId=id; try{localStorage.setItem("sara-lesson",id)}catch(e){} $("#sub").textContent=cur().unit+" · "+cur().title; }
+setLesson(cur().id);
 
 /* ---------- التنقل ---------- */
 const view=$("#view");
-document.getElementById("nav").addEventListener("click",e=>{const b=e.target.closest("button");if(b) go(b.dataset.v)});
+$("#nav").addEventListener("click",e=>{const b=e.target.closest("button");if(b) go(b.dataset.v)});
 function go(v){
+  stopAll();
   document.querySelectorAll("#nav button").forEach(b=>b.setAttribute("aria-current",String(b.dataset.v===v || (v.startsWith("g-")&&b.dataset.v==="games"))));
-  ({lesson,syl:sylBoard,words:wordBoard,games,"g-listen":gListen,"g-spell":gSpell,"g-find":gFind,"g-read":gRead,"g-match":gMatch}[v]||lesson)();
+  ({home,lesson,pages,games,"g-listen":gListen,"g-spell":gSpell,"g-find":gFind,"g-read":gRead,"g-match":gMatch}[v]||home)();
   window.scrollTo({top:0,behavior:"smooth"});
 }
-
-function lesson(){
-  view.innerHTML=`<section class="panel">
-    <h2>السكون <span class="big sk">ـْـ</span></h2>
-    <div class="rule">الحرف <b>الساكن</b> لا يُنطق وحده، إنما يُنطق مع الحرف الذي قبله بأي حركة من الحركات الثلاث: <b>فتحة، كسرة، ضمة</b>.</div>
-    <p class="hint">اضغطي على كل مثال لتسمعيه 👇</p>
-    <div class="row">
-      ${["أَبْ","إِمْ","بُرْ","فَجْرٌ"].map(w=>`<button class="tile" data-say="${w}" style="font-size:40px">${colorWord(w)}</button>`).join("")}
-    </div>
-    <div class="rule">⚡ <b>القلقلة:</b> إذا كان الحرف الساكن واحدًا من حروف <b>(ق، ط، ب، ج، د)</b> نهزّه هزة خفيفة عند النطق، مثل: <span class="qq">بْ</span> في «أَبْ» و <span class="qq">دْ</span> في «عَبْدٌ». تجدينها تقفز في اللعبة!</div>
-    <div class="row">${["حَقْ","أُطْ","أَبْ","أَجْ","أَدْ"].map(w=>`<button class="tile" data-say="${w}" style="font-size:40px">${colorWord(w)}</button>`).join("")}</div>
-    <div class="row"><button class="btn sun" data-go="syl">ابدئي بالمقاطع ←</button><button class="btn" data-go="games">🎮 العبي الآن</button></div>
-  </section>`;
-}
-function sylBoard(){
-  view.innerHTML=`<section class="panel"><h2>اقرئي بصوت واضح وجهوري</h2>
-    <p class="hint">اضغطي على المقطع لتسمعيه، ثم كرريه بصوتك. الحرف الساكن باللون الأحمر، وحروف القلقلة تقفز.</p>
-    <div class="grid">${SYL.map(s=>`<button class="cell" data-say="${s}">${colorWord(s)}</button>`).join("")}</div>
-    <div class="row"><button class="btn sun" id="readAll">🔊 اقرئي معي السطر الأول</button></div></section>`;
-  $("#readAll").onclick=async()=>{const cells=[...document.querySelectorAll(".cell")].slice(0,6);
-    for(const c of cells){c.classList.add("on");await say(c.dataset.say);c.classList.remove("on");}};
-}
-function wordBoard(){
-  view.innerHTML=`<section class="panel"><h2>اقرئي الكلمات مع التركيز على الحرف الساكن</h2>
-    <p class="hint">اقرئي أفقيًا ثم رأسيًا. اضغطي على أي كلمة لتسمعيها.</p>
-    <div class="grid words">${WORDS.map(([w,e])=>`<button class="cell" data-say="${w}"><span><span class="em">${e}</span>${colorWord(w)}</span></button>`).join("")}</div></section>`;
-}
-function games(){
-  const G=[["g-spell","🧩","تهجّي الكلمة","ركّبي الكلمة حرفًا حرفًا، وأنا أصحح لكِ"],
-    ["g-listen","👂","اسمعي واختاري","اسمعي الكلمة واختاري الصحيحة"],
-    ["g-find","🔍","أين الساكن؟","اكتشفي الحرف الساكن المختفي"],
-    ["g-read","🎤","اقرئي بصوتك","اقرئي الكلمة وأنا أسمعكِ"],
-    ["g-match","🖼️","صِلي بالصورة","صِلي كل كلمة بصورتها"]];
-  view.innerHTML=`<section class="panel"><h2>اختاري لعبة يا سارة 🌟</h2>
-    <div class="games">${G.map(([id,ic,t,d])=>`<button class="game" data-go="${id}"><span class="ic">${ic}</span><b>${t}</b><span>${d}</span></button>`).join("")}</div></section>`;
-}
 document.addEventListener("click",e=>{
+  const l=e.target.closest("[data-lesson]"); if(l){ setLesson(l.dataset.lesson); go("lesson"); return; }
   const s=e.target.closest("[data-say]"); if(s) say(s.dataset.say);
   const g=e.target.closest("[data-go]"); if(g) go(g.dataset.go);
 });
+
+function home(){
+  const byUnit=[]; for(const l of LESSONS){ let u=byUnit.find(x=>x.u===l.unit); if(!u) byUnit.push(u={u:l.unit,ls:[]}); u.ls.push(l); }
+  view.innerHTML=`<section class="panel"><h2>دروس سارة 📚</h2><p class="hint">اختاري الدرس الذي تريدين أن تتعلميه أو تلعبي فيه.</p>
+   ${byUnit.map(x=>`<h3 class="unit-h">${x.u}</h3><div class="lessons">${x.ls.map(l=>`
+     <button class="lesson" data-lesson="${l.id}" aria-current="${l.id===curId}"><b>${l.title}</b><span>${l.page}</span>
+     <span class="ex">${l.examples.slice(0,3).map(w=>colorWord(w,l.focus)).join("، ")}</span></button>`).join("")}</div>`).join("")}</section>`;
+}
+function lesson(){
+  const l=cur();
+  view.innerHTML=`<section class="panel">
+    <h2>${l.title}</h2>
+    <div class="rule">${l.rule}</div>
+    <div class="row"><button class="btn ghost" data-say="${l.rule}">🔊 اسمعي الشرح</button></div>
+    <p class="hint">اضغطي على كل مثال لتسمعيه 👇 (${FOCUS[l.focus].name} باللون الأحمر)</p>
+    <div class="row">${l.examples.map(w=>`<button class="tile" data-say="${w}" style="font-size:40px">${colorWord(w)}</button>`).join("")}</div>
+    <div class="row"><button class="btn sun" data-go="pages">📖 صفحات الدرس ←</button><button class="btn" data-go="games">🎮 العبي الآن</button></div>
+  </section>`;
+}
+function pages(){
+  const l=cur();
+  view.innerHTML=`<section class="panel"><h2>${l.title} <span class="hint">${l.page}</span></h2>
+    <p class="hint">اضغطي على أي ${l.grids.some(g=>g.kind==="word")?"كلمة":"مقطع"} لتسمعيه ثم كرريه بصوتك. اقرئي أفقيًا ثم رأسيًا.</p>
+    ${l.grids.map((g,gi)=>`<h3 class="grid-title">${g.title}</h3>
+      <div class="grid ${g.kind==="word"?"words":""}">${g.items.map(([w,e,h])=>`<button class="cell" data-say="${w}"><span>${e?`<span class="em">${e}</span>`:""}${colorWord(w)}${h?`<span class="hint">${h}</span>`:""}</span></button>`).join("")}</div>
+      <div class="row"><button class="btn ghost" data-row="${gi}">🔊 اقرئي معي السطر الأول</button></div>`).join("")}</section>`;
+  document.querySelectorAll("[data-row]").forEach(b=>b.onclick=async()=>{
+    const grid=b.parentElement.previousElementSibling; const cells=[...grid.querySelectorAll(".cell")].slice(0,6);
+    stopAll(); const my=seq;
+    for(const c of cells){ if(my!==seq) break; c.classList.add("on"); await sayOne(c.dataset.say); c.classList.remove("on"); }
+  });
+}
+function games(){
+  const l=cur(), hasW=words().length>0, nMatch=words().filter(x=>x[1]).length;
+  const G=[hasW&&["g-spell","🧩","تهجّي الكلمة","ركّبي الكلمة حرفًا حرفًا، وأنا أصحح لكِ"],
+    ["g-listen","👂","اسمعي واختاري","اسمعي واختاري الصحيح"],
+    hasW&&["g-find","🔍","أين "+FOCUS[l.focus].name+"؟","اكتشفي "+FOCUS[l.focus].name+" في الكلمة"],
+    hasW&&["g-read","🎤","اقرئي بصوتك","اقرئي الكلمة وأنا أسمعكِ"],
+    nMatch>=4&&["g-match","🖼️","صِلي بالصورة","صِلي كل كلمة بصورتها"]].filter(Boolean);
+  view.innerHTML=`<section class="panel"><h2>ألعاب درس «${l.title}» 🌟</h2>
+    <div class="games">${G.map(([id,ic,t,d])=>`<button class="game" data-go="${id}"><span class="ic">${ic}</span><b>${t}</b><span>${d}</span></button>`).join("")}</div>
+    <div class="row"><button class="btn ghost" data-go="home">📚 تغيير الدرس</button></div></section>`;
+}
 
 /* ---------- إطار الجولة ---------- */
 const ROUNDS=6;
@@ -278,28 +303,30 @@ function finish(title,earned,again){
   addStar(earned); confetti(); chime(true); say("أحسنتِ يا سارة! أنهيتِ اللعبة وربحتِ نجومًا");
   view.innerHTML=`<section class="panel play"><div class="pic">🏅</div><div class="win">أحسنتِ يا سارة!</div>
    <p class="hint">أنهيتِ «${title}» وربحتِ ${"⭐".repeat(earned)}</p>
-   <div class="row" style="justify-content:center"><button class="btn sun" data-go="${again}">العبي مرة ثانية</button><button class="btn ghost" data-go="games">ألعاب أخرى</button></div></section>`;
+   <div class="row" style="justify-content:center"><button class="btn sun" data-go="${again}">العبي مرة ثانية</button><button class="btn ghost" data-go="games">ألعاب أخرى</button><button class="btn ghost" data-go="home">درس آخر</button></div></section>`;
 }
 function shakeEl(el){el.classList.remove("shake");void el.offsetWidth;el.classList.add("shake")}
+const wait=ms=>new Promise(r=>setTimeout(r,ms));
 
 /* ---------- 1) تهجّي الكلمة ---------- */
+const CAND=["َ","ِ","ُ","ْ","َّ","ِّ","ُّ","ً","ٍ","ٌ"].map(m=>("ب"+m).normalize("NFC").slice(1));
 function variants(u){
-  const b=base(u), out=[];
-  if(!mark(u)) return [];
-  for(const m of ["َ","ِ","ُ",SUKUN]) if(m!==mark(u) && !(m==="ِ"&&b==="أ") && !(m===SUKUN&&"اأإ".includes(b))) out.push(b+m);
-  return out;
+  const b=base(u);
+  if(!mark(u)) return "اوي".includes(b) ? [..."اوي"].filter(x=>x!==b) : [];
+  if("اآى".includes(b)) return [];
+  return shuffle(CAND.filter(m=>m!==mark(u) && !(b==="أ"&&(m.includes(SUKUN)||m.includes(SHADDA))))).slice(0,2).map(m=>(b+m).normalize("NFC"));
 }
 let spellHide=false;
 function gSpell(){
-  const list=pick(WORDS,ROUNDS); let i=0, mistakes=0;
+  const list=pick(words(),ROUNDS); let i=0, mistakes=0;
   const round=()=>{
-    if(i>=ROUNDS) return finish("تهجّي الكلمة",Math.max(1,5-Math.floor(mistakes/3)),"g-spell");
+    if(i>=list.length) return finish("تهجّي الكلمة",Math.max(1,5-Math.floor(mistakes/3)),"g-spell");
     const [w,em]=list[i], us=units(w);
-    let distract=shuffle(us.flatMap(variants)).filter(d=>!us.includes(d)).slice(0,Math.min(4,us.length));
+    const distract=shuffle(us.flatMap(variants)).filter(d=>!us.includes(d)).slice(0,Math.min(4,us.length));
     const tiles=shuffle([...us,...distract]);
     let pos=0, wrongHere=0;
     view.innerHTML=frame("تهجّي الكلمة 🧩",i,`
-      <div class="pic">${em}</div>
+      <div class="pic">${em||"📝"}</div>
       <div class="target big ${spellHide?'':'faint'}" id="tg" ${spellHide?'hidden':''}>${w}</div>
       <div class="row" style="justify-content:center"><button class="btn ghost" id="hear">🔊 اسمعي الكلمة</button>
         <label class="toggle"><input type="checkbox" id="hide" ${spellHide?'checked':''}> تحدٍّ: أخفي الكلمة</label></div>
@@ -311,22 +338,18 @@ function gSpell(){
     say(w);
     document.querySelectorAll(".tiles .tile").forEach(btn=>btn.onclick=async()=>{
       const t=btn.dataset.t, want=us[pos];
+      if(pos>=us.length) return;
       if(t===want){
         btn.classList.add("used"); document.querySelectorAll(".tile.glow").forEach(x=>x.classList.remove("glow"));
         const slot=document.querySelector(`.slot[data-k="${pos}"]`); slot.textContent=t; slot.classList.add("filled");
         pos++; wrongHere=0; setMsg(describe(t),"good"); sayParts(spoken(t));
-        if(pos===us.length){
-          chime(true); setMsg(praise()+" "+us.join(" ـ ")+" = "+w,"good");
-          await new Promise(r=>setTimeout(r,500)); await sayParts([praise(), w]);
-          i++; setTimeout(round,700);
-        }
+        if(pos===us.length){ chime(true); const pr=praise(); setMsg(pr+" "+w,"good");
+          await wait(900); await sayParts([pr, w]); i++; setTimeout(round,600); }
       } else {
         mistakes++; wrongHere++; chime(false); shakeEl(btn);
-        let txt;
-        if(base(t)===base(want)) txt=`الحرف صحيح، لكن انتبهي للحركة: نريد ${want} — ${describe(want)}`;
-        else txt=`ليس هذا. اخترتِ ${NAMES[base(t)]||t}، ونحتاج الآن ${describe(want)}`;
-        setMsg(txt,"bad");
-        sayParts(base(t)===base(want) ? ["الحرف صحيح، لكن انتبهي للحركة", ...spoken(want)] : ["ليس هذا الحرف","نحتاج", ...spoken(want)]);
+        const same=base(t)===base(want);
+        setMsg(same?`الحرف صحيح، لكن انتبهي للحركة: نريد ${want} (${describe(want)})`:`ليس هذا. نحتاج الآن ${describe(want)}`,"bad");
+        sayParts(same?["الحرف صحيح، لكن انتبهي للحركة",...spoken(want)]:["ليس هذا الحرف","نحتاج",...spoken(want)]);
         if(wrongHere>=2){ const ok=[...document.querySelectorAll(".tiles .tile:not(.used)")].find(x=>x.dataset.t===want); ok&&ok.classList.add("glow"); }
       }
     });
@@ -337,45 +360,54 @@ function gSpell(){
 /* ---------- 2) اسمعي واختاري ---------- */
 function gListen(){
   let i=0, wrong=0;
+  const W=words().map(x=>x[0]), Sy=syls().map(x=>x[0]);
   const round=()=>{
     if(i>=ROUNDS) return finish("اسمعي واختاري",Math.max(1,5-wrong),"g-listen");
-    const pool=i%2?WORDS.map(x=>x[0]):SYL;
+    const pool=(W.length&&Sy.length)?(i%2?W:Sy):(W.length?W:Sy);
     const ans=pool[Math.random()*pool.length|0];
     const opts=shuffle([ans,...pick(pool.filter(x=>x!==ans),3)]);
     view.innerHTML=frame("اسمعي واختاري 👂",i,`
       <button class="btn sun" id="hear" style="font-size:26px">🔊 اسمعي</button>
       <div class="opts">${opts.map(o=>`<button class="tile" data-o="${o}">${colorWord(o)}</button>`).join("")}</div>`);
     $("#hear").onclick=()=>say(ans); say(ans);
-    let tries=0;
+    let done=false;
     document.querySelectorAll(".opts .tile").forEach(b=>b.onclick=async()=>{
-      if(b.dataset.o===ans){ b.classList.add("right"); chime(true); const pr=praise(); setMsg(pr,"good"); await say(pr); i++; setTimeout(round,600); }
-      else { tries++; wrong++; b.classList.add("wrong"); chime(false); shakeEl(b); setMsg("هذه «"+b.dataset.o+"». اسمعي مرة ثانية","bad");
-        
+      if(done) return;
+      if(b.dataset.o===ans){ done=true; b.classList.add("right"); chime(true); const pr=praise(); setMsg(pr,"good"); await say(pr); i++; setTimeout(round,500); }
+      else { wrong++; b.classList.add("wrong"); chime(false); shakeEl(b); setMsg("هذه «"+b.dataset.o+"». اسمعي مرة ثانية","bad");
         sayParts(["ليست هذه، اسمعي مرة ثانية", ans]); }
     });
   };
   round();
 }
 
-/* ---------- 3) أين الساكن؟ ---------- */
+/* ---------- 3) أين الحرف المطلوب؟ ---------- */
+function hideMark(u,h){
+  if(!h) return u;
+  if(h==="tanween") return u.replace(/[ً-ٍ]/g,"");
+  return u.replace(h,"");
+}
 function gFind(){
-  const list=pick(WORDS,ROUNDS); let i=0, wrong=0;
+  const f=cur().focus, F=FOCUS[f];
+  const cands=words().filter(([w])=>{const us=units(w);return us.some((u,i)=>isFocus(f,u,i,us));});
+  const list=pick(cands,ROUNDS); let i=0, wrong=0;
   const round=()=>{
-    if(i>=ROUNDS) return finish("أين الساكن؟",Math.max(1,5-wrong),"g-find");
-    const [w,em]=list[i], us=units(w), need=us.filter(hasSukun).length; let found=0;
-    view.innerHTML=frame("أين الحرف الساكن؟ 🔍",i,`
-      <div class="pic">${em}</div>
-      <p class="hint">السكون اختفى! اضغطي على الحرف الذي يجب أن يكون <b>ساكنًا</b>${need>1?" (في هذه الكلمة "+need+" حروف ساكنة)":""}</p>
-      <div class="letters">${us.map((u,k)=>`<button class="tile" data-k="${k}">${u.replace(SUKUN,"")}</button>`).join("")}</div>
+    if(i>=list.length) return finish("أين "+F.name+"؟",Math.max(1,5-wrong),"g-find");
+    const [w,em]=list[i], us=units(w), need=us.filter((u,k)=>isFocus(f,u,k,us)).length; let found=0;
+    view.innerHTML=frame("أين "+F.name+"؟ 🔍",i,`
+      <div class="pic">${em||"🔍"}</div>
+      <p class="hint">${F.q}${need>1?" (في هذه الكلمة "+need+")":""}</p>
+      <div class="letters">${us.map((u,k)=>`<button class="tile" data-k="${k}">${hideMark(u,F.hide)}</button>`).join("")}</div>
       <button class="btn ghost" id="hear">🔊 اسمعي الكلمة</button>`);
     $("#hear").onclick=()=>say(w); say(w);
     document.querySelectorAll(".letters .tile").forEach(b=>b.onclick=async()=>{
-      const u=us[+b.dataset.k]; if(b.classList.contains("ok")) return;
-      if(hasSukun(u)){ b.textContent=u; b.classList.add("ok"); found++; chime(true);
-        const q=QALQALA.includes(base(u))?" وهو من حروف القلقلة!":"";
-        setMsg(`صحيح! ${NAMES[base(u)]} ساكنة: ${u}${q}`,"good"); await sayParts(["صحيح!", NAMES[base(u)], "سكون", q?"وهو من حروف القلقلة":null]);
-        if(found===need){ await sayParts([praise(), w]); i++; setTimeout(round,600); } }
-      else { wrong++; chime(false); shakeEl(b); setMsg(`هذا الحرف ${describe(u)}، ليس ساكنًا`,"bad"); sayParts(["هذا الحرف ليس ساكنًا"]); }
+      const k=+b.dataset.k, u=us[k]; if(b.classList.contains("ok")) return;
+      if(isFocus(f,u,k,us)){ b.textContent=u; b.classList.add("ok"); found++; chime(true);
+        const q=f==="sukun"&&QALQALA.includes(base(u));
+        setMsg(`صحيح! ${describe(u)}${q?" وهو من حروف القلقلة!":""}`,"good");
+        await sayParts(["صحيح!", ...spoken(u), q?"وهو من حروف القلقلة":null]);
+        if(found===need){ await sayParts([praise(), w]); i++; setTimeout(round,500); } }
+      else { wrong++; chime(false); shakeEl(b); setMsg(`هذا الحرف ${describe(u)}. حاولي مرة ثانية`,"bad"); say("حاولي مرة ثانية"); }
     });
   };
   round();
@@ -383,42 +415,48 @@ function gFind(){
 
 /* ---------- 4) اقرئي بصوتك ---------- */
 const norm=s=>s.replace(/[ً-ْٰـ]/g,"").replace(/[أإآ]/g,"ا").replace(/ة/g,"ه").replace(/ى/g,"ي").replace(/[^ء-ي]/g,"");
-let dictBound=false, dictCb=null;
+let listener=null;
+function makeListener(){
+  if(dict){ let cb=null, bound=false; return { start(onText,onState){ cb=onText;
+      if(!bound){ bound=true; dict.onPartial(({text})=>{const h=$("#heard"); if(h) h.textContent=text;}); dict.onFinal(({text})=>cb&&cb(text)); dict.onState(({state})=>onState(state==="listening"||state==="starting")); }
+      const p=dict.start({language:"ar"}); p.catch(err=>setMsg(err&&err.code==="not_granted"?"لم يُسمح بالميكروفون.":"تعذّر تشغيل الميكروفون، جربي مرة ثانية","bad")); },
+    stop(){ dict.stop().catch(()=>{}); } }; }
+  const SR=window.SpeechRecognition||window.webkitSpeechRecognition; if(!SR) return null;
+  let r=null; return { start(onText,onState){ r=new SR(); r.lang="ar-SA"; r.interimResults=true;
+      r.onresult=e=>{const res=e.results[e.results.length-1]; const h=$("#heard"); if(h) h.textContent=res[0].transcript; if(res.isFinal) onText(res[0].transcript);};
+      r.onstart=()=>onState(true); r.onend=()=>onState(false); r.onerror=()=>{onState(false); setMsg("تعذّر تشغيل الميكروفون، جربي مرة ثانية","bad");};
+      try{ r.start(); }catch(e){} }, stop(){ try{ r&&r.stop(); }catch(e){} } };
+}
 function gRead(){
-  if(!dict){
+  listener=listener||makeListener();
+  if(!listener){
     view.innerHTML=`<section class="panel play"><div class="pic">🎤</div><h2>اقرئي بصوتك</h2>
-      <p class="hint">الميكروفون غير متاح هنا. افتحي الصفحة في متصفح Chrome على الكمبيوتر وأنتِ داخلة لحسابك. في الوقت الحالي جربي «تهجّي الكلمة».</p>
+      <p class="hint">الميكروفون غير متاح في هذا المتصفح. افتحي اللعبة في متصفح Chrome على الكمبيوتر. الآن جربي «تهجّي الكلمة».</p>
       <button class="btn sun" data-go="g-spell">🧩 تهجّي الكلمة</button></section>`; return;
   }
-  const list=pick(WORDS,ROUNDS); let i=0, wrong=0;
-  if(!dictBound){ dictBound=true;
-    dict.onPartial(({text})=>{const h=$("#heard"); if(h) h.textContent=text;});
-    dict.onFinal(({text})=>{ dictCb&&dictCb(text); });
-    dict.onState(({state})=>{const m=$("#mic"); if(m) m.classList.toggle("live",state==="listening"||state==="starting");});
-  }
+  const list=pick(words(),ROUNDS); let i=0, wrong=0;
   const round=()=>{
-    if(i>=ROUNDS) return finish("اقرئي بصوتك",Math.max(1,5-wrong),"g-read");
+    if(i>=list.length) return finish("اقرئي بصوتك",Math.max(1,5-wrong),"g-read");
     const [w,em]=list[i];
     view.innerHTML=frame("اقرئي الكلمة بصوت واضح 🎤",i,`
-      <div class="pic">${em}</div><div class="target">${colorWord(w)}</div>
+      <div class="pic">${em||"🎤"}</div><div class="target">${colorWord(w)}</div>
       <button class="mic" id="mic" aria-label="اضغطي وتكلمي">🎤</button>
       <div class="heard" id="heard">اضغطي على الميكروفون واقرئي</div>
       <div class="row" style="justify-content:center"><button class="btn ghost" id="hear">🔊 كيف تُقرأ؟</button><button class="btn ghost" id="skip">التالية ←</button></div>`);
     $("#hear").onclick=()=>say(w);
-    $("#skip").onclick=()=>{i++;round()};
-    let timer=null;
+    $("#skip").onclick=()=>{listener.stop(); i++; round()};
+    let timer=null, handled=false;
     $("#mic").onclick=()=>{
-      const p=dict.start({language:"ar"}); p.catch(err=>{ setMsg(err&&err.code==="not_granted"?"لم يُسمح بالميكروفون. يمكنك تفعيله من قائمة الأذونات.":"تعذّر تشغيل الميكروفون، جربي مرة ثانية","bad"); });
-      $("#heard").textContent="أسمعكِ... 👂"; setMsg("");
-      clearTimeout(timer); timer=setTimeout(()=>dict.stop().catch(()=>{}),6000);
-      dictCb=async text=>{
-        dictCb=null; clearTimeout(timer); dict.stop().catch(()=>{});
+      handled=false; $("#heard").textContent="أسمعكِ... 👂"; setMsg("");
+      listener.start(async text=>{
+        if(handled) return; handled=true; clearTimeout(timer); listener.stop();
         $("#heard").textContent="سمعتُ: "+text;
         const h=norm(text), t=norm(w);
-        if(h.includes(t) || (t.startsWith("ا") && h.includes(t.slice(1)))){
-          chime(true); const pr=praise(); setMsg(pr+" قراءة صحيحة ✅","good"); await say(pr); i++; setTimeout(round,900);
+        if(h.includes(t) || (t.startsWith("ا") && h.includes(t.slice(1))) || (t.startsWith("ال") && h.includes(t.slice(2)))){
+          chime(true); const pr=praise(); setMsg(pr+" قراءة صحيحة ✅","good"); await say(pr); i++; setTimeout(round,800);
         } else { wrong++; chime(false); setMsg("قريب! اسمعي النطق الصحيح وجربي مرة ثانية: "+w,"bad"); await sayParts(["اسمعي جيدًا، وجربي مرة ثانية", w]); }
-      };
+      }, on=>{ const m=$("#mic"); if(m) m.classList.toggle("live",on); });
+      clearTimeout(timer); timer=setTimeout(()=>listener.stop(),6000);
     };
   };
   round();
@@ -426,20 +464,20 @@ function gRead(){
 
 /* ---------- 5) صِلي بالصورة ---------- */
 function gMatch(){
-  let i=0, wrong=0; const SETS=3;
+  let i=0, wrong=0; const SETS=3; const pool=words().filter(x=>x[1]);
   const round=()=>{
     if(i>=SETS) return finish("صِلي بالصورة",Math.max(1,5-wrong),"g-match");
-    const set=pick(WORDS,4); const pics=shuffle(set); let sel=null, done=0;
+    const set=pick(pool,4); const pics=shuffle(set); let sel=null, done=0;
     view.innerHTML=`<section class="panel play"><h2>صِلي الكلمة بصورتها 🖼️</h2>
       <p class="hint">اضغطي على كلمة، ثم على صورتها (المجموعة ${i+1} من ${SETS})</p>
-      <div class="match"><div class="col">${set.map(([w])=>`<button class="tile" data-w="${w}" style="font-size:34px">${colorWord(w)}</button>`).join("")}</div>
+      <div class="match"><div class="col">${set.map(([w])=>`<button class="tile" data-w="${w}" style="font-size:32px">${colorWord(w)}</button>`).join("")}</div>
       <div class="col">${pics.map(([w,e])=>`<button class="tile" data-p="${w}" style="font-size:46px">${e}</button>`).join("")}</div></div>
       <div class="msg" id="msg"></div></section>`;
     document.querySelectorAll("[data-w]").forEach(b=>b.onclick=()=>{document.querySelectorAll("[data-w]").forEach(x=>x.classList.remove("sel"));b.classList.add("sel");sel=b;say(b.dataset.w)});
     document.querySelectorAll("[data-p]").forEach(b=>b.onclick=async()=>{
       if(!sel){setMsg("اختاري الكلمة أولًا","bad");return}
       if(b.dataset.p===sel.dataset.w){ b.classList.add("right");sel.classList.add("right");sel.classList.remove("sel");sel=null;done++;chime(true);setMsg(praise(),"good");
-        if(done===4){await say(praise());i++;setTimeout(round,600)} }
+        if(done===4){await say(praise());i++;setTimeout(round,500)} }
       else { wrong++;chime(false);shakeEl(b);setMsg("ليست هذه الصورة، جربي مرة ثانية","bad");say("ليست هذه الصورة، جربي مرة ثانية"); }
     });
   };
@@ -456,5 +494,5 @@ function confetti(){
     if(++f<180) requestAnimationFrame(tick); else x.clearRect(0,0,c.width,c.height);})();
 }
 
-lesson();
+go("home");
 </script>
