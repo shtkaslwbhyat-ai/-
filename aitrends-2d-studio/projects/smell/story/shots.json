@@ -1,0 +1,3684 @@
+{
+ "title": "ماذا لو كانت كل رائحة أقوى بألف مرة؟",
+ "duration": 536.749,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 2.15,
+   "line": "ماذا لو كانت كل رائحة أقوى بألف مرة؟",
+   "scene": "title ",
+   "set": "",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "title",
+    "lines": [
+     "ماذا لو",
+     "كانت كل رائحة أقوى بألف مرة؟"
+    ]
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s002",
+   "start": 2.15,
+   "end": 4.09,
+   "line": "تشم المطر قبل أن يسقط.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": "think",
+      "expr": "awe",
+      "f": 1,
+      "s": 1.3
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "rain": true,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s003",
+   "start": 4.09,
+   "end": 7.19,
+   "line": "تعرف ماذا طبخ جيرانك في العمارة كلها.",
+   "scene": "insert building",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "building"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s004",
+   "start": 7.19,
+   "end": 12.05,
+   "line": "وتشم المرض في جسد إنسان... قبل أن يعرف به الأطباء بسنوات.",
+   "scene": "insert nose",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "nose"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s005",
+   "start": 12.05,
+   "end": 16.59,
+   "line": "هذا الأخير ليس خيالا. هناك امرأة حقيقية فعلته.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "هذا ليس خيالا",
+    "set": "archive",
+    "str2": "امرأة حقيقية فعلته",
+    "at2": 1.2
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s006",
+   "start": 16.59,
+   "end": 24.03,
+   "line": "وفي آخر هذه الحلقة ستعرف أن أنفك أقوى بكثير مما قيل لك... ولماذا يخفي عنك دماغك معظم الروائح عمدا.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "في آخر الحلقة: لماذا يخفي دماغك الروائح؟",
+    "set": "archive",
+    "coral": true,
+    "size": 70
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s007",
+   "start": 24.03,
+   "end": 27.13,
+   "line": "اسمها جوي ميلن، ممرضة اسكتلندية.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "JOY",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.7
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "جوي ميلن — إسكتلندا",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 1.0299999999999998
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s008",
+   "start": 27.13,
+   "end": 29.96,
+   "line": "ورثت عن جدتها حاسة شم حادة بشكل غير عادي، يسميها الأطباء فرط الشم.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "فرط الشم",
+    "label": "موروث من جدتها",
+    "size": 150
+   },
+   "notes": ""
+  },
+  {
+   "id": "s009",
+   "start": 29.96,
+   "end": 32.67,
+   "line": "ورثت عن جدتها حاسة شم حادة بشكل غير عادي، يسميها الأطباء فرط الشم.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "فرط الشم",
+    "label": "موروث من جدتها",
+    "size": 150,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s010",
+   "start": 32.67,
+   "end": 37.64,
+   "line": "وتروي أنها لاحظت يوما تغيرا في رائحة زوجها ليس. رائحة ثقيلة تشبه رائحة العفن الخفيف... لم تكن موجودة من قبل.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "JOY",
+      "x": 0.62,
+      "pose": "think",
+      "expr": "thinking",
+      "f": -1
+     },
+     {
+      "c": "LES",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "رائحة جديدة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 2.73
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s011",
+   "start": 37.64,
+   "end": 41.83,
+   "line": "وتروي أنها لاحظت يوما تغيرا في رائحة زوجها ليس. رائحة ثقيلة تشبه رائحة العفن الخفيف... لم تكن موجودة من قبل.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "JOY",
+      "x": 0.62,
+      "pose": "think",
+      "expr": "thinking",
+      "f": -1
+     },
+     {
+      "c": "LES",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.05
+     },
+     {
+      "s": "رائحة جديدة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s012",
+   "start": 41.83,
+   "end": 43.77,
+   "line": "لم يشمها أحد غيرها.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "JOY",
+    "set": "home",
+    "expr": "worried",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s013",
+   "start": 43.77,
+   "end": 47.32,
+   "line": "وتروي العائلة أن ليس تغير أيضا في تلك السنوات: صار أكثر انفعالا، وأبعد، وأقل صبرا. وكانت جوي تشم التغير كل يوم... دون أن تعرف له اسما.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "LES",
+      "x": 0.45,
+      "pose": "crossArms",
+      "expr": "angry",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "JOY",
+      "x": 0.65,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.5
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s014",
+   "start": 47.32,
+   "end": 51.76,
+   "line": "وتروي العائلة أن ليس تغير أيضا في تلك السنوات: صار أكثر انفعالا، وأبعد، وأقل صبرا. وكانت جوي تشم التغير كل يوم... دون أن تعرف له اسما.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "LES",
+      "x": 0.45,
+      "pose": "crossArms",
+      "expr": "angry",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "JOY",
+      "x": 0.65,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.5
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s015",
+   "start": 51.76,
+   "end": 55.25,
+   "line": "وتروي العائلة أن ليس تغير أيضا في تلك السنوات: صار أكثر انفعالا، وأبعد، وأقل صبرا. وكانت جوي تشم التغير كل يوم... دون أن تعرف له اسما.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "LES",
+      "x": 0.45,
+      "pose": "crossArms",
+      "expr": "angry",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "JOY",
+      "x": 0.65,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.5
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s016",
+   "start": 55.25,
+   "end": 60.55,
+   "line": "وظنت في البداية أن السبب عمله الطويل، أو أنه لا يهتم بنظافته كما كان.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "JOY",
+    "set": "home",
+    "expr": "confused",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s017",
+   "start": 60.55,
+   "end": 64.4,
+   "line": "وبعد نحو اثني عشر عاما، في عام ألف وتسعمئة وستة وثمانين، شخص ليس بمرض باركنسون وهو في الخامسة والأربعين.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "1986",
+    "label": "تشخيص باركنسون — في الخامسة والأربعين",
+    "size": 160
+   },
+   "notes": ""
+  },
+  {
+   "id": "s018",
+   "start": 64.4,
+   "end": 68.83,
+   "line": "وبعد نحو اثني عشر عاما، في عام ألف وتسعمئة وستة وثمانين، شخص ليس بمرض باركنسون وهو في الخامسة والأربعين.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "1986",
+    "label": "تشخيص باركنسون — في الخامسة والأربعين",
+    "size": 160,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s019",
+   "start": 68.83,
+   "end": 72.63,
+   "line": "سنوات طويلة مرت قبل أن تربط جوي بين الأمرين.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "JOY",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "f": 1,
+      "chair": true,
+      "s": 1.5
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s020",
+   "start": 72.63,
+   "end": 76.49,
+   "line": "ثم ذهبت مع زوجها إلى لقاء لمجموعة دعم لمرضى باركنسون.",
+   "scene": "stage studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "studio",
+    "chars": [
+     {
+      "c": "JOY",
+      "x": 0.3,
+      "pose": "stand",
+      "expr": "shocked",
+      "f": 1
+     },
+     {
+      "c": "LES",
+      "x": 0.42,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.6,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1,
+      "chair": true
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.78,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1,
+      "chair": true
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s021",
+   "start": 76.49,
+   "end": 79.37,
+   "line": "وما إن دخلت القاعة حتى توقفت.",
+   "scene": "face studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "JOY",
+    "set": "studio",
+    "expr": "shocked",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s022",
+   "start": 79.37,
+   "end": 83.17,
+   "line": "الرائحة نفسها... في كل مكان. عند كل المرضى.",
+   "scene": "insert nose",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "nose",
+    "label": "الرائحة نفسها!"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s023",
+   "start": 83.17,
+   "end": 85.99,
+   "line": "حينها فهمت: للمرض رائحة.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "للمرض رائحة",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s024",
+   "start": 85.99,
+   "end": 88.72,
+   "line": "وسمع بقصتها باحث الأعصاب تيلو كونات في جامعة إدنبرة، فقرر أن يختبرها.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "LAB",
+      "x": 0.6,
+      "pose": "explain",
+      "expr": "thinking",
+      "f": -1
+     },
+     {
+      "c": "JOY",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "تيلو كونات — إدنبرة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 1.92
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s025",
+   "start": 88.72,
+   "end": 91.45,
+   "line": "وسمع بقصتها باحث الأعصاب تيلو كونات في جامعة إدنبرة، فقرر أن يختبرها.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "LAB",
+      "x": 0.6,
+      "pose": "explain",
+      "expr": "thinking",
+      "f": -1
+     },
+     {
+      "c": "JOY",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.05
+     },
+     {
+      "s": "تيلو كونات — إدنبرة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s026",
+   "start": 91.45,
+   "end": 96.18,
+   "line": "أعطوها اثني عشر قميصا. ستة لبسها مرضى بباركنسون، وستة لبسها أشخاص أصحاء. شمت جوي القمصان واحدا واحدا.",
+   "scene": "insert shirts",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "shirts"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s027",
+   "start": 96.18,
+   "end": 100.23,
+   "line": "أعطوها اثني عشر قميصا. ستة لبسها مرضى بباركنسون، وستة لبسها أشخاص أصحاء. شمت جوي القمصان واحدا واحدا.",
+   "scene": "insert shirts",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "shirts",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s028",
+   "start": 100.23,
+   "end": 104.16,
+   "line": "تعرفت على قمصان المرضى الستة كلها. وأخطأت مرة واحدة فقط: قالت إن أحد الأصحاء مصاب أيضا.",
+   "scene": "insert shirts",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "shirts",
+    "cam": {
+     "z0": 1.1,
+     "z1": 1.2,
+     "x0": 0,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s029",
+   "start": 104.16,
+   "end": 107.97,
+   "line": "تعرفت على قمصان المرضى الستة كلها. وأخطأت مرة واحدة فقط: قالت إن أحد الأصحاء مصاب أيضا.",
+   "scene": "insert shirts",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "shirts",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s030",
+   "start": 107.97,
+   "end": 110.98,
+   "line": "لكن بعد نحو ثمانية أشهر... جاء الخبر. ذلك الشخص شخص بمرض باركنسون.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "hit",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "data",
+    "value": "8 أشهر",
+    "label": "ثم شُخّص بالمرض",
+    "size": 170,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s031",
+   "start": 110.98,
+   "end": 114.145,
+   "line": "لكن بعد نحو ثمانية أشهر... جاء الخبر. ذلك الشخص شخص بمرض باركنسون.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "8 أشهر",
+    "label": "ثم شُخّص بالمرض",
+    "size": 170,
+    "color": "coral",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s032",
+   "start": 114.145,
+   "end": 116.73,
+   "line": "أنف جوي سبق الطب كله.",
+   "scene": "face clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "JOY",
+    "set": "clinic",
+    "expr": "determined",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s033",
+   "start": 116.73,
+   "end": 120.24,
+   "line": "وصارت قصتها بعد ذلك موضوع أبحاث في أكثر من جامعة، وتحدثت عنها الصحف والمجلات العلمية حول العالم.",
+   "scene": "insert news",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "news",
+    "head": "امرأة تشم باركنسون",
+    "who": "JOY"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s034",
+   "start": 120.24,
+   "end": 123.39,
+   "line": "وصارت قصتها بعد ذلك موضوع أبحاث في أكثر من جامعة، وتحدثت عنها الصحف والمجلات العلمية حول العالم.",
+   "scene": "insert news",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "news",
+    "head": "امرأة تشم باركنسون",
+    "who": "JOY",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s035",
+   "start": 123.39,
+   "end": 127.6,
+   "line": "هل هذه قوة خارقة؟ هنا تبدأ المفاجأة الأولى.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "المفاجأة الأولى",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s036",
+   "start": 127.6,
+   "end": 133.19,
+   "line": "جوي شمت المرض في زوجها قبل تشخيصه بسنوات... لكنها لم تكن تعرف ماذا تشم.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "JOY",
+    "set": "home",
+    "expr": "sad",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s037",
+   "start": 133.19,
+   "end": 137.05,
+   "line": "لم يكن أحد في العالم يعرف أن لباركنسون رائحة أصلا.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "DOC",
+      "x": 0.5,
+      "pose": "shrug",
+      "expr": "confused",
+      "f": 1,
+      "s": 1.5
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s038",
+   "start": 137.05,
+   "end": 140.12,
+   "line": "فالرائحة وحدها لا تخبرك بشيء. أنفك يلتقط، أما المعنى فيحتاج إلى معرفة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "الرائحة ≠ المعنى",
+    "label": "الأنف يلتقط… والمعرفة تفسر",
+    "size": 110,
+    "count": 2
+   },
+   "notes": ""
+  },
+  {
+   "id": "s039",
+   "start": 140.12,
+   "end": 143.27,
+   "line": "فالرائحة وحدها لا تخبرك بشيء. أنفك يلتقط، أما المعنى فيحتاج إلى معرفة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "الرائحة ≠ المعنى",
+    "label": "الأنف يلتقط… والمعرفة تفسر",
+    "size": 110,
+    "count": 2,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s040",
+   "start": 143.27,
+   "end": 147.24,
+   "line": "تخيل أن تشم شيئا غريبا في جسد من تحب كل يوم، ولا تعرف: هل هو مرض؟ أم طعام؟ أم مجرد عطر جديد؟ أنف أقوى بألف مرة سيملأ حياتك بأسئلة لا جواب لها.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "YOU",
+    "pose": "think",
+    "expr": "confused",
+    "n": 40,
+    "cards": [
+     "مرض؟",
+     "طعام؟",
+     "عطر؟"
+    ],
+    "cardsX": [
+     0.2,
+     0.5,
+     0.8
+    ],
+    "cardsY": [
+     0.25,
+     0.18,
+     0.25
+    ],
+    "gap": 0.7
+   },
+   "notes": ""
+  },
+  {
+   "id": "s041",
+   "start": 147.24,
+   "end": 151.16,
+   "line": "تخيل أن تشم شيئا غريبا في جسد من تحب كل يوم، ولا تعرف: هل هو مرض؟ أم طعام؟ أم مجرد عطر جديد؟ أنف أقوى بألف مرة سيملأ حياتك بأسئلة لا جواب لها.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "YOU",
+    "pose": "think",
+    "expr": "confused",
+    "n": 40,
+    "cards": [
+     "مرض؟",
+     "طعام؟",
+     "عطر؟"
+    ],
+    "cardsX": [
+     0.2,
+     0.5,
+     0.8
+    ],
+    "cardsY": [
+     0.25,
+     0.18,
+     0.25
+    ],
+    "gap": 0.7,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s042",
+   "start": 151.16,
+   "end": 155.07,
+   "line": "تخيل أن تشم شيئا غريبا في جسد من تحب كل يوم، ولا تعرف: هل هو مرض؟ أم طعام؟ أم مجرد عطر جديد؟ أنف أقوى بألف مرة سيملأ حياتك بأسئلة لا جواب لها.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "YOU",
+    "pose": "think",
+    "expr": "confused",
+    "n": 40,
+    "cards": [
+     "مرض؟",
+     "طعام؟",
+     "عطر؟"
+    ],
+    "cardsX": [
+     0.2,
+     0.5,
+     0.8
+    ],
+    "cardsY": [
+     0.25,
+     0.18,
+     0.25
+    ],
+    "gap": 0.7,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s043",
+   "start": 155.07,
+   "end": 160.291,
+   "line": "ولهذا احتاج الأمر إلى علماء آخرين. في جامعة مانشستر تتبعت الكيميائية بيرديتا باران الرائحة إلى مادة دهنية يفرزها الجلد، تتجمع خصوصا في أعلى الظهر...",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "LAB",
+      "x": 0.5,
+      "pose": "holdFront",
+      "expr": "determined",
+      "f": 1,
+      "prop": "paper",
+      "s": 1.5
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "بيرديتا باران — مانشستر",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 5.24
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s044",
+   "start": 160.291,
+   "end": 165.87,
+   "line": "ولهذا احتاج الأمر إلى علماء آخرين. في جامعة مانشستر تتبعت الكيميائية بيرديتا باران الرائحة إلى مادة دهنية يفرزها الجلد، تتجمع خصوصا في أعلى الظهر...",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "LAB",
+      "x": 0.5,
+      "pose": "holdFront",
+      "expr": "determined",
+      "f": 1,
+      "prop": "paper",
+      "s": 1.5
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.05
+     },
+     {
+      "s": "بيرديتا باران — مانشستر",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s045",
+   "start": 165.87,
+   "end": 169.69,
+   "line": "وهو المكان نفسه الذي لاحظت فيه جوي الرائحة على زوجها.",
+   "scene": "insert bodymap",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bodymap",
+    "spots": [
+     [
+      0,
+      -200,
+      "أعلى الظهر",
+      0.3
+     ]
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s046",
+   "start": 169.69,
+   "end": 172.51,
+   "line": "ويعمل الفريق على اختبار بمسحة من الجلد، ما زال في مرحلة البحث داخل المختبر.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "مسحة جلد",
+    "label": "ما زالت في المختبر",
+    "size": 150
+   },
+   "notes": ""
+  },
+  {
+   "id": "s047",
+   "start": 172.51,
+   "end": 175.35,
+   "line": "ويعمل الفريق على اختبار بمسحة من الجلد، ما زال في مرحلة البحث داخل المختبر.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "مسحة جلد",
+    "label": "ما زالت في المختبر",
+    "size": 150,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s048",
+   "start": 175.35,
+   "end": 177.51,
+   "line": "أما المفاجأة الثانية فأقسى.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "المفاجأة الثانية",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s049",
+   "start": 177.51,
+   "end": 182.51,
+   "line": "في عام ألفين وخمسة عشر مات ليس بسبب المرض، وهو في الخامسة والستين.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "2015",
+    "label": "رحيل لِيس",
+    "size": 170,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s050",
+   "start": 182.51,
+   "end": 185.65,
+   "line": "أنف جوي لم يستطع إنقاذ أقرب الناس إليها.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "JOY",
+    "set": "home",
+    "expr": "cry",
+    "side": 0.3,
+    "rimSide": 1,
+    "tear": 0.6
+   },
+   "notes": ""
+  },
+  {
+   "id": "s051",
+   "start": 185.65,
+   "end": 189.61,
+   "line": "لكنه قد يساعد يوما على اكتشاف المرض مبكرا عند غيره.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "تشخيص مبكر",
+    "label": "أملٌ لغيره",
+    "size": 150
+   },
+   "notes": ""
+  },
+  {
+   "id": "s052",
+   "start": 189.61,
+   "end": 193.19,
+   "line": "وللرائحة وجه آخر لا يرحم: الذاكرة.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "الذاكرة",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s053",
+   "start": 193.19,
+   "end": 197.12,
+   "line": "فإشارات الشم تصل مباشرة تقريبا إلى مناطق العاطفة والذاكرة في الدماغ، إلى اللوزة والحصين، وعلى عكس معظم الحواس الأخرى، لا تمر أولا بالمحطة التي تنظم بقية الإشارات.",
+   "scene": "insert brainpath",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "brainpath"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s054",
+   "start": 197.12,
+   "end": 200.74,
+   "line": "فإشارات الشم تصل مباشرة تقريبا إلى مناطق العاطفة والذاكرة في الدماغ، إلى اللوزة والحصين، وعلى عكس معظم الحواس الأخرى، لا تمر أولا بالمحطة التي تنظم بقية الإشارات.",
+   "scene": "insert brainpath",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "brainpath",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s055",
+   "start": 200.74,
+   "end": 204.79,
+   "line": "فإشارات الشم تصل مباشرة تقريبا إلى مناطق العاطفة والذاكرة في الدماغ، إلى اللوزة والحصين، وعلى عكس معظم الحواس الأخرى، لا تمر أولا بالمحطة التي تنظم بقية الإشارات.",
+   "scene": "insert brainpath",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "brainpath",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s056",
+   "start": 204.79,
+   "end": 208.66,
+   "line": "ولهذا تستطيع رائحة واحدة أن تعيدك عشرين عاما إلى الوراء في ثانية. رائحة بيت جدتك. عطر شخص رحل.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "YOU",
+    "pose": "relaxed",
+    "expr": "awe",
+    "n": 50,
+    "cards": [
+     "بيت الجدة",
+     "عطر من رحل"
+    ],
+    "cardsX": [
+     0.25,
+     0.75
+    ],
+    "gap": 1.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s057",
+   "start": 208.66,
+   "end": 212.47,
+   "line": "ولهذا تستطيع رائحة واحدة أن تعيدك عشرين عاما إلى الوراء في ثانية. رائحة بيت جدتك. عطر شخص رحل.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "YOU",
+    "pose": "relaxed",
+    "expr": "awe",
+    "n": 50,
+    "cards": [
+     "بيت الجدة",
+     "عطر من رحل"
+    ],
+    "cardsX": [
+     0.25,
+     0.75
+    ],
+    "gap": 1.0,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s058",
+   "start": 212.47,
+   "end": 216.42,
+   "line": "كتب الروائي الفرنسي مارسيل بروست عام ألف وتسعمئة وثلاثة عشر مشهدا صار مشهورا: قطعة كعك صغيرة تغمس في الشاي... فتنفتح بطعمها ورائحتها طفولته كلها.",
+   "scene": "insert madeleine",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "madeleine"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s059",
+   "start": 216.42,
+   "end": 220.3,
+   "line": "كتب الروائي الفرنسي مارسيل بروست عام ألف وتسعمئة وثلاثة عشر مشهدا صار مشهورا: قطعة كعك صغيرة تغمس في الشاي... فتنفتح بطعمها ورائحتها طفولته كلها.",
+   "scene": "insert madeleine",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "madeleine",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s060",
+   "start": 220.3,
+   "end": 224.09,
+   "line": "كتب الروائي الفرنسي مارسيل بروست عام ألف وتسعمئة وثلاثة عشر مشهدا صار مشهورا: قطعة كعك صغيرة تغمس في الشاي... فتنفتح بطعمها ورائحتها طفولته كلها.",
+   "scene": "insert madeleine",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "madeleine",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s061",
+   "start": 224.09,
+   "end": 229.16,
+   "line": "كان ذلك في الجزء الأول من روايته الطويلة بحثا عن الزمن المفقود. ومنذ ذلك الحين يسمي بعض الباحثين الذكرى التي توقظها الرائحة فجأة: ظاهرة بروست.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "ظاهرة بروست",
+    "label": "ذكرى توقظها رائحة",
+    "size": 120
+   },
+   "notes": ""
+  },
+  {
+   "id": "s062",
+   "start": 229.16,
+   "end": 233.97,
+   "line": "كان ذلك في الجزء الأول من روايته الطويلة بحثا عن الزمن المفقود. ومنذ ذلك الحين يسمي بعض الباحثين الذكرى التي توقظها الرائحة فجأة: ظاهرة بروست.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "ظاهرة بروست",
+    "label": "ذكرى توقظها رائحة",
+    "size": 120,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s063",
+   "start": 233.97,
+   "end": 238.66,
+   "line": "فتخيل أنفا أقوى بألف مرة: كل زاوية في المدينة توقظ ذكرى. كل شارع يعيد إليك من فقدتهم... دون أن تختار.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": "handsOnHead",
+      "expr": "worried",
+      "f": 1,
+      "s": 1.3
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s064",
+   "start": 238.66,
+   "end": 243.41,
+   "line": "فتخيل أنفا أقوى بألف مرة: كل زاوية في المدينة توقظ ذكرى. كل شارع يعيد إليك من فقدتهم... دون أن تختار.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": "handsOnHead",
+      "expr": "worried",
+      "f": 1,
+      "s": 1.3
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s065",
+   "start": 243.41,
+   "end": 248.7,
+   "line": "والأدب تخيل هذا الأنف فعلا. في رواية العطر، التي نشرها الكاتب الألماني باتريك زوسكيند عام ألف وتسعمئة وخمسة وثمانين، يولد بطل يشم كل شيء في العالم...",
+   "scene": "insert novel",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "novel"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s066",
+   "start": 248.7,
+   "end": 254.21,
+   "line": "والأدب تخيل هذا الأنف فعلا. في رواية العطر، التي نشرها الكاتب الألماني باتريك زوسكيند عام ألف وتسعمئة وخمسة وثمانين، يولد بطل يشم كل شيء في العالم...",
+   "scene": "insert novel",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "novel",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s067",
+   "start": 254.21,
+   "end": 257.49,
+   "line": "إلا شيئا واحدا: لا رائحة لجسده هو.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "يشم كل شيء… إلا نفسه",
+    "set": "archive",
+    "coral": true
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s068",
+   "start": 257.49,
+   "end": 261.82,
+   "line": "وقد بيعت من هذه الرواية ملايين النسخ، وترجمت إلى عشرات اللغات. أقوى أنف في الرواية... لرجل لا يشعر به أحد.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "+20 مليون",
+    "label": "نسخة… بعشرات اللغات",
+    "size": 150
+   },
+   "notes": ""
+  },
+  {
+   "id": "s069",
+   "start": 261.82,
+   "end": 265.79,
+   "line": "وقد بيعت من هذه الرواية ملايين النسخ، وترجمت إلى عشرات اللغات. أقوى أنف في الرواية... لرجل لا يشعر به أحد.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "+20 مليون",
+    "label": "نسخة… بعشرات اللغات",
+    "size": 150,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s070",
+   "start": 265.79,
+   "end": 269.94,
+   "line": "لكن هناك مخلوقات حقيقية تعيش بأنوف أقوى من أنوفنا. في أنف الكلب ما بين مئتين وعشرين وثلاثمئة مليون خلية لالتقاط الروائح، حسب السلالة... وفي أنفك نحو خمسة ملايين إلى ستة.",
+   "scene": "insert sniffbars",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "sniffbars"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s071",
+   "start": 269.94,
+   "end": 274.5,
+   "line": "لكن هناك مخلوقات حقيقية تعيش بأنوف أقوى من أنوفنا. في أنف الكلب ما بين مئتين وعشرين وثلاثمئة مليون خلية لالتقاط الروائح، حسب السلالة... وفي أنفك نحو خمسة ملايين إلى ستة.",
+   "scene": "insert sniffbars",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "sniffbars",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s072",
+   "start": 274.5,
+   "end": 278.63,
+   "line": "لكن هناك مخلوقات حقيقية تعيش بأنوف أقوى من أنوفنا. في أنف الكلب ما بين مئتين وعشرين وثلاثمئة مليون خلية لالتقاط الروائح، حسب السلالة... وفي أنفك نحو خمسة ملايين إلى ستة.",
+   "scene": "insert sniffbars",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "sniffbars",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s073",
+   "start": 278.63,
+   "end": 282.88,
+   "line": "ولهذا تبحث الكلاب عن المفقودين والمخدرات والمتفجرات. ويدرب العلماء الكلاب أيضا على شم أمراض مختلفة في تجارب كثيرة، ونتائجها مشجعة، لكنها لم تصر بعد بديلا عن الفحوص الطبية.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "determined",
+      "f": 1
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "🐕",
+      "x": 0.6,
+      "y": 0.55,
+      "size": 120
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s074",
+   "start": 282.88,
+   "end": 287.42,
+   "line": "ولهذا تبحث الكلاب عن المفقودين والمخدرات والمتفجرات. ويدرب العلماء الكلاب أيضا على شم أمراض مختلفة في تجارب كثيرة، ونتائجها مشجعة، لكنها لم تصر بعد بديلا عن الفحوص الطبية.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "determined",
+      "f": 1
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "🐕",
+      "x": 0.6,
+      "y": 0.55,
+      "size": 120,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s075",
+   "start": 287.42,
+   "end": 291.83,
+   "line": "ولهذا تبحث الكلاب عن المفقودين والمخدرات والمتفجرات. ويدرب العلماء الكلاب أيضا على شم أمراض مختلفة في تجارب كثيرة، ونتائجها مشجعة، لكنها لم تصر بعد بديلا عن الفحوص الطبية.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "PLAIN",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "determined",
+      "f": 1
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    },
+    "labels": [
+     {
+      "s": "🐕",
+      "x": 0.6,
+      "y": 0.55,
+      "size": 120,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s076",
+   "start": 291.83,
+   "end": 295.527,
+   "line": "وحتى الجرذان صارت أبطالا. في كمبوديا عمل جرذ أفريقي عملاق اسمه ماغاوا مع منظمة أبوبو البلجيكية.",
+   "scene": "insert ratfield",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "ratfield"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s077",
+   "start": 295.527,
+   "end": 299.33,
+   "line": "وحتى الجرذان صارت أبطالا. في كمبوديا عمل جرذ أفريقي عملاق اسمه ماغاوا مع منظمة أبوبو البلجيكية.",
+   "scene": "insert ratfield",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "ratfield",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s078",
+   "start": 299.33,
+   "end": 304.04,
+   "line": "شم ماغاوا تسعة وثلاثين لغما أرضيا، وثماني وعشرين قذيفة لم تنفجر، وساعد على تطهير أكثر من مئة وأربعين ألف متر مربع من الأرض.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "39 + 28",
+    "label": "لغما + قذيفة لم تنفجر",
+    "size": 170
+   },
+   "notes": ""
+  },
+  {
+   "id": "s079",
+   "start": 304.04,
+   "end": 308.75,
+   "line": "شم ماغاوا تسعة وثلاثين لغما أرضيا، وثماني وعشرين قذيفة لم تنفجر، وساعد على تطهير أكثر من مئة وأربعين ألف متر مربع من الأرض.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "39 + 28",
+    "label": "لغما + قذيفة لم تنفجر",
+    "size": 170,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s080",
+   "start": 308.75,
+   "end": 312.75,
+   "line": "وفي عام ألفين وعشرين نال الميدالية الذهبية من جمعية بي دي إس إيه البريطانية للشجاعة... أول جرذ في تاريخها ينالها.",
+   "scene": "insert medal",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "medal"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s081",
+   "start": 312.75,
+   "end": 316.73,
+   "line": "وفي عام ألفين وعشرين نال الميدالية الذهبية من جمعية بي دي إس إيه البريطانية للشجاعة... أول جرذ في تاريخها ينالها.",
+   "scene": "insert medal",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "medal",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s082",
+   "start": 316.73,
+   "end": 320.93,
+   "line": "ولأنه خفيف الوزن، لا يفجر الألغام حين يمشي فوقها.",
+   "scene": "insert ratfield",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "ratfield",
+    "cam": {
+     "z0": 1.2,
+     "z1": 1.3,
+     "x0": -200,
+     "x1": -220
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s083",
+   "start": 320.93,
+   "end": 325.61,
+   "line": "وتدرب المنظمة نفسها جرذانا أخرى على شم مرض السل في عينات المرضى.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "السل",
+    "label": "جرذان تشم المرض أيضا",
+    "size": 170
+   },
+   "notes": ""
+  },
+  {
+   "id": "s084",
+   "start": 325.61,
+   "end": 330.45,
+   "line": "والآن إلى العلم، وإلى مفاجأة عن أنفك أنت. كيف نشم أصلا؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "كيف نشمّ أصلا؟",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s085",
+   "start": 330.45,
+   "end": 334.46,
+   "line": "حين تتطاير جزيئات صغيرة جدا من أي شيء، تدخل أنفك وتصل إلى طبقة رقيقة في أعلاه مليئة بالخلايا الشمية.",
+   "scene": "insert nose",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "nose"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s086",
+   "start": 334.46,
+   "end": 338.68,
+   "line": "حين تتطاير جزيئات صغيرة جدا من أي شيء، تدخل أنفك وتصل إلى طبقة رقيقة في أعلاه مليئة بالخلايا الشمية.",
+   "scene": "insert nose",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "nose",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s087",
+   "start": 338.68,
+   "end": 342.62,
+   "line": "وفي عام ألفين وأربعة نال العالمان ريتشارد أكسل وليندا بك جائزة نوبل، لأنهما اكتشفا الجينات التي تصنع مستقبلات الشم.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "نوبل 2004",
+    "label": "أكسل وبك: مستقبلات الشم",
+    "size": 140
+   },
+   "notes": ""
+  },
+  {
+   "id": "s088",
+   "start": 342.62,
+   "end": 346.62,
+   "line": "وفي عام ألفين وأربعة نال العالمان ريتشارد أكسل وليندا بك جائزة نوبل، لأنهما اكتشفا الجينات التي تصنع مستقبلات الشم.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "نوبل 2004",
+    "label": "أكسل وبك: مستقبلات الشم",
+    "size": 140,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s089",
+   "start": 346.62,
+   "end": 350.56,
+   "line": "وكل رائحة لا تشغل مستقبلا واحدا، بل مجموعة منها معا، تماما كما تصنع الحروف القليلة كلمات لا تحصى.",
+   "scene": "insert letters",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "letters"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s090",
+   "start": 350.56,
+   "end": 354.49,
+   "line": "وكل رائحة لا تشغل مستقبلا واحدا، بل مجموعة منها معا، تماما كما تصنع الحروف القليلة كلمات لا تحصى.",
+   "scene": "insert letters",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "letters",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s091",
+   "start": 354.49,
+   "end": 357.93,
+   "line": "وحتى ما تسميه طعما... يأتي معظمه من أنفك.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "النكهة",
+    "label": "معظمها من الأنف",
+    "size": 160
+   },
+   "notes": ""
+  },
+  {
+   "id": "s092",
+   "start": 357.93,
+   "end": 361.27,
+   "line": "ولهذا يفقد الطعام نكهته حين تصاب بالزكام.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sleepy",
+      "f": 1,
+      "chair": true,
+      "s": 1.5
+     }
+    ],
+    "props": [
+     {
+      "k": "table",
+      "x": 0.6,
+      "plate": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s093",
+   "start": 361.27,
+   "end": 366.56,
+   "line": "في عام ألفين وسبعة عشر نشر عالم الأعصاب جون ماكغان مراجعة في مجلة ساينس بعنوان صادم: ضعف حاسة الشم عند الإنسان خرافة من القرن التاسع عشر.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "2017",
+    "label": "«ضعف الشم… خرافة»",
+    "size": 160
+   },
+   "notes": ""
+  },
+  {
+   "id": "s094",
+   "start": 366.56,
+   "end": 372.2,
+   "line": "في عام ألفين وسبعة عشر نشر عالم الأعصاب جون ماكغان مراجعة في مجلة ساينس بعنوان صادم: ضعف حاسة الشم عند الإنسان خرافة من القرن التاسع عشر.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "2017",
+    "label": "«ضعف الشم… خرافة»",
+    "size": 160,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s095",
+   "start": 372.2,
+   "end": 377.31,
+   "line": "ويشرح أن هذه الفكرة بدأت مع العالم الفرنسي بول بروكا، الذي صنف الإنسان عام ألف وثمانمئة وتسعة وسبعين بين المخلوقات التي لا تعتمد على الشم... لا بناء على تجارب، بل على صغر حجم جزء من الدماغ اسمه البصلة الشمية.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "1879",
+    "label": "بروكا: الإنسان لا يعتمد على الشم",
+    "size": 160
+   },
+   "notes": ""
+  },
+  {
+   "id": "s096",
+   "start": 377.31,
+   "end": 382.31,
+   "line": "ويشرح أن هذه الفكرة بدأت مع العالم الفرنسي بول بروكا، الذي صنف الإنسان عام ألف وثمانمئة وتسعة وسبعين بين المخلوقات التي لا تعتمد على الشم... لا بناء على تجارب، بل على صغر حجم جزء من الدماغ اسمه البصلة الشمية.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "1879",
+    "label": "بروكا: الإنسان لا يعتمد على الشم",
+    "size": 160,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s097",
+   "start": 382.31,
+   "end": 387.3,
+   "line": "ويشرح أن هذه الفكرة بدأت مع العالم الفرنسي بول بروكا، الذي صنف الإنسان عام ألف وثمانمئة وتسعة وسبعين بين المخلوقات التي لا تعتمد على الشم... لا بناء على تجارب، بل على صغر حجم جزء من الدماغ اسمه البصلة الشمية.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "1879",
+    "label": "بروكا: الإنسان لا يعتمد على الشم",
+    "size": 160,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s098",
+   "start": 387.3,
+   "end": 391.51,
+   "line": "وتشير المراجعة إلى أن عدد الخلايا العصبية في بصلتنا الشمية قريب من عددها عند الفئران. وليس كل العلماء يذهبون إلى هذا الحد، لكنهم يتفقون على أن أنفنا ليس ضعيفا.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "≈ الفئران",
+    "label": "عدد خلايا البصلة الشمية",
+    "size": 150
+   },
+   "notes": ""
+  },
+  {
+   "id": "s099",
+   "start": 391.51,
+   "end": 395.45,
+   "line": "وتشير المراجعة إلى أن عدد الخلايا العصبية في بصلتنا الشمية قريب من عددها عند الفئران. وليس كل العلماء يذهبون إلى هذا الحد، لكنهم يتفقون على أن أنفنا ليس ضعيفا.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "≈ الفئران",
+    "label": "عدد خلايا البصلة الشمية",
+    "size": 150,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s100",
+   "start": 395.45,
+   "end": 399.48,
+   "line": "وتشير المراجعة إلى أن عدد الخلايا العصبية في بصلتنا الشمية قريب من عددها عند الفئران. وليس كل العلماء يذهبون إلى هذا الحد، لكنهم يتفقون على أن أنفنا ليس ضعيفا.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "≈ الفئران",
+    "label": "عدد خلايا البصلة الشمية",
+    "size": 150,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s101",
+   "start": 399.48,
+   "end": 405.01,
+   "line": "وقبلها بسنوات أجرى فريق في جامعة كاليفورنيا في بيركلي تجربة طريفة. وضعوا خيطا منقوعا بزيت الشوكولاتة على العشب بطول عشرة أمتار، وعصبوا عيون اثنين وثلاثين متطوعا. فزحف ثلثاهم على الأرض يتبعون الرائحة مثل كلاب الصيد... حتى نهاية الأثر.",
+   "scene": "insert trail",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "trail"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s102",
+   "start": 405.01,
+   "end": 410.51,
+   "line": "وقبلها بسنوات أجرى فريق في جامعة كاليفورنيا في بيركلي تجربة طريفة. وضعوا خيطا منقوعا بزيت الشوكولاتة على العشب بطول عشرة أمتار، وعصبوا عيون اثنين وثلاثين متطوعا. فزحف ثلثاهم على الأرض يتبعون الرائحة مثل كلاب الصيد... حتى نهاية الأثر.",
+   "scene": "insert trail",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "trail",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s103",
+   "start": 410.51,
+   "end": 416.02,
+   "line": "وقبلها بسنوات أجرى فريق في جامعة كاليفورنيا في بيركلي تجربة طريفة. وضعوا خيطا منقوعا بزيت الشوكولاتة على العشب بطول عشرة أمتار، وعصبوا عيون اثنين وثلاثين متطوعا. فزحف ثلثاهم على الأرض يتبعون الرائحة مثل كلاب الصيد... حتى نهاية الأثر.",
+   "scene": "insert trail",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "trail",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s104",
+   "start": 416.02,
+   "end": 418.89,
+   "line": "ومع التدريب صاروا أدق وأسرع.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "أدق وأسرع",
+    "label": "بالتدريب",
+    "size": 150
+   },
+   "notes": ""
+  },
+  {
+   "id": "s105",
+   "start": 418.89,
+   "end": 423.57,
+   "line": "وهناك سؤال يختلف فيه العلماء: كم رائحة يستطيع الإنسان أن يميز؟ في عام ألفين وأربعة عشر قدرت دراسة أننا نميز أكثر من ترليون رائحة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "ترليون؟",
+    "label": "دراسة 2014",
+    "size": 170
+   },
+   "notes": ""
+  },
+  {
+   "id": "s106",
+   "start": 423.57,
+   "end": 428.62,
+   "line": "وهناك سؤال يختلف فيه العلماء: كم رائحة يستطيع الإنسان أن يميز؟ في عام ألفين وأربعة عشر قدرت دراسة أننا نميز أكثر من ترليون رائحة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "ترليون؟",
+    "label": "دراسة 2014",
+    "size": 170,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s107",
+   "start": 428.62,
+   "end": 433.63,
+   "line": "لكن في العام التالي انتقد علماء آخرون طريقة الحساب، وقالوا إنها قد تعطي أي رقم تقريبا. والجواب الصادق اليوم: لا أحد يعرف الرقم بالضبط.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "لا أحد يعرف",
+    "label": "الرقم الحقيقي",
+    "size": 140,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s108",
+   "start": 433.63,
+   "end": 438.66,
+   "line": "لكن في العام التالي انتقد علماء آخرون طريقة الحساب، وقالوا إنها قد تعطي أي رقم تقريبا. والجواب الصادق اليوم: لا أحد يعرف الرقم بالضبط.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "لا أحد يعرف",
+    "label": "الرقم الحقيقي",
+    "size": 140,
+    "color": "coral",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s109",
+   "start": 438.66,
+   "end": 443.88,
+   "line": "والآن... إلى ما وعدتك به. لماذا لا تشم رائحة بيتك وأنت فيه؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "الجواب الموعود",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s110",
+   "start": 443.88,
+   "end": 447.45,
+   "line": "لأن دماغك يخفيها عمدا. هذا يسمى التكيف الشمي: بعد دقائق من أي رائحة ثابتة، يتوقف دماغك عن تنبيهك لها... ليبقى جاهزا للرائحة الجديدة.",
+   "scene": "insert nose",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "nose",
+    "fade": true,
+    "label": "التكيف الشمي"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s111",
+   "start": 447.45,
+   "end": 451.53,
+   "line": "لأن دماغك يخفيها عمدا. هذا يسمى التكيف الشمي: بعد دقائق من أي رائحة ثابتة، يتوقف دماغك عن تنبيهك لها... ليبقى جاهزا للرائحة الجديدة.",
+   "scene": "insert nose",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "nose",
+    "fade": true,
+    "label": "التكيف الشمي",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s112",
+   "start": 451.53,
+   "end": 455.36,
+   "line": "لأن دماغك يخفيها عمدا. هذا يسمى التكيف الشمي: بعد دقائق من أي رائحة ثابتة، يتوقف دماغك عن تنبيهك لها... ليبقى جاهزا للرائحة الجديدة.",
+   "scene": "insert nose",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "nose",
+    "fade": true,
+    "label": "التكيف الشمي",
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s113",
+   "start": 455.36,
+   "end": 460.97,
+   "line": "ولهذا لا تشم عطرك أنت بعد دقائق من وضعه، بينما يشمه كل من يقترب منك. وحين تعود إلى بيتك بعد سفر طويل، تشم رائحته للحظات… ثم تختفي.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.45,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.62,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1,
+      "s": 1.5
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s114",
+   "start": 460.97,
+   "end": 465.84,
+   "line": "ولهذا لا تشم عطرك أنت بعد دقائق من وضعه، بينما يشمه كل من يقترب منك. وحين تعود إلى بيتك بعد سفر طويل، تشم رائحته للحظات… ثم تختفي.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.45,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "PLAIN",
+      "x": 0.62,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1,
+      "s": 1.5
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s115",
+   "start": 465.84,
+   "end": 470.4,
+   "line": "رائحة دخان. طعام فاسد. غاز يتسرب.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "YOU",
+    "pose": "stand",
+    "expr": "shocked",
+    "n": 40,
+    "cards": [
+     "دخان",
+     "طعام فاسد",
+     "غاز"
+    ],
+    "cardsX": [
+     0.2,
+     0.5,
+     0.8
+    ],
+    "cardsY": [
+     0.25,
+     0.18,
+     0.25
+    ],
+    "gap": 0.6
+   },
+   "notes": ""
+  },
+  {
+   "id": "s116",
+   "start": 470.4,
+   "end": 474.81,
+   "line": "فأنف أقوى بألف مرة لن ينفعك إذا لم يعرف دماغك ماذا يهمل. سيغرقك في آلاف الروائح... وستضيع بينها الرائحة الوحيدة التي تنقذك.",
+   "scene": "insert bubbles",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bubbles",
+    "n": 44,
+    "pick": true,
+    "label": "الرائحة التي تنقذك"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s117",
+   "start": 474.81,
+   "end": 479.96,
+   "line": "فأنف أقوى بألف مرة لن ينفعك إذا لم يعرف دماغك ماذا يهمل. سيغرقك في آلاف الروائح... وستضيع بينها الرائحة الوحيدة التي تنقذك.",
+   "scene": "insert bubbles",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "bubbles",
+    "n": 44,
+    "pick": true,
+    "label": "الرائحة التي تنقذك",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s118",
+   "start": 479.96,
+   "end": 485.38,
+   "line": "وحتى حين يضعف الشم، يتألم الإنسان. فبعد جائحة كورونا وجدت دراسات كثيرة ارتباطا بين فقد الشم الطويل وبين القلق والاكتئاب وتراجع جودة الحياة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "فقد الشم",
+    "label": "مرتبط بالقلق والاكتئاب",
+    "size": 150,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s119",
+   "start": 485.38,
+   "end": 490.88,
+   "line": "وحتى حين يضعف الشم، يتألم الإنسان. فبعد جائحة كورونا وجدت دراسات كثيرة ارتباطا بين فقد الشم الطويل وبين القلق والاكتئاب وتراجع جودة الحياة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "فقد الشم",
+    "label": "مرتبط بالقلق والاكتئاب",
+    "size": 150,
+    "color": "coral",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s120",
+   "start": 490.88,
+   "end": 494.92,
+   "line": "فأنفك ليس ضعيفا. إنه أقوى مما قيل لك طوال حياتك...",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "أنفك أقوى مما قيل لك",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s121",
+   "start": 494.92,
+   "end": 502.08,
+   "line": "وهو الحاسة الأقرب إلى ذكرياتك ومشاعرك، والحارس الصامت الذي يستيقظ فجأة حين يتغير شيء من حولك.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "home",
+    "expr": "smile",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s122",
+   "start": 502.08,
+   "end": 504.56,
+   "line": "ودماغك هو الذي يقرر ما تشمه.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "الدماغ يقرر",
+    "label": "ما تشمه",
+    "size": 130,
+    "count": 2
+   },
+   "notes": ""
+  },
+  {
+   "id": "s123",
+   "start": 504.56,
+   "end": 507.59,
+   "line": "جوي ميلن لم تملك أنفا أقوى بألف مرة، بل انتبهت إلى رائحة تجاهلها الجميع.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "JOY",
+      "x": 0.5,
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.7
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s124",
+   "start": 507.59,
+   "end": 510.12,
+   "line": "جوي ميلن لم تملك أنفا أقوى بألف مرة، بل انتبهت إلى رائحة تجاهلها الجميع.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "JOY",
+      "x": 0.5,
+      "pose": "relaxed",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.7
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s125",
+   "start": 510.12,
+   "end": 514.6,
+   "line": "والعبرة ليست أن تشم كل شيء... بل أن تنتبه للشيء الصغير الذي تغير.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "انتبه للشيء الصغير الذي تغيّر",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s126",
+   "start": 514.6,
+   "end": 520.16,
+   "line": "فأحيانا يكون أهم ما في حياتك رائحة خفيفة… لا يلتفت إليها أحد غيرك.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "JOY",
+    "set": "home",
+    "expr": "smile",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s127",
+   "start": 520.16,
+   "end": 524.66,
+   "line": "وفي الحلقة القادمة: ماذا لو استطعت حبس أنفاسك ساعة كاملة؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "ماذا لو استطعت حبس أنفاسك ساعة كاملة؟",
+    "set": "archive",
+    "str2": "الحلقة القادمة",
+    "at2": 0.8
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s128",
+   "start": 524.66,
+   "end": 536.749,
+   "line": "والآن سؤال الحلقة: لو خيرت، هل تريد أنف كلب يكشف كل شيء... أم أنفا عاديا يبقي ذكرياتك في مكانها؟ أخبرنا في التعليقات.",
+   "scene": "endscreen ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "endscreen",
+    "q": "لو خُيّرت: أنف كلب… أم أنف عادي يحفظ ذكرياتك؟",
+    "cast": [
+     "JOY",
+     "LES",
+     "LAB",
+     "YOU",
+     "PLAIN",
+     "DOC"
+    ]
+   },
+   "notes": "",
+   "captions": false
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 0.0,
+   "mood": "playful",
+   "intensity": 0.35
+  },
+  {
+   "start": 0.0,
+   "end": 8.0,
+   "mood": "wonder",
+   "intensity": 0.4
+  },
+  {
+   "start": 8.0,
+   "end": 24.03,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 24.03,
+   "end": 72.63,
+   "mood": "calm",
+   "intensity": 0.3
+  },
+  {
+   "start": 72.63,
+   "end": 175.35,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 175.35,
+   "end": 265.79,
+   "mood": "sad",
+   "intensity": 0.35
+  },
+  {
+   "start": 265.79,
+   "end": 325.61,
+   "mood": "hopeful",
+   "intensity": 0.35
+  },
+  {
+   "start": 325.61,
+   "end": 490.88,
+   "mood": "calm",
+   "intensity": 0.3
+  },
+  {
+   "start": 490.88,
+   "end": 536.749,
+   "mood": "hopeful",
+   "intensity": 0.35
+  }
+ ],
+ "sfx": []
+}
