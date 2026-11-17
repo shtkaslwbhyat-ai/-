@@ -397,7 +397,7 @@ const INSERTS = {
     if (k > 0.6 && !info.quiet) glow(g, cx, cy, 380, '#ff3a2a', 0.25 + 0.15 * Math.sin(t * 12));
     const mx = E.W * 0.72, my = E.H * 0.82, h = 520; rr(g, mx - 70, my - h, 140, h, 60); g.fillStyle = '#1a1424'; g.fill(); rr(g, mx - 50, my - 20 - (h - 40) * k, 100, (h - 40) * k, 46); g.fillStyle = mix('#ffcf4a', '#ff3a2a', k); g.fill();
     text(g, 'CO₂', mx, my - h - 60, { size: 80, color: CREAM(), weight: 900, font: FONTS.ui });
-    const alarm = info.quiet ? 'الإنذار صامت…' : (k > 0.7 ? 'تنفّس الآن!' : ''); if (alarm) text(g, alarm, E.W / 2, E.H * 0.14, { size: 90, color: info.quiet ? '#8a9ab0' : '#ff5a3a', weight: 900, alpha: info.quiet ? 1 : 0.6 + 0.4 * Math.sin(t * 14) });
+    const alarm = info.quiet ? 'الإنذار صامت…' : (k > 0.7 ? 'تنفّس الآن!' : ''); if (alarm) text(g, alarm, E.W / 2, E.H * 0.18, { size: 90, color: info.quiet ? '#8a9ab0' : '#ff5a3a', weight: 900, alpha: info.quiet ? 1 : 0.6 + 0.4 * Math.sin(t * 14) });
     if (info.label) text(g, info.label, cx, E.H * 0.22, { size: 52, color: GOLD(), weight: 900 }); },
   blackout: (g, t, info) => { backdrop(g, ['#0a5a7a', '#053a54', '#02202e']); const d = info.dur || 4, k = ease.inOut(prog(t, d * 0.35, d * 0.8));
     drawFigure(g, { x: E.W * 0.5, y: E.H * 0.6 - k * 60, s: 1.3, facing: 1, outfit: CAST[info.who || 'DIVER'], pose: k > 0.3 ? POSES.lie : POSES.dive, expr: k > 0.3 ? 'sleepy' : 'determined', rot: k > 0.3 ? -Math.PI / 2 * 0.8 : 0.9 });
