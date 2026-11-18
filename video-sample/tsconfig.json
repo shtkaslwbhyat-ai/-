@@ -1,1 +1,1 @@
-{"compilerOptions":{"jsx":"react-jsx","module":"ESNext","target":"ES2020","moduleResolution":"bundler","strict":false,"esModuleInterop":true,"skipLibCheck":true}}
+{"compilerOptions":{"jsx":"react-jsx","module":"ESNext","target":"ES2020","moduleResolution":"bundler","strict":false,"esModuleInterop":true,"skipLibCheck":true,"resolveJsonModule":true}}

@@ -9,7 +9,8 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from 'remotion';
-import {continueRender, delayRender} from 'remotion';
+import {continueRender, delayRender, Audio} from 'remotion';
+import DURS from '../public/audio/durations.json';
 
 const HEAD = 'Lalezar';
 const BODY = 'Cairo';
@@ -204,7 +205,7 @@ const PointScene: React.FC<{n: string; title: string; sub: string; note?: string
 // ---------- scenes ----------
 const Hook = () => {
   const frame = useCurrentFrame();
-  const warn = frame >= s(3.8);
+  const warn = frame >= s(5.3);
   return (
     <FadeIn>
       <KenBurns src="hook.png" />
@@ -217,7 +218,7 @@ const Hook = () => {
           قد تغيّر يومك!
         </Banner>
         {warn && (
-          <Sequence from={s(3.8)} layout="none">
+          <Sequence from={s(5.3)} layout="none">
             <Banner bg={C.red} color="#fff" delay={0} rotate={2} size={70} font={BODY}>
               <span style={{fontWeight: 900}}>⚠ لكن انتبه… نوع منها قد يضرّك</span>
             </Banner>
@@ -263,9 +264,9 @@ const TitleCard = () => {
 
 const Secret = () => {
   const frame = useCurrentFrame();
-  const showLabels = frame > s(2.2);
-  const lp = usePop(s(2.2));
-  const rp = usePop(s(4.5));
+  const showLabels = frame > s(5);
+  const lp = usePop(s(5));
+  const rp = usePop(s(13.5));
   return (
     <FadeIn>
       <KenBurns src="compare.png" from={1.02} to={1.08} />
@@ -346,9 +347,9 @@ const Advice = () => (
       <Banner bg={C.yellow} color={C.dark} rotate={-2} size={110}>
         نصيحتنا لك
       </Banner>
-      <Tip icon="✓" color={C.green} delay={20} text="اختر القرفة السيلانية" />
-      <Tip icon="½" color={C.orange} delay={45} text="لا تتجاوز نصف ملعقة صغيرة يومياً من الصينية" />
-      <Tip icon="!" color={C.red} delay={75} text="تتناول أدوية السكر أو مميّعات الدم؟ استشر طبيبك أولاً" />
+      <Tip icon="✓" color={C.green} delay={s(1.8)} text="اختر القرفة السيلانية" />
+      <Tip icon="½" color={C.orange} delay={s(4)} text="لا تتجاوز نصف ملعقة صغيرة يومياً من الصينية" />
+      <Tip icon="!" color={C.red} delay={s(9.5)} text="تتناول أدوية السكر أو مميّعات الدم؟ استشر طبيبك أولاً" />
     </AbsoluteFill>
   </FadeIn>
 );
@@ -388,12 +389,13 @@ const CTA = () => {
 };
 
 // ---------- timeline ----------
+const PAD = 0.7; // seconds of breathing room after each line
 const SCENES: {dur: number; el: React.ReactNode}[] = [
-  {dur: 7, el: <Hook />},
-  {dur: 3.5, el: <TitleCard />},
-  {dur: 7, el: <PointScene n="1" title="مضادات الأكسدة" sub="من أغنى التوابل بها… تساعد جسمك على مقاومة الالتهابات" />},
+  {dur: DURS[0] + PAD, el: <Hook />},
+  {dur: DURS[1] + PAD, el: <TitleCard />},
+  {dur: DURS[2] + PAD, el: <PointScene n="1" title="مضادات الأكسدة" sub="من أغنى التوابل بها… تساعد جسمك على مقاومة الالتهابات" />},
   {
-    dur: 8,
+    dur: DURS[3] + PAD,
     el: (
       <PointScene
         n="2"
@@ -403,10 +405,10 @@ const SCENES: {dur: number; el: React.ReactNode}[] = [
       />
     ),
   },
-  {dur: 7, el: <PointScene n="3" title="سكر أقل بدون ما تحس" sub="طعمها الحلو يغنيك عن جزء من السكر في قهوتك وشايك" />},
-  {dur: 10, el: <Secret />},
-  {dur: 9, el: <Advice />},
-  {dur: 5.5, el: <CTA />},
+  {dur: DURS[4] + PAD, el: <PointScene n="3" title="سكر أقل بدون ما تحس" sub="طعمها الحلو يغنيك عن جزء من السكر في قهوتك وشايك" />},
+  {dur: DURS[5] + PAD, el: <Secret />},
+  {dur: DURS[6] + PAD, el: <Advice />},
+  {dur: DURS[7] + PAD, el: <CTA />},
 ];
 
 export const TOTAL = SCENES.reduce((a, b) => a + s(b.dur), 0);
@@ -419,6 +421,9 @@ export const CinnamonVideo: React.FC = () => {
         const el = (
           <Sequence key={i} from={from} durationInFrames={s(sc.dur)}>
             {sc.el}
+            <Sequence from={s(0.25)} layout="none">
+              <Audio src={staticFile(`audio/scene${i}.mp3`)} />
+            </Sequence>
           </Sequence>
         );
         from += s(sc.dur);
