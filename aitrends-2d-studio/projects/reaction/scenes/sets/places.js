@@ -251,11 +251,15 @@ export function pitch(g, t, cam, o = {}) {
     for (const lx of [-650, 650]) { const x = CX + lx; seg(g, [[x, GY - 480], [x, GY - 980]], 14, '#1a1626'); rr(g, x - 110, GY - 1060, 220, 90, 10); g.fillStyle = '#2a2638'; g.fill(); for (let k = 0; k < 4; k++) circle(g, x - 75 + k * 50, GY - 1015, 18, '#fff8e0'); glow(g, x, GY - 1015, 420, '#fff3d0', night ? 0.55 : 0.3); }
   });
   layer(g, cam, 0.85, (g) => {
-    for (let i = -12; i < 24; i++) { g.fillStyle = i % 2 ? '#2f7a3a' : '#2a6e34'; g.fillRect(CX + i * 160 - E.W, GY - 120, 160, E.H * 2); }
+    if (o.track) { g.fillStyle = '#b8462e'; g.fillRect(-E.W, GY - 120, E.W * 3, E.H * 2); for (let k = 0; k < 6; k++) seg(g, [[-E.W, GY - 110 + k * 46], [E.W * 3, GY - 110 + k * 46]], 4, 'rgba(255,255,255,.7)'); for (let k = 0; k < 6; k++) text(g, String(k + 1), CX - 760, GY - 84 + k * 46, { size: 26, color: 'rgba(255,255,255,.8)', weight: 900 }); }
+    else for (let i = -12; i < 24; i++) { g.fillStyle = i % 2 ? '#2f7a3a' : '#2a6e34'; g.fillRect(CX + i * 160 - E.W, GY - 120, 160, E.H * 2); }
     g.fillStyle = 'rgba(0,0,0,.18)'; g.fillRect(-E.W, GY - 120, E.W * 3, 40);
     seg(g, [[-E.W, GY - 40], [E.W * 3, GY - 40]], 5, 'rgba(255,255,255,.55)');
-    if (o.goal !== false) { const gx = CX + (o.goalX ?? 620); g.strokeStyle = '#f2f2f2'; g.lineWidth = 12; g.beginPath(); g.moveTo(gx - 220, GY - 40); g.lineTo(gx - 220, GY - 330); g.lineTo(gx + 220, GY - 330); g.lineTo(gx + 220, GY - 40); g.stroke(); g.strokeStyle = 'rgba(255,255,255,.25)'; g.lineWidth = 2; for (let k = -200; k <= 200; k += 34) seg(g, [[gx + k, GY - 330], [gx + k * 0.8, GY - 60]], 2, 'rgba(255,255,255,.25)'); for (let y = GY - 300; y < GY - 40; y += 34) seg(g, [[gx - 210, y], [gx + 210, y]], 2, 'rgba(255,255,255,.2)'); }
+    if (o.goal !== false && !o.track) { const gx = CX + (o.goalX ?? 620); g.strokeStyle = '#f2f2f2'; g.lineWidth = 12; g.beginPath(); g.moveTo(gx - 220, GY - 40); g.lineTo(gx - 220, GY - 330); g.lineTo(gx + 220, GY - 330); g.lineTo(gx + 220, GY - 40); g.stroke(); g.strokeStyle = 'rgba(255,255,255,.25)'; g.lineWidth = 2; for (let k = -200; k <= 200; k += 34) seg(g, [[gx + k, GY - 330], [gx + k * 0.8, GY - 60]], 2, 'rgba(255,255,255,.25)'); for (let y = GY - 300; y < GY - 40; y += 34) seg(g, [[gx - 210, y], [gx + 210, y]], 2, 'rgba(255,255,255,.2)'); }
     FX.pool(g, CX, GY + 30, 700, 90, '#fff3d0', night ? 0.25 : 0.12);
   });
   return { GY, CX, M };
 }
+
+// stadium: athletics track variant of pitch (red lanes, no goal) — added 2026-11-19 after Ep12 used a football pitch for Bolt scenes
+export function stadium(g, t, cam, o = {}) { return pitch(g, t, cam, { ...o, track: true, goal: false }); }

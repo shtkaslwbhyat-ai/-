@@ -50,3 +50,4 @@ subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{t0:.3f}", "-t", f"{dur:
                 "-c:a", "aac", "-b:a", "160k", "-movflags", "+faststart", a.out], check=True)
 os.remove(ov)
 print(f"{a.out}  {dur:.1f}s  ({t0:.1f} → {t1:.1f})")
+if not 25 <= dur <= 40: print(f"⚠️  {dur:.1f}s is outside the channel's 25–40 s shorts rule — move --start/--end by a sentence")

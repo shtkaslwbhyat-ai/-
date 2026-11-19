@@ -7,9 +7,9 @@ import * as UI from '/engine/ui2d.js';
 import * as P from '../sets/places.js';
 import { CAST } from '../cast.js';
 
-const SETS = { home: P.home, classroom: P.classroom, bakery: P.bakery, clinic: P.clinic, bedroom: P.bedroom, studio: P.studio, city: P.city, seacafe: P.seacafe, archive: P.archive, pitch: P.pitch };
+const SETS = { home: P.home, classroom: P.classroom, bakery: P.bakery, clinic: P.clinic, bedroom: P.bedroom, studio: P.studio, city: P.city, seacafe: P.seacafe, archive: P.archive, pitch: P.pitch, stadium: P.stadium };
 const GOLD = () => S().ui.gold, CREAM = () => S().ui.cream, CORAL = () => S().ui.accent;
-const lit = (setName) => ({ home: [0, -1], classroom: [1, -0.4], bakery: [-0.6, -0.6], clinic: [-0.3, -1], bedroom: [0, -1], studio: [0, -1], city: [0.6, -0.6], seacafe: [0.2, -1], archive: [0, -1], pitch: [0.5, -1] }[setName] || [0, -1]);
+const lit = (setName) => ({ home: [0, -1], classroom: [1, -0.4], bakery: [-0.6, -0.6], clinic: [-0.3, -1], bedroom: [0, -1], studio: [0, -1], city: [0.6, -0.6], seacafe: [0.2, -1], archive: [0, -1], pitch: [0.5, -1], stadium: [0.5, -1] }[setName] || [0, -1]);
 const seqVal = (t, v, def) => (Array.isArray(v) && Array.isArray(v[0]) ? (v.filter(([at]) => t >= at).pop() || v[0])[1] : (v ?? def));
 const poseSeq = (t, v) => (Array.isArray(v) ? posesAt(t, v.map(([a, p]) => [a, typeof p === 'string' ? POSES[p] || POSES.stand : p])) : POSES[v || 'stand'] || POSES.stand);
 

@@ -13,3 +13,6 @@ description: المحرّك (الأنيميشن) في "عالم لو". يستخ�
 6. الرندر النهائي في الخلفية: CHROME_PATH=/opt/pw-browsers/chromium node render.mjs --project projects/<slug> --workers 4 --format jpeg (≈ 5 إطارات/ث).
 7. الصوت: python3 audio/mix.py --project projects/<slug>، ثم ffmpeg بـ libx264 crf 22 + aac 192k إلى out/<slug>.mp4.
 لا ترفع ملفات build/ أو out/ إلى git (كبيرة).
+
+## فحص الإدراجات القديمة (2026-11-19)
+بعد build_shots وقبل لوحة اللقطات: `python3 tools/check_inserts.py --project projects/<p>`. أي تنبيه = بدّل الإدراج أو اكتب بطاقة data/bigline مناسبة، إلا في الحلقة الأصلية للإدراج. وللمشاهد الرياضية استخدم مكان `stadium` لا `pitch`.
