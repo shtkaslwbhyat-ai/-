@@ -3,10 +3,10 @@
 
 | الملف | المدة |
 |---|---|
-| 01-frozen-cup.mp4 | ~0:40 |
-| 02-bolt-slow-start.mp4 | — |
-| 03-bolt-dq.mp4 | ~0:32 |
-| 04-free-fall.mp4 | ~0:40 |
+| 01-frozen-cup.mp4 | 0:40 |
+| 02-bolt-slow-start.mp4 | 0:37 |
+| 03-bolt-dq.mp4 | 0:33 |
+| 04-free-fall.mp4 | 0:40 |
 
 ## 📝 العناوين والأوصاف الكاملة (العنوان بعد "·" الأولى)
 
