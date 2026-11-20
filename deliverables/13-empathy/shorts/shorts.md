@@ -3,10 +3,10 @@
 
 | الملف | المدة |
 |---|---|
-| 01-not-fine.mp4 | — |
-| 02-salinas.mp4 | — |
-| 03-empathy-cost.mp4 | — |
-| 04-facebook.mp4 | — |
+| 01-not-fine.mp4 | 0:37 |
+| 02-salinas.mp4 | 0:32 |
+| 03-empathy-cost.mp4 | 0:36 |
+| 04-facebook.mp4 | 0:33 |
 
 ## 📝 العناوين والأوصاف الكاملة (العنوان بعد "·" الأولى)
 
