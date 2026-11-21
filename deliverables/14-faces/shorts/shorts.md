@@ -3,10 +3,10 @@
 
 | الملف | المدة |
 |---|---|
-| 01-never-forget.mp4 | — |
-| 02-collins.mp4 | — |
-| 03-discovered.mp4 | — |
-| 04-sheep.mp4 | — |
+| 01-never-forget.mp4 | 0:39 |
+| 02-collins.mp4 | 0:37 |
+| 03-discovered.mp4 | 0:39 |
+| 04-sheep.mp4 | 0:31 |
 
 ## 📝 العناوين والأوصاف الكاملة (العنوان بعد "·" الأولى)
 
