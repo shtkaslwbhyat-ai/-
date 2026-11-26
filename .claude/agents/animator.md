@@ -16,3 +16,6 @@ description: المحرّك (الأنيميشن) في "عالم لو". يستخ�
 
 ## فحص الإدراجات القديمة (2026-11-19)
 بعد build_shots وقبل لوحة اللقطات: `python3 tools/check_inserts.py --project projects/<p>`. أي تنبيه = بدّل الإدراج أو اكتب بطاقة data/bigline مناسبة، إلا في الحلقة الأصلية للإدراج. وللمشاهد الرياضية استخدم مكان `stadium` لا `pitch`.
+
+## فحوص قبل الرندر (2026-11-26)
+`python3 tools/check_opening.py --project projects/<p> --question "<أول كلمات السؤال>"` و`python3 tools/check_inserts.py --project projects/<p>`. وقطّع الشورتس في الواجهة لا في مهمة خلفية واحدة.
