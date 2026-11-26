@@ -3,10 +3,10 @@
 
 | الملف | المدة |
 |---|---|
-| 01-bus-colors.mp4 | — |
-| 02-harbisson.mp4 | — |
-| 03-nabokov.mp4 | — |
-| 04-five-plus-two.mp4 | — |
+| 01-bus-colors.mp4 | 0:38 |
+| 02-harbisson.mp4 | 0:33 |
+| 03-nabokov.mp4 | 0:38 |
+| 04-five-plus-two.mp4 | 0:38 |
 
 ## 📝 العناوين والأوصاف الكاملة (العنوان بعد "·" الأولى)
 
