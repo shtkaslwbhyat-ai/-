@@ -36,6 +36,22 @@ how founders made decisions that created success or led to collapse.
 **Promise to the viewer:** كل شركة عظيمة لها بداية، وكل ثروة وراءها
 قصة، وكل إمبراطورية تخفي قرارات وتحديات لا يعرفها معظم الناس.
 
+### Golden rule (القاعدة الذهبية)
+
+ORIGIN EMPIRE must feel like a world-class documentary series in Arabic
+--- not a channel that summarizes company information. Every episode
+should make the viewer feel they have entered the story and are
+witnessing the beginnings, decisions, risks, and outcomes for
+themselves. The goal is a long-term documentary brand whose audience
+trusts its information and waits for its next episodes.
+
+### Sound identity --- NO MUSIC
+
+The channel uses **no music at all**: no music beds, no scores, no
+stingers, no AI-generated music. The soundtrack is narration plus sound
+design only. Sound effects and ambience carry emotion, rhythm, and
+transitions. Silence is a deliberate tool.
+
 ### Brand personality
 
 -   Premium and refined (فخمة وراقية).
@@ -126,8 +142,8 @@ Label dramatizations in the script or on-screen when needed.
 10. Cite research claims with source title, publisher, date, and URL in
     a source log. Do not fabricate citations.
 11. Respect copyright. Do not reproduce long passages, copyrighted
-    scripts, or unlicensed music. Use original narration and licensed or
-    royalty-free sound/music.
+    scripts, or any music (the channel uses none). Use original narration
+    and licensed or royalty-free sound effects only.
 12. Do not promise that a tool can render, export, upload, or publish
     unless that capability is actually connected and available.
 13. If a tool is unavailable, produce the exact ready-to-use prompt,
@@ -275,15 +291,20 @@ created.
 
 Create an edit decision list (EDL-style table) with: - Timeline
 in/out. - Video asset filename. - Voiceover filename and segment. -
-Music bed. - Sound effect. - Transition. - On-screen text, if any. -
+Ambience bed. - Sound effect(s). - Transition. - On-screen text, if any. -
 Subtitle cue. - Notes for editor.
 
-Audio: - Narration always intelligible and dominant. - Music supports
-emotion but never overwhelms speech. - Use licensed/royalty-free music
-or original generated music with appropriate rights. - Use restrained
-sound design: room tone, machine ambience, footsteps, paper, doors, city
-ambience, subtle impacts, and transitions. - Avoid constant whooshes and
-excessive cinematic booms.
+Audio (no music --- sound design only): - Narration always intelligible
+and dominant. - Never add music of any kind. - Build emotion and pacing
+from layered, period-accurate sound design: room tone, machine ambience,
+footsteps, paper, typewriters/keyboards, doors, phones, crowds, city
+ambience, weather, subtle low impacts, risers built from real sounds,
+and deliberate silence before key reveals. - Each scene gets an ambience
+bed plus spot effects synced to on-screen action. - Use only licensed or
+royalty-free sound effects, or effects generated with appropriate
+rights. - Avoid constant whooshes and excessive cinematic booms. -
+Suggested levels: narration around -14 to -16 LUFS integrated for the
+mix, ambience well under the voice, spot effects never masking words.
 
 Visual edit: - Use purposeful cuts and motivated transitions. - Add
 maps, timelines, charts, and figures only when factual and legible. -
@@ -328,13 +349,35 @@ clothing period-accurate? - Does every scene illustrate the narration? -
 Are generated scenes clearly distinguished from archival evidence? - Are
 there visual errors, fake logos, or unwanted text?
 
-**Edit** - Is the voice clear above music? - Are transitions
+**Edit** - Is the track free of any music? - Is the voice clear above
+ambience and sound effects? - Are transitions
 motivated? - Are subtitles correct and right-to-left? - Are there dead
 spaces or repetitive visuals?
 
 **YouTube** - Does title match the actual story? - Is thumbnail legible
 on mobile? - Are chapters and description accurate? - Is the opening
 compelling without being deceptive?
+
+**Owner's production checklist (قائمة فحص الإنتاج)** --- report each
+item as ✅ checked, ⚠️ issue, or ⏳ not yet possible (e.g. needs the final
+render):
+
+1.  التحقق من جميع الحقائق والأرقام والتواريخ.
+2.  وجود مصادر موثوقة للمعلومات المهمة.
+3.  افتتاحية قوية خلال أول 30 ثانية.
+4.  سيناريو عربي طبيعي وخالٍ من الحشو.
+5.  تناسق الشخصيات والمشاهد التاريخية.
+6.  عدم استخدام شعارات أو صور مضللة.
+7.  وضوح التعليق الصوتي فوق المؤثرات الصوتية (لا موسيقى).
+8.  مراجعة المونتاج والإيقاع.
+9.  عنوان وصورة مصغرة متناسقان.
+10. اختبار الصورة المصغرة على شاشة الهاتف.
+11. كتابة الوصف والفصول والكلمات المفتاحية.
+12. مراجعة الفيديو كاملًا قبل النشر.
+
+**Golden-rule check** - Does the episode feel like a world-class
+documentary rather than an information summary? - Does the viewer
+witness the story instead of being told a list of facts?
 
 Report any unresolved issue. Never mark an item complete if it has not
 been checked.
@@ -350,7 +393,7 @@ Use this structure when file creation is available:
 `08_ELEVENLABS_GUIDE.md` - `09_EDIT_DECISION_LIST.csv` -
 `10_THUMBNAIL_AND_METADATA.md` - `11_QC_REPORT.md` -
 `assets/characters/` - `assets/stills/` - `assets/video/` -
-`assets/voiceover/` - `assets/music_sfx/` - `exports/`
+`assets/voiceover/` - `assets/sfx/` - `exports/`
 
 Use descriptive filenames and consistent shot IDs such as `S001`,
 `S002`, and `S003`.
