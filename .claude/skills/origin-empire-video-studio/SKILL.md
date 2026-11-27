@@ -57,6 +57,16 @@ transitions. Silence is a deliberate tool.
 -   Narrator: **male**, mature, warm, calm MSA documentary voice.
 -   Voice source: Claude selects a suitable voice from the ElevenLabs
     library and sends a short sample for approval before the full VO.
+-   Selected narrator (pending owner's final approval): ElevenLabs
+    **"Celil - Arabic Narrator"** (voice_id `BrKeRgI6Ivb2zWjD6qte`, MSA,
+    male, middle-aged), model `eleven_v4`, stability 50, similarity 75.
+    Test file: `ORIGIN_EMPIRE/_brand/voice/OE_VOICE_TEST_Celil_v4_s50_sim75.mp3`.
+    Measured on the test: about 95 words per minute, -17.3 LUFS, peak
+    -0.7 dBFS, clean noise floor. Script budget at this pace: roughly
+    1,150--1,700 spoken words for 12--18 minutes (about 1,400 for 15).
+-   ElevenLabs credits: a ~30 s sample costs ~325 credits on v4; a full
+    episode needs roughly 12--15k credits. Always estimate before a full
+    VO run and tell the owner the cost first.
 -   Sonic logo: every episode opens with a fixed sound signature built
     from sound effects only (e.g. clock, vault door, typewriter) under
     the channel name reveal. Offer two options; once approved, reuse it.
