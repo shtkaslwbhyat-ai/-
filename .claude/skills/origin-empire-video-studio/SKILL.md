@@ -52,6 +52,26 @@ stingers, no AI-generated music. The soundtrack is narration plus sound
 design only. Sound effects and ambience carry emotion, rhythm, and
 transitions. Silence is a deliberate tool.
 
+### Owner decisions (locked)
+
+-   Narrator: **male**, mature, warm, calm MSA documentary voice.
+-   Voice source: Claude selects a suitable voice from the ElevenLabs
+    library and sends a short sample for approval before the full VO.
+-   Sonic logo: every episode opens with a fixed sound signature built
+    from sound effects only (e.g. clock, vault door, typewriter) under
+    the channel name reveal. Offer two options; once approved, reuse it.
+-   English fonts: Playfair Display (titles), Inter (details). Max two
+    families per design (Arabic font + one English font).
+-   Logo: designed by the owner. Do not design or generate a logo;
+    reserve a placement and use the owner's file when provided.
+-   Dramatization label: small corner text «مشهد تمثيلي» on
+    AI-generated reconstructions.
+-   Subtitles: separate SRT uploaded to YouTube, not burned in.
+-   Real people: never show a recognizable face of a real person. Use a
+    silhouette, rear view, hands/objects, or a stylized
+    non-identifiable figure that stays within the brand style.
+-   Publishing cadence: two episodes per week.
+
 ### Brand personality
 
 -   Premium and refined (فخمة وراقية).
@@ -319,6 +339,9 @@ provide a precise handoff blueprint.
 
 ### Stage H --- Thumbnail, title, and YouTube package
 
+Always build thumbnail image prompts from `THUMBNAIL_PROMPT_TEMPLATE.md`.
+The image carries no text; the Arabic headline is added in the editor.
+
 Create: - 5 title options in Arabic, curiosity-driven but accurate. - 3
 thumbnail concepts. - One selected title and thumbnail recommendation
 with rationale. - Thumbnail prompt: 16:9, 1280×720, strong focal
@@ -438,30 +461,76 @@ editing blueprint, and state exactly what remains.
 -   Publishing cadence: two carefully researched videos per week,
     subject to production capacity
 
-## 7. Episode roadmap (first season)
+## 7. Episode roadmap (first season --- owner's approved list)
 
-Episode numbers map to folder IDs (`EP001`, `EP002`, ...). Thumbnail text
-is the approved starting point; still verify every angle in Stage A.
+Episode numbers map to folder IDs (`EP001`, `EP002`, ...). Titles and
+keywords are the owner's starting point; verify every angle in Stage A
+and re-measure keywords before locking titles.
 
-| EP | Topic | Working title | Focus | Thumbnail text |
-|----|-------|---------------|-------|----------------|
-| 01 | Amazon | كيف تحوّل متجر كتب صغير إلى إمبراطورية عالمية؟ | Jeff Bezos's beginning, selling books, expansion, cloud services (AWS), growth drivers | من كتاب إلى إمبراطورية |
-| 02 | Nike | كيف تحوّل حذاء رياضي إلى علامة يعرفها العالم؟ | Beginnings, sports marketing, brand building, expansion and challenges | أكثر من مجرد حذاء |
-| 03 | Disney | كيف بنى والت ديزني عالمًا أصبح جزءًا من طفولة الملايين؟ | Animation, characters, films, theme parks, intellectual property | عالم بدأ برسمة |
-| 04 | McDonald's | سر ماكدونالدز: كيف انتشر مطعم واحد في أنحاء العالم؟ | Operating system, speed, franchising, expansion | سر التوسع العالمي |
-| 05 | Netflix | من تأجير أقراص DVD إلى تغيير صناعة الترفيه | Subscription model, shift to streaming, original content, competition | غيّرت طريقة المشاهدة |
-| 06 | Nokia | صعود وسقوط نوكيا: كيف خسر عملاق الهواتف مكانه؟ | Phone-market dominance, smartphone revolution, competition, management and technology shifts | كيف سقط العملاق؟ |
+| EP | Topic | Proposed title | Keywords | Focus |
+|----|-------|----------------|----------|-------|
+| 01 | Steve Jobs / Apple --- قصة العبقري الذي غيّر العالم | ستيف جوبز: كيف بنى إمبراطورية آبل ثم عاد لينقذها؟ | ستيف جوبز، قصة ستيف جوبز، قصة آبل، مؤسس آبل، نجاح آبل | Childhood, founding Apple, his exit, his return, the iPhone and the tech revolution |
+| 02 | Amazon --- من متجر كتب إلى إمبراطورية | قصة نجاح أمازون: كيف بنى جيف بيزوس واحدة من أكبر شركات العالم؟ | أمازون، جيف بيزوس، قصة أمازون، قصة نجاح أمازون، التجارة الإلكترونية | Beginning, books, expansion, Amazon Prime, AWS and the business model |
+| 03 | Coca-Cola --- كيف غزت العالم؟ | قصة كوكاكولا: كيف أصبح مشروب واحد علامة يعرفها العالم؟ | كوكاكولا، قصة كوكاكولا، تاريخ كوكاكولا، أسرار الشركات، التسويق | Beginning, the formula, marketing, global distribution, brand building |
+| 04 | McDonald's --- سر الإمبراطورية العالمية | قصة ماكدونالدز: كيف تحوّل مطعم صغير إلى إمبراطورية عالمية؟ | ماكدونالدز، قصة ماكدونالدز، تاريخ ماكدونالدز، الامتياز التجاري، قصص نجاح | Beginnings, Ray Kroc, the operating system, franchising, expansion |
+| 05 | Disney --- الرجل الذي بنى عالمًا من الخيال | قصة والت ديزني: كيف تحوّلت رسوماته إلى إمبراطورية بمليارات الدولارات؟ | والت ديزني، قصة ديزني، تاريخ ديزني، مؤسس ديزني، قصص نجاح | Beginnings, characters, films, theme parks, intellectual property |
+| 06 | Netflix --- الشركة التي غيّرت مشاهدة التلفزيون | قصة نتفلكس: كيف انتقلت من تأجير الأفلام إلى السيطرة على عالم البث؟ | نتفلكس، قصة نتفلكس، تاريخ نتفلكس، Netflix، البث الرقمي | DVD rental, subscriptions, streaming, original production, competition |
+| 07 | Nokia --- كيف سقط عملاق الهواتف؟ | قصة نوكيا: من السيطرة على العالم إلى خسارة سوق الهواتف الذكية | نوكيا، قصة نوكيا، سقوط نوكيا، تاريخ نوكيا، الهواتف الذكية | Rise, dominance, the smartphone era, competition, strategic decisions |
+| 08 | Nike --- كيف أصبح حذاء رياضي إمبراطورية؟ | قصة نايكي: كيف تحوّلت فكرة صغيرة إلى واحدة من أشهر العلامات التجارية؟ | نايكي، قصة نايكي، تاريخ نايكي، مؤسس نايكي، العلامات التجارية | Beginnings, Phil Knight, the shoes, sports marketing, global reach |
+| 09 | Kodak --- الشركة التي رأت المستقبل ولم تستفد منه | قصة كوداك: كيف خسرت شركة التصوير العملاقة عصر الكاميرات الرقمية؟ | كوداك، قصة كوداك، سقوط كوداك، التصوير الرقمي، فشل الشركات | Dominance, digital photography, the technology shift, business decisions, outcomes |
+| 10 | Airbnb --- فكرة غرفة تحوّلت إلى شركة عالمية | قصة Airbnb: كيف غيّرت فكرة بسيطة صناعة السفر والإقامة؟ | Airbnb، قصة Airbnb، تأسيس Airbnb، الشركات الناشئة، ريادة الأعمال | The idea, first users, building trust, the platform, expansion |
+| 11 | IKEA --- كيف جعلت الأثاث الجيد في متناول الجميع؟ | قصة إيكيا: السر التجاري الذي جعلها إمبراطورية أثاث عالمية | إيكيا، قصة إيكيا، تاريخ إيكيا، صناعة الأثاث، نموذج الأعمال | The founder, prices, design, flat-pack, expansion |
+| 12 | Costliest business decisions in history | قرارات تجارية كلّفت شركات عالمية مليارات الدولارات! | فشل الشركات، خسائر الشركات، أخطاء إدارية، قرارات تجارية، قصص شركات | Three documented cases: the decisions, their effects, the lessons |
 
-Episodes 07--12: pending from the channel owner.
+Roadmap notes (editorial guardrails):
+-   EP01: credit co-founders (Steve Wozniak, Ronald Wayne) accurately;
+    avoid hagiography --- show failures and controversies as well. "Saved
+    Apple" must be supported with verified financial facts.
+-   EP02: Amazon began as an *online* bookstore, not a physical shop.
+-   EP03: treat "secret formula" lore carefully; separate marketing myth
+    from documented history. No Coca-Cola logo or bottle trade dress in
+    generated images.
+-   EP05: never generate Disney characters, logos, or film imagery.
+-   EP11: if the founder's early political associations are mentioned,
+    state only documented facts, neutrally.
+-   EP12: every case and every dollar figure must be sourced; "مليارات"
+    in the title must be true for each case.
+-   Titles with "سر" / "أسرار": deliver several verified drivers, never a
+    single magic secret.
+-   No real company logos in generated images, in any episode.
 
-Roadmap notes:
--   EP01: Amazon began as an *online* bookstore, not a physical shop;
-    phrase "متجر كتب صغير" so it is not misleading.
--   EP01/EP04: titles mentioning "أسرار" or "سر" must still avoid
-    single-secret explanations; present several verified drivers.
--   EP03: never generate Disney characters (Mickey Mouse, etc.), logos or
-    film imagery; use generic animation-studio scenes, sketch desks and
-    period details instead.
--   All episodes: no real company logos in generated images; add logos
-    only in the edit from properly sourced material, if at all.
+## 8. Channel search strategy and launch plan
 
+### Core channel keywords
+
+Starting search identity; not all have measured volumes yet.
+
+| Keyword | Use |
+|---------|-----|
+| قصص نجاح | Main broad keyword |
+| قصص الشركات | Channel core |
+| تاريخ الشركات | Documentary content |
+| قصص رجال الأعمال | Founder stories |
+| كيف بدأت الشركات | Episode titles |
+| سقوط الشركات | Collapse stories |
+| أسرار الشركات | Curiosity hook |
+| قصص المليارديرات | Fortune stories |
+| عالم المال والأعمال | Channel description |
+| ريادة الأعمال | Business-minded audience |
+
+Known data point: a vidIQ result for «قصة أمازون» suggested «تاريخ الشركات»
+at an estimated 3,595 monthly searches, not confirmed as Saudi-only. Do
+not present it as a confirmed Saudi search volume.
+
+### Launch test
+
+-   First three episodes: Steve Jobs, Amazon, Coca-Cola.
+-   Track thumbnail click-through rate and audience retention.
+-   Compare topics that attract new viewers with topics that keep
+    viewers watching to the end.
+-   Use the results to choose the next episodes.
+-   Rule: do not just pick the most famous topic. Pick one that combines
+    search demand, curiosity, and a strong story that can become an
+    engaging documentary.
+-   When vidIQ credits are available, measure the core phrase of all 12
+    episodes (volume and competition) before locking the final order.
