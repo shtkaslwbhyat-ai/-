@@ -21,16 +21,43 @@ when available.
 
 **Channel:** ORIGIN EMPIRE\
 **Tagline:** Every Fortune Has a Beginning.\
+**Arabic intro line:** من فكرة صغيرة إلى إمبراطورية… نروي القصة من بدايتها.\
 **Editorial promise:** Cinematic, well-researched stories about wealth,
 founders, companies, business decisions, innovation, ambition, failure,
 and the forces that shape global business.
+
+### Positioning
+
+ORIGIN EMPIRE is **not** a get-rich-quick or money-advice channel. It is
+a documentary channel that reveals the real stories behind business
+empires: how companies began, how small ideas became global brands, and
+how founders made decisions that created success or led to collapse.
+
+**Promise to the viewer:** كل شركة عظيمة لها بداية، وكل ثروة وراءها
+قصة، وكل إمبراطورية تخفي قرارات وتحديات لا يعرفها معظم الناس.
+
+### Brand personality
+
+-   Premium and refined (فخمة وراقية).
+-   Documentary and trustworthy (وثائقية وموثوقة).
+-   Cinematic and engaging (سينمائية وجذابة).
+-   Intelligent and deep (ذكية وعميقة).
+-   Free of exaggeration and sensationalism (بعيدة عن المبالغة والتهويل).
 
 ### Visual identity
 
 -   Style: cinematic, semi-realistic 3D documentary realism.
 -   Mood: premium, intelligent, immersive, dramatic but credible.
--   Palette: Midnight Navy `#101A2A`, Empire Gold `#C49A48`, Ivory
-    `#E8E5DD`, Steel Blue `#526579`.
+-   Official palette:
+    -   Midnight Navy `#101A2A` --- primary background color.
+    -   Empire Gold `#C49A48` --- signature accent.
+    -   Ivory `#E8E5DD` --- light text.
+    -   Steel Blue `#526579` --- shadows and secondary backgrounds.
+    -   Deep Charcoal `#171B22` --- contrast and dark scenes.
+    -   Muted Bronze `#80643A` --- secondary metallic details.
+-   Color distribution: 55% navy and charcoal, 25% natural scene colors,
+    15% ivory, 5% gold. Gold is for emphasis only --- never color every
+    element gold.
 -   Lighting: motivated cinematic lighting, realistic reflections,
     atmospheric depth, controlled highlights, natural shadows.
 -   Environments: historically appropriate offices, workshops,
@@ -45,8 +72,24 @@ and the forces that shape global business.
     plastic skin, generic AI imagery, random luxury cars/cash,
     meaningless stock footage, excessive gold, fake logos, and text
     embedded in generated images.
+-   Never use fantasy scenes inside true stories, and never present
+    AI-generated scenes as original historical recordings.
+-   Visual reference: scenes must feel like shots from a high-quality
+    cinematic documentary --- semi-realistic human characters, precise
+    clothing and facial detail, period-accurate environments, realistic
+    factories, offices and buildings, professional cinematic lighting,
+    calm deliberate camera movement, natural colors with navy and gold
+    touches.
 -   Do not imitate a living artist or copy a protected studio's exact
     signature style. Use the original brand description above.
+
+### Typography
+
+-   Arabic: IBM Plex Sans Arabic (primary), Noto Sans Arabic (fallback).
+-   English: an elegant serif for titles; a clear sans-serif for details.
+-   Never use more than two font families in one design.
+-   Arabic headings bold and clear; avoid thin weights.
+-   All on-screen text must be easily readable on a phone.
 
 ### Character continuity
 
@@ -339,7 +382,37 @@ editing blueprint, and state exactly what remains.
 -   Frame rate: 24 or 25 fps
 -   Visual style: original semi-realistic 3D cinematic documentary
 -   Narrator: calm, professional Arabic documentary voice
--   Brand colors: `#101A2A`, `#C49A48`, `#E8E5DD`, `#526579`
+-   Brand colors: `#101A2A`, `#C49A48`, `#E8E5DD`, `#526579`,
+    `#171B22`, `#80643A` (55/25/15/5 distribution, gold for emphasis)
+-   Fonts: IBM Plex Sans Arabic / Noto Sans Arabic; max two families
 -   Thumbnail: 1280×720, concise Arabic hook, one clear focal idea
 -   Publishing cadence: two carefully researched videos per week,
     subject to production capacity
+
+## 7. Episode roadmap (first season)
+
+Episode numbers map to folder IDs (`EP001`, `EP002`, ...). Thumbnail text
+is the approved starting point; still verify every angle in Stage A.
+
+| EP | Topic | Working title | Focus | Thumbnail text |
+|----|-------|---------------|-------|----------------|
+| 01 | Amazon | كيف تحوّل متجر كتب صغير إلى إمبراطورية عالمية؟ | Jeff Bezos's beginning, selling books, expansion, cloud services (AWS), growth drivers | من كتاب إلى إمبراطورية |
+| 02 | Nike | كيف تحوّل حذاء رياضي إلى علامة يعرفها العالم؟ | Beginnings, sports marketing, brand building, expansion and challenges | أكثر من مجرد حذاء |
+| 03 | Disney | كيف بنى والت ديزني عالمًا أصبح جزءًا من طفولة الملايين؟ | Animation, characters, films, theme parks, intellectual property | عالم بدأ برسمة |
+| 04 | McDonald's | سر ماكدونالدز: كيف انتشر مطعم واحد في أنحاء العالم؟ | Operating system, speed, franchising, expansion | سر التوسع العالمي |
+| 05 | Netflix | من تأجير أقراص DVD إلى تغيير صناعة الترفيه | Subscription model, shift to streaming, original content, competition | غيّرت طريقة المشاهدة |
+| 06 | Nokia | صعود وسقوط نوكيا: كيف خسر عملاق الهواتف مكانه؟ | Phone-market dominance, smartphone revolution, competition, management and technology shifts | كيف سقط العملاق؟ |
+
+Episodes 07--12: pending from the channel owner.
+
+Roadmap notes:
+-   EP01: Amazon began as an *online* bookstore, not a physical shop;
+    phrase "متجر كتب صغير" so it is not misleading.
+-   EP01/EP04: titles mentioning "أسرار" or "سر" must still avoid
+    single-secret explanations; present several verified drivers.
+-   EP03: never generate Disney characters (Mickey Mouse, etc.), logos or
+    film imagery; use generic animation-studio scenes, sketch desks and
+    period details instead.
+-   All episodes: no real company logos in generated images; add logos
+    only in the edit from properly sourced material, if at all.
+
