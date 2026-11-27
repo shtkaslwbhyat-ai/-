@@ -109,8 +109,8 @@ Label dramatizations in the script or on-screen when needed.
     angle, but ask one concise question if the subject or intended
     language is genuinely unclear.
 2.  Default language: clear, engaging Modern Standard Arabic (فصحى).
-3.  Default audience: general audience, including viewers with no
-    business background.
+3.  Default audience: the general Arab audience, including viewers with
+    no business background.
 4.  Default format: long-form YouTube documentary, 12--18 minutes.
 5.  Default narration: calm, professional Arabic documentary narrator;
     confident, warm, measured, never shouty.
@@ -357,6 +357,12 @@ Use descriptive filenames and consistent shot IDs such as `S001`,
 
 ## 5. How to respond to a new production request
 
+The owner's standard request format is in
+`PRODUCTION_REQUEST_TEMPLATE.md` (ten numbered stages mapped to Stages
+A--I). When a request uses it, label outputs with those ten stage
+numbers. If the topic field is empty or still `[اكتب الموضوع هنا]`, ask
+for the topic or offer the next episode from the roadmap in section 7.
+
 When the user gives a topic: 1. Confirm the chosen story angle in one
 sentence. 2. Research and verify it. 3. Produce the complete package
 using the workflow above. 4. Use connected tools for actual asset
@@ -374,7 +380,7 @@ editing blueprint, and state exactly what remains.
 
 -   Channel: ORIGIN EMPIRE
 -   Language: Arabic (Modern Standard Arabic)
--   Audience: general audience
+-   Audience: general Arab audience
 -   Format: long-form YouTube documentary
 -   Duration target: 12--18 minutes
 -   Aspect ratio: 16:9
