@@ -1,0 +1,6473 @@
+{
+ "title": "ماذا لو أصرّ أهلك أن شخصًا غريبًا هو أخوك الحقيقي؟",
+ "duration": 534.111,
+ "shots": [
+  {
+   "id": "s001",
+   "start": 0.0,
+   "end": 1.25,
+   "line": "تعود إلى البيت في المساء،",
+   "scene": "title ",
+   "set": "",
+   "bars": "scope",
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "title",
+    "lines": [
+     "ماذا لو أصرّ أهلك",
+     "أن شخصًا غريبًا هو أخوك الحقيقي؟"
+    ]
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s002",
+   "start": 1.25,
+   "end": 4.63,
+   "line": "فتجد في الصالة شابا غريبا يجلس بجانب أمك.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "DAD",
+      "x": 0.2,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.3
+     },
+     {
+      "c": "YOU",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "MOM",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "sad",
+      "f": -1,
+      "chair": true,
+      "s": 1.35
+     },
+     {
+      "c": "BRO",
+      "x": 0.8,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1,
+      "chair": true,
+      "s": 1.35
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s003",
+   "start": 4.63,
+   "end": 7.57,
+   "line": "أمك تبكي، وتمسك يده بقوة.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "MOM",
+      "x": 0.45,
+      "pose": "sit",
+      "expr": "sad",
+      "f": 1,
+      "chair": true,
+      "s": 1.7
+     },
+     {
+      "c": "BRO",
+      "x": 0.62,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1,
+      "chair": true,
+      "s": 1.7
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.22,
+     "x0": 0,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s004",
+   "start": 7.57,
+   "end": 9.6,
+   "line": "وأبوك يقول بصوت هادئ: هذا أخوك الحقيقي.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "DAD",
+      "x": 0.5,
+      "pose": "talk",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.8
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "«هذا أخوك الحقيقي»",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 1.2
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s005",
+   "start": 9.6,
+   "end": 11.21,
+   "line": "وأبوك يقول بصوت هادئ: هذا أخوك الحقيقي.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "DAD",
+      "x": 0.5,
+      "pose": "talk",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.8
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "«هذا أخوك الحقيقي»",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s006",
+   "start": 11.21,
+   "end": 14.79,
+   "line": "ماذا لو أصر أهلك أن شخصا غريبا هو أخوك الحقيقي؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "ماذا لو أصرّ أهلك أن شخصًا غريبًا هو أخوك الحقيقي؟",
+    "set": "archive",
+    "size": 56
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s007",
+   "start": 14.79,
+   "end": 17.485,
+   "line": "تنظر إليه… فترى عينيك أنت.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "BRO",
+    "set": "home",
+    "expr": "neutral",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s008",
+   "start": 17.485,
+   "end": 20.43,
+   "line": "الضحكة نفسها، وطريقة الجلوس نفسها.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.4,
+      "pose": "laugh",
+      "expr": "laugh",
+      "f": 1,
+      "s": 1.6
+     },
+     {
+      "c": "BRO",
+      "x": 0.6,
+      "pose": "laugh",
+      "expr": "laugh",
+      "f": -1,
+      "s": 1.6
+     }
+    ],
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s009",
+   "start": 20.43,
+   "end": 23.91,
+   "line": "ثم يرفع أبوك ورقة: نتيجة فحص الحمض النووي.",
+   "scene": "insert dnapaper",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "dnapaper"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s010",
+   "start": 23.91,
+   "end": 26.0,
+   "line": "وتوأمك سامي، الذي كبرت معه في غرفة واحدة…",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "YOUKID",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "laugh",
+      "f": 1,
+      "s": 1.3
+     },
+     {
+      "c": "SAMI",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "laugh",
+      "f": -1,
+      "kid": true,
+      "s": 1.3
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    },
+    "labels": [
+     {
+      "s": "سامي",
+      "x": 0.6,
+      "y": 0.22,
+      "box": true
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s011",
+   "start": 26.0,
+   "end": 28.05,
+   "line": "وتوأمك سامي، الذي كبرت معه في غرفة واحدة…",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "YOUKID",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "laugh",
+      "f": 1,
+      "s": 1.3
+     },
+     {
+      "c": "SAMI",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "laugh",
+      "f": -1,
+      "kid": true,
+      "s": 1.3
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "سامي",
+      "x": 0.6,
+      "y": 0.22,
+      "box": true,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s012",
+   "start": 28.05,
+   "end": 29.85,
+   "line": "ليس أخاك بالدم.",
+   "scene": "insert dnapaper",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.0,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "dnapaper",
+    "result": "ليس أخاك بالدم ✗",
+    "bad": true
+   },
+   "notes": ""
+  },
+  {
+   "id": "s013",
+   "start": 29.85,
+   "end": 32.59,
+   "line": "في المستشفى، يوم ولدت، حدث خطأ.",
+   "scene": "insert wristbands",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "wristbands"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s014",
+   "start": 32.59,
+   "end": 34.73,
+   "line": "في البداية يبدو الأمر رائعا.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.42,
+      "pose": "walk",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "BRO",
+      "x": 0.58,
+      "pose": "walk",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.5
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s015",
+   "start": 34.73,
+   "end": 39.57,
+   "line": "أخ جديد يشبهك كأنه مرآتك، ويضحك على نكتتك قبل أن تكملها.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "home",
+    "expr": "smile",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s016",
+   "start": 39.57,
+   "end": 43.89,
+   "line": "هذا خيال. لكنه حدث فعلا، وبطريقة أغرب.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "هذا خيال… لكنه حدث فعلًا",
+    "set": "archive",
+    "coral": true
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s017",
+   "start": 43.89,
+   "end": 50.27,
+   "line": "وفي آخر هذه الحلقة ستعرف: من هو أخوك الحقيقي فعلا… الدم، أم السنون؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "في آخر الحلقة: الدم أم السنون؟",
+    "set": "archive",
+    "size": 62
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s018",
+   "start": 50.27,
+   "end": 53.75,
+   "line": "في شهر ديسمبر من عام ألف وتسعمئة وثمانية وثمانين،",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "ديسمبر 1988",
+    "label": "كولومبيا",
+    "size": 170
+   },
+   "notes": ""
+  },
+  {
+   "id": "s019",
+   "start": 53.75,
+   "end": 56.58,
+   "line": "ولد في مستشفى بالعاصمة الكولومبية بوغوتا توأمان متطابقان: خورخي وويليام.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "JORGE",
+      "x": 0.42,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "kid": true,
+      "s": 1.2
+     },
+     {
+      "c": "WILLIAM",
+      "x": 0.58,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "kid": true,
+      "s": 1.2
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "بوغوتا: خورخي وويليام",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s020",
+   "start": 56.58,
+   "end": 59.49,
+   "line": "ولد في مستشفى بالعاصمة الكولومبية بوغوتا توأمان متطابقان: خورخي وويليام.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "JORGE",
+      "x": 0.42,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "kid": true,
+      "s": 1.2
+     },
+     {
+      "c": "WILLIAM",
+      "x": 0.58,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "kid": true,
+      "s": 1.2
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.05
+     },
+     {
+      "s": "بوغوتا: خورخي وويليام",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s021",
+   "start": 59.49,
+   "end": 62.6,
+   "line": "وفي اليوم التالي، في إقليم سانتاندير، ولد توأمان متطابقان آخران: كارلوس وويلبر.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "CARLOS",
+      "x": 0.42,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "kid": true,
+      "s": 1.2
+     },
+     {
+      "c": "WILBER",
+      "x": 0.58,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "kid": true,
+      "s": 1.2
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "سانتاندير: كارلوس وويلبر",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true
+     }
+    ],
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s022",
+   "start": 62.6,
+   "end": 65.91,
+   "line": "وفي اليوم التالي، في إقليم سانتاندير، ولد توأمان متطابقان آخران: كارلوس وويلبر.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "CARLOS",
+      "x": 0.42,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "kid": true,
+      "s": 1.2
+     },
+     {
+      "c": "WILBER",
+      "x": 0.58,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "kid": true,
+      "s": 1.2
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.05
+     },
+     {
+      "s": "سانتاندير: كارلوس وويلبر",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s023",
+   "start": 65.91,
+   "end": 67.82,
+   "line": "كان كارلوس مريضا، فنقل إلى المستشفى نفسه في بوغوتا.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "CARLOS",
+      "x": 0.5,
+      "pose": "lie",
+      "expr": "sad",
+      "f": 1,
+      "kid": true,
+      "s": 1.3
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "نُقل إلى بوغوتا",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s024",
+   "start": 67.82,
+   "end": 69.85,
+   "line": "كان كارلوس مريضا، فنقل إلى المستشفى نفسه في بوغوتا.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "CARLOS",
+      "x": 0.5,
+      "pose": "lie",
+      "expr": "sad",
+      "f": 1,
+      "kid": true,
+      "s": 1.3
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.05
+     },
+     {
+      "s": "نُقل إلى بوغوتا",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s025",
+   "start": 69.85,
+   "end": 71.85,
+   "line": "وهناك اختلط الطفلان.",
+   "scene": "insert wristbands",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 1.2,
+     "name": "whoosh",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "wristbands",
+    "label": "هنا اختلط الطفلان"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s026",
+   "start": 71.85,
+   "end": 74.26,
+   "line": "وتقول إحدى الروايات إن أساور الأسماء سقطت، ثم أعيدت إلى الطفلين الخطأ.",
+   "scene": "insert wristbands",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "wristbands",
+    "label": "إحدى الروايات: الأساور سقطت",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.22,
+     "x0": 0,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s027",
+   "start": 74.26,
+   "end": 76.61,
+   "line": "وتقول إحدى الروايات إن أساور الأسماء سقطت، ثم أعيدت إلى الطفلين الخطأ.",
+   "scene": "insert wristbands",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "wristbands",
+    "label": "إحدى الروايات: الأساور سقطت",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s028",
+   "start": 76.61,
+   "end": 79.5,
+   "line": "فعاد ويليام مع ويلبر إلى مزرعة بعيدة في الريف، وبقي كارلوس مع خورخي في المدينة.",
+   "scene": "insert twinmap",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "twinmap",
+    "names": {
+     "JORGE": "خورخي",
+     "CARLOS": "كارلوس",
+     "WILLIAM": "ويليام",
+     "WILBER": "ويلبر"
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s029",
+   "start": 79.5,
+   "end": 82.53,
+   "line": "فعاد ويليام مع ويلبر إلى مزرعة بعيدة في الريف، وبقي كارلوس مع خورخي في المدينة.",
+   "scene": "insert twinmap",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "twinmap",
+    "names": {
+     "JORGE": "خورخي",
+     "CARLOS": "كارلوس",
+     "WILLIAM": "ويليام",
+     "WILBER": "ويلبر"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s030",
+   "start": 82.53,
+   "end": 84.66,
+   "line": "وكبرت كل عائلة وهي تظن أن عندها توأمين لا يتشابهان.",
+   "scene": "insert twinmap",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "twinmap",
+    "names": {
+     "JORGE": "خورخي",
+     "CARLOS": "كارلوس",
+     "WILLIAM": "ويليام",
+     "WILBER": "ويلبر"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.22,
+     "x0": 0,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s031",
+   "start": 84.66,
+   "end": 86.87,
+   "line": "وكبرت كل عائلة وهي تظن أن عندها توأمين لا يتشابهان.",
+   "scene": "insert twinmap",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "twinmap",
+    "names": {
+     "JORGE": "خورخي",
+     "CARLOS": "كارلوس",
+     "WILLIAM": "ويليام",
+     "WILBER": "ويلبر"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s032",
+   "start": 86.87,
+   "end": 91.04,
+   "line": "وهذا ليس غريبا. فالتوأمان المتطابقان يأتيان من بويضة واحدة انقسمت إلى اثنتين، فيحملان الجينات نفسها تقريبا.",
+   "scene": "insert eggsplit",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "eggsplit"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s033",
+   "start": 91.04,
+   "end": 95.37,
+   "line": "وهذا ليس غريبا. فالتوأمان المتطابقان يأتيان من بويضة واحدة انقسمت إلى اثنتين، فيحملان الجينات نفسها تقريبا.",
+   "scene": "insert eggsplit",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "eggsplit",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s034",
+   "start": 95.37,
+   "end": 99.2,
+   "line": "أما التوأمان غير المتطابقين، فيأتيان من بويضتين، ويتشابهان كأي أخوين عاديين، وقد لا يتشابهان أبدا.",
+   "scene": "insert eggsplit",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "eggsplit",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.22,
+     "x0": 0,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s035",
+   "start": 99.2,
+   "end": 103.53,
+   "line": "أما التوأمان غير المتطابقين، فيأتيان من بويضتين، ويتشابهان كأي أخوين عاديين، وقد لا يتشابهان أبدا.",
+   "scene": "insert eggsplit",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "eggsplit",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s036",
+   "start": 103.53,
+   "end": 106.99,
+   "line": "فلم يستغرب أحد أن الطفلين في كل بيت مختلفان.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "MOM",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "JORGE",
+      "x": 0.35,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "kid": true,
+      "s": 1.1
+     },
+     {
+      "c": "CARLOS",
+      "x": 0.65,
+      "pose": "stand",
+      "expr": "smile",
+      "f": -1,
+      "kid": true,
+      "s": 1.1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s037",
+   "start": 106.99,
+   "end": 109.02,
+   "line": "كبر ويليام وويلبر في الريف، بعيدا عن المدينة.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "WILLIAM",
+      "x": 0.42,
+      "pose": "walk",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "WILBER",
+      "x": 0.58,
+      "pose": "walk",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.4
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "الريف",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s038",
+   "start": 109.02,
+   "end": 111.35,
+   "line": "كبر ويليام وويلبر في الريف، بعيدا عن المدينة.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "WILLIAM",
+      "x": 0.42,
+      "pose": "walk",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "WILBER",
+      "x": 0.58,
+      "pose": "walk",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.4
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.05
+     },
+     {
+      "s": "الريف",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s039",
+   "start": 111.35,
+   "end": 113.79,
+   "line": "وكبر خورخي وكارلوس في العاصمة.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "JORGE",
+      "x": 0.42,
+      "pose": "walk",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "CARLOS",
+      "x": 0.58,
+      "pose": "walk",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.4
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "العاصمة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s040",
+   "start": 113.79,
+   "end": 115.91,
+   "line": "حياتان مختلفتان تماما…",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "25 عامًا",
+    "label": "ولا أحد يعرف",
+    "size": 170
+   },
+   "notes": ""
+  },
+  {
+   "id": "s041",
+   "start": 115.91,
+   "end": 119.59,
+   "line": "وكل واحد منهم لا يعرف أن نسخته تعيش في المكان الآخر.",
+   "scene": "face studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "JORGE",
+    "set": "studio",
+    "expr": "neutral",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s042",
+   "start": 119.59,
+   "end": 122.09,
+   "line": "ومرت خمسة وعشرون عاما.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "بعد 25 عامًا…",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s043",
+   "start": 122.09,
+   "end": 124.3,
+   "line": "ثم دخلت امرأة تعمل مع خورخي إلى محل للحوم في بوغوتا.",
+   "scene": "stage bakery",
+   "set": "bakery",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bakery",
+    "chars": [
+     {
+      "c": "COWORKER",
+      "x": 0.35,
+      "pose": "walk",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.5
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "محل لحوم — بوغوتا",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s044",
+   "start": 124.3,
+   "end": 126.31,
+   "line": "ثم دخلت امرأة تعمل مع خورخي إلى محل للحوم في بوغوتا.",
+   "scene": "stage bakery",
+   "set": "bakery",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bakery",
+    "chars": [
+     {
+      "c": "COWORKER",
+      "x": 0.35,
+      "pose": "walk",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.5
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.05
+     },
+     {
+      "s": "محل لحوم — بوغوتا",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s045",
+   "start": 126.31,
+   "end": 129.47,
+   "line": "فرأت خلف المنضدة رجلا يشبه زميلها تماما…",
+   "scene": "stage bakery",
+   "set": "bakery",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bakery",
+    "chars": [
+     {
+      "c": "COWORKER",
+      "x": 0.32,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "WILLIAM",
+      "x": 0.66,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "s": 1.6
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.22,
+     "x0": 0,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s046",
+   "start": 129.47,
+   "end": 131.43,
+   "line": "لكنه لم يعرفها.",
+   "scene": "face bakery",
+   "set": "bakery",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "COWORKER",
+    "set": "bakery",
+    "expr": "surprised",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s047",
+   "start": 131.43,
+   "end": 134.23,
+   "line": "كان اسمه ويليام، وكان يعمل في المحل.",
+   "scene": "stage bakery",
+   "set": "bakery",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bakery",
+    "chars": [
+     {
+      "c": "WILLIAM",
+      "x": 0.5,
+      "pose": "talk",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.7
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "ويليام",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s048",
+   "start": 134.23,
+   "end": 137.77,
+   "line": "وحين أخبرت خورخي، قال لها إن عنده توأما فعلا…",
+   "scene": "stage studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "studio",
+    "chars": [
+     {
+      "c": "COWORKER",
+      "x": 0.38,
+      "pose": "talk",
+      "expr": "surprised",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "JORGE",
+      "x": 0.62,
+      "pose": "laugh",
+      "expr": "smile",
+      "f": -1,
+      "s": 1.5
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s049",
+   "start": 137.77,
+   "end": 140.73,
+   "line": "لكنهما لا يتشابهان أبدا.",
+   "scene": "stage studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "studio",
+    "chars": [
+     {
+      "c": "JORGE",
+      "x": 0.5,
+      "pose": "explain",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.7
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "«عندي توأم… لكننا لا نتشابه»",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.22,
+     "x0": 0,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s050",
+   "start": 140.73,
+   "end": 142.54,
+   "line": "ففتح خورخي صور ويليام على فيسبوك، فرأى وجهه هو.",
+   "scene": "insert phonepics",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "phonepics",
+    "who": [
+     "WILLIAM",
+     "WILLIAM",
+     "WILLIAM",
+     "WILLIAM"
+    ],
+    "hl": 0,
+    "label": "صور ويليام"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s051",
+   "start": 142.54,
+   "end": 144.61,
+   "line": "ففتح خورخي صور ويليام على فيسبوك، فرأى وجهه هو.",
+   "scene": "insert phonepics",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "phonepics",
+    "who": [
+     "WILLIAM",
+     "WILLIAM",
+     "WILLIAM",
+     "WILLIAM"
+    ],
+    "hl": 0,
+    "label": "صور ويليام",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s052",
+   "start": 144.61,
+   "end": 146.43,
+   "line": "ثم رأى في الصور شابا آخر: ويلبر…",
+   "scene": "insert phonepics",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "phonepics",
+    "who": [
+     "WILLIAM",
+     "WILBER",
+     "WILLIAM",
+     "WILBER"
+    ],
+    "hl": 1,
+    "label": "ومن هذا؟!"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s053",
+   "start": 146.43,
+   "end": 148.48,
+   "line": "وكان نسخة من كارلوس، التوأم الذي كبر معه.",
+   "scene": "insert twinmap",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "shimmer",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "twinmap",
+    "names": {
+     "JORGE": "خورخي",
+     "CARLOS": "كارلوس",
+     "WILLIAM": "ويليام",
+     "WILBER": "ويلبر"
+    },
+    "links": true
+   },
+   "notes": ""
+  },
+  {
+   "id": "s054",
+   "start": 148.48,
+   "end": 150.91,
+   "line": "وكان نسخة من كارلوس، التوأم الذي كبر معه.",
+   "scene": "insert twinmap",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "twinmap",
+    "names": {
+     "JORGE": "خورخي",
+     "CARLOS": "كارلوس",
+     "WILLIAM": "ويليام",
+     "WILBER": "ويلبر"
+    },
+    "links": true,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s055",
+   "start": 150.91,
+   "end": 153.8,
+   "line": "وأكدت فحوص الحمض النووي لاحقا أنهم زوجان من التوائم المتطابقة، تبادلهما خطأ واحد.",
+   "scene": "insert dnapaper",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "dnapaper",
+    "result": "توأمان متطابقان ✓",
+    "head": "فحص الحمض النووي"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s056",
+   "start": 153.8,
+   "end": 156.83,
+   "line": "وأكدت فحوص الحمض النووي لاحقا أنهم زوجان من التوائم المتطابقة، تبادلهما خطأ واحد.",
+   "scene": "insert dnapaper",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "dnapaper",
+    "result": "توأمان متطابقان ✓",
+    "head": "فحص الحمض النووي",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s057",
+   "start": 156.83,
+   "end": 159.86,
+   "line": "والتقى الأربعة أخيرا وجها لوجه، وقد صار عمر كل واحد منهم خمسة وعشرين عاما.",
+   "scene": "insert twinmap",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "twinmap",
+    "truth": true,
+    "expr": "surprised",
+    "names": {
+     "JORGE": "خورخي",
+     "CARLOS": "كارلوس",
+     "WILLIAM": "ويليام",
+     "WILBER": "ويلبر"
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s058",
+   "start": 159.86,
+   "end": 162.83,
+   "line": "والتقى الأربعة أخيرا وجها لوجه، وقد صار عمر كل واحد منهم خمسة وعشرين عاما.",
+   "scene": "insert twinmap",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "twinmap",
+    "truth": true,
+    "expr": "surprised",
+    "names": {
+     "JORGE": "خورخي",
+     "CARLOS": "كارلوس",
+     "WILLIAM": "ويليام",
+     "WILBER": "ويلبر"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s059",
+   "start": 162.83,
+   "end": 164.92,
+   "line": "أربعة رجال ينظر كل منهم إلى وجهه في وجه رجل لم يعرفه من قبل.",
+   "scene": "stage archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "archive",
+    "chars": [
+     {
+      "c": "JORGE",
+      "x": 0.2,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": 1,
+      "s": 1.25
+     },
+     {
+      "c": "WILLIAM",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1,
+      "s": 1.25
+     },
+     {
+      "c": "CARLOS",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": 1,
+      "s": 1.25
+     },
+     {
+      "c": "WILBER",
+      "x": 0.8,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1,
+      "s": 1.25
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s060",
+   "start": 164.92,
+   "end": 167.23,
+   "line": "أربعة رجال ينظر كل منهم إلى وجهه في وجه رجل لم يعرفه من قبل.",
+   "scene": "stage archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "archive",
+    "chars": [
+     {
+      "c": "JORGE",
+      "x": 0.2,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": 1,
+      "s": 1.25
+     },
+     {
+      "c": "WILLIAM",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1,
+      "s": 1.25
+     },
+     {
+      "c": "CARLOS",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": 1,
+      "s": 1.25
+     },
+     {
+      "c": "WILBER",
+      "x": 0.8,
+      "pose": "stand",
+      "expr": "surprised",
+      "f": -1,
+      "s": 1.25
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s061",
+   "start": 167.23,
+   "end": 171.4,
+   "line": "ودرست قصتهم عالمة النفس الأمريكية نانسي سيغال، وكتبت عنها مع يسيكا مونتويا كتابا صدر عام ألفين وثمانية عشر،",
+   "scene": "stage studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "studio",
+    "chars": [
+     {
+      "c": "SEGAL",
+      "x": 0.5,
+      "pose": "explain",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.6
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "نانسي سيغال",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s062",
+   "start": 171.4,
+   "end": 174.87,
+   "line": "ودرست قصتهم عالمة النفس الأمريكية نانسي سيغال، وكتبت عنها مع يسيكا مونتويا كتابا صدر عام ألفين وثمانية عشر،",
+   "scene": "stage studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "studio",
+    "chars": [
+     {
+      "c": "SEGAL",
+      "x": 0.5,
+      "pose": "explain",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.6
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.05
+     },
+     {
+      "s": "نانسي سيغال",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s063",
+   "start": 174.87,
+   "end": 177.09,
+   "line": "عنوانه: إخوة بالصدفة.",
+   "scene": "insert news",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "news",
+    "head": "إخوة بالصدفة — 2018",
+    "who": "SEGAL"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s064",
+   "start": 177.09,
+   "end": 181.1,
+   "line": "ورأت فيها تجربة طبيعية نادرة: فكل توأمين متطابقين يحملان الجينات نفسها، لكن أحدهما كبر في الريف والآخر في المدينة. فماذا تصنع الجينات، وماذا تصنع الحياة؟",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "جينات ⇄ حياة",
+    "label": "تجربة طبيعية نادرة",
+    "size": 140
+   },
+   "notes": ""
+  },
+  {
+   "id": "s065",
+   "start": 181.1,
+   "end": 185.06,
+   "line": "ورأت فيها تجربة طبيعية نادرة: فكل توأمين متطابقين يحملان الجينات نفسها، لكن أحدهما كبر في الريف والآخر في المدينة. فماذا تصنع الجينات، وماذا تصنع الحياة؟",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "جينات ⇄ حياة",
+    "label": "تجربة طبيعية نادرة",
+    "size": 140,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s066",
+   "start": 185.06,
+   "end": 189.11,
+   "line": "ورأت فيها تجربة طبيعية نادرة: فكل توأمين متطابقين يحملان الجينات نفسها، لكن أحدهما كبر في الريف والآخر في المدينة. فماذا تصنع الجينات، وماذا تصنع الحياة؟",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "جينات ⇄ حياة",
+    "label": "تجربة طبيعية نادرة",
+    "size": 140,
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.06,
+     "x0": -60,
+     "x1": 30
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s067",
+   "start": 189.11,
+   "end": 191.36,
+   "line": "ثم صارت فيلما وثائقيا على نتفليكس عام ألفين وأربعة وعشرين.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "2024",
+    "label": "فيلم وثائقي على نتفليكس",
+    "size": 200
+   },
+   "notes": ""
+  },
+  {
+   "id": "s068",
+   "start": 191.36,
+   "end": 193.31,
+   "line": "ثم صارت فيلما وثائقيا على نتفليكس عام ألفين وأربعة وعشرين.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "2024",
+    "label": "فيلم وثائقي على نتفليكس",
+    "size": 200,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s069",
+   "start": 193.31,
+   "end": 196.66,
+   "line": "وإذا أعجبتك القصة حتى الآن، اضغط زر الإعجاب، واشترك في القناة، فما سيأتي أغرب.",
+   "scene": "insert likesub",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "likesub",
+    "label": "أعجبتك القصة؟"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s070",
+   "start": 196.66,
+   "end": 199.79,
+   "line": "وإذا أعجبتك القصة حتى الآن، اضغط زر الإعجاب، واشترك في القناة، فما سيأتي أغرب.",
+   "scene": "insert likesub",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "likesub",
+    "label": "أعجبتك القصة؟",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s071",
+   "start": 199.79,
+   "end": 201.33,
+   "line": "وهنا تبدأ المشكلة.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "وهنا تبدأ المشكلة",
+    "set": "archive",
+    "coral": true
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s072",
+   "start": 201.33,
+   "end": 203.54,
+   "line": "في الليلة الأولى، يجلس سامي وحده في غرفتكما، ولا يأكل.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "SAMI",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "f": 1,
+      "s": 1.5
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s073",
+   "start": 203.54,
+   "end": 205.87,
+   "line": "في الليلة الأولى، يجلس سامي وحده في غرفتكما، ولا يأكل.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "SAMI",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "sad",
+      "f": 1,
+      "s": 1.5
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s074",
+   "start": 205.87,
+   "end": 209.21,
+   "line": "ثم يسألك بصوت خافت: هل ما زلت أخاك؟",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.38,
+      "pose": "stand",
+      "expr": "worried",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "SAMI",
+      "x": 0.6,
+      "pose": "sit",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.5
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    },
+    "labels": [
+     {
+      "s": "«هل ما زلت أخاك؟»",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.6
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s075",
+   "start": 209.21,
+   "end": 211.07,
+   "line": "وأنت لا تعرف الجواب.",
+   "scene": "face bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "bedroom",
+    "expr": "worried",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s076",
+   "start": 211.07,
+   "end": 213.85,
+   "line": "وفي الصباح يحكي لك الأخ الجديد عن حياته.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.4,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "chair": true,
+      "s": 1.5
+     },
+     {
+      "c": "BRO",
+      "x": 0.6,
+      "pose": "talk",
+      "expr": "sad",
+      "f": -1,
+      "chair": true,
+      "s": 1.5
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s077",
+   "start": 213.85,
+   "end": 217.45,
+   "line": "كبر في قرية فقيرة، وترك المدرسة صغيرا ليعمل.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "BRO",
+      "x": 0.5,
+      "pose": "walk",
+      "expr": "sad",
+      "f": 1,
+      "kid": true,
+      "s": 1.2
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    },
+    "labels": [
+     {
+      "s": "ترك المدرسة ليعمل",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s078",
+   "start": 217.45,
+   "end": 219.28,
+   "line": "وأنت تعرف أن المقعد الذي جلس عليه سامي في المدرسة…",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "SAMI",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "chair": true,
+      "kid": true,
+      "s": 1.3
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s079",
+   "start": 219.28,
+   "end": 221.13,
+   "line": "وأنت تعرف أن المقعد الذي جلس عليه سامي في المدرسة…",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "SAMI",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "chair": true,
+      "kid": true,
+      "s": 1.3
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s080",
+   "start": 221.13,
+   "end": 222.93,
+   "line": "كان مقعده هو.",
+   "scene": "face classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "BRO",
+    "set": "classroom",
+    "expr": "sad",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s081",
+   "start": 222.93,
+   "end": 224.53,
+   "line": "وهذا الثمن ليس خيالا.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "وهذا الثمن ليس خيالًا",
+    "set": "archive",
+    "coral": true
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s082",
+   "start": 224.53,
+   "end": 228.68,
+   "line": "في عام ألف وتسعمئة وثلاثة وخمسين، ولد طفلان في مستشفى واحد في طوكيو، بفارق ثلاث عشرة دقيقة تقريبا.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "طوكيو 1953",
+    "label": "طفلان… بفارق 13 دقيقة تقريبًا",
+    "size": 150
+   },
+   "notes": ""
+  },
+  {
+   "id": "s083",
+   "start": 228.68,
+   "end": 232.87,
+   "line": "في عام ألف وتسعمئة وثلاثة وخمسين، ولد طفلان في مستشفى واحد في طوكيو، بفارق ثلاث عشرة دقيقة تقريبا.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "طوكيو 1953",
+    "label": "طفلان… بفارق 13 دقيقة تقريبًا",
+    "size": 150,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s084",
+   "start": 232.87,
+   "end": 236.14,
+   "line": "وبحسب حكم المحكمة لاحقا، حدث الخطأ بعد الولادة مباشرة. فتبادلهما المستشفى.",
+   "scene": "insert wristbands",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "wristbands",
+    "label": "خطأ بعد الولادة مباشرة"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s085",
+   "start": 236.14,
+   "end": 239.53,
+   "line": "وبحسب حكم المحكمة لاحقا، حدث الخطأ بعد الولادة مباشرة. فتبادلهما المستشفى.",
+   "scene": "insert wristbands",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "wristbands",
+    "label": "خطأ بعد الولادة مباشرة",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s086",
+   "start": 239.53,
+   "end": 241.4,
+   "line": "ذهب أحدهما إلى عائلة غنية، وذهب الآخر إلى عائلة فقيرة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "غنية ⇄ فقيرة",
+    "label": "حياتان تبدّلتا",
+    "size": 140,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s087",
+   "start": 241.4,
+   "end": 243.81,
+   "line": "ذهب أحدهما إلى عائلة غنية، وذهب الآخر إلى عائلة فقيرة.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "غنية ⇄ فقيرة",
+    "label": "حياتان تبدّلتا",
+    "size": 140,
+    "color": "coral",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s088",
+   "start": 243.81,
+   "end": 247.84,
+   "line": "وفي العائلة الفقيرة مات الأب حين كان الطفل في الثانية من عمره، فربت الأم ثلاثة أطفال بمساعدات الدولة.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "MOM",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "sad",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "YOUKID",
+      "x": 0.35,
+      "pose": "stand",
+      "expr": "sad",
+      "f": 1,
+      "s": 1.0
+     },
+     {
+      "c": "SALMA",
+      "x": 0.65,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.0
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "ثلاثة أطفال ومساعدات الدولة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s089",
+   "start": 247.84,
+   "end": 251.63,
+   "line": "وفي العائلة الفقيرة مات الأب حين كان الطفل في الثانية من عمره، فربت الأم ثلاثة أطفال بمساعدات الدولة.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "MOM",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "sad",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "YOUKID",
+      "x": 0.35,
+      "pose": "stand",
+      "expr": "sad",
+      "f": 1,
+      "s": 1.0
+     },
+     {
+      "c": "SALMA",
+      "x": 0.65,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.0
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.05
+     },
+     {
+      "s": "ثلاثة أطفال ومساعدات الدولة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ],
+    "so": {
+     "mood": "night"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s090",
+   "start": 251.63,
+   "end": 254.27,
+   "line": "كبر الطفل، وصار سائق شاحنة.",
+   "scene": "stage city",
+   "set": "city",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "city",
+    "chars": [
+     {
+      "c": "TRUCKER",
+      "x": 0.5,
+      "pose": "walk",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.6
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "سائق شاحنة",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s091",
+   "start": 254.27,
+   "end": 256.68,
+   "line": "أما الطفل الآخر، فكبر في الثراء، وصار رئيسا لشركة عقارات.",
+   "scene": "stage studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "studio",
+    "chars": [
+     {
+      "c": "RICHMAN",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.6
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "رئيس شركة عقارات",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s092",
+   "start": 256.68,
+   "end": 259.17,
+   "line": "أما الطفل الآخر، فكبر في الثراء، وصار رئيسا لشركة عقارات.",
+   "scene": "stage studio",
+   "set": "studio",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "studio",
+    "chars": [
+     {
+      "c": "RICHMAN",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.6
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.05
+     },
+     {
+      "s": "رئيس شركة عقارات",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s093",
+   "start": 259.17,
+   "end": 261.8,
+   "line": "وبعد عقود، لاحظ الإخوة في العائلة الغنية أن أخاهم الأكبر لا يشبههم.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "RICHMAN",
+      "x": 0.25,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.3
+     },
+     {
+      "c": "DAD",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "thinking",
+      "f": -1,
+      "s": 1.3
+     },
+     {
+      "c": "ADAM",
+      "x": 0.65,
+      "pose": "stand",
+      "expr": "thinking",
+      "f": -1,
+      "s": 1.3
+     },
+     {
+      "c": "KARIM",
+      "x": 0.8,
+      "pose": "stand",
+      "expr": "thinking",
+      "f": -1,
+      "s": 1.3
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "«لا يشبهنا»",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s094",
+   "start": 261.8,
+   "end": 264.07,
+   "line": "وبعد عقود، لاحظ الإخوة في العائلة الغنية أن أخاهم الأكبر لا يشبههم.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "RICHMAN",
+      "x": 0.25,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.3
+     },
+     {
+      "c": "DAD",
+      "x": 0.5,
+      "pose": "stand",
+      "expr": "thinking",
+      "f": -1,
+      "s": 1.3
+     },
+     {
+      "c": "ADAM",
+      "x": 0.65,
+      "pose": "stand",
+      "expr": "thinking",
+      "f": -1,
+      "s": 1.3
+     },
+     {
+      "c": "KARIM",
+      "x": 0.8,
+      "pose": "stand",
+      "expr": "thinking",
+      "f": -1,
+      "s": 1.3
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.05
+     },
+     {
+      "s": "«لا يشبهنا»",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s095",
+   "start": 264.07,
+   "end": 267.56,
+   "line": "فطلبوا فحصا للحمض النووي، وجاءت النتيجة عام ألفين وتسعة: أخوهم الحقيقي يعيش في مكان آخر.",
+   "scene": "insert dnapaper",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "dnapaper",
+    "result": "2009: ليس أخاهم ✗",
+    "bad": true
+   },
+   "notes": ""
+  },
+  {
+   "id": "s096",
+   "start": 267.56,
+   "end": 271.27,
+   "line": "فطلبوا فحصا للحمض النووي، وجاءت النتيجة عام ألفين وتسعة: أخوهم الحقيقي يعيش في مكان آخر.",
+   "scene": "insert dnapaper",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "dnapaper",
+    "result": "2009: ليس أخاهم ✗",
+    "bad": true,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s097",
+   "start": 271.27,
+   "end": 274.6,
+   "line": "وفي نوفمبر من عام ألفين وثلاثة عشر، أمرت محكمة في طوكيو المستشفى بأن يدفع ثمانية وثلاثين مليون ين،",
+   "scene": "insert yencourt",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.6,
+     "name": "impact",
+     "gain": -8
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "yencourt"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s098",
+   "start": 274.6,
+   "end": 278.03,
+   "line": "وفي نوفمبر من عام ألفين وثلاثة عشر، أمرت محكمة في طوكيو المستشفى بأن يدفع ثمانية وثلاثين مليون ين،",
+   "scene": "insert yencourt",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "yencourt",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s099",
+   "start": 278.03,
+   "end": 281.11,
+   "line": "لأن الخطأ حرمه من فرصة التعليم العالي.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "التعليم العالي",
+    "label": "الفرصة التي ضاعت",
+    "size": 140,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s100",
+   "start": 281.11,
+   "end": 286.89,
+   "line": "كان عمره ستين عاما، وقال إنه يتمنى لو يستطيع أن يعيد عقارب الساعة إلى الوراء.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "TRUCKER",
+    "set": "home",
+    "expr": "sad",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s101",
+   "start": 286.89,
+   "end": 290.36,
+   "line": "وكان الإخوة الثلاثة قد رفعوا الدعوى معه، وطلبوا مبلغا أكبر بكثير، لكن المحكمة حكمت بأقل منه.",
+   "scene": "insert yencourt",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "yencourt",
+    "sub": "طلبوا أكثر… وحكمت المحكمة بأقل",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.22,
+     "x0": 0,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s102",
+   "start": 290.36,
+   "end": 293.79,
+   "line": "وكان الإخوة الثلاثة قد رفعوا الدعوى معه، وطلبوا مبلغا أكبر بكثير، لكن المحكمة حكمت بأقل منه.",
+   "scene": "insert yencourt",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "yencourt",
+    "sub": "طلبوا أكثر… وحكمت المحكمة بأقل",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s103",
+   "start": 293.79,
+   "end": 296.89,
+   "line": "فالمال يصل… لكن السنين لا تعود.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "المال يصل… لكن السنين لا تعود",
+    "set": "archive",
+    "coral": true
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s104",
+   "start": 296.89,
+   "end": 300.94,
+   "line": "وفي قصتنا، تزداد الأمور تعقيدا. أمك تحب الابن الجديد وتريد أن تعوضه، وسامي يبتعد كل يوم أكثر.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "MOM",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "BRO",
+      "x": 0.55,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "s": 1.5
+     },
+     {
+      "c": "SAMI",
+      "x": 0.85,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.3
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s105",
+   "start": 300.94,
+   "end": 304.75,
+   "line": "وفي قصتنا، تزداد الأمور تعقيدا. أمك تحب الابن الجديد وتريد أن تعوضه، وسامي يبتعد كل يوم أكثر.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "MOM",
+      "x": 0.4,
+      "pose": "stand",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "BRO",
+      "x": 0.55,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "s": 1.5
+     },
+     {
+      "c": "SAMI",
+      "x": 0.85,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.3
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s106",
+   "start": 304.75,
+   "end": 307.76,
+   "line": "على العشاء يضحك الجميع على نكتة عائلية قديمة، والأخ الجديد يبتسم وهو لا يفهمها.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "DAD",
+      "x": 0.2,
+      "pose": "sit",
+      "expr": "laugh",
+      "f": 1,
+      "chair": true,
+      "s": 1.25
+     },
+     {
+      "c": "MOM",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "laugh",
+      "f": 1,
+      "chair": true,
+      "s": 1.25
+     },
+     {
+      "c": "YOU",
+      "x": 0.56,
+      "pose": "sit",
+      "expr": "laugh",
+      "f": -1,
+      "chair": true,
+      "s": 1.25
+     },
+     {
+      "c": "BRO",
+      "x": 0.76,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1,
+      "chair": true,
+      "s": 1.25
+     }
+    ],
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s107",
+   "start": 307.76,
+   "end": 310.59,
+   "line": "على العشاء يضحك الجميع على نكتة عائلية قديمة، والأخ الجديد يبتسم وهو لا يفهمها.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "DAD",
+      "x": 0.2,
+      "pose": "sit",
+      "expr": "laugh",
+      "f": 1,
+      "chair": true,
+      "s": 1.25
+     },
+     {
+      "c": "MOM",
+      "x": 0.38,
+      "pose": "sit",
+      "expr": "laugh",
+      "f": 1,
+      "chair": true,
+      "s": 1.25
+     },
+     {
+      "c": "YOU",
+      "x": 0.56,
+      "pose": "sit",
+      "expr": "laugh",
+      "f": -1,
+      "chair": true,
+      "s": 1.25
+     },
+     {
+      "c": "BRO",
+      "x": 0.76,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1,
+      "chair": true,
+      "s": 1.25
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s108",
+   "start": 310.59,
+   "end": 316.51,
+   "line": "وحين تنادي أمك: يا سامي، يتردد سامي قبل أن يجيب، كأن اسمه لم يعد له.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "SAMI",
+    "set": "home",
+    "expr": "sad",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s109",
+   "start": 316.51,
+   "end": 320.74,
+   "line": "وفي الجامعة يسألك أصدقاؤك: من هذا الذي يشبهك؟ فتقول: أخي… ثم تسكت، لأن سامي يقف بجانبك.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "ADAM",
+      "x": 0.25,
+      "pose": "talk",
+      "expr": "surprised",
+      "f": 1,
+      "s": 1.3
+     },
+     {
+      "c": "YOU",
+      "x": 0.45,
+      "pose": "stand",
+      "expr": "worried",
+      "f": -1,
+      "s": 1.3
+     },
+     {
+      "c": "BRO",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "s": 1.3
+     },
+     {
+      "c": "SAMI",
+      "x": 0.78,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.3
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s110",
+   "start": 320.74,
+   "end": 324.63,
+   "line": "وفي الجامعة يسألك أصدقاؤك: من هذا الذي يشبهك؟ فتقول: أخي… ثم تسكت، لأن سامي يقف بجانبك.",
+   "scene": "stage classroom",
+   "set": "classroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "classroom",
+    "chars": [
+     {
+      "c": "ADAM",
+      "x": 0.25,
+      "pose": "talk",
+      "expr": "surprised",
+      "f": 1,
+      "s": 1.3
+     },
+     {
+      "c": "YOU",
+      "x": 0.45,
+      "pose": "stand",
+      "expr": "worried",
+      "f": -1,
+      "s": 1.3
+     },
+     {
+      "c": "BRO",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "s": 1.3
+     },
+     {
+      "c": "SAMI",
+      "x": 0.78,
+      "pose": "stand",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.3
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s111",
+   "start": 324.63,
+   "end": 326.7,
+   "line": "وأنت تجلس بين أخوين: أخ يشبهك، وأخ يعرفك.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SAMI",
+      "x": 0.3,
+      "pose": "sit",
+      "expr": "sad",
+      "f": 1,
+      "chair": true,
+      "s": 1.4
+     },
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "worried",
+      "f": 1,
+      "chair": true,
+      "s": 1.4
+     },
+     {
+      "c": "BRO",
+      "x": 0.7,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1,
+      "chair": true,
+      "s": 1.4
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.0,
+     "x0": -30,
+     "x1": 20
+    },
+    "labels": [
+     {
+      "s": "يشبهك",
+      "x": 0.7,
+      "y": 0.2,
+      "box": true,
+      "at": 1.5
+     },
+     {
+      "s": "يعرفك",
+      "x": 0.3,
+      "y": 0.2,
+      "box": true,
+      "at": 2.4
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s112",
+   "start": 326.7,
+   "end": 328.53,
+   "line": "وأنت تجلس بين أخوين: أخ يشبهك، وأخ يعرفك.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "SAMI",
+      "x": 0.3,
+      "pose": "sit",
+      "expr": "sad",
+      "f": 1,
+      "chair": true,
+      "s": 1.4
+     },
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "worried",
+      "f": 1,
+      "chair": true,
+      "s": 1.4
+     },
+     {
+      "c": "BRO",
+      "x": 0.7,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": -1,
+      "chair": true,
+      "s": 1.4
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "يشبهك",
+      "x": 0.7,
+      "y": 0.2,
+      "box": true,
+      "at": 0.05
+     },
+     {
+      "s": "يعرفك",
+      "x": 0.3,
+      "y": 0.2,
+      "box": true,
+      "at": 0.33000000000000673
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s113",
+   "start": 328.53,
+   "end": 332.37,
+   "line": "ثم تكتشف شيئا يخيفك: تنظر إلى أخيك بالدم…",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "home",
+    "expr": "surprised",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s114",
+   "start": 332.37,
+   "end": 333.79,
+   "line": "ولا تشعر بشيء.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "BRO",
+    "set": "home",
+    "expr": "neutral",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s115",
+   "start": 333.79,
+   "end": 337.31,
+   "line": "وجه تعرف أنه قريبك، لكن قلبك لا يتحرك.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "heart",
+    "value": "لا شيء",
+    "label": "القلب لا يتحرك",
+    "size": 140,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s116",
+   "start": 337.31,
+   "end": 339.09,
+   "line": "والآن إلى المفاجأة.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "المفاجأة",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s117",
+   "start": 339.09,
+   "end": 343.64,
+   "line": "في عام ألف وتسعمئة وثلاثة وعشرين، وصف الطبيب النفسي الفرنسي جوزيف كابغرا، مع زميله جان ريبول لاشو، امرأة غريبة الحال.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "CAPGRAS",
+      "x": 0.5,
+      "pose": "explain",
+      "expr": "thinking",
+      "f": 1,
+      "s": 1.6
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "جوزيف كابغرا — 1923",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s118",
+   "start": 343.64,
+   "end": 347.93,
+   "line": "في عام ألف وتسعمئة وثلاثة وعشرين، وصف الطبيب النفسي الفرنسي جوزيف كابغرا، مع زميله جان ريبول لاشو، امرأة غريبة الحال.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "CAPGRAS",
+      "x": 0.5,
+      "pose": "explain",
+      "expr": "thinking",
+      "f": 1,
+      "s": 1.6
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.05
+     },
+     {
+      "s": "جوزيف كابغرا — 1923",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s119",
+   "start": 347.93,
+   "end": 350.46,
+   "line": "كانت مقتنعة بأن زوجها وأطفالها قد استبدلوا بأشخاص يشبهونهم تماما.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "CAPWOMAN",
+      "x": 0.3,
+      "pose": "stand",
+      "expr": "scared",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "DAD",
+      "x": 0.55,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "s": 1.4
+     },
+     {
+      "c": "SALMA",
+      "x": 0.72,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "s": 1.1
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "«ليسوا هم!»",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.8
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s120",
+   "start": 350.46,
+   "end": 352.89,
+   "line": "كانت مقتنعة بأن زوجها وأطفالها قد استبدلوا بأشخاص يشبهونهم تماما.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "CAPWOMAN",
+      "x": 0.3,
+      "pose": "stand",
+      "expr": "scared",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "DAD",
+      "x": 0.55,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "s": 1.4
+     },
+     {
+      "c": "SALMA",
+      "x": 0.72,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "s": 1.1
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.05
+     },
+     {
+      "s": "«ليسوا هم!»",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s121",
+   "start": 352.89,
+   "end": 357.51,
+   "line": "تراهم وتعرف وجوههم… لكنها تصر أنهم محتالون.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "CAPWOMAN",
+    "set": "home",
+    "expr": "scared",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s122",
+   "start": 357.51,
+   "end": 361.07,
+   "line": "وصارت هذه الحالة تسمى: متلازمة كابغرا.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "متلازمة كابغرا",
+    "label": "الأهل… محتالون",
+    "size": 130
+   },
+   "notes": ""
+  },
+  {
+   "id": "s123",
+   "start": 361.07,
+   "end": 365.24,
+   "line": "وهي ليست شائعة، لكنها تظهر عند بعض المرضى النفسيين، وفي بعض أمراض الدماغ مثل الخرف، وقد تظهر بعد إصابة في الرأس.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "نادرة",
+    "label": "أمراض نفسية · الخرف · إصابات الرأس",
+    "size": 170
+   },
+   "notes": ""
+  },
+  {
+   "id": "s124",
+   "start": 365.24,
+   "end": 369.43,
+   "line": "وهي ليست شائعة، لكنها تظهر عند بعض المرضى النفسيين، وفي بعض أمراض الدماغ مثل الخرف، وقد تظهر بعد إصابة في الرأس.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "نادرة",
+    "label": "أمراض نفسية · الخرف · إصابات الرأس",
+    "size": 170,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s125",
+   "start": 369.43,
+   "end": 374.73,
+   "line": "إنها عكس قصتنا تماما: أهلك الحقيقيون أمامك، وأنت تراهم غرباء.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "bigline",
+    "str": "عكس قصتنا تمامًا",
+    "set": "archive",
+    "coral": true
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s126",
+   "start": 374.73,
+   "end": 378.66,
+   "line": "وفي عام ألف وتسعمئة وسبعة وتسعين، درس العالمان ويليام هيرستين وفي إس راماتشاندران رجلا يرمز له بالحرفين دي إس.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "HIRSTEIN",
+      "x": 0.38,
+      "pose": "explain",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "RAMA",
+      "x": 0.62,
+      "pose": "explain",
+      "expr": "thinking",
+      "f": -1,
+      "s": 1.5
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "هيرستين وراماتشاندران — 1997",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s127",
+   "start": 378.66,
+   "end": 382.95,
+   "line": "وفي عام ألف وتسعمئة وسبعة وتسعين، درس العالمان ويليام هيرستين وفي إس راماتشاندران رجلا يرمز له بالحرفين دي إس.",
+   "scene": "stage clinic",
+   "set": "clinic",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "clinic",
+    "chars": [
+     {
+      "c": "HIRSTEIN",
+      "x": 0.38,
+      "pose": "explain",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "RAMA",
+      "x": 0.62,
+      "pose": "explain",
+      "expr": "thinking",
+      "f": -1,
+      "s": 1.5
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.05
+     },
+     {
+      "s": "هيرستين وراماتشاندران — 1997",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s128",
+   "start": 382.95,
+   "end": 384.82,
+   "line": "بعد حادث سيارة، صار يعتقد أن والديه محتالان.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "DSPAT",
+      "x": 0.35,
+      "pose": "stand",
+      "expr": "scared",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "DAD",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "s": 1.4
+     },
+     {
+      "c": "MOM",
+      "x": 0.75,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "s": 1.4
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.1
+     },
+     {
+      "s": "المريض DS",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true
+     }
+    ],
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s129",
+   "start": 384.82,
+   "end": 386.69,
+   "line": "بعد حادث سيارة، صار يعتقد أن والديه محتالان.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "DSPAT",
+      "x": 0.35,
+      "pose": "stand",
+      "expr": "scared",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "DAD",
+      "x": 0.6,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "s": 1.4
+     },
+     {
+      "c": "MOM",
+      "x": 0.75,
+      "pose": "stand",
+      "expr": "neutral",
+      "f": -1,
+      "s": 1.4
+     }
+    ],
+    "labels": [
+     {
+      "s": "تمثيل",
+      "x": 0.93,
+      "y": 0.08,
+      "size": 34,
+      "cream": true,
+      "at": 0.05
+     },
+     {
+      "s": "المريض DS",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s130",
+   "start": 386.69,
+   "end": 391.64,
+   "line": "فعرضا عليه صورا لوجوه يعرفها، منها والداه، وصورا لغرباء، وقاسا استجابة جلده، وهي عرق خفيف يظهر حين نتأثر.",
+   "scene": "insert facegrid",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "facegrid"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s131",
+   "start": 391.64,
+   "end": 396.05,
+   "line": "فعرضا عليه صورا لوجوه يعرفها، منها والداه، وصورا لغرباء، وقاسا استجابة جلده، وهي عرق خفيف يظهر حين نتأثر.",
+   "scene": "insert facegrid",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "facegrid",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s132",
+   "start": 396.05,
+   "end": 397.82,
+   "line": "عند أغلب الناس ترتفع هذه الاستجابة أمام وجه الأم.",
+   "scene": "insert skinresp",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "skinresp"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s133",
+   "start": 397.82,
+   "end": 399.87,
+   "line": "عند أغلب الناس ترتفع هذه الاستجابة أمام وجه الأم.",
+   "scene": "insert skinresp",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "skinresp",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s134",
+   "start": 399.87,
+   "end": 401.74,
+   "line": "أما عنده، فلم تكن وجوه أهله أقوى أثرا من وجوه الغرباء.",
+   "scene": "insert skinresp",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "impact",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "skinresp",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.22,
+     "x0": 0,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s135",
+   "start": 401.74,
+   "end": 403.83,
+   "line": "أما عنده، فلم تكن وجوه أهله أقوى أثرا من وجوه الغرباء.",
+   "scene": "insert skinresp",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "skinresp",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s136",
+   "start": 403.83,
+   "end": 407.22,
+   "line": "واقترح الباحثان تفسيرا: الدماغ يتعرف على الوجه، لكن الشعور الدافئ الذي يرافقه لا يصل.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "أعرف الوجه ≠ أشعر به",
+    "label": "تفسير مقترح",
+    "size": 120
+   },
+   "notes": ""
+  },
+  {
+   "id": "s137",
+   "start": 407.22,
+   "end": 410.65,
+   "line": "واقترح الباحثان تفسيرا: الدماغ يتعرف على الوجه، لكن الشعور الدافئ الذي يرافقه لا يصل.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "icon": "brain",
+    "value": "أعرف الوجه ≠ أشعر به",
+    "label": "تفسير مقترح",
+    "size": 120,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s138",
+   "start": 410.65,
+   "end": 414.85,
+   "line": "فيستنتج الدماغ: هذا ليس أبي… إنه محتال.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "DSPAT",
+    "set": "home",
+    "expr": "scared",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s139",
+   "start": 414.85,
+   "end": 418.24,
+   "line": "أي إن العين تقول: هذا وجه أبي، والقلب يقول: لا أشعر بشيء. فيصدق الدماغ القلب.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "العين: أبي ✓",
+    "label": "القلب: لا شيء ✗",
+    "size": 140,
+    "color": "coral"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s140",
+   "start": 418.24,
+   "end": 421.25,
+   "line": "أي إن العين تقول: هذا وجه أبي، والقلب يقول: لا أشعر بشيء. فيصدق الدماغ القلب.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "العين: أبي ✓",
+    "label": "القلب: لا شيء ✗",
+    "size": 140,
+    "color": "coral",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s141",
+   "start": 421.25,
+   "end": 423.46,
+   "line": "وما زال العلماء يدرسون هذا التفسير ويختبرونه حتى اليوم.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "قيد الدراسة",
+    "label": "تفسير لم يُحسم",
+    "size": 150
+   },
+   "notes": ""
+  },
+  {
+   "id": "s142",
+   "start": 423.46,
+   "end": 425.89,
+   "line": "وما زال العلماء يدرسون هذا التفسير ويختبرونه حتى اليوم.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "قيد الدراسة",
+    "label": "تفسير لم يُحسم",
+    "size": 150,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s143",
+   "start": 425.89,
+   "end": 431.29,
+   "line": "وهنا المفاجأة الكبرى. الأخ في دماغك ليس وجها، وليس نتيجة فحص.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "الأخ في دماغك… إحساس لا ورقة",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s144",
+   "start": 431.29,
+   "end": 433.66,
+   "line": "إنه إحساس دافئ يبنيه الدماغ من سنين طويلة من الضحك والشجار والذكريات.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "YOU",
+    "pose": "stand",
+    "expr": "smile",
+    "n": 40,
+    "cards": [
+     "ضحك",
+     "شجار",
+     "ذكريات",
+     "سنوات"
+    ],
+    "cardsX": [
+     0.15,
+     0.38,
+     0.62,
+     0.85
+    ],
+    "cardsY": [
+     0.25,
+     0.18,
+     0.18,
+     0.25
+    ],
+    "gap": 0.5
+   },
+   "notes": ""
+  },
+  {
+   "id": "s145",
+   "start": 433.66,
+   "end": 436.01,
+   "line": "إنه إحساس دافئ يبنيه الدماغ من سنين طويلة من الضحك والشجار والذكريات.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "YOU",
+    "pose": "stand",
+    "expr": "smile",
+    "n": 40,
+    "cards": [
+     "ضحك",
+     "شجار",
+     "ذكريات",
+     "سنوات"
+    ],
+    "cardsX": [
+     0.15,
+     0.38,
+     0.62,
+     0.85
+    ],
+    "cardsY": [
+     0.25,
+     0.18,
+     0.18,
+     0.25
+    ],
+    "gap": 0.5,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s146",
+   "start": 436.01,
+   "end": 438.66,
+   "line": "ولهذا يمكن لأخوين لا يجمعهما دم أن يشعرا أنهما أخوان حقيقيان.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.42,
+      "pose": "laugh",
+      "expr": "laugh",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "SAMI",
+      "x": 0.58,
+      "pose": "laugh",
+      "expr": "laugh",
+      "f": -1,
+      "s": 1.5
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s147",
+   "start": 438.66,
+   "end": 441.07,
+   "line": "ولهذا يمكن لأخوين لا يجمعهما دم أن يشعرا أنهما أخوان حقيقيان.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.42,
+      "pose": "laugh",
+      "expr": "laugh",
+      "f": 1,
+      "s": 1.5
+     },
+     {
+      "c": "SAMI",
+      "x": 0.58,
+      "pose": "laugh",
+      "expr": "laugh",
+      "f": -1,
+      "s": 1.5
+     }
+    ],
+    "so": {
+     "mood": "day"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s148",
+   "start": 441.07,
+   "end": 445.23,
+   "line": "ولهذا لا يتحرك قلبك أمام أخيك بالدم… بعد.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "home",
+    "expr": "sad",
+    "side": 0.3,
+    "rimSide": 1
+   },
+   "notes": ""
+  },
+  {
+   "id": "s149",
+   "start": 445.23,
+   "end": 449.97,
+   "line": "أما الثمن غير المتوقع، فهو أن الخطأ لا يأخذ منك شخصا واحدا.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.2,
+     "name": "impact",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "الثمن: سنين لا تعود",
+    "set": "archive",
+    "coral": true
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s150",
+   "start": 449.97,
+   "end": 453.82,
+   "line": "إنه يأخذ سنين لا تعود: طفولة لم يعشها أخوك معك، ومدرسة لم يدخلها، وذكريات عاشها غيره في مكانه.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "BRO",
+    "pose": "stand",
+    "expr": "sad",
+    "n": 40,
+    "cards": [
+     "طفولة",
+     "مدرسة",
+     "ذكريات"
+    ],
+    "cardsX": [
+     0.2,
+     0.5,
+     0.8
+    ],
+    "gap": 0.8
+   },
+   "notes": ""
+  },
+  {
+   "id": "s151",
+   "start": 453.82,
+   "end": 457.69,
+   "line": "إنه يأخذ سنين لا تعود: طفولة لم يعشها أخوك معك، ومدرسة لم يدخلها، وذكريات عاشها غيره في مكانه.",
+   "scene": "archive ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "archive",
+    "hero": true,
+    "heroC": "BRO",
+    "pose": "stand",
+    "expr": "sad",
+    "n": 40,
+    "cards": [
+     "طفولة",
+     "مدرسة",
+     "ذكريات"
+    ],
+    "cardsX": [
+     0.2,
+     0.5,
+     0.8
+    ],
+    "gap": 0.8,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s152",
+   "start": 457.69,
+   "end": 460.43,
+   "line": "والآن… إلى ما وعدتك به.",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "dip",
+    "dur": 0.6
+   },
+   "sfx": [
+    {
+     "at": 0.1,
+     "name": "stinger",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "الجواب الموعود",
+    "set": "archive"
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s153",
+   "start": 460.43,
+   "end": 463.75,
+   "line": "من هو أخوك الحقيقي فعلا: الدم أم السنون؟",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "الدم أم السنون؟",
+    "label": "",
+    "size": 150
+   },
+   "notes": ""
+  },
+  {
+   "id": "s154",
+   "start": 463.75,
+   "end": 465.94,
+   "line": "الجواب: الدم يخبرك من أين جئت، والسنون تخبرك من أنت.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "الدم ← من أين جئت",
+    "label": "السنون ← من أنت",
+    "size": 110
+   },
+   "notes": ""
+  },
+  {
+   "id": "s155",
+   "start": 465.94,
+   "end": 468.17,
+   "line": "الجواب: الدم يخبرك من أين جئت، والسنون تخبرك من أنت.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "الدم ← من أين جئت",
+    "label": "السنون ← من أنت",
+    "size": 110,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s156",
+   "start": 468.17,
+   "end": 469.89,
+   "line": "وليس عليك أن تختار واحدا.",
+   "scene": "face home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "face",
+    "who": "YOU",
+    "set": "home",
+    "expr": "smile",
+    "side": 0.0
+   },
+   "notes": ""
+  },
+  {
+   "id": "s157",
+   "start": 469.89,
+   "end": 472.68,
+   "line": "فالأخوة لا تسحب بورقة، ويمكن أن تبنى من جديد، يوما بعد يوم.",
+   "scene": "insert dnapaper",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "dnapaper",
+    "result": "الأخوّة لا تُسحب بورقة",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.22,
+     "x0": 0,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s158",
+   "start": 472.68,
+   "end": 475.23,
+   "line": "فالأخوة لا تسحب بورقة، ويمكن أن تبنى من جديد، يوما بعد يوم.",
+   "scene": "insert dnapaper",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "dnapaper",
+    "result": "الأخوّة لا تُسحب بورقة",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s159",
+   "start": 475.23,
+   "end": 480.56,
+   "line": "فالدماغ الذي صنع دفء الأخوة من السنين، يستطيع أن يصنعه من جديد: بوجبة مشتركة، ومباراة، وشجار صغير، وضحكة لا يفهمها غيركما.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.3,
+      "pose": "sit",
+      "expr": "laugh",
+      "f": 1,
+      "chair": true,
+      "s": 1.35
+     },
+     {
+      "c": "BRO",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "laugh",
+      "f": -1,
+      "chair": true,
+      "s": 1.35
+     },
+     {
+      "c": "SAMI",
+      "x": 0.7,
+      "pose": "sit",
+      "expr": "laugh",
+      "f": -1,
+      "chair": true,
+      "s": 1.35
+     }
+    ],
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s160",
+   "start": 480.56,
+   "end": 485.59,
+   "line": "فالدماغ الذي صنع دفء الأخوة من السنين، يستطيع أن يصنعه من جديد: بوجبة مشتركة، ومباراة، وشجار صغير، وضحكة لا يفهمها غيركما.",
+   "scene": "stage home",
+   "set": "home",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "home",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.3,
+      "pose": "sit",
+      "expr": "laugh",
+      "f": 1,
+      "chair": true,
+      "s": 1.35
+     },
+     {
+      "c": "BRO",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "laugh",
+      "f": -1,
+      "chair": true,
+      "s": 1.35
+     },
+     {
+      "c": "SAMI",
+      "x": 0.7,
+      "pose": "sit",
+      "expr": "laugh",
+      "f": -1,
+      "chair": true,
+      "s": 1.35
+     }
+    ],
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s161",
+   "start": 485.59,
+   "end": 487.82,
+   "line": "وفي آخر قصتنا، تدخل غرفة سامي، ومعك الأخ الجديد.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.4,
+      "pose": "walk",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "BRO",
+      "x": 0.25,
+      "pose": "walk",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "SAMI",
+      "x": 0.72,
+      "pose": "sit",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.4
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s162",
+   "start": 487.82,
+   "end": 489.99,
+   "line": "وفي آخر قصتنا، تدخل غرفة سامي، ومعك الأخ الجديد.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "YOU",
+      "x": 0.4,
+      "pose": "walk",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "BRO",
+      "x": 0.25,
+      "pose": "walk",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "SAMI",
+      "x": 0.72,
+      "pose": "sit",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.4
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s163",
+   "start": 489.99,
+   "end": 492.98,
+   "line": "تجلس بينهما على السرير، وتقول لسامي: أنت أخي، ولن تغير ورقة ذلك.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "BRO",
+      "x": 0.32,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "smile",
+      "f": -1,
+      "s": 1.4
+     },
+     {
+      "c": "SAMI",
+      "x": 0.68,
+      "pose": "sit",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.4
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.22,
+     "x0": 0,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "«أنت أخي»",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 1.4
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s164",
+   "start": 492.98,
+   "end": 495.37,
+   "line": "تجلس بينهما على السرير، وتقول لسامي: أنت أخي، ولن تغير ورقة ذلك.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "BRO",
+      "x": 0.32,
+      "pose": "sit",
+      "expr": "neutral",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "smile",
+      "f": -1,
+      "s": 1.4
+     },
+     {
+      "c": "SAMI",
+      "x": 0.68,
+      "pose": "sit",
+      "expr": "sad",
+      "f": -1,
+      "s": 1.4
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "«أنت أخي»",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s165",
+   "start": 495.37,
+   "end": 498.4,
+   "line": "ثم تلتفت إلى الآخر وتقول: وأنت أيضا… سنبدأ من اليوم.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "BRO",
+      "x": 0.32,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "SAMI",
+      "x": 0.68,
+      "pose": "sit",
+      "expr": "smile",
+      "f": -1,
+      "s": 1.4
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.04,
+     "z1": 1.06,
+     "x0": 40,
+     "x1": -60
+    },
+    "labels": [
+     {
+      "s": "«سنبدأ من اليوم»",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 1.4
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s166",
+   "start": 498.4,
+   "end": 500.87,
+   "line": "ثم تلتفت إلى الآخر وتقول: وأنت أيضا… سنبدأ من اليوم.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "BRO",
+      "x": 0.32,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "smile",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "SAMI",
+      "x": 0.68,
+      "pose": "sit",
+      "expr": "smile",
+      "f": -1,
+      "s": 1.4
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    },
+    "labels": [
+     {
+      "s": "«سنبدأ من اليوم»",
+      "x": 0.5,
+      "y": 0.18,
+      "box": true,
+      "at": 0.05
+     }
+    ]
+   },
+   "notes": ""
+  },
+  {
+   "id": "s167",
+   "start": 500.87,
+   "end": 503.18,
+   "line": "فيبتسم سامي لأول مرة منذ أيام، ويضحك الأخ الجديد على نكتتك قبل أن تكملها.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "BRO",
+      "x": 0.32,
+      "pose": "sit",
+      "expr": "laugh",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "laugh",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "SAMI",
+      "x": 0.68,
+      "pose": "sit",
+      "expr": "laugh",
+      "f": -1,
+      "s": 1.4
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.0,
+     "z1": 1.08,
+     "x0": 0,
+     "x1": -40
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s168",
+   "start": 503.18,
+   "end": 506.25,
+   "line": "فيبتسم سامي لأول مرة منذ أيام، ويضحك الأخ الجديد على نكتتك قبل أن تكملها.",
+   "scene": "stage bedroom",
+   "set": "bedroom",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "stage",
+    "set": "bedroom",
+    "chars": [
+     {
+      "c": "BRO",
+      "x": 0.32,
+      "pose": "sit",
+      "expr": "laugh",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "YOU",
+      "x": 0.5,
+      "pose": "sit",
+      "expr": "laugh",
+      "f": 1,
+      "s": 1.4
+     },
+     {
+      "c": "SAMI",
+      "x": 0.68,
+      "pose": "sit",
+      "expr": "laugh",
+      "f": -1,
+      "s": 1.4
+     }
+    ],
+    "so": {
+     "mood": "dusk"
+    },
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s169",
+   "start": 506.25,
+   "end": 508.3,
+   "line": "فقد كان عندك أخ واحد… وصار عندك أخوان.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "1 ← 2",
+    "label": "صار عندك أخوان",
+    "size": 200
+   },
+   "notes": ""
+  },
+  {
+   "id": "s170",
+   "start": 508.3,
+   "end": 510.25,
+   "line": "فقد كان عندك أخ واحد… وصار عندك أخوان.",
+   "scene": "data ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "data",
+    "value": "1 ← 2",
+    "label": "صار عندك أخوان",
+    "size": 200,
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s171",
+   "start": 510.25,
+   "end": 514.94,
+   "line": "وإذا استمتعت بهذه القصة، فلا تنس زر الإعجاب، والاشتراك في القناة، وتفعيل الجرس، وشاركها مع أخيك.",
+   "scene": "insert likesub",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0.3,
+     "name": "pop",
+     "gain": -10
+    }
+   ],
+   "params": {
+    "tpl": "insert",
+    "kind": "likesub",
+    "label": "إعجاب + اشتراك + شاركها مع أخيك"
+   },
+   "notes": ""
+  },
+  {
+   "id": "s172",
+   "start": 514.94,
+   "end": 518.79,
+   "line": "وإذا استمتعت بهذه القصة، فلا تنس زر الإعجاب، والاشتراك في القناة، وتفعيل الجرس، وشاركها مع أخيك.",
+   "scene": "insert likesub",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "insert",
+    "kind": "likesub",
+    "label": "إعجاب + اشتراك + شاركها مع أخيك",
+    "cam": {
+     "z0": 1.12,
+     "z1": 1.2,
+     "x0": 40,
+     "x1": -20
+    }
+   },
+   "notes": ""
+  },
+  {
+   "id": "s173",
+   "start": 518.79,
+   "end": 523.71,
+   "line": "وفي الحلقة القادمة: ماذا لو بدأت أمك تكبر بالعكس… وأنت تكبر؟",
+   "scene": "bigline archive",
+   "set": "archive",
+   "bars": null,
+   "in": {
+    "type": "cut"
+   },
+   "sfx": [
+    {
+     "at": 0,
+     "name": "riser",
+     "gain": -12
+    }
+   ],
+   "params": {
+    "tpl": "bigline",
+    "str": "ماذا لو بدأت أمك تكبر بالعكس… وأنت تكبر؟",
+    "set": "archive",
+    "str2": "الحلقة القادمة",
+    "at2": 0.8,
+    "size": 56
+   },
+   "notes": "",
+   "captions": false
+  },
+  {
+   "id": "s174",
+   "start": 523.71,
+   "end": 534.111,
+   "line": "والآن سؤال الحلقة: لو خيرت، هل تريد أن تعرف الحقيقة… حتى لو غيرت عائلتك كلها؟ أخبرنا في التعليقات.",
+   "scene": "endscreen ",
+   "set": "",
+   "bars": null,
+   "in": {
+    "type": "fade",
+    "dur": 0.6
+   },
+   "sfx": [],
+   "params": {
+    "tpl": "endscreen",
+    "q": "لو خُيّرت: تعرف الحقيقة… حتى لو غيّرت عائلتك كلها؟",
+    "cast": [
+     "JORGE",
+     "WILLIAM",
+     "YOU",
+     "BRO",
+     "SAMI",
+     "MOM"
+    ]
+   },
+   "notes": "",
+   "captions": false
+  }
+ ],
+ "music": [
+  {
+   "start": 0.0,
+   "end": 0.0,
+   "mood": "playful",
+   "intensity": 0.35
+  },
+  {
+   "start": 0.0,
+   "end": 8.0,
+   "mood": "wonder",
+   "intensity": 0.4
+  },
+  {
+   "start": 8.0,
+   "end": 28.05,
+   "mood": "playful",
+   "intensity": 0.45
+  },
+  {
+   "start": 28.05,
+   "end": 32.59,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 32.59,
+   "end": 50.27,
+   "mood": "hopeful",
+   "intensity": 0.35
+  },
+  {
+   "start": 50.27,
+   "end": 119.59,
+   "mood": "calm",
+   "intensity": 0.3
+  },
+  {
+   "start": 119.59,
+   "end": 156.83,
+   "mood": "calm",
+   "intensity": 0.3
+  },
+  {
+   "start": 156.83,
+   "end": 199.79,
+   "mood": "hopeful",
+   "intensity": 0.35
+  },
+  {
+   "start": 199.79,
+   "end": 222.93,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 222.93,
+   "end": 296.89,
+   "mood": "sad",
+   "intensity": 0.35
+  },
+  {
+   "start": 296.89,
+   "end": 337.31,
+   "mood": "tension",
+   "intensity": 0.6
+  },
+  {
+   "start": 337.31,
+   "end": 445.23,
+   "mood": "calm",
+   "intensity": 0.3
+  },
+  {
+   "start": 445.23,
+   "end": 457.69,
+   "mood": "sad",
+   "intensity": 0.35
+  },
+  {
+   "start": 457.69,
+   "end": 534.111,
+   "mood": "hopeful",
+   "intensity": 0.35
+  }
+ ],
+ "sfx": []
+}
