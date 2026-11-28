@@ -5,8 +5,8 @@
 |---|---|
 | 01-real-brother.mp4 | 0:33 |
 | 02-butcher-shop.mp4 | 0:35 |
-| 03-tokyo-swap.mp4 | 0:34 |
-| 04-impostor.mp4 | 0:31 |
+| 03-tokyo-swap.mp4 | 0:35 |
+| 04-impostor.mp4 | 0:32 |
 
 ## 📝 العناوين والأوصاف الكاملة (العنوان بعد "·" الأولى)
 
